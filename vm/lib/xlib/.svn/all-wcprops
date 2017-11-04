@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/59/vm/lib/xlib
+END
+display_memfunc.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/59/vm/lib/xlib/display_memfunc.c
+END
+disp_grph.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/59/vm/lib/xlib/disp_grph.c
+END
+display_primitives.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/59/vm/lib/xlib/display_primitives.c
+END
+display_misc.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/59/vm/lib/xlib/display_misc.c
+END
+display_playersfunc.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/59/vm/lib/xlib/display_playersfunc.c
+END
+init_xserver.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/59/vm/lib/xlib/init_xserver.c
+END
+.vmdpyrc
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/59/vm/lib/xlib/.vmdpyrc
+END
+display_refresh.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/59/vm/lib/xlib/display_refresh.c
+END
+display_regs.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/59/vm/lib/xlib/display_regs.c
+END
+display_init.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/59/vm/lib/xlib/display_init.c
+END
+cfg_parsefile.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/59/vm/lib/xlib/cfg_parsefile.c
+END
+cfg_vars.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/59/vm/lib/xlib/cfg_vars.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/59/vm/lib/xlib/Makefile
+END
+display_str.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/59/vm/lib/xlib/display_str.c
+END
+display_exit.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/59/vm/lib/xlib/display_exit.c
+END
+cfg_parsescan.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/59/vm/lib/xlib/cfg_parsescan.c
+END
+display_attr.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/59/vm/lib/xlib/display_attr.c
+END
+display_infos.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/59/vm/lib/xlib/display_infos.c
+END
+display_mem.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/59/vm/lib/xlib/display_mem.c
+END
+display_players.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/59/vm/lib/xlib/display_players.c
+END
+display_getnotifies.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/59/vm/lib/xlib/display_getnotifies.c
+END
+cfg_parsefunc.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/59/vm/lib/xlib/cfg_parsefunc.c
+END
+display_update.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/59/vm/lib/xlib/display_update.c
+END
+get_buffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/59/vm/lib/xlib/get_buffer.c
+END
+display.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/59/vm/lib/xlib/display.h
+END

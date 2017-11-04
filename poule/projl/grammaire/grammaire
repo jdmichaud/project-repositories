@@ -1,0 +1,144 @@
+%token <string>  TOTO 
+%token <string> FLOAT
+%token <string> ID
+%token LPAREN
+%token RPAREN
+%token LBRACE
+%token RBRACE
+%token LBRACKET
+%token RBRACKET
+%token PIPE
+%token COMMA
+%token DOT
+%token COLON
+%token SEMICOLON
+%token PLUS
+%token MINUS
+%token TIMES
+%token DIVIDE
+%token POWER
+%token EQUAL
+%token SUP
+%token INTER
+%token UNION
+%token WITHOUT
+%token WITH
+%token AND
+%token ARROW
+%token EOL
+
+%left ID
+%left COLON
+%left EQUAL
+%left PLUS MINUS UNION WITHOUT
+%left POWER TIMES DIVIDE INTER
+
+
+%start main
+%type <'a Ast.ast> main
+%type <'a Ast.ast> line
+%type <'a Elt.elt> elt
+%type <'a Exp.exp list> args
+%type <'a Ensemble.ensemble> ens
+%type <'a Elt.elt list> ens_enum
+%type <'a Relation.relation> relation
+%type <'a Assignexp.assignexp list> optfun
+%type <'a Funcdec.funcdec> funcdec 
+%type <'a Assign.assign> assign
+%type <'a Assignexp.assignexp> assignexp
+%type <'a Assignens.assignens> assignens
+%type <'a Exp.exp> exp
+
+%%
+main:
+	line SEMICOLON EOL{$1}
+	| line SEMICOLON SEMICOLON EOL{$1}
+;
+
+line:
+        exp {$1}
+	| assign {$1}
+;
+
+exp:
+	elt {($1) :> 'a Exp.exp}
+	| ID LPAREN RPAREN {(new Funccall.funccall $1 []) :> 'a Exp.exp}
+	| ID LPAREN args RPAREN {(new Funccall.funccall $1 $3) :> 'a Exp.exp} 
+	| exp PLUS exp {(new Binop.binop (Binop.Plus) $1 $3 ()) :> 'a Exp.exp}
+	| exp MINUS exp {(new Binop.binop (Binop.Minus) $1 $3 ()) :> 'a Exp.exp}
+	| exp TIMES exp {(new Binop.binop (Binop.Times) $1 $3 ()) :> 'a Exp.exp}
+	| exp DIVIDE exp {(new Binop.binop (Binop.Divide) $1 $3 ()) :> 'a Exp.exp}
+	| exp POWER exp {(new Binop.binop (Binop.Power) $1 $3 ()) :> 'a Exp.exp}
+	| MINUS exp {(new Binop.binop 
+			(Binop.Minus) ((new Integer.integer "0") :> 'a Exp.exp) $2) ():> 'a Exp.exp}
+	| LPAREN exp RPAREN {$2}
+	| funcdec {($1) :> 'a Exp.exp}
+;
+
+assign:
+        assignens {($1) :> 'a Assign.assign}
+	| assignexp {($1) :> 'a Assign.assign}
+;
+
+
+elt:
+	TOTO {(new Integer.integer $1) :> 'a Elt.elt}
+	| FLOAT {(new Float.float $1) :> 'a Elt.elt}
+	| ID {(new Identifier.identifier $1) :> 'a Elt.elt}
+;
+
+ens:
+	ens INTER ens {(new Intersection.intersection $1 $3) :> 'a Ensemble.ensemble}
+	| ens UNION ens {(new Union.union $1 $3) :> 'a Ensemble.ensemble}
+	| ens WITHOUT ens {(new Privation.privation $1 $3) :> 'a Ensemble.ensemble}
+	| LBRACE RBRACE {(new Enumeration.enumeration []) :> 'a Ensemble.ensemble}
+	| LBRACE ens_enum RBRACE {(new Enumeration.enumeration $2) :> 'a Ensemble.ensemble}
+	| LBRACKET elt SEMICOLON elt LBRACKET {
+	    (new Delimitation.delimitation $2 $4 false true) :> 'a Ensemble.ensemble}
+	| LBRACKET elt SEMICOLON elt RBRACKET {
+	    (new Delimitation.delimitation $2 $4 false false) :> 'a Ensemble.ensemble}
+	| RBRACKET elt SEMICOLON elt RBRACKET {
+	    (new Delimitation.delimitation $2 $4 true false) :> 'a Ensemble.ensemble}
+	| RBRACKET elt SEMICOLON elt LBRACKET {
+	    (new Delimitation.delimitation $2 $4 true true) :> 'a Ensemble.ensemble} 
+;
+
+assignexp:
+	ID EQUAL exp {new Assignexp.assignexp (new Identifier.identifier ($1)) $3}
+;
+
+assignens:
+	ID EQUAL ens {new Assignens.assignens (new Identifier.identifier ($1)) $3}
+;
+
+ens_enum:
+	elt {$1::[]}
+	| elt SEMICOLON ens_enum {$1::$3}
+;
+
+args:
+	exp {$1::[]}
+	| exp COMMA args {$1::$3}
+;
+
+funcdec:
+	relation {new Funcdec.funcdec $1 []}
+	| relation WITH optfun {new Funcdec.funcdec $1 $3}
+;
+
+relation:
+	ID COLON ens ARROW exp COLON ens {new Relation.relation 
+					    (new Identifier.identifier $1) $3 $5 $7}
+;
+
+
+optfun:
+	ID EQUAL relation {(new Assignexp.assignexp 
+			      (new Identifier.identifier $1) (($3) :> 'a Exp.exp))::[]}
+	| ID EQUAL relation AND optfun {
+	    ((new Assignexp.assignexp (new Identifier.identifier $1) (($3) :> 'a Exp.exp)))::$5}
+;
+
+
+%%
+

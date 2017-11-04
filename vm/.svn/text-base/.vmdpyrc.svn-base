@@ -1,0 +1,26 @@
+##
+## .vmdpyrc for  in 
+## 
+## Made by julien gein
+## Login   <gein_j@epita.fr>
+## 
+## Started on  Sat Jan  5 15:48:59 2002 julien gein
+## Last update Thu Jan 10 11:14:51 2002 jean-daniel michaud
+##
+
+# Affichage De la zone memoire
+set Grid, blend := True
+
+# Initialisation d'une font
+set FontName := 8x13
+# set FontName := 9x15
+
+# Affichage des differents elements graphiques
+#
+# - MemArea
+# - ListPlayers
+# - Register
+# - Infos
+#
+
+set Env := MemArea, ListPlayers, Register, Infos

@@ -1,0 +1,131 @@
+\documentclass[french,12pt]{article}
+\usepackage{babel}
+\usepackage{a4}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\title{POULE}
+\author{Guide Utilisateur}
+
+\begin{document}
+\sloppy
+\maketitle
+
+\strut\thispagestyle{empty}
+\vfill
+\pagebreak
+\setcounter{page}{1}
+\tableofcontents
+\pagebreak
+
+\section {Installation}
+
+L'installation de  \emph{Poule} est un exercice  facile. Si vous  suivez \`a 
+la lettre   les   consignes   delivr\'ees   ici,   vous   n'aurez   pas   de
+probl\`emes. Premierement vous devez d\'ecompresser la tarball comme ceci:
+\begin{verbatim}
+tar zxvf poule-x.x.tar.gz
+\end{verbatim}
+
+Ensuite  vous  devez  lancer  le  script  de  configuration  qui  vous
+permettra de specifiez la chemin de vos diff\`erentes librairies.
+
+\begin{verbatim}
+cd poule-x.x
+./configure
+\end{verbatim}
+
+En cas de probleme, faites
+
+\begin{verbatim}
+./configure --help
+\end{verbatim}
+
+Ensuite,  il vous  suffit de  compiler \emph{Poule}.  Vous devez  avoir 
+Ocaml version  3.05 au  minimum,  install\'e sur  votre  platforme. Pour  
+cela faites
+
+\begin{verbatim}
+cd src
+make opt
+\end{verbatim}
+
+D\'esormais, \emph{Poule} est install\'e. 
+
+\section {Prise en main}
+
+Pour lancer \emph{Poule}, rien de  plus simple. Il vous suffit de vous
+trouver  dans le  repertoire source  de  la tarball  et d'\'executer  le
+programme.
+
+\begin{verbatim}
+./poule
+\end{verbatim}
+
+Ensuite, une ligne de commande apparait et il vous suffit de taper vos
+commandes en  vous reportant  \`a la grammaire  de \emph{Poule}.  
+Voici quelques exemples simples:
+
+\begin{verbatim}
+Poule: f = (x : R |-> x^2 + sin(x) : R);
+f = x: R |-> ((x^2) + sin(x)): R
+Poule: f(5.0) + f(y*2.0);
+(sin(5) + (sin((y * 2)) + (((y * 2)^2) + (5^2))))
+Poule: a = 2.0;  
+a = 2
+Poule: f(a+pi);;
+20.0200708086
+Poule: 
+\end{verbatim}
+
+Ici,  nous d\'eclaront  une fonction  $f$ qui  prend un  r\`eel et  qui se
+calcul en $(x^2)  + sin(x)$. Nous \'evaluons cette  fonction en $5.0$ et
+en $y * 2.0$. Puis nous  affectons une variable d'environnement \`a la valeur
+2.0. Enfin nous appliquons $f$ a $2.0+\pi$
+
+\section {Fonctionnalit\'es}
+
+Actuellement les fonctionnalit\'es de \emph{Poule} sont:
+
+
+\subsection {derivate}
+
+\begin{verbatim}
+derivate  (<fnct>, <variable de derivation  ...)  
+\end{verbatim}
+
+Cette fonction  d\'erive fcnt  en fonction de  la ou des  variables de
+derivation.
+
+\section {Options}
+
+Une option --latex peut \^etre pass\'ee \`a \emph{Poule} comme ceci:
+
+\begin{verbatim}
+./poule --latex
+\end{verbatim}
+
+Ceci permet une sortie latex  que vous pouvez r\'ecuperer et placer dans
+un fichier latex.
+
+Une option --inline qui permet de prendre une formule \`a \'evaluer 
+directement en argument.
+
+\begin{verbatim}
+./poule --inline ``derivate(y+sin(x*y),x);''
+\end{verbatim}
+
+\section {Foire aux questions}
+Q: Monsieur, je suis un peu con, Comment ca marche \emph{Poule} ?
+
+R: Lis les section precedentes.
+
+Q: Monsieur, ./configure marche pas ->
+
+akim demaille: Lis config.log
+
+Q: Monsieur, ... ?
+
+R: mail jean-daniel.michaud@epita.fr
+
+\end{document}

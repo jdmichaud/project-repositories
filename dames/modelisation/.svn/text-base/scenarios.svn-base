@@ -1,0 +1,156 @@
+Scenario 1
+
+  Resume : un utilisateur veut se connecter au serveur
+  Acteurs : utilisateur
+
+  L'utilisateur lance le client en specifiant l'adresse du serveur.
+  La connexion est acceptee ou refusee, en fonction de l'activite du serveur.
+  Si la connexion est acceptee, la fenetre d'attente d'etablissement de connexion se ferme automatiquement et la liste deroulante des differentes parties en cours s'affiche dans la fenetre principale (l'ecran d'accueil).
+
+
+
+Scenario 2
+
+  Resume : l'utilisateur s'informe des parties actuelles ou passees
+  Acteurs : utilisateur
+
+  L'utilisateur peut visualiser les parties en cours, ainsi que leurs informations (nombres de joueurs, scores ...).
+  Il peut egalement charger les parties sauvegardees dans la base de donnees. Pour cela, il doit s'engager sur l'onglet 'Charger une partie'. Il peut ensuite visualiser  les noms des parties prealablement sauvegardees, ainsi que leurs informations.
+
+
+
+Scenario 3
+
+  Resume : l'utilisateur veut jouer une partie
+  Acteurs : utilisateur(s)
+
+  Pour jouer, l'utilisateur peut soit creer soit rejoindre une partie.
+
+  - Pour creer une partie, il lui suffit de s'engager sur l'onglet 'Creer une partie', de specifier les parametres de configuration de sa partie, et de cliquer sur le bouton 'Creer'.
+  Le systeme repertorie alors cette partie dans la liste des parties en attente de joueur. La partie est en mode attente.
+
+  - Pour rejoindre une partie, l'utilisateur doit double-cliquer sur une des parties listees comme etant des parties en attente de joueurs (sur l'ecran principal).
+  Si l'utilisateur est accepte dans la partie, et s'il etait le dernier joueur manquant pour demarrer la partie, cette-derniere commence.
+
+
+
+Scenario 4
+
+  Resume : l'utilisateur souhaite visualiser une partie en deroulement
+  Acteurs : utilisateur
+	    BD
+  
+  L'utilisateur veut visualiser une partie en cours ou passees. Il clique sur l'onglet 'Visualiser une partie'. La liste des parties visualisable s'affiche alors. L'utilisateur choisie une partie a partir de leur description (en cours de jeu, noms des joueurs...). Il double-clique sur celle de son choix et y accede.
+
+
+
+Scenario 5
+
+  Resume : le joueur joue un coup
+  Acteurs : joueur
+	    
+  Le joueur joue un coup. Pour cela, il selectionne d'un clique la case qui contient le pion qu'il desire deplacer. Il clique ensuite sur la case de destination.
+  Le client interroge alors le serveur pour verifier la validite du coup.
+  Si le coup est valide, il est accepte et joue, sinon, le joueur a de nouveau la main pour proposer un autre coup.
+  Si, d'autre part, le coup etait gagnant, la partie se termine.
+
+
+
+Scenario 6
+
+  Resume : l'utilisateur quitte la partie
+  Acteurs : utilisateur
+	    
+  Le joueur veut quitter la partie. Il clique sur le bouton 'Abandonner'.
+  Une boite de dialogue s'affiche lui proposant de sauvegarder la partie. L'utilisateur accepte ou refuse.
+  Une nouvelle boite de dialogue lui demande une confirmation pour quitter le jeu. Si l'utilisateur confirme, il est declare perdant et reviens a la fenetre d'acceuil; sinon la partie reprend.
+
+
+
+
+Scenario 7
+
+  Resume : l'adversaire quitte la partie
+  Acteurs : adversaire
+	    joueur
+	    
+  
+  Si l'adversaire quitte la partie, le joueur est declare vainqueur et il revient automatiquement a la fenetre d'accueil.
+
+
+
+Scenario 8
+
+  Resume : sauvegarder une partie
+  Acteurs : joueur
+	    BD
+	    
+  En pleine partie, le joueur peut sauvegarder l'etat du jeu. Pour cela, il clique sur le bouton 'Sauvegarder'. La liste des parties qu'il a deja enregistrees s'affiche alors. Il choisit d'ecraser une ancienne sauvegrde ou de creer un nouvelle enregistrement. 
+  S'il cree un nouvelle enregistrement, une boite de dialogue lui demande alors un nom pour cette sauvegarde.
+  S'il ecrase un ancien enregistrement, une boite de dialogue lui demande de confirmer cette action.
+  L'etat de la partie est alors enregistre dans la base de donnees.
+
+
+Scenario 9
+
+  Resume : l'utilisateur veut charger une partie
+  Acteurs : joueur
+	    BD
+	    
+  Depuiss la liste des parties sauvegardees, dans l'onglet 'Charger une partie', l'utilisateur selectionne une partie de la base de donnees d'un double-clique et la charge.
+  La partie est alors repertoriee comme une partie en attente de joueur..
+
+
+
+Scenario 10
+
+  Resume : l'utilisateur veut avancer la partie au coup suivant
+  Acteurs : utilisateur
+	  
+  L'utilisateur clique sur le bouton (en forme de fleche vers la droite) permettant d'avancer la partie au coup suivant.
+  Le client envoie la demande au serveur qui retourne au client le coup a joue.
+  Le client affiche les changements sur l'aire de jeu.
+
+
+
+Scenario 11
+
+  Resume : l'utilisateur veut revenir d'un coup en arriere dans la partie
+  Acteurs : utilisateur
+	  
+  L'utilisateur clique sur le bouton (en forme de fleche vers la gauche) permettant de revenir un coup en arriere dans la partie.
+  Le client envoie la demande au serveur qui retourne au client la position precedente.
+  Le client affiche les changements sur l'aire de jeu.
+
+
+
+Scenario 12
+
+  Resume : l'utilisateur veut avancer dans la partie jusqu'au dernier coup
+  Acteurs : utilisateur
+	  
+  L'utilisateur clique sur le bouton (en forme de double-fleche vers la droite) permettant d'avancer dans la partie jusau'au dernier coup de la partie.
+  Le client envoie la demande au serveur qui retourne au client la liste de toute les coups suivants.
+  Le client affiche le premier coup et attend l'autorisation de l'utilisateur pour affciher le coup d'apres.
+  L'utilisateur a egalement la possibilite d'affichager directement le dernier coup.
+
+
+
+Scenario 13
+
+  Resume : l'utilisateur veut revenir au debut de la partie
+  Acteurs : utilisateur
+	  
+  L'utilisateur clique sur le bouton (en forme de double-fleche vers la gauche) permettant de revenir au premier coup de la partie.
+  Le client envoie la demande au serveur qui retourne au client les positions initiales des pions.
+  Le client affiche les changements sur l'aire de jeu.
+
+
+
+
+
+
+
+
+
+

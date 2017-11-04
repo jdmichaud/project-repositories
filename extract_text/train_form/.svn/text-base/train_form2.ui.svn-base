@@ -1,0 +1,61 @@
+<ui version="4.0" >
+ <class>TrainForm</class>
+ <widget class="QDialog" name="TrainForm" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>TrainForm</string>
+  </property>
+  <widget class="QWidget" name="gridLayout" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>601</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" >
+    <property name="horizontalSpacing" >
+     <number>-1</number>
+    </property>
+    <item row="0" column="0" colspan="2" >
+     <widget class="QListWidget" name="stringList" >
+      <property name="sizePolicy" >
+       <sizepolicy vsizetype="Expanding" hsizetype="Expanding" >
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" >
+     <widget class="QPushButton" name="trainButton" >
+      <property name="sizePolicy" >
+       <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="layoutDirection" >
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="text" >
+       <string>Train</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <pixmapfunction>qPixmapFromMimeSource</pixmapfunction>
+ <resources/>
+ <connections/>
+</ui>

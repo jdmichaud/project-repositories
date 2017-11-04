@@ -1,0 +1,378 @@
+parse.o parse.o: parse.cc /u/dp/public/include/g++-v3/stack \
+  /u/dp/public/include/g++-v3/bits/std_stack.h \
+  /u/dp/public/include/g++-v3/bits/stl_algobase.h \
+  /u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/c++config.h \
+  /u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/os_defines.h \
+  /u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/limits.h \
+  /u/dp/public/include/g++-v3/bits/stl_pair.h \
+  /u/dp/public/include/g++-v3/bits/type_traits.h \
+  /u/dp/public/include/g++-v3/bits/std_cstring.h \
+  /u/dp/public/include/g++-v3/bits/std_cstddef.h \
+  /u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/stddef.h \
+  /usr/include/machine/ansi.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/string.h /usr/include/sys/null.h \
+  /usr/include/sys/featuretest.h /usr/include/strings.h \
+  /u/dp/public/include/g++-v3/bits/std_climits.h \
+  /u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/limits.h \
+  /u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/syslimits.h \
+  /u/dp/public/packages/gcc-3.0.4/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/sys/syslimits.h \
+  /u/dp/public/include/g++-v3/bits/std_cstdlib.h \
+  /u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/stdlib.h \
+  /u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/byte_swap.h /usr/include/machine/bswap.h \
+  /usr/include/sys/bswap.h /u/dp/public/include/g++-v3/new \
+  /u/dp/public/include/g++-v3/cstddef \
+  /u/dp/public/include/g++-v3/exception \
+  /u/dp/public/include/g++-v3/bits/std_iosfwd.h \
+  /u/dp/public/include/g++-v3/bits/stringfwd.h \
+  /u/dp/public/include/g++-v3/bits/fpos.h \
+  /u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/c++io.h \
+  /u/dp/public/include/g++-v3/cstdio \
+  /u/dp/public/include/g++-v3/bits/std_cstdio.h /usr/include/stdio.h \
+  /u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/gthr.h \
+  /u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/gthr-single.h \
+  /u/dp/public/include/g++-v3/bits/std_cwchar.h \
+  /u/dp/public/include/g++-v3/bits/std_ctime.h /usr/include/time.h \
+  /usr/include/sys/time.h \
+  /u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/wchar.h \
+  /u/dp/public/include/g++-v3/bits/functexcept.h \
+  /u/dp/public/include/g++-v3/exception_defines.h \
+  /u/dp/public/include/g++-v3/bits/stl_iterator_base_types.h \
+  /u/dp/public/include/g++-v3/bits/stl_iterator_base_funcs.h \
+  /u/dp/public/include/g++-v3/bits/concept_check.h \
+  /u/dp/public/include/g++-v3/bits/stl_iterator.h \
+  /u/dp/public/include/g++-v3/bits/stl_alloc.h \
+  /u/dp/public/include/g++-v3/bits/std_cassert.h /usr/include/assert.h \
+  /u/dp/public/include/g++-v3/bits/stl_threads.h \
+  /u/dp/public/include/g++-v3/bits/stl_construct.h \
+  /u/dp/public/include/g++-v3/bits/stl_uninitialized.h \
+  /u/dp/public/include/g++-v3/bits/stl_deque.h \
+  /u/dp/public/include/g++-v3/bits/stl_stack.h parse.hh \
+  /u/dp/public/include/g++-v3/string \
+  /u/dp/public/include/g++-v3/bits/std_string.h \
+  /u/dp/public/include/g++-v3/bits/char_traits.h \
+  /u/dp/public/include/g++-v3/bits/std_iterator.h \
+  /u/dp/public/include/g++-v3/bits/std_memory.h \
+  /u/dp/public/include/g++-v3/bits/stl_tempbuf.h \
+  /u/dp/public/include/g++-v3/bits/stl_raw_storage_iter.h \
+  /u/dp/public/include/g++-v3/bits/basic_string.h \
+  /u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/atomicity.h \
+  /u/dp/public/include/g++-v3/bits/std_algorithm.h \
+  /u/dp/public/include/g++-v3/bits/stl_algo.h \
+  /u/dp/public/include/g++-v3/bits/stl_heap.h \
+  /u/dp/public/include/g++-v3/bits/basic_string.tcc \
+  /u/dp/public/include/g++-v3/vector \
+  /u/dp/public/include/g++-v3/bits/std_vector.h \
+  /u/dp/public/include/g++-v3/bits/stl_vector.h \
+  /u/dp/public/include/g++-v3/bits/stl_bvector.h \
+  /u/dp/public/include/g++-v3/iostream \
+  /u/dp/public/include/g++-v3/bits/std_iostream.h \
+  /u/dp/public/include/g++-v3/bits/std_ostream.h \
+  /u/dp/public/include/g++-v3/bits/std_ios.h \
+  /u/dp/public/include/g++-v3/bits/localefwd.h \
+  /u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/c++locale.h \
+  /u/dp/public/include/g++-v3/bits/std_cctype.h /usr/include/ctype.h \
+  /u/dp/public/include/g++-v3/bits/ios_base.h \
+  /u/dp/public/include/g++-v3/bits/std_streambuf.h \
+  /u/dp/public/include/g++-v3/bits/streambuf.tcc \
+  /u/dp/public/include/g++-v3/bits/basic_ios.h \
+  /u/dp/public/include/g++-v3/bits/sbuf_iter.h \
+  /u/dp/public/include/g++-v3/bits/locale_facets.h \
+  /u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/ctype_base.h \
+  /u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/ctype_inline.h \
+  /u/dp/public/include/g++-v3/bits/codecvt.h \
+  /u/dp/public/include/g++-v3/bits/basic_ios.tcc \
+  /u/dp/public/include/g++-v3/bits/ostream.tcc \
+  /u/dp/public/include/g++-v3/bits/std_locale.h \
+  /u/dp/public/include/g++-v3/bits/locale_facets.tcc \
+  /u/dp/public/include/g++-v3/bits/std_cerrno.h /usr/include/errno.h \
+  /usr/include/sys/errno.h /u/dp/public/include/g++-v3/bits/std_clocale.h \
+  /usr/include/locale.h /u/dp/public/include/g++-v3/bits/std_limits.h \
+  /u/dp/public/include/g++-v3/typeinfo \
+  /u/dp/public/include/g++-v3/bits/std_istream.h \
+  /u/dp/public/include/g++-v3/bits/istream.tcc vector.hh \
+  /u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/math.h \
+  /usr/include/machine/math.h model.hh /usr/X11/include/GL/glut.h \
+  /usr/X11/include/GL/gl.h /usr/X11/include/GL/glext.h \
+  /usr/X11/include/GL/glu.h object.hh opengl.hh quaternion.hh \
+  streamable.hh /usr/pkg/include/pgm.h /usr/pkg/include/pbm.h \
+  /usr/pkg/include/pbmplus.h /usr/include/sys/stat.h /usr/include/fcntl.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/pkg/include/shhopt.h lexer.h
+
+/u/dp/public/include/g++-v3/stack:
+
+/u/dp/public/include/g++-v3/bits/std_stack.h:
+
+/u/dp/public/include/g++-v3/bits/stl_algobase.h:
+
+/u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/c++config.h:
+
+/u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/os_defines.h:
+
+/u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/limits.h:
+
+/u/dp/public/include/g++-v3/bits/stl_pair.h:
+
+/u/dp/public/include/g++-v3/bits/type_traits.h:
+
+/u/dp/public/include/g++-v3/bits/std_cstring.h:
+
+/u/dp/public/include/g++-v3/bits/std_cstddef.h:
+
+/u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/stddef.h:
+
+/usr/include/machine/ansi.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/machine/cdefs.h:
+
+/usr/include/sys/cdefs_elf.h:
+
+/usr/include/string.h:
+
+/usr/include/sys/null.h:
+
+/usr/include/sys/featuretest.h:
+
+/usr/include/strings.h:
+
+/u/dp/public/include/g++-v3/bits/std_climits.h:
+
+/u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/limits.h:
+
+/u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/syslimits.h:
+
+/u/dp/public/packages/gcc-3.0.4/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/limits.h:
+
+/usr/include/limits.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/sys/syslimits.h:
+
+/u/dp/public/include/g++-v3/bits/std_cstdlib.h:
+
+/u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/stdlib.h:
+
+/u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/sys/types.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/sys/endian.h:
+
+/usr/include/machine/endian_machdep.h:
+
+/usr/include/machine/byte_swap.h:
+
+/usr/include/machine/bswap.h:
+
+/usr/include/sys/bswap.h:
+
+/u/dp/public/include/g++-v3/new:
+
+/u/dp/public/include/g++-v3/cstddef:
+
+/u/dp/public/include/g++-v3/exception:
+
+/u/dp/public/include/g++-v3/bits/std_iosfwd.h:
+
+/u/dp/public/include/g++-v3/bits/stringfwd.h:
+
+/u/dp/public/include/g++-v3/bits/fpos.h:
+
+/u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/c++io.h:
+
+/u/dp/public/include/g++-v3/cstdio:
+
+/u/dp/public/include/g++-v3/bits/std_cstdio.h:
+
+/usr/include/stdio.h:
+
+/u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/gthr.h:
+
+/u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/gthr-single.h:
+
+/u/dp/public/include/g++-v3/bits/std_cwchar.h:
+
+/u/dp/public/include/g++-v3/bits/std_ctime.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/time.h:
+
+/u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/wchar.h:
+
+/u/dp/public/include/g++-v3/bits/functexcept.h:
+
+/u/dp/public/include/g++-v3/exception_defines.h:
+
+/u/dp/public/include/g++-v3/bits/stl_iterator_base_types.h:
+
+/u/dp/public/include/g++-v3/bits/stl_iterator_base_funcs.h:
+
+/u/dp/public/include/g++-v3/bits/concept_check.h:
+
+/u/dp/public/include/g++-v3/bits/stl_iterator.h:
+
+/u/dp/public/include/g++-v3/bits/stl_alloc.h:
+
+/u/dp/public/include/g++-v3/bits/std_cassert.h:
+
+/usr/include/assert.h:
+
+/u/dp/public/include/g++-v3/bits/stl_threads.h:
+
+/u/dp/public/include/g++-v3/bits/stl_construct.h:
+
+/u/dp/public/include/g++-v3/bits/stl_uninitialized.h:
+
+/u/dp/public/include/g++-v3/bits/stl_deque.h:
+
+/u/dp/public/include/g++-v3/bits/stl_stack.h:
+
+parse.hh:
+
+/u/dp/public/include/g++-v3/string:
+
+/u/dp/public/include/g++-v3/bits/std_string.h:
+
+/u/dp/public/include/g++-v3/bits/char_traits.h:
+
+/u/dp/public/include/g++-v3/bits/std_iterator.h:
+
+/u/dp/public/include/g++-v3/bits/std_memory.h:
+
+/u/dp/public/include/g++-v3/bits/stl_tempbuf.h:
+
+/u/dp/public/include/g++-v3/bits/stl_raw_storage_iter.h:
+
+/u/dp/public/include/g++-v3/bits/basic_string.h:
+
+/u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/atomicity.h:
+
+/u/dp/public/include/g++-v3/bits/std_algorithm.h:
+
+/u/dp/public/include/g++-v3/bits/stl_algo.h:
+
+/u/dp/public/include/g++-v3/bits/stl_heap.h:
+
+/u/dp/public/include/g++-v3/bits/basic_string.tcc:
+
+/u/dp/public/include/g++-v3/vector:
+
+/u/dp/public/include/g++-v3/bits/std_vector.h:
+
+/u/dp/public/include/g++-v3/bits/stl_vector.h:
+
+/u/dp/public/include/g++-v3/bits/stl_bvector.h:
+
+/u/dp/public/include/g++-v3/iostream:
+
+/u/dp/public/include/g++-v3/bits/std_iostream.h:
+
+/u/dp/public/include/g++-v3/bits/std_ostream.h:
+
+/u/dp/public/include/g++-v3/bits/std_ios.h:
+
+/u/dp/public/include/g++-v3/bits/localefwd.h:
+
+/u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/c++locale.h:
+
+/u/dp/public/include/g++-v3/bits/std_cctype.h:
+
+/usr/include/ctype.h:
+
+/u/dp/public/include/g++-v3/bits/ios_base.h:
+
+/u/dp/public/include/g++-v3/bits/std_streambuf.h:
+
+/u/dp/public/include/g++-v3/bits/streambuf.tcc:
+
+/u/dp/public/include/g++-v3/bits/basic_ios.h:
+
+/u/dp/public/include/g++-v3/bits/sbuf_iter.h:
+
+/u/dp/public/include/g++-v3/bits/locale_facets.h:
+
+/u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/ctype_base.h:
+
+/u/dp/public/include/g++-v3/i386-unknown-netbsdelf1.5ZA/bits/ctype_inline.h:
+
+/u/dp/public/include/g++-v3/bits/codecvt.h:
+
+/u/dp/public/include/g++-v3/bits/basic_ios.tcc:
+
+/u/dp/public/include/g++-v3/bits/ostream.tcc:
+
+/u/dp/public/include/g++-v3/bits/std_locale.h:
+
+/u/dp/public/include/g++-v3/bits/locale_facets.tcc:
+
+/u/dp/public/include/g++-v3/bits/std_cerrno.h:
+
+/usr/include/errno.h:
+
+/usr/include/sys/errno.h:
+
+/u/dp/public/include/g++-v3/bits/std_clocale.h:
+
+/usr/include/locale.h:
+
+/u/dp/public/include/g++-v3/bits/std_limits.h:
+
+/u/dp/public/include/g++-v3/typeinfo:
+
+/u/dp/public/include/g++-v3/bits/std_istream.h:
+
+/u/dp/public/include/g++-v3/bits/istream.tcc:
+
+vector.hh:
+
+/u/dp/public/arch/i386-NetBSD/lib/gcc-lib/i386-unknown-netbsdelf1.5ZA/3.0.4/include/math.h:
+
+/usr/include/machine/math.h:
+
+model.hh:
+
+/usr/X11/include/GL/glut.h:
+
+/usr/X11/include/GL/gl.h:
+
+/usr/X11/include/GL/glext.h:
+
+/usr/X11/include/GL/glu.h:
+
+object.hh:
+
+opengl.hh:
+
+quaternion.hh:
+
+streamable.hh:
+
+/usr/pkg/include/pgm.h:
+
+/usr/pkg/include/pbm.h:
+
+/usr/pkg/include/pbmplus.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/pkg/include/shhopt.h:
+
+lexer.h:

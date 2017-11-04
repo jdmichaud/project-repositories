@@ -1,0 +1,833 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: /nfs/s3/space/users/a1/michau_j/java/dames/modelisation/Modelisation Rules.dia
+%%Creator: Dia v0.88.1
+%%CreationDate: Fri Jun 28 17:10:47 2002
+%%For: michau_j
+%%Magnification: 1.0000
+%%Orientation: Portrait
+%%BoundingBox: 0 0 1990 917
+%%Pages: 1
+%%BeginSetup
+%%EndSetup
+%%EndComments
+%%BeginProlog
+[ /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright
+/parenleft /parenright /asterisk /plus /comma /hyphen /period /slash /zero /one
+/two /three /four /five /six /seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at /A /B /C /D /E
+/F /G /H /I /J /K /L /M /N /O
+/P /Q /R /S /T /U /V /W /X /Y
+/Z /bracketleft /backslash /bracketright /asciicircum /underscore /quoteleft /a /b /c
+/d /e /f /g /h /i /j /k /l /m
+/n /o /p /q /r /s /t /u /v /w
+/x /y /z /braceleft /bar /braceright /asciitilde /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclamdown /cent /sterling /currency /yen /brokenbar /section /dieresis /copyright
+/ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron /degree /plusminus /twosuperior /threesuperior
+/acute /mu /paragraph /periodcentered /cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf
+/threequarters /questiondown /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis /Eth /Ntilde
+/Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash /Ugrave /Uacute /Ucircumflex
+/Udieresis /Yacute /Thorn /germandbls /agrave /aacute /acircumflex /atilde /adieresis /aring
+/ae /ccedilla /egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide /oslash /ugrave
+/uacute /ucircumflex /udieresis /yacute /thorn /ydieresis] /isolatin1encoding exch def
+/Times-Roman-latin1
+    /Times-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-Italic-latin1
+    /Times-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-Bold-latin1
+    /Times-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-BoldItalic-latin1
+    /Times-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-Book-latin1
+    /AvantGarde-Book findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-BookOblique-latin1
+    /AvantGarde-BookOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-Demi-latin1
+    /AvantGarde-Demi findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-DemiOblique-latin1
+    /AvantGarde-DemiOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-Light-latin1
+    /Bookman-Light findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-LightItalic-latin1
+    /Bookman-LightItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-Demi-latin1
+    /Bookman-Demi findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-DemiItalic-latin1
+    /Bookman-DemiItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-latin1
+    /Courier findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-Oblique-latin1
+    /Courier-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-Bold-latin1
+    /Courier-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-BoldOblique-latin1
+    /Courier-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-latin1
+    /Helvetica findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Oblique-latin1
+    /Helvetica-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Bold-latin1
+    /Helvetica-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-BoldOblique-latin1
+    /Helvetica-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-latin1
+    /Helvetica-Narrow findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-Oblique-latin1
+    /Helvetica-Narrow-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-Bold-latin1
+    /Helvetica-Narrow-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-BoldOblique-latin1
+    /Helvetica-Narrow-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-Roman-latin1
+    /NewCenturySchoolbook-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-Italic-latin1
+    /NewCenturySchoolbook-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-Bold-latin1
+    /NewCenturySchoolbook-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-BoldItalic-latin1
+    /NewCenturySchoolbook-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Roman-latin1
+    /Palatino-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Italic-latin1
+    /Palatino-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Bold-latin1
+    /Palatino-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-BoldItalic-latin1
+    /Palatino-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Symbol-latin1
+    /Symbol findfont
+definefont pop
+/ZapfChancery-MediumItalic-latin1
+    /ZapfChancery-MediumItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/ZapfDingbats-latin1
+    /ZapfDingbats findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/cp {closepath} bind def
+/c {curveto} bind def
+/f {fill} bind def
+/a {arc} bind def
+/ef {eofill} bind def
+/ex {exch} bind def
+/gr {grestore} bind def
+/gs {gsave} bind def
+/sa {save} bind def
+/rs {restore} bind def
+/l {lineto} bind def
+/m {moveto} bind def
+/rm {rmoveto} bind def
+/n {newpath} bind def
+/s {stroke} bind def
+/sh {show} bind def
+/slc {setlinecap} bind def
+/slj {setlinejoin} bind def
+/slw {setlinewidth} bind def
+/srgb {setrgbcolor} bind def
+/rot {rotate} bind def
+/sc {scale} bind def
+/sd {setdash} bind def
+/ff {findfont} bind def
+/sf {setfont} bind def
+/scf {scalefont} bind def
+/sw {stringwidth pop} bind def
+/tr {translate} bind def
+
+/ellipsedict 8 dict def
+ellipsedict /mtrx matrix put
+/ellipse
+{ ellipsedict begin
+   /endangle exch def
+   /startangle exch def
+   /yrad exch def
+   /xrad exch def
+   /y exch def
+   /x exch def   /savematrix mtrx currentmatrix def
+   x y tr xrad yrad sc
+   0 0 1 startangle endangle arc
+   savematrix setmatrix
+   end
+} def
+
+/mergeprocs {
+dup length
+3 -1 roll
+dup
+length
+dup
+5 1 roll
+3 -1 roll
+add
+array cvx
+dup
+3 -1 roll
+0 exch
+putinterval
+dup
+4 2 roll
+putinterval
+} bind def
+28.346000 -28.346000 scale
+18.549600 -33.700000 translate
+%%EndProlog
+
+
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 7.950000 12.600000 m 7.950000 14.000000 l 24.263600 14.000000 l 24.263600 12.600000 l f
+0.000000 0.000000 0.000000 srgb
+n 7.950000 12.600000 m 7.950000 14.000000 l 24.263600 14.000000 l 24.263600 12.600000 l cp s
+/Helvetica-BoldOblique-latin1 ff 1.000000 scf sf
+(TGame) dup sw 2 div 16.106800 ex sub 13.600000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 7.950000 14.000000 m 7.950000 17.400000 l 24.263600 17.400000 l 24.263600 14.000000 l f
+0.000000 0.000000 0.000000 srgb
+n 7.950000 14.000000 m 7.950000 17.400000 l 24.263600 17.400000 l 24.263600 14.000000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(#_rulesFactory: TRulesFactory) 8.100000 14.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(#_board: TBoard) 8.100000 15.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(#_players: Vector) 8.100000 16.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(#_gameId: int) 8.100000 17.094690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 7.950000 17.400000 m 7.950000 20.000000 l 24.263600 20.000000 l 24.263600 17.400000 l f
+0.000000 0.000000 0.000000 srgb
+n 7.950000 17.400000 m 7.950000 20.000000 l 24.263600 20.000000 l 24.263600 17.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+initRulesFactory\(String,Vector\)) 8.100000 18.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getGameId\(\): int) 8.100000 18.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+initGame\(\)) 8.100000 19.694690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 3.650000 30.050000 m 3.650000 31.450000 l 14.146000 31.450000 l 14.146000 30.050000 l f
+0.000000 0.000000 0.000000 srgb
+n 3.650000 30.050000 m 3.650000 31.450000 l 14.146000 31.450000 l 14.146000 30.050000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TServerGame) dup sw 2 div 8.898000 ex sub 31.050000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 3.650000 31.450000 m 3.650000 33.250000 l 14.146000 33.250000 l 14.146000 31.450000 l f
+0.000000 0.000000 0.000000 srgb
+n 3.650000 31.450000 m 3.650000 33.250000 l 14.146000 33.250000 l 14.146000 31.450000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(-_rules: TRules) 3.800000 32.144690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_spectators: Vector) 3.800000 32.944690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 3.650000 33.250000 m 3.650000 33.650000 l 14.146000 33.650000 l 14.146000 33.250000 l f
+0.000000 0.000000 0.000000 srgb
+n 3.650000 33.250000 m 3.650000 33.650000 l 14.146000 33.650000 l 14.146000 33.250000 l cp s
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 19.100000 25.100000 m 19.100000 26.500000 l 31.535200 26.500000 l 31.535200 25.100000 l f
+0.000000 0.000000 0.000000 srgb
+n 19.100000 25.100000 m 19.100000 26.500000 l 31.535200 26.500000 l 31.535200 25.100000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TClientGame) dup sw 2 div 25.317600 ex sub 26.100000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 19.100000 26.500000 m 19.100000 27.500000 l 31.535200 27.500000 l 31.535200 26.500000 l f
+0.000000 0.000000 0.000000 srgb
+n 19.100000 26.500000 m 19.100000 27.500000 l 31.535200 27.500000 l 31.535200 26.500000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+_dc: TDisplayController) 19.250000 27.194690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 19.100000 27.500000 m 19.100000 27.900000 l 31.535200 27.900000 l 31.535200 27.500000 l f
+0.000000 0.000000 0.000000 srgb
+n 19.100000 27.500000 m 19.100000 27.900000 l 31.535200 27.900000 l 31.535200 27.500000 l cp s
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n 16.106800 20.000000 m 16.106800 23.052600 l 8.898000 23.052600 l 8.898000 30.050000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 16.506800 20.800000 m 16.106800 20.000000 l 15.706800 20.800000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 16.506800 20.800000 m 16.106800 20.000000 l 15.706800 20.800000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n 16.106800 20.000000 m 16.106800 23.052600 l 25.317600 23.052600 l 25.317600 25.100000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 16.506800 20.800000 m 16.106800 20.000000 l 15.706800 20.800000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 16.506800 20.800000 m 16.106800 20.000000 l 15.706800 20.800000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 30.800000 5.006440 m 30.800000 7.206440 l 43.235200 7.206440 l 43.235200 5.006440 l f
+0.000000 0.000000 0.000000 srgb
+n 30.800000 5.006440 m 30.800000 7.206440 l 43.235200 7.206440 l 43.235200 5.006440 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(«Interface») dup sw 2 div 37.017600 ex sub 5.701130 m gs 1 -1 sc sh gr
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TRulesFactory) dup sw 2 div 37.017600 ex sub 6.701130 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 30.800000 7.206440 m 30.800000 7.606440 l 43.235200 7.606440 l 43.235200 7.206440 l f
+0.000000 0.000000 0.000000 srgb
+n 30.800000 7.206440 m 30.800000 7.606440 l 43.235200 7.606440 l 43.235200 7.206440 l cp s
+1.000000 1.000000 1.000000 srgb
+n 30.800000 7.606440 m 30.800000 11.806440 l 43.235200 11.806440 l 43.235200 7.606440 l f
+0.000000 0.000000 0.000000 srgb
+n 30.800000 7.606440 m 30.800000 11.806440 l 43.235200 11.806440 l 43.235200 7.606440 l cp s
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+getBoard\(\): TBoard) 30.950000 8.301130 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+getPlayers\(\): Vector) 30.950000 9.101130 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+getNbPlayers\(\): int) 30.950000 9.901130 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+encodeHit\(THit\): String) 30.950000 10.701130 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+decodeHit\(String\): THit) 30.950000 11.501130 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 27.250000 16.056400 m 27.250000 17.456400 l 35.928000 17.456400 l 35.928000 16.056400 l f
+0.000000 0.000000 0.000000 srgb
+n 27.250000 16.056400 m 27.250000 17.456400 l 35.928000 17.456400 l 35.928000 16.056400 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TQueensFactory) dup sw 2 div 31.589000 ex sub 17.056400 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 27.250000 17.456400 m 27.250000 17.856400 l 35.928000 17.856400 l 35.928000 17.456400 l f
+0.000000 0.000000 0.000000 srgb
+n 27.250000 17.456400 m 27.250000 17.856400 l 35.928000 17.856400 l 35.928000 17.456400 l cp s
+1.000000 1.000000 1.000000 srgb
+n 27.250000 17.856400 m 27.250000 18.256400 l 35.928000 18.256400 l 35.928000 17.856400 l f
+0.000000 0.000000 0.000000 srgb
+n 27.250000 17.856400 m 27.250000 18.256400 l 35.928000 18.256400 l 35.928000 17.856400 l cp s
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 37.879100 16.056400 m 37.879100 17.456400 l 48.375100 17.456400 l 48.375100 16.056400 l f
+0.000000 0.000000 0.000000 srgb
+n 37.879100 16.056400 m 37.879100 17.456400 l 48.375100 17.456400 l 48.375100 16.056400 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TQueensHexFactory) dup sw 2 div 43.127100 ex sub 17.056400 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 37.879100 17.456400 m 37.879100 17.856400 l 48.375100 17.856400 l 48.375100 17.456400 l f
+0.000000 0.000000 0.000000 srgb
+n 37.879100 17.456400 m 37.879100 17.856400 l 48.375100 17.856400 l 48.375100 17.456400 l cp s
+1.000000 1.000000 1.000000 srgb
+n 37.879100 17.856400 m 37.879100 18.256400 l 48.375100 18.256400 l 48.375100 17.856400 l f
+0.000000 0.000000 0.000000 srgb
+n 37.879100 17.856400 m 37.879100 18.256400 l 48.375100 18.256400 l 48.375100 17.856400 l cp s
+0.100000 slw
+[1.000000] 0 sd
+[0.400000] 0 sd
+0 slj
+0 slc
+n 37.017600 11.806400 m 37.017600 14.000000 l 31.589000 14.000000 l 31.589000 16.056400 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 37.417600 12.606400 m 37.017600 11.806400 l 36.617600 12.606400 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 37.417600 12.606400 m 37.017600 11.806400 l 36.617600 12.606400 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[0.400000] 0 sd
+[0.400000] 0 sd
+0 slj
+0 slc
+n 37.017600 11.806400 m 37.017600 14.000000 l 43.127100 14.000000 l 43.127100 16.056400 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 37.417600 12.606400 m 37.017600 11.806400 l 36.617600 12.606400 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 37.417600 12.606400 m 37.017600 11.806400 l 36.617600 12.606400 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n 30.800000 6.106440 m 30.800000 6.102650 l 16.106800 6.102650 l 16.106800 12.600000 l s
+[] 0 sd
+0 slj
+0 slc
+1.000000 1.000000 1.000000 srgb
+n 16.106800 12.600000 m 15.866800 11.900000 l 16.106800 11.200000 l 16.346800 11.900000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 16.106800 12.600000 m 15.866800 11.900000 l 16.106800 11.200000 l 16.346800 11.900000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -15.649600 18.087600 m -15.649600 19.487600 l -2.244800 19.487600 l -2.244800 18.087600 l f
+0.000000 0.000000 0.000000 srgb
+n -15.649600 18.087600 m -15.649600 19.487600 l -2.244800 19.487600 l -2.244800 18.087600 l cp s
+/Helvetica-BoldOblique-latin1 ff 1.000000 scf sf
+(TRules) dup sw 2 div -8.947200 ex sub 19.087600 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -15.649600 19.487600 m -15.649600 19.887600 l -2.244800 19.887600 l -2.244800 19.487600 l f
+0.000000 0.000000 0.000000 srgb
+n -15.649600 19.487600 m -15.649600 19.887600 l -2.244800 19.887600 l -2.244800 19.487600 l cp s
+1.000000 1.000000 1.000000 srgb
+n -15.649600 19.887600 m -15.649600 23.287600 l -2.244800 23.287600 l -2.244800 19.887600 l f
+0.000000 0.000000 0.000000 srgb
+n -15.649600 19.887600 m -15.649600 23.287600 l -2.244800 23.287600 l -2.244800 19.887600 l cp s
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+isAllowed\(THit\): bool) -15.499600 20.582290 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+isPlayable\(THit\): boolean) -15.499600 21.382290 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+getHits\(\): Vector) -15.499600 22.182290 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+getFactory\(\): String) -15.499600 22.982290 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -18.499600 26.837600 m -18.499600 28.237600 l -10.700300 28.237600 l -10.700300 26.837600 l f
+0.000000 0.000000 0.000000 srgb
+n -18.499600 26.837600 m -18.499600 28.237600 l -10.700300 28.237600 l -10.700300 26.837600 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TQueensRules) dup sw 2 div -14.599950 ex sub 27.837600 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -18.499600 28.237600 m -18.499600 28.637600 l -10.700300 28.637600 l -10.700300 28.237600 l f
+0.000000 0.000000 0.000000 srgb
+n -18.499600 28.237600 m -18.499600 28.637600 l -10.700300 28.637600 l -10.700300 28.237600 l cp s
+1.000000 1.000000 1.000000 srgb
+n -18.499600 28.637600 m -18.499600 29.037600 l -10.700300 29.037600 l -10.700300 28.637600 l f
+0.000000 0.000000 0.000000 srgb
+n -18.499600 28.637600 m -18.499600 29.037600 l -10.700300 29.037600 l -10.700300 28.637600 l cp s
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -8.649600 26.887600 m -8.649600 28.287600 l 0.967700 28.287600 l 0.967700 26.887600 l f
+0.000000 0.000000 0.000000 srgb
+n -8.649600 26.887600 m -8.649600 28.287600 l 0.967700 28.287600 l 0.967700 26.887600 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TQueensHexRules) dup sw 2 div -3.840950 ex sub 27.887600 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -8.649600 28.287600 m -8.649600 28.687600 l 0.967700 28.687600 l 0.967700 28.287600 l f
+0.000000 0.000000 0.000000 srgb
+n -8.649600 28.287600 m -8.649600 28.687600 l 0.967700 28.687600 l 0.967700 28.287600 l cp s
+1.000000 1.000000 1.000000 srgb
+n -8.649600 28.687600 m -8.649600 29.087600 l 0.967700 29.087600 l 0.967700 28.687600 l f
+0.000000 0.000000 0.000000 srgb
+n -8.649600 28.687600 m -8.649600 29.087600 l 0.967700 29.087600 l 0.967700 28.687600 l cp s
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n -8.947200 23.287600 m -8.947200 25.202600 l -14.599900 25.202600 l -14.599900 26.837600 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n -8.547200 24.087600 m -8.947200 23.287600 l -9.347200 24.087600 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n -8.547200 24.087600 m -8.947200 23.287600 l -9.347200 24.087600 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n -8.947200 23.287600 m -8.947200 25.202600 l -3.840950 25.202600 l -3.840950 26.887600 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n -8.547200 24.087600 m -8.947200 23.287600 l -9.347200 24.087600 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n -8.547200 24.087600 m -8.947200 23.287600 l -9.347200 24.087600 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n -2.244800 18.787600 m 1.935120 18.787600 l 1.935120 30.750000 l 3.650000 30.750000 l s
+[] 0 sd
+0 slj
+0 slc
+1.000000 1.000000 1.000000 srgb
+n 3.650000 30.750000 m 2.950000 30.990000 l 2.250000 30.750000 l 2.950000 30.510000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 3.650000 30.750000 m 2.950000 30.990000 l 2.250000 30.750000 l 2.950000 30.510000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 15.422200 31.100000 m 15.422200 32.500000 l 22.585200 32.500000 l 22.585200 31.100000 l f
+0.000000 0.000000 0.000000 srgb
+n 15.422200 31.100000 m 15.422200 32.500000 l 22.585200 32.500000 l 22.585200 31.100000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TPlayerGame) dup sw 2 div 19.003700 ex sub 32.100000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 15.422200 32.500000 m 15.422200 32.900000 l 22.585200 32.900000 l 22.585200 32.500000 l f
+0.000000 0.000000 0.000000 srgb
+n 15.422200 32.500000 m 15.422200 32.900000 l 22.585200 32.900000 l 22.585200 32.500000 l cp s
+1.000000 1.000000 1.000000 srgb
+n 15.422200 32.900000 m 15.422200 33.300000 l 22.585200 33.300000 l 22.585200 32.900000 l f
+0.000000 0.000000 0.000000 srgb
+n 15.422200 32.900000 m 15.422200 33.300000 l 22.585200 33.300000 l 22.585200 32.900000 l cp s
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 24.972200 31.050000 m 24.972200 32.450000 l 33.529000 32.450000 l 33.529000 31.050000 l f
+0.000000 0.000000 0.000000 srgb
+n 24.972200 31.050000 m 24.972200 32.450000 l 33.529000 32.450000 l 33.529000 31.050000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TObserverGame) dup sw 2 div 29.250600 ex sub 32.050000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 24.972200 32.450000 m 24.972200 32.850000 l 33.529000 32.850000 l 33.529000 32.450000 l f
+0.000000 0.000000 0.000000 srgb
+n 24.972200 32.450000 m 24.972200 32.850000 l 33.529000 32.850000 l 33.529000 32.450000 l cp s
+1.000000 1.000000 1.000000 srgb
+n 24.972200 32.850000 m 24.972200 33.250000 l 33.529000 33.250000 l 33.529000 32.850000 l f
+0.000000 0.000000 0.000000 srgb
+n 24.972200 32.850000 m 24.972200 33.250000 l 33.529000 33.250000 l 33.529000 32.850000 l cp s
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n 25.317600 27.900000 m 25.317600 29.502600 l 19.003700 29.502600 l 19.003700 31.100000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 25.717600 28.700000 m 25.317600 27.900000 l 24.917600 28.700000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 25.717600 28.700000 m 25.317600 27.900000 l 24.917600 28.700000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n 25.317600 27.900000 m 25.317600 29.502600 l 29.250600 29.502600 l 29.250600 31.050000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 25.717600 28.700000 m 25.317600 27.900000 l 24.917600 28.700000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 25.717600 28.700000 m 25.317600 27.900000 l 24.917600 28.700000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -11.977100 13.607832 m -11.977100 15.007832 l -3.753600 15.007832 l -3.753600 13.607832 l f
+0.000000 0.000000 0.000000 srgb
+n -11.977100 13.607832 m -11.977100 15.007832 l -3.753600 15.007832 l -3.753600 13.607832 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TDefaultHistory) dup sw 2 div -7.865350 ex sub 14.607832 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -11.977100 15.007832 m -11.977100 15.407832 l -3.753600 15.407832 l -3.753600 15.007832 l f
+0.000000 0.000000 0.000000 srgb
+n -11.977100 15.007832 m -11.977100 15.407832 l -3.753600 15.407832 l -3.753600 15.007832 l cp s
+1.000000 1.000000 1.000000 srgb
+n -11.977100 15.407832 m -11.977100 15.807832 l -3.753600 15.807832 l -3.753600 15.407832 l f
+0.000000 0.000000 0.000000 srgb
+n -11.977100 15.407832 m -11.977100 15.807832 l -3.753600 15.807832 l -3.753600 15.407832 l cp s
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n -1.896312 7.778008 m 6.279620 7.778008 l 6.279620 16.100000 l 7.950000 16.100000 l s
+[] 0 sd
+0 slj
+0 slc
+n 7.950000 16.100000 m 7.250000 16.340000 l 6.550000 16.100000 l 7.250000 15.860000 l f
+/Courier-latin1 ff 0.800000 scf sf
+(1) -1.896312 7.572699 m gs 1 -1 sc sh gr
+(1) dup sw 7.950000 ex sub 15.894690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n -7.871512 9.878008 m -7.871512 11.175440 l -7.865350 11.175440 l -7.865350 13.607832 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n -7.471512 10.678008 m -7.871512 9.878008 l -8.271512 10.678008 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n -7.471512 10.678008 m -7.871512 9.878008 l -8.271512 10.678008 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 38.170400 25.092800 m 38.170400 26.492800 l 51.575200 26.492800 l 51.575200 25.092800 l f
+0.000000 0.000000 0.000000 srgb
+n 38.170400 25.092800 m 38.170400 26.492800 l 51.575200 26.492800 l 51.575200 25.092800 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TDisplayController) dup sw 2 div 44.872800 ex sub 26.092800 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 38.170400 26.492800 m 38.170400 30.692800 l 51.575200 30.692800 l 51.575200 26.492800 l f
+0.000000 0.000000 0.000000 srgb
+n 38.170400 26.492800 m 38.170400 30.692800 l 51.575200 30.692800 l 51.575200 26.492800 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(-_frame: JFrame) 38.320400 27.187490 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_fontMetrics: FontMetrics) 38.320400 27.987490 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_width: int) 38.320400 28.787490 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_height: int) 38.320400 29.587490 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_drawables: Vector) 38.320400 30.387490 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 38.170400 30.692800 m 38.170400 31.092800 l 51.575200 31.092800 l 51.575200 30.692800 l f
+0.000000 0.000000 0.000000 srgb
+n 38.170400 30.692800 m 38.170400 31.092800 l 51.575200 31.092800 l 51.575200 30.692800 l cp s
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n 31.535200 25.800000 m 31.535200 25.792800 l 38.170400 25.792800 l s
+[] 0 sd
+0 slj
+0 slc
+1.000000 1.000000 1.000000 srgb
+n 38.170400 25.792800 m 37.470400 26.032800 l 36.770400 25.792800 l 37.470400 25.552800 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 38.170400 25.792800 m 37.470400 26.032800 l 36.770400 25.792800 l 37.470400 25.552800 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -13.846712 4.878008 m -13.846712 6.278008 l -1.896312 6.278008 l -1.896312 4.878008 l f
+0.000000 0.000000 0.000000 srgb
+n -13.846712 4.878008 m -13.846712 6.278008 l -1.896312 6.278008 l -1.896312 4.878008 l cp s
+/Helvetica-BoldOblique-latin1 ff 1.000000 scf sf
+(THistory) dup sw 2 div -7.871512 ex sub 5.878008 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -13.846712 6.278008 m -13.846712 7.278008 l -1.896312 7.278008 l -1.896312 6.278008 l f
+0.000000 0.000000 0.000000 srgb
+n -13.846712 6.278008 m -13.846712 7.278008 l -1.896312 7.278008 l -1.896312 6.278008 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(-hits: vector) -13.696712 6.972699 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -13.846712 7.278008 m -13.846712 9.878008 l -1.896312 9.878008 l -1.896312 7.278008 l f
+0.000000 0.000000 0.000000 srgb
+n -13.846712 7.278008 m -13.846712 9.878008 l -1.896312 9.878008 l -1.896312 7.278008 l cp s
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+getHits\(\): vector) -13.696712 7.972699 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+addHit\(hit:THit\): void) -13.696712 8.772699 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+delLastHit\(\): void) -13.696712 9.572699 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -14.466258 1.424457 m -1.361458 1.424457 l -0.761458 2.024457 l -0.761458 3.924457 l -14.466258 3.924457 l f
+0.000000 0.000000 0.000000 srgb
+n -14.466258 1.424457 m -1.361458 1.424457 l -0.761458 2.024457 l -0.761458 3.924457 l -14.466258 3.924457 l cp s
+0.050000 slw
+n -1.361458 1.424457 m -1.361458 2.024457 l -0.761458 2.024457 l s
+/Courier-latin1 ff 0.800000 scf sf
+(Cf. Modelisation des coups) -14.116258 2.669147 m gs 1 -1 sc sh gr
+(\(pour la classe THit\)) -14.116258 3.469147 m gs 1 -1 sc sh gr
+showpage

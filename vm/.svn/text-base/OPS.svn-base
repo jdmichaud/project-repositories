@@ -1,0 +1,266 @@
+REVOIR STAT ----> JEDI (info)
+
+MASK : 2^(reg_p * QSIZE) - 1
+p = 3
+AND:
+ry  1011 1010 1001 1110
+msk 0000 1111 1111 1111
+----------------------- &
+tmp 0000 1010 1001 1110
+
+tmp 0000 1010 1001 1110
+msk 1111 0000 0000 0000
+----------------------- |
+tmp 1111 1010 1001 1110
+
+rx  1101 0001 1011 0111
+tmp 1111 1010 1001 1110
+----------------------- & (AND)
+rx  1101 0000 1001 0110
+
+
+NOT:
+ry  1011 1010 1001 1110
+msk 0000 1111 1111 1111
+----------------------- &
+tmp 0000 1010 1001 1110
+
+tmp 0000 1010 1001 1110
+----------------------- ~
+tmp 1111 0101 0110 0001
+
+tmp 1111 0101 0110 0001
+msk 0000 1111 1111 1111
+----------------------- &
+tmp 0000 0101 0110 0001
+
+msk 1111 0000 0000 0000
+rx  1101 0001 1011 0111
+----------------------- &
+sv  1101 0000 0000 0000
+
+sv  1101 0000 0000 0000
+tmp 0000 0101 0110 0001
+----------------------- |
+rx  1101 0101 0110 0001
+
+ry  1011 1010 1001 1110
+----------------------- ~
+rx  1101 0101 0110 0001
+
+
+OR:
+ry  1011 1010 1001 1110
+msk 0000 1111 1111 1111
+----------------------- &
+tmp 0000 1010 1001 1101
+
+tmp 0000 1010 1001 1110
+rx  1101 0001 1011 0111
+----------------------- |
+rx  1101 1011 1011 1111 
+
+rx  1101 0001 1011 0111
+ry  1011 1010 1001 1110
+----------------------- |
+rx  1101 1011 1011 1111
+
+
+XOR:
+ry  1011 1010 1001 1110
+msk 0000 1111 1111 1111
+----------------------- &
+tmp 0000 1010 1001 1101
+
+tmp 0000 1010 1001 1110
+rx  1101 0001 1011 0111
+----------------------- ^
+rx  1101 1011 0010 1001
+
+
+ROL: (n = 5)
+rx  1101 0001 1011 0111
+msk 0000 1111 1111 1111
+----------------------- &
+tmp 0000 0001 1011 0111
+
+tmp 0000 0001 1011 0111
+----------------------- <<
+tmp 0110 1110 0000 0000
+sv  0001 1000 0000 0000
+
+sv  0000 0000 0000 0011 >>
+
+tmp 0000 0001 1011 0111
+----------------------- >>
+tmp 0000 0110 1110 0000
+
+sv  0000 0000 0000 0011
+tmp 0000 0110 1110 0000
+----------------------- |
+tmp 0000 0110 1110 0011
+
+rx  1101 0001 1011 0111
+msk 1111 0000 0000 0000
+----------------------- &
+rx  1101 0000 0000 0000
+
+tmp 0000 0110 1110 0011
+rx  1101 0000 0000 0000
+----------------------- |
+rx  1101 0110 1110 0011
+
+rx  1101 0001 1011 0111			rx  1101 0001 1011 0111
+----------------------- ROL -5		----------------------- ROL 5
+rx  1101 1011 1000 1101 = 56205		rx  1101 0110 1110 0011 = 55011
+----------------------- ROL -8		----------------------- ROL 8
+rx  1101 1011 0111 0001 = 56177		rx  1101 0111 0001 1011 = 55067
+----------------------- ROL -3		----------------------- ROL 3
+rx  1101 1110 0011 0110 = 56886		rx  1101 1101 1011 1000 = 56760
+
+
+ASR:
+rx  1101 0001 1011 0111	= 53687		rx  0101 0001 1011 0111 = 20919
+----------------------- ASR 5		----------------------- ASR 5
+rx  1101 1111 1000 1101 = 57229		rx  0101 0000 0000 1101 = 20493
+----------------------- ASR 8		----------------------- ASR 8
+rx  1101 1111 1111 0001 = 57329		rx  0101 0000 0000 0001 = 20481
+----------------------- ASR 3		----------------------- ASR 3
+rx  1101 1110 0011 0110 = 56886		rx  0101 0000 0011 0110 = 20534
+
+
+NEG: (p = 2)
+ry  0000 0000 1111 1111 = 255
+rx  0000 0000 0000 0000 = 0
+----------------------- NEG
+rx  0000 1111 0000 0001 = 3841
+
+ry  0000 0000 1111 1111 = 255
+rx  0101 0001 1011 0111 = 20919
+----------------------- NEG
+rx  0101 1111 0000 0001 = 24321
+
+ry  0101 0001 1011 0111 = 20919
+rx  0000 0000 1111 1111 = 255
+----------------------- NEG
+rx  0000 1110 0100 1001 = 3657
+
+
+INC: (p = 2)
+rx  0000 1111 1111 1111 = 4095
+----------------------- INC 1
+rx  0000 0000 0000 0000 = 0
+
+--------------------------------------------------
+Les instructions
+ asr,
+ inc,
+ dec,
+ lsl
+ lsr interprètent les constantes en non signé.
+
+ rol,
+ live,
+ lp,
+ lc,
+ ll
+ stat interprètent comme elles souhaitent car il n'y a pas de calculs, seules les valeurs comptent.
+
+ P est toujours utilisé de manière non signée et dans le cas de lc, le bit de signe est propagé, c'est-à-dire le bit de poids le plus fort.
+
+Mnémonique Description
+die
+die : Tout processeur qui exécute cette instruction est détruit instantanément.
+
+live n
+live : Emet un signe de vie pour le joueur n. Le fonctionnement est indépedendant de P et n'affecte pas Z.
+
+mov rx, ry
+move : Copie les quartets 0 à P de ry dans rx. Le fonctionnement n'affecte pas Z.
+
+swp rx, ry
+swap : Echange les quartets 0 à P de rx et ry. Le fonctionnement n'affecte pas Z.
+
+not rx, ry
+not : Calcule la négation logique (complément à 1) des quartets 0 à P de ry et stocke le résultat dans les quartets 0 à P de rx.
+
+and rx, ry
+and : Calcule le ET logique bit à bit entre les quartets 0 à P de rx et de ry et stocke le résultat dans les quartets 0 à P de rx.
+
+or rx, ry
+or : Calcule le OU logique bit à bit entre les quartets 0 à P de rx et de ry et stocke le résultat dans les quartets 0 à P de rx.
+
+xor rx, ry
+xor : Calcule le OU exclusif bit à bit entre les quartets 0 à P de rx et de ry et stocke le résultat dans les quartets 0 à P de rx.
+
+rol rx, n
+rotate left : Effectue une rotation vers la gauche de n bits des quartets 0 à P de rx. L'instruction ror qui effectue une rotation à droite n'existe pas car on peut la simuler grace à un rol avec une valeur appropriée de n.
+
+asr rx, n
+arithmetic shift right : Effectue un décalage arithmétique à droite de n bits des quartets 0 à P de rx. Ce décalage a pour caractéristique de faire entrer des bits identiques au bit de signe (conservation du signe).
+
+add rx, ry
+add : Additionne les quartets 0 à P de ry à ceux de rx et stocke le résultat dans les quartets 0 à P de rx (rx = rx + ry).
+
+sub rx, ry
+sub : Soustrait les quartets 0 à P de ry de ceux de rx et stocke le résultat dans les quartets 0 à P de rx (rx = rx - ry).
+
+rsb rx, ry
+reverse sub : Soustrait les quartets 0 à P de rx de ceux de ry et stocke le resultat dans les quartets 0 à P de rx (rx = ry - rx).
+
+neg rx, ry
+neg : Calcule la négation arithmétique (complement à 2) des quartets 0 à P de ry et stocke le résultat dans les quartets 0 à P de rx.
+
+inc rx, n
+inc : Incrémente de n les quartets 0 à P de rx (rx = rx + n).
+
+dec rx, n
+dec : Décrémente de n les quartets 0 à P de rx. (rx = rx - n).
+
+lsl rx, n
+logical shift left : Effectue un décalage à gauche de n bits des quartets 0 à P de rx. Les bits entrants sont nuls.
+
+lsr rx, n
+logical shift right: Effectue un décalage à droite de n bits des quartets 0 à P de rx. Les bits entrants sont nuls.
+
+lp n
+load P : Charge les 2 bits de poids faible de n dans P (P = n). Le fonctionnement est indépedendant de P et n'affecte pas Z.
+
+bnz rx
+branch if not Z : Effectue un saut relatif de rx modulo IDX_MOD quartets si Z = 0 (PC = PC + (rx % IDX_MOD)). rx est signé et utilise en entier. Le fonctionnement est indépedendant de P et n'affecte pas Z.
+
+bz rx
+branch if Z : Effectue un saut relatif de rx modulo IDX_MOD quartets si Z = 1 (PC = PC + (rx % IDX_MOD)). rx est signé et utilisé en entier. Le fonctionnement est indépedendant de P et n'affecte pas Z.
+
+ld rx, [ry]
+load : Charge les P + 1 quartets stockés à l'adresse PC + (ry % IDX_MOD) dans les quartets 0 à P de rx. ry est signé et utilisé en entier. Le fonctionnement n'affecte pas Z.
+
+st [rx], ry
+store : Stocke les quartets 0 à P de ry dans les P + 1 quartets stockés à l'adresse PC + (rx % IDX_MOD). rx est signé et utilisé en entier. Le fonctionnement n'affecte pas Z.
+
+lc rx, n
+load constant : Charge n dans les 2 quartets de poids faible de rx et propage le bit de signe de ces 2 quartets dans les 2 quartets de poids fort de rx. Le fonctionnement est indépedendant de P et n'affecte pas Z.
+
+ll rx, n
+load long : Charge n dans le registre rx entier. Le fonctionnement est indépedendant de P et n'affecte pas Z.
+
+fork
+fork : Créé un nouveau processeur en tout point identique à celui qui exécute le fork à l'exception du registre Z qui vaudra 0 dans l'un et 1 dans l'autre. Le fonctionnement est indépedendant de P.
+
+push rx
+push : Empile rx entier dans la pile du processeur. Le fonctionnement est indépedendant de P et n'affecte pas Z.
+
+pop rx
+pop : Dépile une valeur de la pile du processeur et la stocke dans rx. Le fonctionnement est indepedendant de P et n'affecte pas Z.
+
+jmp rx
+jmp : Effectue un saut relatif long et inconditionnel de rx quartets (PC = PC + rx). rx est signé et utilisé en entier. Le fonctionnement est indépedendant de P et n'affecte pas Z.
+
+fl rx, [ry]
+far load : Charge les P + 1 quartets stockés à l'adresse PC + ry dans les quartets 0 à P de rx. ry est signé et utilisé en entier. Le fonctionnement n'affecte pas Z.
+
+write rx
+write : Ecrit sur la sortie standard le caractère contenu dans les 2 quartets de poids faible de rx. Le fonctionnement est indépedendant de P et n'affecte pas Z.
+
+stat rx, n
+statistic : Charge dans rx entier la valeur du compteur n. Le fonctionnement est indépedendant de P et n'affecte pas Z.

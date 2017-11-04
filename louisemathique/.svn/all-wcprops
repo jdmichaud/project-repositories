@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/51/louisemathique
+END
+errors.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/51/louisemathique/errors.c
+END
+compute.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/51/louisemathique/compute.c
+END
+io.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/51/louisemathique/io.h
+END
+errors.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/51/louisemathique/errors.h
+END
+compute.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/51/louisemathique/compute.h
+END
+my_stdlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/51/louisemathique/my_stdlib.c
+END
+my_ctype.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/51/louisemathique/my_ctype.c
+END
+my_stdlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/51/louisemathique/my_stdlib.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/51/louisemathique/Makefile
+END
+my_ctype.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/51/louisemathique/my_ctype.h
+END
+tree.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/51/louisemathique/tree.c
+END
+louise.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/51/louisemathique/louise.c
+END
+calc.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/51/louisemathique/calc.c
+END
+tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/51/louisemathique/tree.h
+END
+stack.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/51/louisemathique/stack.c
+END
+louise.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/51/louisemathique/louise.h
+END
+io.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/51/louisemathique/io.c
+END
+calc.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/51/louisemathique/calc.h
+END
+stack.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/51/louisemathique/stack.h
+END

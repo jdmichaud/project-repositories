@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/58/mpn/piscine/getnextline
+END
+list_put.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/58/mpn/piscine/getnextline/list_put.c
+END
+get_next_line.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/58/mpn/piscine/getnextline/get_next_line.c
+END
+read_block.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/58/mpn/piscine/getnextline/read_block.c
+END
+need_read.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/58/mpn/piscine/getnextline/need_read.c
+END
+my_strndup_cr.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/58/mpn/piscine/getnextline/my_strndup_cr.c
+END
+get_next_line.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/58/mpn/piscine/getnextline/get_next_line.h
+END
+list_free.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/58/mpn/piscine/getnextline/list_free.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/58/mpn/piscine/getnextline/Makefile
+END
+list_find_elm_eq.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/58/mpn/piscine/getnextline/list_find_elm_eq.c
+END
+my_strcpy_cr.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/58/mpn/piscine/getnextline/my_strcpy_cr.c
+END
+my_realloc_str.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/58/mpn/piscine/getnextline/my_realloc_str.c
+END
+my_strlen_cr.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/58/mpn/piscine/getnextline/my_strlen_cr.c
+END
+list_find_node.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/58/mpn/piscine/getnextline/list_find_node.c
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/58/mpn/piscine/getnextline/list.h
+END

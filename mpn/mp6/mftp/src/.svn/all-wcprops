@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/57/mpn/mp6/mftp/src
+END
+ftp1.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/ftp1.c
+END
+cmdline.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/57/mpn/mp6/mftp/src/cmdline.c
+END
+ftp2.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/ftp2.c
+END
+list.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/list.c
+END
+ftp3.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/ftp3.c
+END
+ftp4.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/ftp4.c
+END
+ftp5.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/ftp5.c
+END
+user.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/user.c
+END
+ftp6.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/ftp6.c
+END
+ftp7.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/ftp7.c
+END
+ftp8.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/ftp8.c
+END
+log.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/57/mpn/mp6/mftp/src/log.c
+END
+services.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/57/mpn/mp6/mftp/src/services.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/main.c
+END
+connect.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/57/mpn/mp6/mftp/src/connect.c
+END
+error.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/57/mpn/mp6/mftp/src/error.c
+END
+comm.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/comm.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/57/mpn/mp6/mftp/src/Makefile
+END
+xmalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/57/mpn/mp6/mftp/src/xmalloc.c
+END
+utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/57/mpn/mp6/mftp/src/utils.c
+END
+signals.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/57/mpn/mp6/mftp/src/signals.c
+END
+init.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/init.c
+END
+dcmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp6/mftp/src/dcmd.c
+END
+option.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/57/mpn/mp6/mftp/src/option.c
+END
+login.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/57/mpn/mp6/mftp/src/login.c
+END

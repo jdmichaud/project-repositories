@@ -1,0 +1,371 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/48/bistromathique
+END
+pile2.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/48/bistromathique/pile2.c
+END
+errors.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/48/bistromathique/errors.c
+END
+pile3.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/48/bistromathique/pile3.c
+END
+karatsuba.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/48/bistromathique/karatsuba.c
+END
+eval_str.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/48/bistromathique/eval_str.c
+END
+pile2.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/48/bistromathique/pile2.h
+END
+errors.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/48/bistromathique/errors.h
+END
+free.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/48/bistromathique/free.c
+END
+pile3.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/48/bistromathique/pile3.h
+END
+order_hop.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/48/bistromathique/order_hop.c
+END
+utils2.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/48/bistromathique/utils2.c
+END
+karatsuba.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/48/bistromathique/karatsuba.h
+END
+utils3.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/48/bistromathique/utils3.c
+END
+eval_str.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/48/bistromathique/eval_str.h
+END
+free.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/48/bistromathique/free.h
+END
+order_hop.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/48/bistromathique/order_hop.h
+END
+utils2.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/48/bistromathique/utils2.h
+END
+utils3.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/48/bistromathique/utils3.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/48/bistromathique/Makefile
+END
+print.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/48/bistromathique/print.c
+END
+my_printnbr_base.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/48/bistromathique/my_printnbr_base.c
+END
+utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/48/bistromathique/utils.c
+END
+print.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/48/bistromathique/print.h
+END
+my_printnbr_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/48/bistromathique/my_printnbr_base.h
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/48/bistromathique/utils.h
+END
+auteurs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/48/bistromathique/auteurs
+END
+.nfsA1f424.4
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/48/bistromathique/.nfsA1f424.4
+END
+eval_str_sub2.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/48/bistromathique/eval_str_sub2.c
+END
+eval_str_sub3.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/48/bistromathique/eval_str_sub3.c
+END
+order.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/48/bistromathique/order.c
+END
+list.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/48/bistromathique/list.c
+END
+utils_parser.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/48/bistromathique/utils_parser.c
+END
+my_strcmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/48/bistromathique/my_strcmp.c
+END
+eval_str_sub2.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/48/bistromathique/eval_str_sub2.h
+END
+order.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/48/bistromathique/order.h
+END
+eval_str_sub3.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/48/bistromathique/eval_str_sub3.h
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/48/bistromathique/list.h
+END
+utils_parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/48/bistromathique/utils_parser.h
+END
+eval_str_div.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/48/bistromathique/eval_str_div.c
+END
+eval_str_plus.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/48/bistromathique/eval_str_plus.c
+END
+my_strcmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/48/bistromathique/my_strcmp.h
+END
+eval_str_div.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/48/bistromathique/eval_str_div.h
+END
+eval_str_plus.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/48/bistromathique/eval_str_plus.h
+END
+utils_str.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/48/bistromathique/utils_str.c
+END
+eval_str_sub.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/48/bistromathique/eval_str_sub.c
+END
+pile.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/48/bistromathique/pile.c
+END
+my_atoi_base.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/48/bistromathique/my_atoi_base.c
+END
+parser.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/48/bistromathique/parser.c
+END
+eval_str_mul.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/48/bistromathique/eval_str_mul.c
+END
+utils_str.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/48/bistromathique/utils_str.h
+END
+eval_str_sub.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/48/bistromathique/eval_str_sub.h
+END
+pile.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/48/bistromathique/pile.h
+END
+my_atoi_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/48/bistromathique/my_atoi_base.h
+END
+bistromathique.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/48/bistromathique/bistromathique.c
+END
+parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/48/bistromathique/parser.h
+END
+eval_str_mul.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/48/bistromathique/eval_str_mul.h
+END
+eval_str_div2.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/48/bistromathique/eval_str_div2.c
+END
+bistromathique.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/48/bistromathique/bistromathique.h
+END
+parser_pile.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/48/bistromathique/parser_pile.c
+END
+eval_str_div2.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/48/bistromathique/eval_str_div2.h
+END
+parser_pile.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/48/bistromathique/parser_pile.h
+END

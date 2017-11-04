@@ -1,0 +1,4 @@
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android"><TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ip_address"></TextView>
+<EditText android:layout_below="@id/TextView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/IPAddress" android:text="10.0.2.2"></EditText>
+<Button android:layout_below="@id/IPAddress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:text="@string/add" android:id="@+id/AddButton"></Button>
+</RelativeLayout>

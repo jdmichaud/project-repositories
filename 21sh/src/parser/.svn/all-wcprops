@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/47/21sh/src/parser
+END
+format.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/47/21sh/src/parser/format.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/47/21sh/src/parser/Makefile
+END
+format_eat.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/47/21sh/src/parser/format_eat.c
+END

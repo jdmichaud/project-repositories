@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/64/poule/src/parse
+END
+parser_toplevel.output
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/64/poule/src/parse/parser_toplevel.output
+END
+parser_toplevel.mly
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/64/poule/src/parse/parser_toplevel.mly
+END
+lexer_conf.mll
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/64/poule/src/parse/lexer_conf.mll
+END
+parser_conf.ml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/64/poule/src/parse/parser_conf.ml
+END
+lexer_toplevel.mli
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/64/poule/src/parse/lexer_toplevel.mli
+END
+lexer_line.mll
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/64/poule/src/parse/lexer_line.mll
+END
+parser_line.ml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/64/poule/src/parse/parser_line.ml
+END
+lexer_toplevel.mll
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/64/poule/src/parse/lexer_toplevel.mll
+END
+parser_toplevel.ml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/64/poule/src/parse/parser_toplevel.ml
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/64/poule/src/parse/Makefile
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/64/poule/src/parse/Makefile.in
+END
+lexer_conf.ml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/64/poule/src/parse/lexer_conf.ml
+END
+lexer_line.ml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/64/poule/src/parse/lexer_line.ml
+END
+parser_conf.output
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/64/poule/src/parse/parser_conf.output
+END
+lexer_toplevel.ml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/64/poule/src/parse/lexer_toplevel.ml
+END
+parser_conf.mly
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/64/poule/src/parse/parser_conf.mly
+END
+parser_line.output
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/64/poule/src/parse/parser_line.output
+END
+parser_line.mly
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/64/poule/src/parse/parser_line.mly
+END

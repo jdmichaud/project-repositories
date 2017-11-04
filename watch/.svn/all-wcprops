@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/20/watch
+END
+watch.rc
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/20/watch/watch.rc
+END
+db.py
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/18/watch/db.py
+END
+watch.py
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/20/watch/watch.py
+END
+poller.py
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/5/watch/poller.py
+END
+unittest.py
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/5/watch/unittest.py
+END
+watch_api.py
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/3/watch/watch_api.py
+END
+notifier.py
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/20/watch/notifier.py
+END

@@ -1,0 +1,43 @@
+#! /bin/sh
+#
+#		Written by JDM
+
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+DAEMON=/usr/bin/motion
+NAME=watch
+DESC="CCTV in Operation"
+LOG="/mnt/cf/zabel/motion.log"
+
+test -x $DAEMON || exit 0
+
+set -e
+
+case "$1" in
+  start)
+	echo "Starting $NAME: $DESC"
+	if [ ! -d $LOGDIR ]; then
+		mkdir -p $LOGDIR
+	fi
+	echo "started on `date`" >> $LOG
+	nohup $DAEMON -c /home/root/motion.conf >> $LOG &
+	;;
+  stop)
+	echo "Stopping $NAME: CCTV is now shutdown"
+	echo "stopped on `date`" >> $LOG
+	kill `ps | grep motion | head -n 1 | awk '{print $1}'`
+	;;
+  restart)
+	echo "Restarting $DESC: $NAME"
+	kill `ps | grep motion | head -n 1 | awk '{print $1}'`
+	echo "restarted on `date`" >> $LOG
+	nohup $DAEMON -c /home/root/motion.conf >> $LOG &
+        ;;
+  *)
+	N=/etc/init.d/$NAME
+	# echo "Usage: $N {start|stop|restart}" >&2
+	echo "Usage: $N {start|stop|restart}" >&2
+	exit 1
+	;;
+esac
+
+exit 0

@@ -1,0 +1,519 @@
+\documentclass[french,12pt]{report}
+\usepackage{babel}
+\usepackage{a4}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+\sloppy
+
+\begin{titlepage}
+\begin{center}
+
+%\setlength{\unitlength}{1in}
+%\begin{picture}(0,0)
+%   \put(-4.3,-10){\includegraphics{fond4.eps}}
+%\end{picture}
+
+.
+\vspace{5.3cm}
+
+\Huge \bf {POULE}
+
+\vspace{2cm}
+
+\large
+\mdseries
+\begin{tabular}{l r}
+Nicolas \textsc{Metais} & Jean-Daniel \textsc{Michaud} \\
+Jonathan \textsc{Mimouni} & Francois \textsc{Morlot}
+\end{tabular}
+
+\vspace{2cm}
+Le \today
+
+\end{center}
+\end{titlepage}
+
+\strut\thispagestyle{empty}
+\vfill
+\pagebreak
+\setcounter{page}{1}
+\tableofcontents
+\pagebreak
+
+\section*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+\markboth{\uppercase{Introduction}}
+{\uppercase{Introduction}}
+
+Ce document  est le  cahier des charges  du projet \emph{Poule}.  Il a
+pour  principale fonction  de d\'efinir  les limites  de \emph{Poule},
+ainsi que de d\'efinir  ses principales fonctionnalit\'es. Nous sommes
+rest\'es  d\'elib\'er\'ement flous  dans la  d\'efinition  de celui-ci
+afin de ne  pas hypoth\`equer nos chances de  rendre un projet complet
+et finalis\'e dans les temps.
+
+Nous  pr\'eciserons aussi  dans  ce document  les  d\'etails de  notre
+organisation.  Ainsi la r\'epartition  des t\^aches  et l'organisation
+temporelle sont pr\'esent\'ees dans la deuxieme partie.
+
+\chapter{Sp\'ecifications}
+
+Les  math\'ematiques sont  la base  de beaucoup  d'autres  sciences et
+applications aussi  bien scientifiques que  commerciales. La physique,
+la biologie ou encore la cryptographie, toutes ces sciences se servent
+all\`egrement des math\'ematiques  pour formaliser et structurer leurs
+th\'eories   fondamentales.  D\`es  l'apparition   de  l'informatique,
+domaine qui  comme son  nom l'indique a  pour base  l'information, les
+ordinateurs  ont  \'et\'e  mis   \`a  contribution  pour  traiter  des
+informations   purement  num\'eriques   en  premier   lieu   pour  les
+universit\'es americaines.  Mais  tr\`es vite, les math\'ematiciens ce
+sont apercus que les ordinateurs pouvaient bien plus que manipuler des
+nombres, aussi grands soient-ils.
+
+Les  calculs formels sont,  en effet,  parfois de  vrais casse-t\^etes
+pour les math\'ematiciens m\^eme les plus chevronn\'es. Parfois tr\`es
+compliqu\'es, ils sont sources d'erreurs et de pertes de temps. Ainsi,
+utiliser   la   puissance   des   ordinateurs   coupl\'ee   \`a   leur
+infaillibilit\'e semblait  naturelle.  Mais les choses ne  sont pas si
+\'evidentes.   La   puissance  des   ordinateurs   provient  de   leur
+simplicit\'e. Amen\'es \`a ne manipuler que des nombres, ils sont tout
+\`a  fait  incapables  d'int\'egrer  des notions  de  formalisme.  Une
+\'equation  semblant simplissime pour  un \^etre  humain ne  l'est pas
+pour un ensemble  de fils et de commutateurs.  Voici un exemple simple
+mais convainquant:
+$$ f(x) = 2 * x $$
+
+Pour un \^etre humain n'ayant pas oubli\'e ses cours du coll\`ege, que
+cela  represente-t-il  ?  Une  fonction.  Une fonction  qui  prend  en
+param\`etre  un x  quelconque  et  qui a  pour  valeur le  param\`etre
+multipli\'e   par  l'entier   2.    Pour  un   ordinateur,  que   cela
+repr\'esente-t-il ? Une simple  cha\^ine de caract\`eres. Une cha\^ine
+o\`u  tous  les  symboles  ont  une  m\^eme  signification.   $f$  est
+\'equivalent  \`a $)$  qui lui  m\^eme  est \'equivalent  \`a $*$.  On
+comprend pourquoi il sera difficile de faire comprendre \`a la machine
+que $ f(3) = 6 $.
+
+Le premier  compilateur fut \'ecrit en  avril 1957 par  John Backus et
+son \'equipe. Il compilait le  langage \emph{FORTRAN}, mais cela a peu
+d'importance. Ce qui  est important, c'est que pour  la premi\`re fois
+de  son histoire,  l'ordinateur \'etait  capable de  ``comprendre'' un
+langage de  plus haut  niveau que le  simple assembleur,  reflet trait
+pour trait, de son  architecture. Le domaine d'application du principe
+des  compilateurs  est tr\`es  vaste.  Interpretation  de scripts,  de
+fichiers de  configuration, de protocoles  de communication... partout
+o\`u l'information est repr\'esent\'ee  sous forme de texte \'ecrit et
+lisible  par un  \^etre  humain  et devant  \^etre  manipul\'e par  un
+ordinateur. C'est le  cas du calcul formel o\`u la  base du calcul, la
+formule,  doit \^etre integr\'ee  et manipul\'ee  par la  machine.  Le
+principe d'un  compilateur est assez  simple. A partir  d'une entr\'ee
+(du texte) et d'une grammaire,  le compilateur construit un arbre. Cet
+arbre est ensuite facilement manipuler par la machine pour produire le
+r\'esultat attendu,  que ce soit  pour le traduire en  langage machine
+(compilation), pour le parcourir  et le r\'eduire (calcul num\'erique)
+ou  le   r\'eduire  et   le  transformer  (calcul   num\'erique).  Ces
+op\'erations sont les objectifs du projet \emph{Poule}.
+
+\section{But}
+
+Notre but  est de r\'ealiser un  logiciel de calcul  formel capable de
+manipuler  une  formule entr\'ee  par  l'utilisateur et  d'\'effectuer
+diff\'erents  calculs de mani\`ere  formelle. De  m\^eme, \emph{Poule}
+sera capable  d'\'effectuer des  calculs num\'eriques sur  des nombres
+arbitrairement grands, la capacit\'e ne serait alors limit\'ee que par
+les  caract\`eristiques   de  la  machine.    L'analyse  de  fonctions
+math\'ematiques pourra  \^etre continu\'ee d'une  visualisation par un
+module  de  trac\'e  de  courbes.  Afin  de  rendre  l'utilisation  de
+\emph{Poule}  plus intuitive,  une interface  permettra la  saisie des
+donn\'ees et l'affichage des  formules. Enfin, un langage de scripting
+pourrait   venir  completer  les   fonctionnalit\'es  du   projets  et
+permettrait l'automatisation de certaines t\^aches.
+
+\section{Module formel}
+
+\emph{Poule}  est avant  tout une  plateforme de  calcul  formel.  Son
+environement   permettra  de   manipuler   des  entit\'es   abstraites
+d\'efinies par leur appartenance \`a un domaine de d\'efinition.
+
+
+Constituant  la  base  du   module  calcul  formel,  les  domaines  de
+d\'efintion feront l'objet d'un contr\^ole rigoureux qui pr\'ec\'edera
+tout calcul.
+
+\subsection{Le contr\^ole de types}
+
+Le contr\^ole  de type constitue la  premi\`ere \'etape d'\'evaluation
+d'une expression.
+
+
+Toutes les entit\'es de \emph{Poule} sont typ\'ees:
+\begin{itemize}
+\item les valeurs num\'eriques, par d\'efinition
+\item les  variables, qui appartiennent  obligatoirement \`a un  et un
+  seul domaine de d\'efinition
+\item  les op\'erateurs,  qui manipulent  des op\'erandes  typ\'ees et
+renvoient des expressions typ\'ees
+\item les  fonctions dont  les arguments et  la valeur de  retour sont
+typ\'es
+\item les types abstraits d\'efinis par l'utilisateur, puisqu'ils sont
+form\'es \`a partir de types pr\'eexistants
+\end{itemize}
+
+Ce  rigoureux  contr\^ole  du   typage  \`a  pour  but  d'assurer  une
+coh\'erence des r\'esultats, de  renforcer la stabilit\'e du projet et
+d'apporter un confort \`a l'utilisateur  qui en cas d'erreur de typage
+verra  son  op\'eration abandonn\'ee  avant  le  d\'ebut des  calculs,
+\'eventuellement co\^uteux en temps.
+
+Une fois le contr\^ole de  type effectu\'e, le moteur de calcul formel
+de \emph{Poule} met en place ces diff\'erentes fonctionnalit\'es.
+
+\subsection{Calcul arithm\'etique sur les entit\'es formelles}
+
+La  fonctionnalit\'e de base  du projet  est le  calcul arithm\'etique
+avec les operateurs usuels (+, -, *, /) sur des entit\'es formelles.
+
+\paragraph{}
+{\bf Exemple: }
+\begin{math}
+  (x + x + 2)
+\end{math}
+{\it  est traduit en } 
+\begin{math}
+  (2 \times x + 2)
+\end{math}
+
+\subsection{Factorisation/D\'eveloppement}
+
+La  factorisation  d'une expression  permet  de traduire  l'expression
+originale sous  forme d'un  produit d'expressions plus  simples. Cette
+fonctionnalit\'e sera  utile pour  les \'etudes de  signe, ou  pour la
+r\'esolution d'\'equations.
+
+L'op\'eration   compl\'ementaire    est   le   d\'eveloppement   d'une
+expression.
+
+Il est possible de  r\'ealiser une factorisation ou un d\'eveloppement
+partiel  en   pr\'ecisant  la   variable  par  rapport   \`a  laquelle
+l'op\'eration doit \^etre r\'ealis\'ee.
+    
+\paragraph{}
+{\bf Exemples: }
+\begin{enumerate}
+\item
+  \begin{math}
+    fact ((x + 1) * (2 * x + 4))
+  \end{math}
+  {\it  est traduit en }
+  \begin{math}
+    (2 \times (x + 1) \times (x + 2))
+  \end{math}
+\item
+  \begin{math}
+    expand (x * (5 * y + z) / 7, x)
+  \end{math}
+  {\it  est traduit en }
+  \begin{math}
+    (\frac{5 \times x \times y + x \times z}{7})
+  \end{math}
+\item
+  \begin{math}
+    fact (expand ((x + 1) * (x + 1))) 
+  \end{math}
+  {\it  est traduit en }
+  \begin{math}
+    (x + 1)^{2}
+  \end{math}
+\end{enumerate}
+
+\subsection{Simplification d'expressions}
+
+La  simplification  d'une  expression  consiste  en  son  \'evaluation
+formelle (permettant de simplifier par exemple y - y en 0), puis en sa
+factorisation, et  enfin en la simplification  en \'el\'ements neutres
+des  expressions  mettant en  relation  une  loi  de composition,  une
+op\'erande et son inverse par la  loi de composition (par exemple, 3 *
+x / 3 devient x).  Plusieurs algorithmes de simplification existent et
+se combinent  tels les simplifications  par termes ou  facteurs. Assez
+simples   et   donc   assez   rapides,  ils   donnent   d'assez   bons
+r\'esultats.   Mais  il   est   important  de   noter  que   certaines
+simplifications  faites  naturellement  \`a  la  main  peuvent  \^etre
+dangereuses si elles sont effectu\'ees systematiquement.
+
+Il est aussi int\'eressant  de remarquer que certaines simplifications
+donnent des r\'esultats diff\'erents  selon le domaine de d\'efinition
+des variables.
+
+\paragraph{}
+{\bf Exemples: }
+\begin{enumerate}
+\item
+  \begin{math}
+    \sqrt {x^{2}} | x > 0
+  \end{math}
+      {\it  se simplifie en } x
+\item
+  \begin{math}
+    \sqrt {x^{2}} | x < 0
+  \end{math}
+  {\it  se simplifie en } -x
+\end{enumerate}
+
+
+\subsection{Substitution de variables}
+
+Il est possible  de substituer une variable par  une valeur, une autre
+variable ou une expression.
+
+La substitution d'une  variable par une autre variable  n'est pas sans
+rappeler l'alpha-r\'eduction  du lambda-calcul. Cette fonctionnalit\'e
+sera se montrer utile  lors de la manipulation d'expressions contenant
+des variables libres.
+
+\paragraph{}
+{\bf Exemple: }
+\begin{math}
+  (ln(x) + y) | x = 2 
+\end{math}
+ and 
+\begin{math}
+  y = ln(z)
+\end{math}
+{\it  est traduit en } 
+\begin{math}
+  (ln(2 \times z))
+\end{math}
+
+
+\subsection{Evaluation d'expressions}
+
+L'\'evaluation d'une expression consiste  en la substitution de toutes
+les variables de l'expression  par une valeur respectant l'ensemble de
+d\'efinition de la variable, puis en son calcul alg\'ebrique.
+
+\paragraph{}
+{\bf Exemple: }
+\begin{math}
+  (sqrt(x) + y) / z | x = 5
+\end{math}
+and 
+\begin{math}
+  y = 1
+\end{math}
+and 
+\begin{math}
+  z = 2
+\end{math}
+{\it  s'\'evalue en } 
+\begin{math}
+  1.618 033 989
+\end{math}
+
+\subsection{R\'esolution de syst\`emes d'\'equations et d'in\'equations}
+
+\emph{Poule} r\'esoud les \'equations  \`a une ou plusieurs inconnues.
+Il permet \'egalement la r\'esolution des syst\`emes d'\'equations \`a
+solutions r\'eelles et complexes.
+
+Il est  possible de  pr\'eciser un intervale  dans lequel  les racines
+(valeurs   des  variables  qui   annulent  les   \'equations)  doivent
+appartenir.
+
+Toutes  ces  fonctionnalit\'es  sont  \'egalement  valables  pour  les
+in\'equations et syst\`emes d'in\`equations.
+
+\subsection{Calcul de d\'eriv\'ees}
+
+Le moteur de calcul formel  de \emph{ Poule} offre la possibilit\'e de
+calculer,   sous   sa  forme   factoris\'ee,   la  d\'eriv\'ee   d'une
+fonction. \\Il est \'egalement possible:
+\begin {itemize}
+\item de calculer la d\'eriv\'ee d'une fonction en un point;
+\item de pr\'eciser  la variable par rapport \`a  laquelle doit \^etre
+calcul\'ee la d\'eriv\'ee, dans  le cadre d'une fonction \`a plusieurs
+variables;
+\item d'obtenir la d\'eriv\'ee n-i\`eme d'une fonction.
+\item d'effectuer des calculs de Laplaciens, de rotationnels, ...
+\end{itemize}
+
+
+Evidement,   toutes  ces   fonctionnalit\'es  n\'ecessitent   que  les
+fonctions utilis\'ees soient d\'erivables.
+
+
+\subsection{Calcul de primitives et d'int\'egrales}
+
+De  la  m\^eme fa\c{c}on  que  les  d\'eriv\'ees,  \emph{ Poule}  sait
+calculer  les  primitives  d'une  fonction.  Il est  possible  de  lui
+pr\'eciser la valeur de la constante d'int\'egration.
+
+
+Li\'e au calcul de primitives, le calcul d'int\'egrales met en jeu des
+r\`egles  plus fines  (comme la  reconnaissance d'une  fonction paire,
+simplifiant  le r\'esulat).  D'autre part,  \emph{ Poule}  est capable
+d'effectuer des  calculs sur des  int\'egrales impropres (int\'egrales
+qui font intervenir  des bornes infinies, ou encore  une fonctions non
+d\'efinies aux bornes ou en points de l'intervale \'etudi\'e).  Enfin,
+l'imbrication  des  int\'egrales  permet  des  calculs  d'int\'egrales
+doubles, triples, ...
+
+
+\section{Module num\'erique}
+
+\subsection{Calcul sur les flottants}
+
+Cette partie regroupe toutes les differentes fonctions appel\'ees lors
+de l'\'evaluation  num\'erique d'une formule.  On y trouve,  bien sur,
+les  differents  operateurs($+$,$-$,$*$,$/$),  mais aussi  des  autres
+fonctions     comme    log,     exponentiel    et     les    fonctions
+trigonometriques.    Celles-ci   seront    calcul\'ees    \`a   partir
+d'approximations. En effet, il serait interressant de pouvoir disposer
+d'une  precision   variable.  On  ne  veut  pas   toujours  un  calcul
+extremement  pr\'ecis, mais  il est  utile de  pouvoir  disposer d'une
+precision  arbitrairement grande.  Cela nous  permettra  d'inserer des
+algorithmes  de calcul de  $\pi$ et  de $e$  pour correspondre  \`a la
+pr\'ecision demand\'ee.   Il faudra donc  un module de calcul  sur des
+nombres   flottants    arbitrairement   grands,   un   d'approximation
+num\'erique  de  formules  et   un  de  calcul  des  constantes  comme
+$\pi$. Ces  fonctions devront  respecter une contrainte  de rapidit\'e
+car elles  seront utilis\'ees tr\`es souvent. Par  exemple, pour faire
+une integrale num\'erique, il faudra calculer des milliers de fois une
+fonction complexe contenant elle-m\^eme plusieurs fonctions de calcul.
+
+\subsection{Calcul sur les entiers}
+
+Cette  partie regroupe  toutes  les operations  sp\'ecifiques sur  les
+entiers.   En effet,  les operations  se rapproche  de celles  sur les
+flottants (sans  aucun chiffre  apres la virgule).  Il y a  donc, dans
+cette  partie,  les  differentes  operations  arithmetiques.  On  peut
+imaginer differents  tests de primalit\'e (par exemple  un test rapide
+probabiliste  et  un  plus  lent  bas\'e sur  le  principe  du  crible
+d'erathostene). De plus, on peut rajouter des fonctions de congruence,
+de factorisation en facteurs premiers et quelques autres fonctions.
+
+
+\section{Module graphique}
+
+Le  module graphique  fait partie  des modules  qui ne  presentent \`a
+priori que peu  d'interet au niveau de leur  programmation. Mais, tout
+comme le module IHM, il a pour r\^ole "d'\'eclairer" l'utilisateur sur
+le r\'esultat. En effet,  la tra\'e graphique permet \`a l'utilisateur
+de visualiser \'enormement de choses en un seul coup d'oeil; ainsi une
+fonction obscure comme par exemple
+\begin{center}
+\verb!integrate(exp(2*x^3 - 4) + 7) * cos (x)^3!
+\end{center}
+
+s'interprete  beaucoup mieux,  pour une  etude rapide,  sous  la forme
+d'une courbe.  En effet la representation graphique en 2D d'une simple
+fonction donne \`a tout bachelier une mine d'informations: Son allure,
+ses racines simples, ...
+
+Bien entendu, nous  avons pour objectif de d\'epasser  ce simple cadre
+de  visualisation  en  2D.  Des  rendus 3D  permettant  de  visualiser
+certaines courbes  sont prevus. De plus,  une certaine interactivit\'e
+avec  le  module  graphique  est  envisageable.  La  possibilit\'e  de
+d\'efinir  les bornes  pour le  calcul de  racines directement  sur le
+graphe  ou le  calcul d'une  int\'egrale num\'erique  font  partie des
+actions rendant le graphe plus dynamique.
+
+\section{Module IHM}
+
+L'Interface  Homme-Machine (\emph{IHM})  de \emph{Poule}  est,  \`a la
+base,  constitu\'ee  du  terminal  classique  d'\emph{Unix}.  Celui-ci
+permettra la lecture des  formules et des diff\'erents traitements \`a
+y appliquer ainsi que  les ``commandes syst\`eme'' aff\`erentes \`a la
+gestion de \emph{Poule}. Il  permettra aussi la sortie des r\'esultats
+des  calculs   et  des   diff\'erents  messages  \`a   l'attention  de
+l'utilisateur.
+
+Produire une  belle interface,  haut en couleur  n'est pas le  but, ni
+m\^eme un inter\^et  de ce projet. Malgr\'e tout,  il nous faut \^etre
+pragmatique, l'\'ecriture  et la lecture  de formules math\'ematiques,
+parfois longues et  complexes peut se transformer en  un vrai calvaire
+sur les terminaux usuels  d'\emph{Unix}. C'est pourquoi une \emph{IHM}
+graphique,  peut \^etre d'un  grand secours.  Mais comme  nous l'avons
+dit, elle  ne doit pas monopoliser  notre temps et  nous emp\^echer de
+developper les parties centrales  de notre projet. Ainsi, nous restons
+d\'elib\`erement hypoth\'etique  sur l'avenir de  cette \emph{IHM}. Le
+but sera  de mod\'eliser un projet  pouvant, si le  temps nous manque,
+accepter plus tard un front-end graphique.
+
+De quoi ce  module peut-\^etre constitu\'e ? D'une  part, et cela nous
+semble  essentiel, d'une  fen\^etre graphique  capable  d'afficher les
+diff\'erents signes math\'ematiques  composant les formules. Chiffres,
+lettres, symboles d'int\'egration, etc ... Mais aussi d'un ensemble de
+boutons accessibles  \`a la souris permettant la  simplification de la
+saisie  de  formules.  Ainsi,  vouloir d\'efinir  l'int\'egral  de  la
+fonction  exponentielle   de  borne   inferieure  \'egale  \`a   0  et
+sup\'erieure \'egale \`a 1:
+$$ \int_{0}^{1} e^x dx $$
+se fera difficilement sur un terminal:
+$$ \verb!integrate (exp(x), x, 0, 1)! $$
+Mais beaucoup plus facilement gr\^ace \`a l'\emph{IHM}. Le proc\'ed\'e,
+m\^eme s'il n'est pas rigide, pourra se pr\'esenter ainsi:
+
+
+$$ \verb!clic sur le bouton d'integration! $$
+$$ \verb!clic sur la fonction exponetielle! $$ 
+$$ \verb!clic sur la variable x! $$
+$$ \verb!entree manuelle des deux bornes! $$
+$$ \verb!clic sur le bouton de calcul numerique! $$
+
+On le  voit, l'\emph{IHM}, malgr\'e  son manque d'inter\^et  au niveau
+d\'veloppement,  reste un  attribut essentiel  de  \emph{Poule}, c'est
+pourquoi son int\'egration future devra \^etre prise en compte.
+
+
+\chapter{Organisation}
+\section{R\'epartition des t\^aches}
+\section{Planning}
+\section{Prochainement}
+
+La mod\'elisation est la prochaine \'etape de notre travail. Bien nous
+organiser  pour construire une  mod\'elisation \`a  la hauteur  de nos
+amibtions est l'objectif courant.
+
+\chapter{Sources d'informations}
+
+Principalement  les livres  et  le net.  Notre  souteneur aussi,  Yann
+Regis-Gianas. Mais nous envisageons de contacter les auteurs de COQ ou
+FOC si le besoin s'en fait sentir.
+
+\section{Internet}
+
+\begin {itemize}
+\item {ocaml.inria.fr}
+\end {itemize}
+
+\section{Livres}
+
+Les principaux ouvrages sont:
+\begin {itemize}
+\item {Le calcul formel en pascal, d'Albert Levinas}
+\item {Le calcul formel, de ???}
+\end {itemize}
+
+\pagebreak
+
+\section*{Conclusion}
+\addcontentsline{toc}{chapter}{Conclusion}
+\markboth{\uppercase{Conclusion}}
+{\uppercase{Conclusion}}
+
+Le grand  d\'efi de notre projet  ne tient pas en  la r\'ealisation de
+toutes ces fonctionnalit\'es mais  avant tout en l'\'elaboration d'une
+plateforme    de   calcul    formel   {\bf    extensible}    et   {\bf
+intelligente}.  Par ``extensible'', nous  entendons qu'il  sera facile
+d'int\'egrer   de   nouvelles   fonctionnalit\'es   au   projet.   Par
+``intelligente'',  nous  entendons  que  \emph{  Poule}  sera  capable
+d'apprendre de l'utilisateur. \\En effet, il sera possible d'enseigner
+\`a \emph{ Poule} de nouvelles lois de simplification (par exemple:
+\begin{math}
+  {x^{a}} \times {x^{b}} = {x^{a+b}}
+\end{math}
+).  Toute la  puissance de  \emph{  Poule} sera  alors d'utiliser  ces
+nouvelles r\`egles assimil\'ees au sein de ses fonctionalit\'es.
+
+\end{document}

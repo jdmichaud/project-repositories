@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/47/21sh/src/utils
+END
+list.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/47/21sh/src/utils/list.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/47/21sh/src/utils/Makefile
+END
+xmalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/47/21sh/src/utils/xmalloc.c
+END

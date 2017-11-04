@@ -1,0 +1,243 @@
+This is TeX, Version 3.14159 (Web2C 7.3.1) (format=latex 2001.5.10)  28 JUN 2002 21:17
+**rapport.tex
+(rapport.tex
+LaTeX2e <1999/12/01> patch level 1
+Babel <v3.6Z> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+(/usr/pkg/share/texmf/tex/latex/base/report.cls
+Document Class: report 1999/09/10 v1.4a Standard LaTeX document class
+(/usr/pkg/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 1999/09/10 v1.4a Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/pkg/share/texmf/tex/generic/babel/babel.sty
+Package: babel 1999/09/09 v3.6Z The Babel package
+
+(/usr/pkg/share/texmf/tex/generic/babel/frenchb.ldf
+Language: frenchb 1999/08/18 v1.3g French support from the babel system
+
+(/usr/pkg/share/texmf/tex/generic/babel/babel.def
+File: babel.def 1999/09/09 v3.6Z Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+Package babel Info: Making : an active character on input line 126.
+Package babel Info: Making ; an active character on input line 127.
+Package babel Info: Making ! an active character on input line 128.
+Package babel Info: Making ? an active character on input line 129.
+))
+(/usr/pkg/share/texmf/tex/latex/ntgclass/a4.sty
+Package: a4 1999/03/03 v1.2f A4 based page layout
+)
+(/usr/pkg/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/pkg/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/pkg/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 1999/02/16 v1.0l Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/pkg/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/pkg/share/texmf/tex/latex/config/graphics.cfg)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(/usr/pkg/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+) (rapport.aux)
+\openout1 = `rapport.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT2/wncyr/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for OT2+wncyr on input line 15
+.
+
+(/usr/pkg/share/texmf/tex/latex/cyrillic/ot2wncyr.fd
+File: ot2wncyr.fd 1999/05/31 v3.2 Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 16.
+ [1
+
+] [1] (rapport.toc)
+\tf@toc=\write3
+\openout3 = `rapport.toc'.
+
+
+[1
+
+] [2]
+File: DUtilisation2.eps Graphic file (type eps)
+ <DUtilisation2.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 57--58
+[][] 
+ []
+
+[3]
+File: DUtilisation1.eps Graphic file (type eps)
+ <DUtilisation1.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 65--66
+[][] 
+ []
+
+[4]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 81.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 81.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 81.
+ [5] [6]
+Overfull \hbox (34.96368pt too wide) in paragraph at lines 242--246
+[][] 
+ []
+
+[7] [8]
+File: DdeC.eps Graphic file (type eps)
+ <DdeC.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 314--315
+[][] 
+ []
+
+[9]
+File: A-0.eps Graphic file (type eps)
+ <A-0.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 333--334
+[][] 
+ []
+
+[10]
+File: A0.eps Graphic file (type eps)
+ <A0.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 341--342
+[][] 
+ []
+
+[11]
+File: A1.eps Graphic file (type eps)
+ <A1.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 349--350
+[][] 
+ []
+
+[12]
+File: A2.eps Graphic file (type eps)
+ <A2.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 357--358
+[][] 
+ []
+
+[13]
+File: A23.eps Graphic file (type eps)
+ <A23.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 365--366
+[][] 
+ []
+
+[14]
+File: A3.eps Graphic file (type eps)
+ <A3.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 373--374
+[][] 
+ []
+
+[15]
+File: MPlateau.eps Graphic file (type eps)
+ <MPlateau.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 390--391
+[][] 
+ []
+
+[16]
+File: MRules.eps Graphic file (type eps)
+ <MRules.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 398--399
+[][] 
+ []
+
+[17]
+File: MActions.eps Graphic file (type eps)
+ <MActions.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 406--407
+[][] 
+ []
+
+[18]
+File: MCoups.eps Graphic file (type eps)
+ <MCoups.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 414--415
+[][] 
+ []
+
+[19]
+File: MRe.eps Graphic file (type eps)
+ <MRe.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 422--423
+[][] 
+ []
+
+[20]
+File: BDserveur.eps Graphic file (type eps)
+ <BDserveur.eps> [21]
+File: BDserveurQuery.eps Graphic file (type eps)
+ <BDserveurQuery.eps> [22]
+File: BD.eps Graphic file (type eps)
+ <BD.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 446--447
+[][] 
+ []
+
+[23]
+File: DSequenceRules.eps Graphic file (type eps)
+ <DSequenceRules.eps> [24]
+File: DSRe.eps Graphic file (type eps)
+ <DSRe.eps>
+Overfull \hbox (43.30531pt too wide) in paragraph at lines 471--472
+[][] 
+ []
+
+[25]
+File: DSequenceBD.eps Graphic file (type eps)
+ <DSequenceBD.eps> [26] [27] (rapport.aux) ) 
+Here is how much of TeX's memory you used:
+ 1057 strings out of 10901
+ 12004 string characters out of 72444
+ 62974 words of memory out of 263001
+ 4001 multiletter control sequences out of 10000+0
+ 9715 words of font info for 34 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 25i,7n,24p,239b,375s stack positions out of 300i,100n,500p,50000b,4000s
+
+Output written on rapport.dvi (29 pages, 16500 bytes).

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/44/icp/config
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/44/icp/config/depcomp
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/44/icp/config/missing
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/44/icp/config/Makefile.am
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/44/icp/config/Makefile
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/44/icp/config/install-sh
+END
+mkinstalldirs
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/44/icp/config/mkinstalldirs
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/44/icp/config/Makefile.in
+END

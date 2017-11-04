@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/59/vm/lib/data_struct
+END
+list_push.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/59/vm/lib/data_struct/list_push.c
+END
+df_remove_elt.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/59/vm/lib/data_struct/df_remove_elt.c
+END
+list_free.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/59/vm/lib/data_struct/list_free.c
+END
+df_genlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/59/vm/lib/data_struct/df_genlist.c
+END
+ntree_free.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/59/vm/lib/data_struct/ntree_free.c
+END
+list_find_node.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/59/vm/lib/data_struct/list_find_node.c
+END
+df_create_elt.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/59/vm/lib/data_struct/df_create_elt.c
+END
+list_inslist.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/59/vm/lib/data_struct/list_inslist.c
+END
+vchar_from_list.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/59/vm/lib/data_struct/vchar_from_list.c
+END
+list_delhead.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/59/vm/lib/data_struct/list_delhead.c
+END
+list_sort.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/59/vm/lib/data_struct/list_sort.c
+END
+ntree_find_node.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/59/vm/lib/data_struct/ntree_find_node.c
+END
+ntree.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/59/vm/lib/data_struct/ntree.h
+END
+data_struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/59/vm/lib/data_struct/data_struct.h
+END
+df_list_elt.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/59/vm/lib/data_struct/df_list_elt.c
+END
+xprintf.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/59/vm/lib/data_struct/xprintf.c
+END
+df_genlist_pref.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/59/vm/lib/data_struct/df_genlist_pref.c
+END
+df_free.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/59/vm/lib/data_struct/df_free.c
+END
+df_get_elt.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/59/vm/lib/data_struct/df_get_elt.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/59/vm/lib/data_struct/Makefile
+END
+list_append_list.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/59/vm/lib/data_struct/list_append_list.c
+END
+list_create.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/59/vm/lib/data_struct/list_create.c
+END
+xmalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/59/vm/lib/data_struct/xmalloc.c
+END
+vchar_to_list.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/59/vm/lib/data_struct/vchar_to_list.c
+END
+ntree_create.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/59/vm/lib/data_struct/ntree_create.c
+END
+list_append.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/59/vm/lib/data_struct/list_append.c
+END
+list_put.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/59/vm/lib/data_struct/list_put.c
+END
+list_size.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/59/vm/lib/data_struct/list_size.c
+END
+df_ins_elt.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/59/vm/lib/data_struct/df_ins_elt.c
+END

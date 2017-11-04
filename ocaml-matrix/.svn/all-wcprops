@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/62/ocaml-matrix
+END
+matrix.ml
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/62/ocaml-matrix/matrix.ml
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/62/ocaml-matrix/Makefile
+END
+element.ml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/62/ocaml-matrix/element.ml
+END
+array_matrix.mli
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/62/ocaml-matrix/array_matrix.mli
+END
+matrix.mli
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/62/ocaml-matrix/matrix.mli
+END
+array_matrix.ml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/62/ocaml-matrix/array_matrix.ml
+END
+element.mli
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/62/ocaml-matrix/element.mli
+END
+OCamlMakefile
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/62/ocaml-matrix/OCamlMakefile
+END

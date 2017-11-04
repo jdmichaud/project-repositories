@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/svn/!svn/ver/63/netTalk
+END
+conf
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/63/netTalk/conf
+END
+benchconf
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/63/netTalk/benchconf
+END
+OcamlMakefile
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/63/netTalk/OcamlMakefile
+END
+save
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/63/netTalk/save
+END
+printnn.ml
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/63/netTalk/printnn.ml
+END
+csv.ml
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/63/netTalk/csv.ml
+END
+network.nn
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/63/netTalk/network.nn
+END
+encule.csv
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/63/netTalk/encule.csv
+END
+NovLex.csv
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/63/netTalk/NovLex.csv
+END
+save.ml
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/63/netTalk/save.ml
+END
+learn.ml
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/63/netTalk/learn.ml
+END
+nndesc.mly
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/63/netTalk/nndesc.mly
+END
+makein.ml
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/63/netTalk/makein.ml
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/63/netTalk/Makefile
+END
+test
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/63/netTalk/test
+END
+nnconf.mly
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/63/netTalk/nnconf.mly
+END
+net
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/63/netTalk/net
+END
+enculeR.csv
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/63/netTalk/enculeR.csv
+END
+allezhop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/63/netTalk/allezhop.sh
+END
+bench.sh
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/63/netTalk/bench.sh
+END
+letters.ml
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/63/netTalk/letters.ml
+END
+main.ml
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/63/netTalk/main.ml
+END
+phonemes.mli
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/63/netTalk/phonemes.mli
+END
+filtre.sh
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/63/netTalk/filtre.sh
+END
+stopbobbyat.sh
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/63/netTalk/stopbobbyat.sh
+END
+nndescscan.mll
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/63/netTalk/nndescscan.mll
+END
+phoneme.ml
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/63/netTalk/phoneme.ml
+END
+gnuplot.command
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/63/netTalk/gnuplot.command
+END
+todo
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/63/netTalk/todo
+END
+createnn.ml
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/63/netTalk/createnn.ml
+END
+network.mli
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/63/netTalk/network.mli
+END
+activnn.ml
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/63/netTalk/activnn.ml
+END
+nnconfscan.mll
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/63/netTalk/nnconfscan.mll
+END
+apprentnn.ml
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/63/netTalk/apprentnn.ml
+END
+melange.sh
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/63/netTalk/melange.sh
+END
+confold
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/63/netTalk/confold
+END

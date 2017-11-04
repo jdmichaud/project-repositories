@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/57/mpn/mp5/norps
+END
+my_ctype.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/57/mpn/mp5/norps/my_ctype.h
+END
+libs.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/57/mpn/mp5/norps/libs.h
+END
+format_params.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/57/mpn/mp5/norps/format_params.h
+END
+norps.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/57/mpn/mp5/norps/norps.c
+END
+parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/57/mpn/mp5/norps/parser.h
+END
+libs_error.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/57/mpn/mp5/norps/libs_error.c
+END
+my_xmalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/57/mpn/mp5/norps/my_xmalloc.c
+END
+norps.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/57/mpn/mp5/norps/norps.h
+END
+libs_error.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/57/mpn/mp5/norps/libs_error.h
+END
+io.c
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/57/mpn/mp5/norps/io.c
+END
+my_xmalloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/57/mpn/mp5/norps/my_xmalloc.h
+END
+my_ctype2.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/57/mpn/mp5/norps/my_ctype2.c
+END
+vars.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/57/mpn/mp5/norps/vars.c
+END
+sub_parsing.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/57/mpn/mp5/norps/sub_parsing.c
+END
+io.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/57/mpn/mp5/norps/io.h
+END
+my_ctype2.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/57/mpn/mp5/norps/my_ctype2.h
+END
+vars.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/57/mpn/mp5/norps/vars.h
+END
+sub_parsing.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/57/mpn/mp5/norps/sub_parsing.h
+END
+parse_error.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/57/mpn/mp5/norps/parse_error.c
+END
+parse_func.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/57/mpn/mp5/norps/parse_func.c
+END
+parse_error.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/57/mpn/mp5/norps/parse_error.h
+END
+parse_func.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/57/mpn/mp5/norps/parse_func.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/57/mpn/mp5/norps/Makefile
+END
+utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/57/mpn/mp5/norps/utils.c
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/57/mpn/mp5/norps/utils.h
+END
+list.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/57/mpn/mp5/norps/list.c
+END
+cmd_func.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/57/mpn/mp5/norps/cmd_func.c
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/57/mpn/mp5/norps/list.h
+END
+cmd_func.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/57/mpn/mp5/norps/cmd_func.h
+END
+is_func.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp5/norps/is_func.c
+END
+libs.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/57/mpn/mp5/norps/libs.c
+END
+my_ctype.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/57/mpn/mp5/norps/my_ctype.c
+END
+struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/57/mpn/mp5/norps/struct.h
+END
+is_func.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/57/mpn/mp5/norps/is_func.h
+END
+format_params.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/57/mpn/mp5/norps/format_params.c
+END
+parser.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/57/mpn/mp5/norps/parser.c
+END

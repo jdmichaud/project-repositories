@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/16/gumstix.packager
+END
+package.sh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/16/gumstix.packager/package.sh
+END
+standard_package
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/16/gumstix.packager/standard_package
+END
+reflash.sh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/16/gumstix.packager/reflash.sh
+END

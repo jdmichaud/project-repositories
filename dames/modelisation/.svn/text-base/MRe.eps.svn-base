@@ -1,0 +1,741 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: /nfs/s3/space/users/a1/michau_j/java/dames/modelisation/Modelisation statique rezo
+%%Creator: Dia v0.88.1
+%%CreationDate: Fri Jun 28 17:14:19 2002
+%%For: michau_j
+%%Magnification: 1.0000
+%%Orientation: Portrait
+%%BoundingBox: 0 0 1704 1278
+%%Pages: 1
+%%BeginSetup
+%%EndSetup
+%%EndComments
+%%BeginProlog
+[ /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright
+/parenleft /parenright /asterisk /plus /comma /hyphen /period /slash /zero /one
+/two /three /four /five /six /seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at /A /B /C /D /E
+/F /G /H /I /J /K /L /M /N /O
+/P /Q /R /S /T /U /V /W /X /Y
+/Z /bracketleft /backslash /bracketright /asciicircum /underscore /quoteleft /a /b /c
+/d /e /f /g /h /i /j /k /l /m
+/n /o /p /q /r /s /t /u /v /w
+/x /y /z /braceleft /bar /braceright /asciitilde /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclamdown /cent /sterling /currency /yen /brokenbar /section /dieresis /copyright
+/ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron /degree /plusminus /twosuperior /threesuperior
+/acute /mu /paragraph /periodcentered /cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf
+/threequarters /questiondown /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis /Eth /Ntilde
+/Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash /Ugrave /Uacute /Ucircumflex
+/Udieresis /Yacute /Thorn /germandbls /agrave /aacute /acircumflex /atilde /adieresis /aring
+/ae /ccedilla /egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide /oslash /ugrave
+/uacute /ucircumflex /udieresis /yacute /thorn /ydieresis] /isolatin1encoding exch def
+/Times-Roman-latin1
+    /Times-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-Italic-latin1
+    /Times-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-Bold-latin1
+    /Times-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-BoldItalic-latin1
+    /Times-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-Book-latin1
+    /AvantGarde-Book findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-BookOblique-latin1
+    /AvantGarde-BookOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-Demi-latin1
+    /AvantGarde-Demi findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-DemiOblique-latin1
+    /AvantGarde-DemiOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-Light-latin1
+    /Bookman-Light findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-LightItalic-latin1
+    /Bookman-LightItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-Demi-latin1
+    /Bookman-Demi findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-DemiItalic-latin1
+    /Bookman-DemiItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-latin1
+    /Courier findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-Oblique-latin1
+    /Courier-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-Bold-latin1
+    /Courier-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-BoldOblique-latin1
+    /Courier-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-latin1
+    /Helvetica findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Oblique-latin1
+    /Helvetica-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Bold-latin1
+    /Helvetica-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-BoldOblique-latin1
+    /Helvetica-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-latin1
+    /Helvetica-Narrow findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-Oblique-latin1
+    /Helvetica-Narrow-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-Bold-latin1
+    /Helvetica-Narrow-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-BoldOblique-latin1
+    /Helvetica-Narrow-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-Roman-latin1
+    /NewCenturySchoolbook-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-Italic-latin1
+    /NewCenturySchoolbook-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-Bold-latin1
+    /NewCenturySchoolbook-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-BoldItalic-latin1
+    /NewCenturySchoolbook-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Roman-latin1
+    /Palatino-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Italic-latin1
+    /Palatino-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Bold-latin1
+    /Palatino-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-BoldItalic-latin1
+    /Palatino-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Symbol-latin1
+    /Symbol findfont
+definefont pop
+/ZapfChancery-MediumItalic-latin1
+    /ZapfChancery-MediumItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/ZapfDingbats-latin1
+    /ZapfDingbats findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/cp {closepath} bind def
+/c {curveto} bind def
+/f {fill} bind def
+/a {arc} bind def
+/ef {eofill} bind def
+/ex {exch} bind def
+/gr {grestore} bind def
+/gs {gsave} bind def
+/sa {save} bind def
+/rs {restore} bind def
+/l {lineto} bind def
+/m {moveto} bind def
+/rm {rmoveto} bind def
+/n {newpath} bind def
+/s {stroke} bind def
+/sh {show} bind def
+/slc {setlinecap} bind def
+/slj {setlinejoin} bind def
+/slw {setlinewidth} bind def
+/srgb {setrgbcolor} bind def
+/rot {rotate} bind def
+/sc {scale} bind def
+/sd {setdash} bind def
+/ff {findfont} bind def
+/sf {setfont} bind def
+/scf {scalefont} bind def
+/sw {stringwidth pop} bind def
+/tr {translate} bind def
+
+/ellipsedict 8 dict def
+ellipsedict /mtrx matrix put
+/ellipse
+{ ellipsedict begin
+   /endangle exch def
+   /startangle exch def
+   /yrad exch def
+   /xrad exch def
+   /y exch def
+   /x exch def   /savematrix mtrx currentmatrix def
+   x y tr xrad yrad sc
+   0 0 1 startangle endangle arc
+   savematrix setmatrix
+   end
+} def
+
+/mergeprocs {
+dup length
+3 -1 roll
+dup
+length
+dup
+5 1 roll
+3 -1 roll
+add
+array cvx
+dup
+3 -1 roll
+0 exch
+putinterval
+dup
+4 2 roll
+putinterval
+} bind def
+28.346000 -28.346000 scale
+26.850000 -36.450000 translate
+%%EndProlog
+
+
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 9.400000 -2.250000 m 9.400000 -0.850000 l 22.804800 -0.850000 l 22.804800 -2.250000 l f
+0.000000 0.000000 0.000000 srgb
+n 9.400000 -2.250000 m 9.400000 -0.850000 l 22.804800 -0.850000 l 22.804800 -2.250000 l cp s
+/Helvetica-BoldOblique-latin1 ff 1.000000 scf sf
+(TNet) dup sw 2 div 16.102400 ex sub -1.250000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 9.400000 -0.850000 m 9.400000 4.150000 l 22.804800 4.150000 l 22.804800 -0.850000 l f
+0.000000 0.000000 0.000000 srgb
+n 9.400000 -0.850000 m 9.400000 4.150000 l 22.804800 4.150000 l 22.804800 -0.850000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+_port: int) 9.550000 -0.155310 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_socket: Socket) 9.550000 0.644690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_id: int) 9.550000 1.444690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_outstream: PrintWriter) 9.550000 2.244690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_instream: BufferedReader) 9.550000 3.044690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_stop: boolean) 9.550000 3.844690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 9.400000 4.150000 m 9.400000 9.950000 l 22.804800 9.950000 l 22.804800 4.150000 l f
+0.000000 0.000000 0.000000 srgb
+n 9.400000 4.150000 m 9.400000 9.950000 l 22.804800 9.950000 l 22.804800 4.150000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+send\(msg:string\)) 9.550000 4.844690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+receive\(\): string) 9.550000 5.644690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+close\(\)) 9.550000 6.444690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+sync\(\)) 9.550000 7.244690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+protocolError\(\)) 9.550000 8.044690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+bye\(\)) 9.550000 8.844690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+\(\)) 9.550000 9.644690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -26.800000 12.000000 m -26.800000 13.400000 l -1.760000 13.400000 l -1.760000 12.000000 l f
+0.000000 0.000000 0.000000 srgb
+n -26.800000 12.000000 m -26.800000 13.400000 l -1.760000 13.400000 l -1.760000 12.000000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TNetServer) dup sw 2 div -14.280000 ex sub 13.000000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -26.800000 13.400000 m -26.800000 16.800000 l -1.760000 16.800000 l -1.760000 13.400000 l f
+0.000000 0.000000 0.000000 srgb
+n -26.800000 13.400000 m -26.800000 16.800000 l -1.760000 16.800000 l -1.760000 13.400000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+_port: int) -26.650000 14.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_count: int) -26.650000 14.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_waiting_game: Vector) -26.650000 15.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_games: HashMap) -26.650000 16.494690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -26.800000 16.800000 m -26.800000 23.400000 l -1.760000 23.400000 l -1.760000 16.800000 l f
+0.000000 0.000000 0.000000 srgb
+n -26.800000 16.800000 m -26.800000 23.400000 l -1.760000 23.400000 l -1.760000 16.800000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+create\(\)) -26.650000 17.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+register\(no:int,creator:int\)) -26.650000 18.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getGames\(\): HashMap) -26.650000 19.094690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+create\(creator:int\)) -26.650000 19.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getWaitingGames\(\): Vector) -26.650000 20.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+addObserver\(obs:TNetServerThread,creator :int\)) -26.650000 21.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+createGame\(creator:TNetServerThread,rules:String\)) -26.650000 22.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+hitBroadcast\(hit:String,origin:TNetServerThread\)) -26.650000 23.094690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -10.700000 29.800000 m -10.700000 31.200000 l -0.204000 31.200000 l -0.204000 29.800000 l f
+0.000000 0.000000 0.000000 srgb
+n -10.700000 29.800000 m -10.700000 31.200000 l -0.204000 31.200000 l -0.204000 29.800000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TNetThread) dup sw 2 div -5.452000 ex sub 30.800000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -10.700000 31.200000 m -10.700000 34.600000 l -0.204000 34.600000 l -0.204000 31.200000 l f
+0.000000 0.000000 0.000000 srgb
+n -10.700000 31.200000 m -10.700000 34.600000 l -0.204000 34.600000 l -0.204000 31.200000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+_port: int) -10.550000 31.894690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_server: TNetServer) -10.550000 32.694690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_id: int) -10.550000 33.494690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_socket: Socket) -10.550000 34.294690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -10.700000 34.600000 m -10.700000 36.400000 l -0.204000 36.400000 l -0.204000 34.600000 l f
+0.000000 0.000000 0.000000 srgb
+n -10.700000 34.600000 m -10.700000 36.400000 l -0.204000 36.400000 l -0.204000 34.600000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+run\(\)) -10.550000 35.294690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+register\(\)) -10.550000 36.094690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -7.550000 26.250000 m -7.550000 27.650000 l -3.447300 27.650000 l -3.447300 26.250000 l f
+0.000000 0.000000 0.000000 srgb
+n -7.550000 26.250000 m -7.550000 27.650000 l -3.447300 27.650000 l -3.447300 26.250000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(Thread) dup sw 2 div -5.498650 ex sub 27.250000 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 18.350000 11.450000 m 18.350000 12.850000 l 33.209200 12.850000 l 33.209200 11.450000 l f
+0.000000 0.000000 0.000000 srgb
+n 18.350000 11.450000 m 18.350000 12.850000 l 33.209200 12.850000 l 33.209200 11.450000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TNetClient) dup sw 2 div 25.779600 ex sub 12.450000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 18.350000 12.850000 m 18.350000 22.650000 l 33.209200 22.650000 l 33.209200 12.850000 l f
+0.000000 0.000000 0.000000 srgb
+n 18.350000 12.850000 m 18.350000 22.650000 l 33.209200 22.650000 l 33.209200 12.850000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+cmd\(\)) 18.500000 13.544690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+name\(player_name:string\)) 18.500000 14.344690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+elo\(\): int) 18.500000 15.144690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+hit\(data:string\)) 18.500000 15.944690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+visualize\(\)) 18.500000 16.744690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+save\(name:string\)) 18.500000 17.544690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+last\(\)) 18.500000 18.344690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+prev\(\)) 18.500000 19.144690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+interpret\(data:string\)) 18.500000 19.944690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+id\(\): int) 18.500000 20.744690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+play\(gameno:int\): boolean) 18.500000 21.544690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+observe\(gameno:int\): boolean) 18.500000 22.344690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n 16.102400 9.950000 m 16.102400 11.150000 l 25.779600 11.150000 l 25.779600 11.450000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 16.502400 10.750000 m 16.102400 9.950000 l 15.702400 10.750000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 16.502400 10.750000 m 16.102400 9.950000 l 15.702400 10.750000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n -5.498650 27.650000 m -5.498650 28.750000 l -5.452000 28.750000 l -5.452000 29.800000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n -5.098650 28.450000 m -5.498650 27.650000 l -5.898650 28.450000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n -5.098650 28.450000 m -5.498650 27.650000 l -5.898650 28.450000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n -10.700000 31.700000 m -12.187500 31.700000 l -12.187500 25.550000 l -14.280000 25.550000 l -14.280000 23.400000 l s
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n -11.500000 32.100000 m -10.700000 31.700000 l -11.500000 31.300000 l s
+/Courier-latin1 ff 0.800000 scf sf
+(create) dup sw 2 div -13.233750 ex sub 25.344690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -0.484889 11.450000 m -0.484889 12.850000 l 17.283111 12.850000 l 17.283111 11.450000 l f
+0.000000 0.000000 0.000000 srgb
+n -0.484889 11.450000 m -0.484889 12.850000 l 17.283111 12.850000 l 17.283111 11.450000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TNetServerThread) dup sw 2 div 8.399111 ex sub 12.450000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -0.484889 12.850000 m -0.484889 15.450000 l 17.283111 15.450000 l 17.283111 12.850000 l f
+0.000000 0.000000 0.000000 srgb
+n -0.484889 12.850000 m -0.484889 15.450000 l 17.283111 15.450000 l 17.283111 12.850000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+_server;: TNetServer ) -0.334889 13.544690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_thread: TNetThread ) -0.334889 14.344690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_gameServer: TServerGame) -0.334889 15.144690 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -0.484889 15.450000 m -0.484889 24.450000 l 17.283111 24.450000 l 17.283111 15.450000 l f
+0.000000 0.000000 0.000000 srgb
+n -0.484889 15.450000 m -0.484889 24.450000 l 17.283111 24.450000 l 17.283111 15.450000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+name\(\): string) -0.334889 16.144690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+ok\(\)) -0.334889 16.944690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+no\(\)) -0.334889 17.744690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+win\(\)) -0.334889 18.544690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+lose\(\)) -0.334889 19.344690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+ELO\(level:int\)) -0.334889 20.144690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+visualize\(game:vector<TGame>\)) -0.334889 20.944690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+interpret\(\)) -0.334889 21.744690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+register\(creator:int\): TServerGame) -0.334889 22.544690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+id\(\)) -0.334889 23.344690 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getServerGame\(\): TServerGame) -0.334889 24.144690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n 16.102400 9.950000 m 16.102400 11.150000 l 8.399110 11.150000 l 8.399110 11.450000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 16.502400 10.750000 m 16.102400 9.950000 l 15.702400 10.750000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 16.502400 10.750000 m 16.102400 9.950000 l 15.702400 10.750000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n -0.204000 31.700000 m -0.204000 33.350000 l 17.283100 33.350000 l 17.283100 24.450000 l s
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n 17.683100 25.250000 m 17.283100 24.450000 l 16.883100 25.250000 l s
+/Courier-latin1 ff 0.800000 scf sf
+(create) dup sw 2 div 8.539550 ex sub 33.144690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -14.157300 -8.584560 m -14.157300 -7.184560 l 5.549900 -7.184560 l 5.549900 -8.584560 l f
+0.000000 0.000000 0.000000 srgb
+n -14.157300 -8.584560 m -14.157300 -7.184560 l 5.549900 -7.184560 l 5.549900 -8.584560 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(TSet) dup sw 2 div -4.303700 ex sub -7.584560 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -14.157300 -7.184560 m -14.157300 -2.984560 l 5.549900 -2.984560 l 5.549900 -7.184560 l f
+0.000000 0.000000 0.000000 srgb
+n -14.157300 -7.184560 m -14.157300 -2.984560 l 5.549900 -2.984560 l 5.549900 -7.184560 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+_players: Vector) -14.007300 -6.489870 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_observers: Vector) -14.007300 -5.689870 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_game: TGame) -14.007300 -4.889870 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_id: int) -14.007300 -4.089870 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+_gameServer: TServerGame) -14.007300 -3.289870 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -14.157300 -2.984560 m -14.157300 9.215440 l 5.549900 9.215440 l 5.549900 -2.984560 l f
+0.000000 0.000000 0.000000 srgb
+n -14.157300 -2.984560 m -14.157300 9.215440 l 5.549900 9.215440 l 5.549900 -2.984560 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+addPlayer\(p:int\)) -14.007300 -2.289870 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getPlayersIterator\(\): Iterator) -14.007300 -1.489870 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getPlayers\(\): Vector) -14.007300 -0.689870 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getGames\(\): TGame) -14.007300 0.110130 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+addPlayer\(player:TNetServerThread\)) -14.007300 0.910130 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+addObserver\(observer:TNetServerThread\)) -14.007300 1.710130 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getPlayersIterator\(\): Iterator) -14.007300 2.510130 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getPlayers\(\): Vector) -14.007300 3.310130 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getObserversIterator\(\): Iterator) -14.007300 4.110130 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getObservers\(\): Vector) -14.007300 4.910130 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getGameId\(\): int) -14.007300 5.710130 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+isHere\(id:int\): boolean) -14.007300 6.510130 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+isHere\(id:TNetServerThread\): boolean) -14.007300 7.310130 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+setServerGame\(server:TServerGame\)) -14.007300 8.110130 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getServerGame\(\): TServerGame) -14.007300 8.910130 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n -4.303700 9.215440 m -4.303700 10.428400 l -14.280000 10.428400 l -14.280000 12.000000 l s
+[] 0 sd
+0 slj
+0 slc
+1.000000 1.000000 1.000000 srgb
+n -14.280000 12.000000 m -14.520000 11.300000 l -14.280000 10.600000 l -14.040000 11.300000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -14.280000 12.000000 m -14.520000 11.300000 l -14.280000 10.600000 l -14.040000 11.300000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(*) -14.280000 11.794690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n -0.204000 30.500000 m -0.204000 32.076200 l 8.399110 32.076200 l 8.399110 24.450000 l s
+[] 0 sd
+0 slj
+0 slc
+1.000000 1.000000 1.000000 srgb
+n 8.399110 24.450000 m 8.639110 25.150000 l 8.399110 25.850000 l 8.159110 25.150000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n 8.399110 24.450000 m 8.639110 25.150000 l 8.399110 25.850000 l 8.159110 25.150000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(1) -0.204000 31.094690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n -0.484889 24.450000 m -0.484889 25.128400 l -1.760000 25.128400 l -1.760000 23.400000 l s
+[] 0 sd
+0 slj
+0 slc
+1.000000 1.000000 1.000000 srgb
+n -1.760000 23.400000 m -1.520000 24.100000 l -1.760000 24.800000 l -2.000000 24.100000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -1.760000 23.400000 m -1.520000 24.100000 l -1.760000 24.800000 l -2.000000 24.100000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(1) -1.760000 23.994690 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n -1.760000 12.000000 m -1.760000 9.724040 l -0.484889 9.724040 l -0.484889 11.450000 l s
+[] 0 sd
+0 slj
+0 slc
+1.000000 1.000000 1.000000 srgb
+n -0.484889 11.450000 m -0.724889 10.750000 l -0.484889 10.050000 l -0.244889 10.750000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+0.000000 0.000000 0.000000 srgb
+n -0.484889 11.450000 m -0.724889 10.750000 l -0.484889 10.050000 l -0.244889 10.750000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(1) -0.484889 11.244690 m gs 1 -1 sc sh gr
+showpage

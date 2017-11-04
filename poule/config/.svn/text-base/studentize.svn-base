@@ -1,0 +1,56 @@
+#! /usr/bin/perl -i
+eval 'exec /usr/bin/perl -i -S $0 ${1+"$@"}'
+        if $running_under_some_shell;
+
+while ($ARGV[0] =~ /^-/) {
+    $_ = shift;
+  last if /^--/;
+    if (/^-n/) {
+        $nflag++;
+        next;
+    }
+    die "I don't recognize this switch: $_\\n";
+}
+$printit++ unless $nflag;
+
+$\ = "\n";              # automatically add newline on print
+
+LINE:
+while (<>)
+  {
+    chop;
+    $stripit = 0;
+    if (/\/\/>>/)
+      {
+	print "// FIXME: Some code was deleted here.";
+      }
+    if (/\/\/<</.../\/\/>>/)
+      {
+        $printit = 0;
+        next LINE;
+      }
+    elsif (/^\/\/#if STUDENT/.../\/\/#endif STUDENT/)
+      {
+        $printit = 0
+          if (/^\/\/#(if|endif) STUDENT/);
+        $stripit = 1;
+        next LINE;
+      }
+    # Something to uncomment in the studentized output.
+    elsif (/^#(if|endif) .*STUDENT/)
+      {
+        $printit = 0;
+        next LINE;
+      }
+  }
+continue
+  {
+    if ($stripit)
+    {
+       s(^//)();
+    }
+    if ($printit)
+      { print; }
+    else
+      { $printit++ unless $nflag; }
+  }

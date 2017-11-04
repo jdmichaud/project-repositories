@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/64/poule/src/algebra
+END
+algebre.ml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/64/poule/src/algebra/algebre.ml
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/64/poule/src/algebra/Makefile
+END
+entiers.ml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/64/poule/src/algebra/entiers.ml
+END
+reels.ml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/64/poule/src/algebra/reels.ml
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/64/poule/src/algebra/Makefile.in
+END

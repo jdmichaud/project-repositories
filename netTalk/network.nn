@@ -1,0 +1,26 @@
+Fichier de desciption de la forme de rezal:
+
+6
+28|50|28
+
+Fichier de desciption des valeurs des noeuds de rezal:
+
+//definition des neurones et poid time lag ...
+
+1.,1.,1.,1.,1.,1.
+1.,1.,1.,1.,1.,1.
+...
+
+//biais time lag
+
+8.
+
+//definition des neurone et poid pas lag ...
+
+1.
+2.
+...
+
+//biais
+
+7.

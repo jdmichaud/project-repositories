@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/35/remote/res/layout
+END
+enter_hostname.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/27/remote/res/layout/enter_hostname.xml
+END
+connection_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/24/remote/res/layout/connection_dialog.xml
+END
+playing_screen.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/remote/res/layout/playing_screen.xml
+END
+item_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/35/remote/res/layout/item_row.xml
+END
+hosts_row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/27/remote/res/layout/hosts_row.xml
+END
+new_connection.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/25/remote/res/layout/new_connection.xml
+END
+home.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/24/remote/res/layout/home.xml
+END
+browse_home.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/34/remote/res/layout/browse_home.xml
+END

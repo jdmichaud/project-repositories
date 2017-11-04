@@ -1,0 +1,13 @@
+Le but principal de ce projet est de realiser un jeu de dames en java
+base sur une architecture centralisee (un serveur, plusieurs client)
+et une base de donnees Oracle.
+
+Le logiciel pourra enregistrer et charger l'etat et l'historique
+d'une partie. Ce qui offriras la possibilite de rejouer coup a coup
+une partie sauvegardee. Le logiciel sera aussi capable de calculer
+l'ELO d'un joueur, de centraliser plusieurs partie et de permettre
+a des utilisateurs distants de suivre les parties sans etre joueur.
+
+Les regles su jeu de dames peuvent etre modifiees a la guise de
+l'utilisateur. Augmenter le nombre de joueur par partie, modification
+des cases speciales, etc ...

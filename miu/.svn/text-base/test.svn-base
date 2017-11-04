@@ -1,0 +1,1 @@
+{ not man (X) | mortal (X); man (socrates) } not mortal (socrates)

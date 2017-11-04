@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/64/poule/src
+END
+poule.conf
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/64/poule/src/poule.conf
+END
+cmd_line.mli
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/64/poule/src/cmd_line.mli
+END
+parse.mli
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/64/poule/src/parse.mli
+END
+poule.ml
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/64/poule/src/poule.ml
+END
+editor.ml
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/64/poule/src/editor.ml
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/64/poule/src/Makefile
+END
+interpreteur.ml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/64/poule/src/interpreteur.ml
+END
+parse.ml
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/64/poule/src/parse.ml
+END
+toplevel.ml
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/64/poule/src/toplevel.ml
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/64/poule/src/Makefile.in
+END
+options.ml
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/64/poule/src/options.ml
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/64/poule/src/numeric
+END
+add.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/64/poule/src/numeric/add.c
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/64/poule/src/numeric/Makefile.am
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/64/poule/src/numeric/Makefile
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/64/poule/src/numeric/Makefile.in
+END

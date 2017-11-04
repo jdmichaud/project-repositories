@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@+id/ItemText" 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:focusableInTouchMode="true" 
+    android:focusable="true" 
+    android:typeface="normal" 
+    android:textSize="18px"
+    android:textStyle="bold" android:clickable="true"/>

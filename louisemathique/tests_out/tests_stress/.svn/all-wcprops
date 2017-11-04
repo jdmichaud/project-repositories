@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/51/louisemathique/tests_out/tests_stress
+END
+ref_bigmul.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/51/louisemathique/tests_out/tests_stress/ref_bigmul.stdout.striped
+END
+student_bigmul.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/51/louisemathique/tests_out/tests_stress/student_bigmul.stdout
+END
+student_bigmul.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/51/louisemathique/tests_out/tests_stress/student_bigmul.stderr
+END
+ref_mulstack.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/51/louisemathique/tests_out/tests_stress/ref_mulstack.stdout.striped
+END
+student_mulstack.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/51/louisemathique/tests_out/tests_stress/student_mulstack.stdout
+END
+ref_bigdiv.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/51/louisemathique/tests_out/tests_stress/ref_bigdiv.stdout.striped
+END
+student_mulstack.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/51/louisemathique/tests_out/tests_stress/student_mulstack.stderr
+END
+student_bigdiv.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/51/louisemathique/tests_out/tests_stress/student_bigdiv.stdout
+END
+student_bigdiv.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/51/louisemathique/tests_out/tests_stress/student_bigdiv.stderr
+END
+student_bigmul.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/51/louisemathique/tests_out/tests_stress/student_bigmul.stdout.striped
+END
+student_mulstack.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/51/louisemathique/tests_out/tests_stress/student_mulstack.stdout.striped
+END
+student_bigdiv.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/51/louisemathique/tests_out/tests_stress/student_bigdiv.stdout.striped
+END

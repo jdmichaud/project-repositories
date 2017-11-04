@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 20
+/svn/!svn/ver/41/dir
+END
+info_dir.h
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/41/dir/info_dir.h
+END
+time.c
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/41/dir/time.c
+END
+my_printstr.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/41/dir/my_printstr.h
+END
+info_uid.h
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/41/dir/info_uid.h
+END
+my_printnbr.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/41/dir/my_printnbr.c
+END
+time.h
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/41/dir/time.h
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/41/dir/main.c
+END
+my_printnbr.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/41/dir/my_printnbr.h
+END
+info_dir.c
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/41/dir/info_dir.c
+END
+my_printstr.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/41/dir/my_printstr.c
+END
+info_uid.c
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/41/dir/info_uid.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/41/dir/Makefile
+END

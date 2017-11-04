@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/58/mpn/piscine/j8
+END
+max_min.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/58/mpn/piscine/j8/max_min.h
+END
+btree_free.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j8/btree_free.c
+END
+list_put.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/58/mpn/piscine/j8/list_put.c
+END
+btree_find_elem.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/58/mpn/piscine/j8/btree_find_elem.c
+END
+btree_add_list.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/58/mpn/piscine/j8/btree_add_list.c
+END
+btree_to_sort_list.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/58/mpn/piscine/j8/btree_to_sort_list.c
+END
+btree_find_node.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/58/mpn/piscine/j8/btree_find_node.c
+END
+btree_apply.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/58/mpn/piscine/j8/btree_apply.c
+END
+btree_add_to_left_end.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/58/mpn/piscine/j8/btree_add_to_left_end.c
+END
+btree_rm_all_eq.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/58/mpn/piscine/j8/btree_rm_all_eq.c
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/58/mpn/piscine/j8/list.h
+END
+btree_depth.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/58/mpn/piscine/j8/btree_depth.c
+END
+.emacs
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/58/mpn/piscine/j8/.emacs
+END
+btree_apply_on_eq.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/58/mpn/piscine/j8/btree_apply_on_eq.c
+END
+max_min.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/58/mpn/piscine/j8/max_min.c
+END
+btree_put.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/58/mpn/piscine/j8/btree_put.c
+END
+btree_add_btree.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/58/mpn/piscine/j8/btree_add_btree.c
+END
+btree_size.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j8/btree_size.c
+END
+.myemacs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/58/mpn/piscine/j8/.myemacs
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/58/mpn/piscine/j8/Makefile
+END

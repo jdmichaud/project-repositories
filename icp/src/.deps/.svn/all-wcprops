@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/44/icp/src/.deps
+END
+quaternion.Po
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/44/icp/src/.deps/quaternion.Po
+END
+cloud.Po
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/44/icp/src/.deps/cloud.Po
+END
+parse.Po
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/44/icp/src/.deps/parse.Po
+END
+icp.Po
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/44/icp/src/.deps/icp.Po
+END
+lexer.Po
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/44/icp/src/.deps/lexer.Po
+END
+vector.Po
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/44/icp/src/.deps/vector.Po
+END
+main.Po
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/44/icp/src/.deps/main.Po
+END
+opengl.Po
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/44/icp/src/.deps/opengl.Po
+END
+matrix.Po
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/44/icp/src/.deps/matrix.Po
+END

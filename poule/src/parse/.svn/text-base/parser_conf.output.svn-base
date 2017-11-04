@@ -1,0 +1,100 @@
+   0  $accept : %entry% $end
+
+   1  conf : txt EOF
+
+   2  txt : EOL
+   3      | EOL txt
+   4      | EXP EOL
+   5      | EXP EOL txt
+
+   6  %entry% : '\001' conf
+
+state 0
+	$accept : . %entry% $end  (0)
+
+	'\001'  shift 1
+	.  error
+
+	%entry%  goto 2
+
+
+state 1
+	%entry% : '\001' . conf  (6)
+
+	EXP  shift 3
+	EOL  shift 4
+	.  error
+
+	conf  goto 5
+	txt  goto 6
+
+
+state 2
+	$accept : %entry% . $end  (0)
+
+	$end  accept
+
+
+state 3
+	txt : EXP . EOL  (4)
+	txt : EXP . EOL txt  (5)
+
+	EOL  shift 7
+	.  error
+
+
+state 4
+	txt : EOL .  (2)
+	txt : EOL . txt  (3)
+
+	EXP  shift 3
+	EOL  shift 4
+	EOF  reduce 2
+
+	txt  goto 8
+
+
+state 5
+	%entry% : '\001' conf .  (6)
+
+	.  reduce 6
+
+
+state 6
+	conf : txt . EOF  (1)
+
+	EOF  shift 9
+	.  error
+
+
+state 7
+	txt : EXP EOL .  (4)
+	txt : EXP EOL . txt  (5)
+
+	EXP  shift 3
+	EOL  shift 4
+	EOF  reduce 4
+
+	txt  goto 10
+
+
+state 8
+	txt : EOL txt .  (3)
+
+	.  reduce 3
+
+
+state 9
+	conf : txt EOF .  (1)
+
+	.  reduce 1
+
+
+state 10
+	txt : EXP EOL txt .  (5)
+
+	.  reduce 5
+
+
+6 terminals, 4 nonterminals
+7 grammar rules, 11 states

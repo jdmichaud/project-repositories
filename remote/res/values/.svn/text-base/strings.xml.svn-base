@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">remote</string>
+<string name="no_connection">New connection...</string>
+<string name="menu_new">New Connection</string>
+<string name="menu_delete">Delete Connection</string>
+<string name="ip_address">IP Address:</string>
+<string name="add">Add</string>
+<string name="hostname">Hostname:</string>
+<string name="please_wait">Testing connection. Please wait ...</string>
+
+
+<string name="please_wait_loading">Please wait...</string>
+</resources>

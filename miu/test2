@@ -1,0 +1,7 @@
+{not pass(X, history) | not win(X, lottery) | happy(X); 
+not study(Y) | pass(Y, Z);
+not lucky(W) | pass(W, V);
+not study(john);
+lucky(john);
+not lucky(U) | win(U, lottery)}
+not happy(john)

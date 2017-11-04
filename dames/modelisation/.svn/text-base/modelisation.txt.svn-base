@@ -1,0 +1,106 @@
+Comment faire pour gerer les differents modes de jeu, i.e les
+ differentes regles que l'on peut appliquer au deplacement, des pions,
+ aux relations entre les cases... ?
+
+Un exemple simple:
+- a 2 joueurs, le plateau est carre, donc les cases sont logiquement
+carree egalement (4 cases voisines)
+- a 3 joueurs, le plateau se doit d'etre trinagulaire (ou hexagonale)
+
+Ce probleme montre d'une part qu'il y a plus manieres d'afficher un
+plateau de jeu. Si notre modelisation requiert une classe case, une
+classe plateau, comment ses deux entites vont pouvoir s'afficher ?
+
+Le plus simple, c'est de creer une classe Display abstraite :
+Chaque regle du jeu (qui sera une classe) possede donc un affichage
+specifique, donc une implementation de cette classe Display.
+Lorsque l'on voudra afficher notre jeu dans sa totalite (classe Game),
+on fera Game.getBoard ().display (RuleDpy) :
+Le plateau sera comment s'afficher, ou plutot pour ne pas alourdir la
+classe Board, l'implementation de cette nethode serait :
+RuleDpy.accept(this) -> toutes les fonctions d'affichage sont codes
+dans le Display, c'est donc bien plus propre.
+
+
+--------------------------------------------------------------------------
+
+Jouer un Coup:
+--------------
+
+Le client designe une case de depart et une case d'arrivee.
+On a donc un pion et sa case, et une case de destination.
+
+pion::isLegalAction (TCase dest)
+{
+	_actions // Liste des actions d'un pion
+		 // Liste initialisee par les regles du jeu
+
+	for (int i = 0; i < _actions.size (); i++)
+	  {
+	    if ((_actions.get (i)).isAllowed (this, dest)
+     	      return true;
+	  } 
+	  return false;
+}
+
+Imaginons la modelisation simpliste :
+
+   -----------
+   / TAction /
+   -----------
+        |
+	|
+  ------------
+  |           |
+----------  ----------
+| TMove  |  |  TEat  |
+----------  ----------
+
+TMove devra implementer 
+
+isAllowed (TPion P, TCase dest)
+{
+  return dest.isAdj (P.getCase ());  
+}
+
+isAllowed (TQueen, TCase)
+{
+  return dest.isOnDiag (P.getCase ());
+}
+
+isAllowed (THorse, TCase)
+{
+  ?????
+}
+
+HORSE:
+
+case (x, y)
+	 -> case (x + 2, y + 1)
+	 -> case (x + 2, y - 1)
+	 -> case (x - 2, y + 1)
+	 -> case (x - 2, y - 1)
+	 -> case (x + 1, y + 2)
+	 -> case (x + 1, y - 2)
+	 -> case (x - 1, y + 2)
+	 -> case (x - 1, y - 2)
+
+QUEEN:
+
+case (x, y)
+	 -> case (x + n, y)
+	 -> case (x - n, y)
+	 -> case (x - n, y + n)
+	 -> case (x - n, y - n)
+	 -> case (x + n, y + n)
+	 -> case (x + n, y - n)
+	 -> case (x, y + n)
+	 -> case (x, y - n)
+
+PION:
+
+case (x, y)
+	 -> case (x - 1, y + 1)
+	 -> case (x + 1, y + 1)
+
+

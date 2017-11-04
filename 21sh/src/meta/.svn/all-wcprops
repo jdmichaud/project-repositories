@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/47/21sh/src/meta
+END
+meta.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/47/21sh/src/meta/meta.c
+END
+tab.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/47/21sh/src/meta/tab.c
+END
+completion.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/47/21sh/src/meta/completion.c
+END
+size.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/47/21sh/src/meta/size.c
+END
+match.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/47/21sh/src/meta/match.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/47/21sh/src/meta/Makefile
+END

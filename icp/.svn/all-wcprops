@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 20
+/svn/!svn/ver/45/icp
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/44/icp/README
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/44/icp/aclocal.m4
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/44/icp/Makefile
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/44/icp/config.h.in
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/44/icp/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/44/icp/Makefile.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/44/icp/configure.ac
+END
+config.status
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/44/icp/config.status
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/44/icp/Makefile.am
+END
+stamp-h1
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/44/icp/stamp-h1
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/44/icp/config.h
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 20
+/svn/!svn/ver/38/rxp
+END
+test_post2nfa.sh
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/38/rxp/test_post2nfa.sh
+END
+test_shunting_yard.sh
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/38/rxp/test_shunting_yard.sh
+END
+rxp.c
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/38/rxp/rxp.c
+END
+expr.test
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/38/rxp/expr.test
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/38/rxp/Makefile
+END

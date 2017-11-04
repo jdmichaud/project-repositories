@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/!svn/ver/42/libdyn
+END
+error_us.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/42/libdyn/error_us.c
+END
+error_fr.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/42/libdyn/error_fr.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/42/libdyn/main.c
+END

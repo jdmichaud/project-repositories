@@ -1,0 +1,4 @@
+[main]
+port=14725
+path=e:\
+db_filename=.remote.db

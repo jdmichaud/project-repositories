@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 20
+/svn/!svn/ver/65/miu
+END
+OcamlMakefile
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/65/miu/OcamlMakefile
+END
+parser.mly
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/65/miu/parser.mly
+END
+clause_lexer.mll
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/65/miu/clause_lexer.mll
+END
+interpreteur.ml
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/65/miu/interpreteur.ml
+END
+miu.ml
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/65/miu/miu.ml
+END
+test2
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/65/miu/test2
+END
+lexer.mll
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/65/miu/lexer.mll
+END
+formal_system.mli
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/65/miu/formal_system.mli
+END
+resolution_transform.ml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/65/miu/resolution_transform.ml
+END
+interpreteur.mli
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/65/miu/interpreteur.mli
+END
+resolution.ml
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/65/miu/resolution.ml
+END
+type_t.ml
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/65/miu/type_t.ml
+END
+problem_parser.mly
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/65/miu/problem_parser.mly
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/65/miu/Makefile
+END
+test
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/svn/!svn/ver/65/miu/test
+END
+problem_lexer.mll
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/65/miu/problem_lexer.mll
+END
+clause_parser.mly
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/65/miu/clause_parser.mly
+END

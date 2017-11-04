@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout 
+	android:id="@+id/RelativeLayout01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/ArtistName" 
+		android:layout_centerHorizontal="true">
+	</TextView>
+	<TextView 
+		android:layout_below="@id/ArtistName" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/AlbumName" 
+		android:layout_centerHorizontal="true">
+	</TextView>
+	<TextView 
+		android:layout_below="@id/AlbumName" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/TitleName" 
+		android:layout_centerHorizontal="true">
+	</TextView>
+	<ImageButton 
+		android:layout_below="@id/TitleName" 
+		android:id="@+id/ControlButton" 
+		android:focusableInTouchMode="true" 
+		android:layout_centerHorizontal="true" 
+		android:src="@android:drawable/ic_media_play" android:layout_height="fill_parent" android:layout_width="fill_parent">
+	</ImageButton>
+</RelativeLayout>

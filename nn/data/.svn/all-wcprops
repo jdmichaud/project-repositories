@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/svn/!svn/ver/39/nn/data
+END
+corr
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/39/nn/data/corr
+END
+letter-recognition.data
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/39/nn/data/letter-recognition.data
+END
+letter-recognition.bkp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/39/nn/data/letter-recognition.bkp
+END
+T.data
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/39/nn/data/T.data
+END
+result
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/39/nn/data/result
+END
+letter-recognition.names
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/39/nn/data/letter-recognition.names
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/50/beswitch/my_printf
+END
+my_printf.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/50/beswitch/my_printf/my_printf.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/50/beswitch/my_printf/Makefile
+END
+my_ctype.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/50/beswitch/my_printf/my_ctype.h
+END
+my_printfnbr.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/50/beswitch/my_printf/my_printfnbr.h
+END
+my_printfstr.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/50/beswitch/my_printf/my_printfstr.c
+END
+my_printfnbr_base.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/50/beswitch/my_printf/my_printfnbr_base.c
+END
+my_printfstr.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/50/beswitch/my_printf/my_printfstr.h
+END
+my_printfchar.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/50/beswitch/my_printf/my_printfchar.c
+END
+my_printf.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/50/beswitch/my_printf/my_printf.c
+END
+my_printfnbr_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/50/beswitch/my_printf/my_printfnbr_base.h
+END
+init.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/50/beswitch/my_printf/init.h
+END
+my_ctype.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/50/beswitch/my_printf/my_ctype.c
+END
+my_printfnbr.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/50/beswitch/my_printf/my_printfnbr.c
+END
+my_printfchar.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/50/beswitch/my_printf/my_printfchar.h
+END

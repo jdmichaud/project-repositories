@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/58/mpn/piscine/j7
+END
+dlist_rev.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_rev.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/58/mpn/piscine/j7/Makefile
+END
+dlist_from_list.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_from_list.c
+END
+dlist_rm_on_eq.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_rm_on_eq.c
+END
+dlist_add_to_sortdlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_add_to_sortdlist.c
+END
+dlist_find_elm_eq.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_find_elm_eq.c
+END
+dlist_put_in_sortdlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_put_in_sortdlist.c
+END
+dlist_apply_on_eq.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_apply_on_eq.c
+END
+dlist_from_params.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_from_params.c
+END
+dlist_append.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_append.c
+END
+dlist_show_str.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_show_str.c
+END
+dlist_put.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_put.c
+END
+dlist_size.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_size.c
+END
+dlist_to_list.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_to_list.c
+END
+dlist_free.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_free.c
+END
+dlist_apply.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_apply.c
+END
+dlist_find_node.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_find_node.c
+END
+dlist_apply_on_node.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_apply_on_node.c
+END
+dlist_sort.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_sort.c
+END
+dlist_add_to_dlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/58/mpn/piscine/j7/dlist_add_to_dlist.c
+END

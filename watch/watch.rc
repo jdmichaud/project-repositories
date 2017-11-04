@@ -1,0 +1,10 @@
+[general]
+gumstix_name=gumstix-dev
+camera_name=camera-dev
+
+[db]
+file=/tmp/watch.db
+
+[poller]
+directory=/mnt/cf/videos
+delay=5

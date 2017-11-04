@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/52/minimake/include
+END
+node.hh
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/52/minimake/include/node.hh
+END
+common.hh
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/52/minimake/include/common.hh
+END
+var.hh
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/52/minimake/include/var.hh
+END
+except.hh
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/52/minimake/include/except.hh
+END
+rules.hh
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/52/minimake/include/rules.hh
+END
+parse.hh
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/52/minimake/include/parse.hh
+END
+stat.hh
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/52/minimake/include/stat.hh
+END
+options.hh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/52/minimake/include/options.hh
+END
+parse_make.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/52/minimake/include/parse_make.h
+END
+graph.hh
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/52/minimake/include/graph.hh
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/47/21sh/src/termcap
+END
+x.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/47/21sh/src/termcap/x.c
+END
+exec_ctrl.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/47/21sh/src/termcap/exec_ctrl.c
+END
+termcap.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/47/21sh/src/termcap/termcap.c
+END
+exec_ctrl_sup_m.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/47/21sh/src/termcap/exec_ctrl_sup_m.c
+END
+change_line.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/47/21sh/src/termcap/change_line.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/47/21sh/src/termcap/Makefile
+END
+init_termcap.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/47/21sh/src/termcap/init_termcap.c
+END
+exec_arrow.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/47/21sh/src/termcap/exec_arrow.c
+END
+treat.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/47/21sh/src/termcap/treat.c
+END
+realloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/47/21sh/src/termcap/realloc.c
+END
+exec_char.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/47/21sh/src/termcap/exec_char.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/47/21sh/src/termcap/main.c
+END

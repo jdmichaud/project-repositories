@@ -1,0 +1,80 @@
+\select@language {frenchb}
+\contentsline {chapter}{Introduction}{3}
+\contentsline {chapter}{\numberline {1}Cahier des charges}{4}
+\contentsline {section}{\numberline {1.1}Sp\'ecifications}{4}
+\contentsline {section}{\numberline {1.2}But}{5}
+\contentsline {section}{\numberline {1.3}Module formel}{5}
+\contentsline {subsection}{\numberline {1.3.1}Le contr\^ole de types}{6}
+\contentsline {subsection}{\numberline {1.3.2}Calcul arithm\'etique sur les entit\'es formelles}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsection}{\numberline {1.3.3}Factorisation/D\'eveloppement}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {subsection}{\numberline {1.3.4}Simplification d'expressions}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {subsection}{\numberline {1.3.5}Substitution de variables}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {subsection}{\numberline {1.3.6}Evaluation d'expressions}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {subsection}{\numberline {1.3.7}R\'esolution de syst\`emes d'\'equations et d'in\'equations}{7}
+\contentsline {subsection}{\numberline {1.3.8}Calcul de d\'eriv\'ees}{8}
+\contentsline {subsection}{\numberline {1.3.9}Calcul de primitives et d'int\'egrales}{8}
+\contentsline {section}{\numberline {1.4}Module num\'erique}{8}
+\contentsline {subsection}{\numberline {1.4.1}Calcul sur les flottants}{8}
+\contentsline {subsection}{\numberline {1.4.2}Calcul sur les entiers}{9}
+\contentsline {section}{\numberline {1.5}Module graphique}{9}
+\contentsline {section}{\numberline {1.6}Module IHM}{9}
+\contentsline {section}{\numberline {1.7}Sources d'informations}{10}
+\contentsline {section}{\numberline {1.8}Internet}{11}
+\contentsline {section}{\numberline {1.9}Livres}{11}
+\contentsline {section}{\numberline {1.10}Conclusion}{12}
+\contentsline {chapter}{\numberline {2}Etat de l'art}{13}
+\contentsline {chapter}{\numberline {3}Infrastructure et choix des technologies}{14}
+\contentsline {section}{\numberline {3.1}R\'epartition des t\^aches}{15}
+\contentsline {section}{\numberline {3.2}Environnement et langage de programmation}{16}
+\contentsline {section}{\numberline {3.3}Compilation, autoconf et automake}{16}
+\contentsline {section}{\numberline {3.4}Visiteur contre type somme}{16}
+\contentsline {subsection}{\numberline {3.4.1}Introduction}{16}
+\contentsline {subsection}{\numberline {3.4.2}Les visiteurs}{16}
+\contentsline {subsection}{\numberline {3.4.3}Les types sommes}{17}
+\contentsline {subsection}{\numberline {3.4.4}Choix final}{17}
+\contentsline {section}{\numberline {3.5}CVS}{17}
+\contentsline {chapter}{\numberline {4}Argumentation}{18}
+\contentsline {section}{\numberline {4.1}La modelisation alg\`ebrique}{18}
+\contentsline {section}{\numberline {4.2}La mod\'elisation des ensembles}{19}
+\contentsline {section}{\numberline {4.3}Structure de l'arbre de syntaxe abstraite}{20}
+\contentsline {section}{\numberline {4.4}Les entit\'es}{21}
+\contentsline {section}{\numberline {4.5}La grammaire}{22}
+\contentsline {chapter}{\numberline {5}La r\'ealisation}{24}
+\contentsline {section}{\numberline {5.1}D'apr\`es la mod\'elisation}{24}
+\contentsline {section}{\numberline {5.2}Les diff\'erents modules et leurs interactions}{25}
+\contentsline {section}{\numberline {5.3}Le module {\it substitution}}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {paragraph}{}{26}
+\contentsline {section}{\numberline {5.4}Le module {\it simplification}}{26}
+\contentsline {subsection}{\numberline {5.4.1}Pr\'esentation}{26}
+\contentsline {subsection}{\numberline {5.4.2}Simplification par terme et par facteur}{27}
+\contentsline {subsection}{\numberline {5.4.3}L'importance de tri}{27}
+\contentsline {subsection}{\numberline {5.4.4}Conclusion}{27}
+\contentsline {section}{\numberline {5.5}Le module de l'environnement}{27}
+\contentsline {section}{\numberline {5.6}Le module {\it Type checkeur}}{28}
+\contentsline {subsection}{\numberline {5.6.1}Contr\^ole de type sur les op\'erations}{28}
+\contentsline {subsection}{\numberline {5.6.2}Contr\^ole de type lors des appels de fonctions}{28}
+\contentsline {paragraph}{}{28}
+\contentsline {section}{\numberline {5.7}Le module {\it derivate}}{29}
+\contentsline {section}{\numberline {5.8}Des modules extensibles}{29}
+\contentsline {section}{\numberline {5.9}La ligne de commande}{30}
+\contentsline {section}{\numberline {5.10}Int\'egration formelle}{30}
+\contentsline {chapter}{\numberline {6}P\'er\'enit\'e du projet}{31}
+\contentsline {section}{\numberline {6.1}Evolution imm\'ediate}{31}
+\contentsline {subsection}{\numberline {6.1.1}Ajout de fonctionnalit\'es}{31}
+\contentsline {subsection}{\numberline {6.1.2}Changement de types de travail}{31}
+\contentsline {section}{\numberline {6.2}Evolution \`a moyen terme}{31}
+\contentsline {subsection}{\numberline {6.2.1}Changement de types au cours de l'ex\'ecution}{31}
+\contentsline {subsection}{\numberline {6.2.2}Changement de groupe et d'anneau}{32}
+\contentsline {section}{\numberline {6.3}Evolution \`a long terme}{32}
+\contentsline {section}{\numberline {6.4}Conclusion}{32}
+\contentsline {chapter}{\numberline {7}Objectifs}{33}
+\contentsline {section}{\numberline {7.1}Les objectifs atteints}{33}
+\contentsline {section}{\numberline {7.2}Les objectifs non atteints}{33}

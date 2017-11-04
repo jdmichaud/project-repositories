@@ -1,0 +1,19 @@
+/* config.h.in.  Generated automatically from configure.ac by autoheader.  */
+
+/* Define if you have the <history.h> header file. */
+#undef HAVE_HISTORY_H
+
+/* Define if you have the `readline' library (-lreadline). */
+#undef HAVE_LIBREADLINE
+
+/* Define if you have the `termcap' library (-ltermcap). */
+#undef HAVE_LIBTERMCAP
+
+/* Define if you have the <readline.h> header file. */
+#undef HAVE_READLINE_H
+
+/* Name of package */
+#undef PACKAGE
+
+/* Version number of package */
+#undef VERSION

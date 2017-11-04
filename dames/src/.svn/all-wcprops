@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/66/dames/src
+END
+StandardDBFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/66/dames/src/StandardDBFactory.java
+END
+TDefaultMove.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/66/dames/src/TDefaultMove.java
+END
+TNetServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/66/dames/src/TNetServer.java
+END
+TAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/66/dames/src/TAction.java
+END
+TDrawable.java
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/66/dames/src/TDrawable.java
+END
+TCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/66/dames/src/TCondition.java
+END
+DBQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/66/dames/src/DBQuery.java
+END
+TBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/66/dames/src/TBoard.java
+END
+TSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/66/dames/src/TSet.java
+END
+TDisplayControler.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/66/dames/src/TDisplayControler.java
+END
+JDBCPerformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/66/dames/src/JDBCPerformer.java
+END
+DBQueryPerformerLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/66/dames/src/DBQueryPerformerLoader.java
+END
+THexagonBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/66/dames/src/THexagonBoard.java
+END
+THistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/66/dames/src/THistory.java
+END
+TPion.java
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/66/dames/src/TPion.java
+END
+cmanifest
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/66/dames/src/cmanifest
+END
+TClientGame.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/66/dames/src/TClientGame.java
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/66/dames/src/Makefile
+END
+TGame.java
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/66/dames/src/TGame.java
+END
+DBQueryPerformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/66/dames/src/DBQueryPerformer.java
+END
+TCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/66/dames/src/TCase.java
+END
+TQueensRules.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/66/dames/src/TQueensRules.java
+END
+TDBLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/66/dames/src/TDBLoader.java
+END
+TEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/66/dames/src/TEntity.java
+END
+TThreadHit.java
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/66/dames/src/TThreadHit.java
+END
+TNetThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/66/dames/src/TNetThread.java
+END
+DBQueryFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/66/dames/src/DBQueryFactory.java
+END
+TRulesFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/66/dames/src/TRulesFactory.java
+END
+TGraphicContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/66/dames/src/TGraphicContext.java
+END
+THit.java
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/66/dames/src/THit.java
+END
+THexagonQueensRules.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/66/dames/src/THexagonQueensRules.java
+END
+THexagonCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/66/dames/src/THexagonCase.java
+END
+TNetClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/66/dames/src/TNetClient.java
+END
+smanifest
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/66/dames/src/smanifest
+END
+TDB.java
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/66/dames/src/TDB.java
+END
+TNet.java
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/66/dames/src/TNet.java
+END
+TQueensFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/66/dames/src/TQueensFactory.java
+END
+TRules.java
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/66/dames/src/TRules.java
+END
+TSquareCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/66/dames/src/TSquareCase.java
+END
+TPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/66/dames/src/TPlayer.java
+END
+TDistLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/66/dames/src/TDistLocation.java
+END
+TServerGame.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/66/dames/src/TServerGame.java
+END
+THexagonQueensFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/66/dames/src/THexagonQueensFactory.java
+END
+TNetServerThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/66/dames/src/TNetServerThread.java
+END
+TDefaultHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/66/dames/src/TDefaultHistory.java
+END
+TDBStandard.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/66/dames/src/TDBStandard.java
+END
+TSquareBoard.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/66/dames/src/TSquareBoard.java
+END
+TLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/66/dames/src/TLocation.java
+END
+TEat.java
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/66/dames/src/TEat.java
+END

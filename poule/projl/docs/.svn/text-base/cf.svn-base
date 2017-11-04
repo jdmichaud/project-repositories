@@ -1,0 +1,100 @@
+Du probleme de representation.
+
+Calcul sur les entiers:
+On aura a traiter de grands entiers, ne serait-ce que pour le calcul de
+pgcd. Pour cela la representation est importante. On aura a jouer
+sur la base. Une base multiple de 10 pour l'impression (affichage a l'ecran
+et saisie), et une base multiple de 2 pour les calculs (multiplication et
+division par la base se font par simple decalage). Par contre, il faut se
+debrouiller pour que les "chiffres" des differentes bases tiennent sur
+un mot machine (PC: 32bits, sun: 64bits).
+
+Operation sur ces entiers: [Voir Knuth !!]
+En ce qui concerne l'addition et la soustraction, les algo ecoliers
+feront l'affaire. Pour la multiplication, je comprends pas ce que veulent
+dire les auteurs: "le produit de deux chiffres contenus dans un mot memoire
+necessite deux mots pour etre stocke", ouais ben comme les autres operations 
+quoi... Ya surement une subtilite que je saisi pas. En tout cas il faudra 
+chopper des algos qui dechirent (Knuth). En ce qui concerne la division, ca se 
+complique. L'algo ecolier se base sur l'intuition, mais Knuth propose un 
+algo rapide et qui marche. En tout cas, on aura toujours interet a reduire
+la taille des entiers avant de les calculer. 
+-> Si besoin de calcul numerique, alors une simplification s'impose.
+
+Fractions et rationnels:
+LES TRAITER EN TANT QUE TELS !! Il ne faudra pas passer des frations aux
+flottants pour effectuer les calculs, on va perdre enormement en
+precision sinon ... Il faisait ca pour SMP et ben ils ont eu des pbs.
+Tous les calculs avec les nombres rationnels entrainent des calculs de
+pgcd, ca peu couter moult en temps, donc il vaut mieux les eviter.
+
+ex: on veut calculer le pgcd de x^3 - 8 et de (1/3) * x^2 - (4/3), il
+faut simplifer par 3 d'abord et calculer le pgcd de x^3 - 8 et de x^2 - 4,
+ce qui evite de calculer un pgcd intermediaire.
+
+Operations sur les fractions et rationnels:
+On part du principe que l'on devra forcement calculer un pgcd pour reduire
+la fraction resultante. Or, calculer le pgcd de deux petits nombres et
+beaucoup plus interressant que de calculer le pgcd de deux nombres plus grands.
+Pour info, les temps de calcul minis des algos de pgcd tournent 
+autour de O(n²). Donc pour la multiplication par exemple, au lieu de faire:
+a/b * c/d = p/q --> on simplifie: p = p/pgcd (p, q); q = q/pgcd (p, q)
+on va plutot faire
+z = pgcd (a,d) * pgcd (b,c) -/ p = p/z; q = q/z.
+
+Pour l'addition:
+p = a * (d / pgcd(b, d)) + c * (b / pgcd(b, d))
+q = bd / pgcd (b, d)
+
+Polynomes:
+(x + y) * (x - y) = x^2 - y^2
+et un calcul polynomial, comme
+(cos x + cos y) * (cos x - cos y) = cos² x - cos² y
+Ce qui rendra le logiciel puissant, c'est ca capacite a bien
+gerer les polynomes. Et pour cela, la simplification de ceux-ci est
+capitale. Il y a tout de meme quelques pbs. Par exemple, on comprend que
+dans le cas de: (x² - 1)/(x + 1), la simplification: x - 1 est interressante,
+mais dans la cas de: (x1000 - 1)/(x + 1), est ce vraiment si evident ?
+
+La simplification doit etre canonique. Une representation canonique
+signifie que si deux representations sont egales, alors les objets
+qu'elles representent sont egaux. La representation des polynomes
+en mathematique n'est pas canonique. (x - 1) * (x + 1) represente le meme
+objet que x² - 1, pourtant les deux representations sont differentes. Donc,
+pour determiner si deux objets sont egaux dans une representation non canonique
+on est oblige de passer par la soustraction: si a - b = 0 alors a = b. 
+On comprend l'interet d'un representation canonique, qui pourrait etre
+rendue possible par la simplification, qui apres sont passage, reduirait
+les polynomes a une meme representation s'ils sont egaux. 
+Il y a d'autre possibilite, comme la representation de Brown. On suppose
+une reprensetation normale (non canonique). On considere a0, a1, ..., an des
+formules deja calculees. Des l'apparition d'une nouvelle formule b on test
+sont egalite avec les formules connues par la methode clasique: b - ai = 0 ?
+Si c'est le cas, alors on remplace b par ai, sinon b devient a(n + 1). Et on
+obtient ainsi une representation canonique. C'est bien joli tout ca, mais
+on obtient vite un dictionnaire de formules gigantesque, alors bonjour
+le stockage et la decouverte de nouvelles formules (hop, on la compare a
+toutes celles deja existente et on perds trois plombes a se rendre comptes
+qu'elle n'existe pas ...).
+Il existe deux types de representations pour les polynomes. Dense et creuse.
+Une representation dense est une representation ou les monomes de 
+coefficients nuls sont representes. ex: x² + 0x + 1. La representation
+mathematique classique des polynomes est creuse, ex: x² + 1. La 
+representation en machine a plutot tendance a etre dense. On aura un
+tableau contenant les coefficients, les degres representes par l'indice,
+ainsi, x² + 2 sera represente par le tableau: [1, 0, 2]. La representation
+creuse est aussi possible: ((2, 1), (0, 2)). Dans le cas ou le polynome est 
+proche de sa representation dense, les algos semblent plus rapides sur 
+le representation dense. Il y a aussi un gaspillage de memoire pour la 
+representation creuse. Mais la plupart des polynomes ne sont pas denses et
+la representation creuse semble etre plus interressante (on comprend 
+pourquoi). x^1000 * x^1000 necessitera 1.000.000 d'operations en dense, 
+une en creuse ...
+L'ordre des monomes est aussi important. Il en existe des plusieurs, celle
+que nous utiliserons (lexicographique) est la plus courante:
+(x+y)^2 = x² + 2xy + y². 
+
+PGCD de deux polynomes:
+Rien compris, a relire.
+
+

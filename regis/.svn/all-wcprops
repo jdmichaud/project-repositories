@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/61/regis
+END
+algo.h
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/61/regis/algo.h
+END
+struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/61/regis/struct.h
+END
+mkgraph.c
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/61/regis/mkgraph.c
+END
+list_utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/61/regis/list_utils.c
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/61/regis/debug.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/61/regis/Makefile
+END
+mkgraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/61/regis/mkgraph.h
+END
+xmalloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/61/regis/xmalloc.c
+END
+list_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/61/regis/list_utils.h
+END
+utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/61/regis/utils.c
+END
+parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/61/regis/parser.h
+END
+graph.c
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/61/regis/graph.c
+END
+xmalloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/61/regis/xmalloc.h
+END
+parser.l
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/61/regis/parser.l
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/61/regis/utils.h
+END
+tab.c
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/61/regis/tab.c
+END
+graph.h
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/61/regis/graph.h
+END
+regis.c
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/61/regis/regis.c
+END
+tab.h
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/61/regis/tab.h
+END
+list.c
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/61/regis/list.c
+END
+regis.h
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/61/regis/regis.h
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/61/regis/list.h
+END
+algo.c
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/61/regis/algo.c
+END
+defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/61/regis/defs.h
+END
+debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/61/regis/debug.c
+END

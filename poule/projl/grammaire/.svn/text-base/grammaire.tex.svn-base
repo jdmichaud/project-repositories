@@ -1,0 +1,110 @@
+\documentclass[french,12pt]{article}
+\usepackage{babel}
+\usepackage{a4}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+\sloppy
+
+\begin{titlepage}
+\begin{center}
+
+%\setlength{\unitlength}{1in}
+%\begin{picture}(0,0)
+%   \put(-4.3,-10){\includegraphics{fond4.eps}}
+%\end{picture}
+
+.
+\vspace{5.3cm}
+
+\Huge \bf {POULE}
+
+\vspace{1cm}
+
+\LARGE
+Grammaire
+\mdseries
+
+\vspace{2cm}
+
+\large
+\mdseries
+\begin{tabular}{l r}
+Nicolas \textsc{Metais} & Jean-Daniel \textsc{Michaud} \\
+Jonathan \textsc{Mimouni} & Francois \textsc{Morlot}
+\end{tabular}
+
+
+\vspace{2cm}
+Le \today
+
+\end{center}
+\end{titlepage}
+
+\pagebreak
+
+Nous presentons  dans ce document  la grammaire de  \emph{Poule}. Nous
+l'avons  voulue la  plus proche  possible des  mathematiques  pour que
+l'utilisateur ne se sente pas deroute.
+
+\begin{verbatim}
+
+id	::= [a-zA-Z]
+integer ::= [0-9]
+float	::= [integer]*.[integer]+
+
+main	::= line ';' 
+	| line ';;' 
+
+line	::= exp 
+	| assign
+
+exp	::= elt 
+	| id ()
+	| id (args)
+	| exp + exp 
+	| exp - exp 
+	| exp * exp 
+	| exp / exp 
+	| exp ^ exp 
+	| - exp 
+	| ( exp )
+	| funcdec 
+
+assign	::= assignset 
+	| assignexp 
+
+elt	::= integer 
+	| float
+	| id
+
+set	::= set INTER set 
+	| set UNION set 
+	| set WITHOUT set 
+	| {}
+	| { set_enum }
+	| [ elt ; elt [ 
+	| [ elt ; elt ] 
+	| ] elt ; elt ] 
+	| ] elt ; elt [ 
+
+assignexp	::= id = exp 
+assignset	::= id = set
+
+set_enum	::= elt	
+		| elt ; set_enum
+
+args	::= [exp]+
+
+application ::= id : set -> exp : set
+	| id -> exp
+
+funcdec	::= application
+	| application WITH optfun
+
+optfun	::= id = application
+	| id = application AND optfun
+
+\end{verbatim}
+\end{document}

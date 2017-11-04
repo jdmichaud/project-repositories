@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/58/mpn/piscine/eval_expr
+END
+pile.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/58/mpn/piscine/eval_expr/pile.c
+END
+is_op.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/58/mpn/piscine/eval_expr/is_op.c
+END
+eval_expr.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/58/mpn/piscine/eval_expr/eval_expr.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/58/mpn/piscine/eval_expr/Makefile
+END
+my_printchar.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/58/mpn/piscine/eval_expr/my_printchar.c
+END
+my_is_digit.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/58/mpn/piscine/eval_expr/my_is_digit.c
+END
+my_atoi.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/58/mpn/piscine/eval_expr/my_atoi.c
+END
+my_printnbr.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/58/mpn/piscine/eval_expr/my_printnbr.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/58/mpn/piscine/eval_expr/main.c
+END
+eval_expr.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/58/mpn/piscine/eval_expr/eval_expr.c
+END
+signe.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/58/mpn/piscine/eval_expr/signe.c
+END
+get_number.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/58/mpn/piscine/eval_expr/get_number.c
+END

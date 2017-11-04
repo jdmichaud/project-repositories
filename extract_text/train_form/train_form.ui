@@ -1,0 +1,88 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>TrainForm</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>TrainForm</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>965</width>
+            <height>815</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>TrainForm</string>
+    </property>
+    <widget class="QPushButton">
+        <property name="name">
+            <cstring>trainButton</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>850</x>
+                <y>790</y>
+                <width>111</width>
+                <height>21</height>
+            </rect>
+        </property>
+        <property name="text">
+            <string>Train</string>
+        </property>
+    </widget>
+    <widget class="QListView">
+        <column>
+            <property name="text">
+                <string>Text list</string>
+            </property>
+            <property name="clickable">
+                <bool>true</bool>
+            </property>
+            <property name="resizable">
+                <bool>false</bool>
+            </property>
+        </column>
+        <property name="name">
+            <cstring>stringList</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>1</x>
+                <y>1</y>
+                <width>960</width>
+                <height>780</height>
+            </rect>
+        </property>
+        <property name="sizePolicy">
+            <sizepolicy>
+                <hsizetype>4</hsizetype>
+                <vsizetype>4</vsizetype>
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+            </sizepolicy>
+        </property>
+        <property name="rootIsDecorated">
+            <bool>true</bool>
+        </property>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>trainButton</sender>
+        <signal>clicked()</signal>
+        <receiver>TrainForm</receiver>
+        <slot>train()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">train_form.ui.h</include>
+</includes>
+<slots>
+    <slot>train()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

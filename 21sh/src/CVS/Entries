@@ -1,0 +1,16 @@
+D/builtins////
+D/cmdline////
+D/env_var////
+D/error////
+D/historic////
+D/meta////
+D/parser////
+D/parser_line////
+D/parser_list_cmd////
+D/process////
+D/termcap////
+D/utils////
+/21sh.c/1.17/Mon Dec 31 14:15:08 2001//
+/Makefile/1.17/Mon Dec 31 13:09:59 2001//
+/end.c/1.9/Mon Dec 31 13:23:06 2001//
+/init.c/1.6/Mon Dec 31 12:57:17 2001//

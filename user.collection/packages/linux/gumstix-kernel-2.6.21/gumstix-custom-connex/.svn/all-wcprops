@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/11/user.collection/packages/linux/gumstix-kernel-2.6.21/gumstix-custom-connex
+END
+defconfig
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/11/user.collection/packages/linux/gumstix-kernel-2.6.21/gumstix-custom-connex/defconfig
+END
+mmc-card-detect.patch
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/11/user.collection/packages/linux/gumstix-kernel-2.6.21/gumstix-custom-connex/mmc-card-detect.patch
+END

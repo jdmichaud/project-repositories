@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 21
+/svn/!svn/ver/54/quat
+END
+matrix.hh
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/54/quat/matrix.hh
+END
+slerp.hh
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/54/quat/slerp.hh
+END
+quaternion.hh
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/54/quat/quaternion.hh
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/54/quat/main.cc
+END
+matrix.cc
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/54/quat/matrix.cc
+END
+slerp.cc
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/54/quat/slerp.cc
+END
+quaternion.cc
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/54/quat/quaternion.cc
+END
+euler.hh
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/54/quat/euler.hh
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/54/quat/Makefile
+END
+euler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/54/quat/euler.cc
+END

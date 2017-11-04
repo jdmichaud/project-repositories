@@ -1,0 +1,2 @@
+(global-font-lock-mode t)
+(setq user-mail-address "michau_j@epita.fr")

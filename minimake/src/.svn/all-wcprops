@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/52/minimake/src
+END
+var.cc
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/52/minimake/src/var.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/52/minimake/src/Makefile
+END
+parse.cc
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/52/minimake/src/parse.cc
+END
+rules.cc
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/52/minimake/src/rules.cc
+END
+stat.cc
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/52/minimake/src/stat.cc
+END
+options.cc
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/52/minimake/src/options.cc
+END
+graph.cc
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/52/minimake/src/graph.cc
+END
+scan_make.ll
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/52/minimake/src/scan_make.ll
+END
+parse_make.yy
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/52/minimake/src/parse_make.yy
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/52/minimake/src/main.cc
+END
+node.cc
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/52/minimake/src/node.cc
+END

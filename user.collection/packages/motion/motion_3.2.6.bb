@@ -1,0 +1,13 @@
+DESCRIPTION = "Motion - a motion detection program"
+HOMEPAGE = "http://www.lavrsen.dk/twiki/bin/view/Motion/WebHome"
+PRIORITY = "optional"
+PR = "r0"
+LICENSE = "GPL"
+DEPENDS = "jpeg"
+PRIORITY = "optional"
+
+SRC_URI = "${SOURCEFORGE_MIRROR}/motion/motion-3.2.6.tar.gz"
+
+inherit autotools
+
+EXTRA_OECONF = "--with-ffmpeg=/home/jedi/projects/gumstix/gumstix-oe/tmp/staging/arm-angstrom-linux-gnueabi/"

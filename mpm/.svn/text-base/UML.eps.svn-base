@@ -1,0 +1,937 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: UML
+%%Creator: Dia v0.88.1
+%%CreationDate: Mon Mar 25 11:34:54 2002
+%%For: michau_j
+%%Magnification: 1.0000
+%%Orientation: Portrait
+%%BoundingBox: 0 0 2507 2940
+%%Pages: 1
+%%BeginSetup
+%%EndSetup
+%%EndComments
+%%BeginProlog
+[ /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright
+/parenleft /parenright /asterisk /plus /comma /hyphen /period /slash /zero /one
+/two /three /four /five /six /seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at /A /B /C /D /E
+/F /G /H /I /J /K /L /M /N /O
+/P /Q /R /S /T /U /V /W /X /Y
+/Z /bracketleft /backslash /bracketright /asciicircum /underscore /quoteleft /a /b /c
+/d /e /f /g /h /i /j /k /l /m
+/n /o /p /q /r /s /t /u /v /w
+/x /y /z /braceleft /bar /braceright /asciitilde /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclamdown /cent /sterling /currency /yen /brokenbar /section /dieresis /copyright
+/ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron /degree /plusminus /twosuperior /threesuperior
+/acute /mu /paragraph /periodcentered /cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf
+/threequarters /questiondown /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis /Eth /Ntilde
+/Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash /Ugrave /Uacute /Ucircumflex
+/Udieresis /Yacute /Thorn /germandbls /agrave /aacute /acircumflex /atilde /adieresis /aring
+/ae /ccedilla /egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide /oslash /ugrave
+/uacute /ucircumflex /udieresis /yacute /thorn /ydieresis] /isolatin1encoding exch def
+/Times-Roman-latin1
+    /Times-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-Italic-latin1
+    /Times-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-Bold-latin1
+    /Times-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Times-BoldItalic-latin1
+    /Times-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-Book-latin1
+    /AvantGarde-Book findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-BookOblique-latin1
+    /AvantGarde-BookOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-Demi-latin1
+    /AvantGarde-Demi findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/AvantGarde-DemiOblique-latin1
+    /AvantGarde-DemiOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-Light-latin1
+    /Bookman-Light findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-LightItalic-latin1
+    /Bookman-LightItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-Demi-latin1
+    /Bookman-Demi findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Bookman-DemiItalic-latin1
+    /Bookman-DemiItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-latin1
+    /Courier findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-Oblique-latin1
+    /Courier-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-Bold-latin1
+    /Courier-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Courier-BoldOblique-latin1
+    /Courier-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-latin1
+    /Helvetica findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Oblique-latin1
+    /Helvetica-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Bold-latin1
+    /Helvetica-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-BoldOblique-latin1
+    /Helvetica-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-latin1
+    /Helvetica-Narrow findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-Oblique-latin1
+    /Helvetica-Narrow-Oblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-Bold-latin1
+    /Helvetica-Narrow-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Helvetica-Narrow-BoldOblique-latin1
+    /Helvetica-Narrow-BoldOblique findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-Roman-latin1
+    /NewCenturySchoolbook-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-Italic-latin1
+    /NewCenturySchoolbook-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-Bold-latin1
+    /NewCenturySchoolbook-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/NewCenturySchoolbook-BoldItalic-latin1
+    /NewCenturySchoolbook-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Roman-latin1
+    /Palatino-Roman findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Italic-latin1
+    /Palatino-Italic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-Bold-latin1
+    /Palatino-Bold findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Palatino-BoldItalic-latin1
+    /Palatino-BoldItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/Symbol-latin1
+    /Symbol findfont
+definefont pop
+/ZapfChancery-MediumItalic-latin1
+    /ZapfChancery-MediumItalic findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/ZapfDingbats-latin1
+    /ZapfDingbats findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+/cp {closepath} bind def
+/c {curveto} bind def
+/f {fill} bind def
+/a {arc} bind def
+/ef {eofill} bind def
+/ex {exch} bind def
+/gr {grestore} bind def
+/gs {gsave} bind def
+/sa {save} bind def
+/rs {restore} bind def
+/l {lineto} bind def
+/m {moveto} bind def
+/rm {rmoveto} bind def
+/n {newpath} bind def
+/s {stroke} bind def
+/sh {show} bind def
+/slc {setlinecap} bind def
+/slj {setlinejoin} bind def
+/slw {setlinewidth} bind def
+/srgb {setrgbcolor} bind def
+/rot {rotate} bind def
+/sc {scale} bind def
+/sd {setdash} bind def
+/ff {findfont} bind def
+/sf {setfont} bind def
+/scf {scalefont} bind def
+/sw {stringwidth pop} bind def
+/tr {translate} bind def
+
+/ellipsedict 8 dict def
+ellipsedict /mtrx matrix put
+/ellipse
+{ ellipsedict begin
+   /endangle exch def
+   /startangle exch def
+   /yrad exch def
+   /xrad exch def
+   /y exch def
+   /x exch def   /savematrix mtrx currentmatrix def
+   x y tr xrad yrad sc
+   0 0 1 startangle endangle arc
+   savematrix setmatrix
+   end
+} def
+
+/mergeprocs {
+dup length
+3 -1 roll
+dup
+length
+dup
+5 1 roll
+3 -1 roll
+add
+array cvx
+dup
+3 -1 roll
+0 exch
+putinterval
+dup
+4 2 roll
+putinterval
+} bind def
+28.346000 -28.346000 scale
+25.597113 -41.938800 translate
+%%EndProlog
+
+
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 17.500000 -61.700000 m 17.500000 -59.500000 l 32.359200 -59.500000 l 32.359200 -61.700000 l f
+0.000000 0.000000 0.000000 srgb
+n 17.500000 -61.700000 m 17.500000 -59.500000 l 32.359200 -59.500000 l 32.359200 -61.700000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(«interface») dup sw 2 div 24.929600 ex sub -61.005310 m gs 1 -1 sc sh gr
+/Helvetica-BoldOblique-latin1 ff 1.000000 scf sf
+(DBQuery) dup sw 2 div 24.929600 ex sub -60.005310 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 17.500000 -59.500000 m 17.500000 -58.500000 l 32.359200 -58.500000 l 32.359200 -59.500000 l f
+0.000000 0.000000 0.000000 srgb
+n 17.500000 -59.500000 m 17.500000 -58.500000 l 32.359200 -58.500000 l 32.359200 -59.500000 l cp s
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+toString\(\): java.lang.String) 17.650000 -58.805310 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 21.700000 -54.500000 m 21.700000 -53.100000 l 28.317600 -53.100000 l 28.317600 -54.500000 l f
+0.000000 0.000000 0.000000 srgb
+n 21.700000 -54.500000 m 21.700000 -53.100000 l 28.317600 -53.100000 l 28.317600 -54.500000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(QueryBase) dup sw 2 div 25.008800 ex sub -53.500000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 21.700000 -53.100000 m 21.700000 -52.100000 l 28.317600 -52.100000 l 28.317600 -53.100000 l f
+0.000000 0.000000 0.000000 srgb
+n 21.700000 -53.100000 m 21.700000 -52.100000 l 28.317600 -52.100000 l 28.317600 -53.100000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+QueryBase\(\)) 21.850000 -52.405310 m gs 1 -1 sc sh gr
+0.100000 slw
+[1.000000] 0 sd
+[0.400000] 0 sd
+0 slj
+0 slc
+n 24.929600 -58.500000 m 24.929600 -54.500000 l 25.008800 -54.500000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 25.329600 -57.700000 m 24.929600 -58.500000 l 24.529600 -57.700000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 25.329600 -57.700000 m 24.929600 -58.500000 l 24.529600 -57.700000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 2.300000 -45.300000 m 2.300000 -43.900000 l 17.159200 -43.900000 l 17.159200 -45.300000 l f
+0.000000 0.000000 0.000000 srgb
+n 2.300000 -45.300000 m 2.300000 -43.900000 l 17.159200 -43.900000 l 17.159200 -45.300000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(CreationQuery) dup sw 2 div 9.729600 ex sub -44.300000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 2.300000 -43.900000 m 2.300000 -42.100000 l 17.159200 -42.100000 l 17.159200 -43.900000 l f
+0.000000 0.000000 0.000000 srgb
+n 2.300000 -43.900000 m 2.300000 -42.100000 l 17.159200 -42.100000 l 17.159200 -43.900000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+CreationQuery\(\)) 2.450000 -43.205310 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+toString\(\): java.lang.String) 2.450000 -42.405310 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 17.550000 -45.300000 m 17.550000 -43.900000 l 32.409200 -43.900000 l 32.409200 -45.300000 l f
+0.000000 0.000000 0.000000 srgb
+n 17.550000 -45.300000 m 17.550000 -43.900000 l 32.409200 -43.900000 l 32.409200 -45.300000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(InsertionQuery) dup sw 2 div 24.979600 ex sub -44.300000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 17.550000 -43.900000 m 17.550000 -42.100000 l 32.409200 -42.100000 l 32.409200 -43.900000 l f
+0.000000 0.000000 0.000000 srgb
+n 17.550000 -43.900000 m 17.550000 -42.100000 l 32.409200 -42.100000 l 32.409200 -43.900000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+InsertionQuery\(\)) 17.700000 -43.205310 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+toString\(\): java.lang.String) 17.700000 -42.405310 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 32.800000 -45.350000 m 32.800000 -43.950000 l 47.659200 -43.950000 l 47.659200 -45.350000 l f
+0.000000 0.000000 0.000000 srgb
+n 32.800000 -45.350000 m 32.800000 -43.950000 l 47.659200 -43.950000 l 47.659200 -45.350000 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(SearchQuery) dup sw 2 div 40.229600 ex sub -44.350000 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 32.800000 -43.950000 m 32.800000 -42.150000 l 47.659200 -42.150000 l 47.659200 -43.950000 l f
+0.000000 0.000000 0.000000 srgb
+n 32.800000 -43.950000 m 32.800000 -42.150000 l 47.659200 -42.150000 l 47.659200 -43.950000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+SarchQuery\(\)) 32.950000 -43.255310 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+toString\(\): java.lang.String) 32.950000 -42.455310 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 1.200000 -32.125100 m 1.200000 -29.925100 l 49.510400 -29.925100 l 49.510400 -32.125100 l f
+0.000000 0.000000 0.000000 srgb
+n 1.200000 -32.125100 m 1.200000 -29.925100 l 49.510400 -29.925100 l 49.510400 -32.125100 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(«interface») dup sw 2 div 25.355200 ex sub -31.430410 m gs 1 -1 sc sh gr
+/Helvetica-BoldOblique-latin1 ff 1.000000 scf sf
+(DBQueryFactory) dup sw 2 div 25.355200 ex sub -30.430410 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 1.200000 -29.925100 m 1.200000 -27.325100 l 49.510400 -27.325100 l 49.510400 -29.925100 l f
+0.000000 0.000000 0.000000 srgb
+n 1.200000 -29.925100 m 1.200000 -27.325100 l 49.510400 -27.325100 l 49.510400 -29.925100 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+TABLE_CREATION: int = 0) 1.350000 -29.230410 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+TUPLE_INSERTION: int = 1) 1.350000 -28.430410 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+TUPLE_FINDER: int = 2) 1.350000 -27.630410 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 1.200000 -27.325100 m 1.200000 -21.525100 l 49.510400 -21.525100 l 49.510400 -27.325100 l f
+0.000000 0.000000 0.000000 srgb
+n 1.200000 -27.325100 m 1.200000 -21.525100 l 49.510400 -21.525100 l 49.510400 -27.325100 l cp s
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+buildTableCreationCommand\(table_name:String,field_names:Vector\): DBQuery) 1.350000 -26.630410 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+buildTupleInsertionCommand\(table_name:String,field_values:Vector\): DBQuery) 1.350000 -25.830410 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+buildTupleFinderCommand\(table_name:String,selected_fields:Vector,selected_values:Vector\): DBQuery) 1.350000 -25.030410 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+getQueryType\(q:DBQuery\): int) 1.350000 -24.230410 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+getTableName\(q:DBQuery\): String) 1.350000 -23.430410 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+getFirstList\(q:DBQuery\): Vector) 1.350000 -22.630410 m gs 1 -1 sc sh gr
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+getSecondList\(q:DBQuery\): Vector) 1.350000 -21.830410 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 11.600000 -16.108800 m 11.600000 -14.708800 l 39.064000 -14.708800 l 39.064000 -16.108800 l f
+0.000000 0.000000 0.000000 srgb
+n 11.600000 -16.108800 m 11.600000 -14.708800 l 39.064000 -14.708800 l 39.064000 -16.108800 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(StandardDBQueryFactory) dup sw 2 div 25.332000 ex sub -15.108800 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 11.600000 -14.708800 m 11.600000 -14.308800 l 39.064000 -14.308800 l 39.064000 -14.708800 l f
+0.000000 0.000000 0.000000 srgb
+n 11.600000 -14.708800 m 11.600000 -14.308800 l 39.064000 -14.308800 l 39.064000 -14.708800 l cp s
+1.000000 1.000000 1.000000 srgb
+n 11.600000 -14.308800 m 11.600000 -7.708800 l 39.064000 -7.708800 l 39.064000 -14.308800 l f
+0.000000 0.000000 0.000000 srgb
+n 11.600000 -14.308800 m 11.600000 -7.708800 l 39.064000 -7.708800 l 39.064000 -14.308800 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+StandardDBFactory\(\)) 11.750000 -13.614110 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+buildTableCreationCommand\(String,Vector\): DBQuery) 11.750000 -12.814110 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+buildTupleInsertionCommand\(String,Vector\): DBQuery) 11.750000 -12.014110 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+buildTupleFinderCommand\(String,Vector,Vector\): DBQuery) 11.750000 -11.214110 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getQueryType\(DBQuery,\): int) 11.750000 -10.414110 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getTableName\(DBQuery,\): String) 11.750000 -9.614110 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getFirstList\(DBQuery,\): Vector) 11.750000 -8.814110 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+getSecondList\(DBQuery\): Vector) 11.750000 -8.014110 m gs 1 -1 sc sh gr
+0.100000 slw
+[0.400000] 0 sd
+[0.400000] 0 sd
+0 slj
+0 slc
+n 25.355200 -21.525100 m 25.355200 -18.458800 l 25.332000 -18.458800 l 25.332000 -16.108800 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 25.755200 -20.725100 m 25.355200 -21.525100 l 24.955200 -20.725100 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 25.755200 -20.725100 m 25.355200 -21.525100 l 24.955200 -20.725100 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 15.850000 -3.597020 m 15.850000 -1.397020 l 35.072400 -1.397020 l 35.072400 -3.597020 l f
+0.000000 0.000000 0.000000 srgb
+n 15.850000 -3.597020 m 15.850000 -1.397020 l 35.072400 -1.397020 l 35.072400 -3.597020 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(«interface») dup sw 2 div 25.461200 ex sub -2.902330 m gs 1 -1 sc sh gr
+/Helvetica-BoldOblique-latin1 ff 1.000000 scf sf
+(DBQueryPerformer) dup sw 2 div 25.461200 ex sub -1.902330 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 15.850000 -1.397020 m 15.850000 0.402980 l 35.072400 0.402980 l 35.072400 -1.397020 l f
+0.000000 0.000000 0.000000 srgb
+n 15.850000 -1.397020 m 15.850000 0.402980 l 35.072400 0.402980 l 35.072400 -1.397020 l cp s
+/Courier-Oblique-latin1 ff 0.800000 scf sf
+(+executeSingleQuery\(q:DBQuery\): Vector) 16.000000 -0.702330 m gs 1 -1 sc sh gr
+/Courier-latin1 ff 0.800000 scf sf
+(+executeQuerySequence\(s:Vector\): void) 16.000000 0.097670 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 21.300000 3.752980 m 21.300000 5.152980 l 29.614400 5.152980 l 29.614400 3.752980 l f
+0.000000 0.000000 0.000000 srgb
+n 21.300000 3.752980 m 21.300000 5.152980 l 29.614400 5.152980 l 29.614400 3.752980 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(JDBCPerformer) dup sw 2 div 25.457200 ex sub 4.752980 m gs 1 -1 sc sh gr
+0.100000 slw
+[0.400000] 0 sd
+[0.400000] 0 sd
+0 slj
+0 slc
+n 25.461200 0.402980 m 25.461200 1.897210 l 25.457200 1.897210 l 25.457200 3.752980 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 25.861200 1.202980 m 25.461200 0.402980 l 25.061200 1.202980 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 25.861200 1.202980 m 25.461200 0.402980 l 25.061200 1.202980 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n 25.008800 -52.100000 m 25.008800 -48.420200 l 9.729600 -48.420200 l 9.729600 -45.300000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 25.408800 -51.300000 m 25.008800 -52.100000 l 24.608800 -51.300000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 25.408800 -51.300000 m 25.008800 -52.100000 l 24.608800 -51.300000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n 25.008800 -52.100000 m 25.008800 -48.422600 l 24.979600 -48.422600 l 24.979600 -45.300000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 25.408800 -51.300000 m 25.008800 -52.100000 l 24.608800 -51.300000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 25.408800 -51.300000 m 25.008800 -52.100000 l 24.608800 -51.300000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+0 slj
+0 slc
+n 25.008800 -52.100000 m 25.008800 -48.422600 l 40.229600 -48.422600 l 40.229600 -45.350000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 25.408800 -51.300000 m 25.008800 -52.100000 l 24.608800 -51.300000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 25.408800 -51.300000 m 25.008800 -52.100000 l 24.608800 -51.300000 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 13.800000 8.817930 m 13.800000 11.017930 l 36.900800 11.017930 l 36.900800 8.817930 l f
+0.000000 0.000000 0.000000 srgb
+n 13.800000 8.817930 m 13.800000 11.017930 l 36.900800 11.017930 l 36.900800 8.817930 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(«interface») dup sw 2 div 25.350400 ex sub 9.512620 m gs 1 -1 sc sh gr
+/Helvetica-BoldOblique-latin1 ff 1.000000 scf sf
+(ContentAnalyser) dup sw 2 div 25.350400 ex sub 10.512620 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 13.800000 11.017930 m 13.800000 12.017930 l 36.900800 12.017930 l 36.900800 11.017930 l f
+0.000000 0.000000 0.000000 srgb
+n 13.800000 11.017930 m 13.800000 12.017930 l 36.900800 12.017930 l 36.900800 11.017930 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+analyze\(df:DBQueryFactory,d:Document\): Vector) 13.950000 11.712620 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 7.650000 16.217900 m 7.650000 17.617900 l 19.055000 17.617900 l 19.055000 16.217900 l f
+0.000000 0.000000 0.000000 srgb
+n 7.650000 16.217900 m 7.650000 17.617900 l 19.055000 17.617900 l 19.055000 16.217900 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(ConversationAnalyser) dup sw 2 div 13.352500 ex sub 17.217900 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 7.650000 17.617900 m 7.650000 18.017900 l 19.055000 18.017900 l 19.055000 17.617900 l f
+0.000000 0.000000 0.000000 srgb
+n 7.650000 17.617900 m 7.650000 18.017900 l 19.055000 18.017900 l 19.055000 17.617900 l cp s
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 33.100000 16.167900 m 33.100000 17.567900 l 42.808200 17.567900 l 42.808200 16.167900 l f
+0.000000 0.000000 0.000000 srgb
+n 33.100000 16.167900 m 33.100000 17.567900 l 42.808200 17.567900 l 42.808200 16.167900 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(ExchangeAnalyser) dup sw 2 div 37.954100 ex sub 17.167900 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 33.100000 17.567900 m 33.100000 17.967900 l 42.808200 17.967900 l 42.808200 17.567900 l f
+0.000000 0.000000 0.000000 srgb
+n 33.100000 17.567900 m 33.100000 17.967900 l 42.808200 17.967900 l 42.808200 17.567900 l cp s
+0.100000 slw
+[0.400000] 0 sd
+[0.400000] 0 sd
+0 slj
+0 slc
+n 25.350400 12.017900 m 25.350400 14.167900 l 13.352500 14.167900 l 13.352500 16.217900 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 25.750400 12.817900 m 25.350400 12.017900 l 24.950400 12.817900 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 25.750400 12.817900 m 25.350400 12.017900 l 24.950400 12.817900 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[0.400000] 0 sd
+[0.400000] 0 sd
+0 slj
+0 slc
+n 25.350400 12.017900 m 25.350400 14.167900 l 37.954100 14.167900 l 37.954100 16.167900 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 25.750400 12.817900 m 25.350400 12.017900 l 24.950400 12.817900 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 25.750400 12.817900 m 25.350400 12.017900 l 24.950400 12.817900 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 12.250000 22.730900 m 12.250000 24.930900 l 38.744400 24.930900 l 38.744400 22.730900 l f
+0.000000 0.000000 0.000000 srgb
+n 12.250000 22.730900 m 12.250000 24.930900 l 38.744400 24.930900 l 38.744400 22.730900 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(«interface») dup sw 2 div 25.497200 ex sub 23.425590 m gs 1 -1 sc sh gr
+/Helvetica-BoldOblique-latin1 ff 1.000000 scf sf
+(DBView) dup sw 2 div 25.497200 ex sub 24.425590 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 12.250000 24.930900 m 12.250000 25.930900 l 38.744400 25.930900 l 38.744400 24.930900 l f
+0.000000 0.000000 0.000000 srgb
+n 12.250000 24.930900 m 12.250000 25.930900 l 38.744400 25.930900 l 38.744400 24.930900 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+observe\(df:DBQueryFactory,qp:DBQueryPerformer\): void) 12.400000 25.625590 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 13.963200 28.844500 m 13.963200 30.244500 l 37.064000 30.244500 l 37.064000 28.844500 l f
+0.000000 0.000000 0.000000 srgb
+n 13.963200 28.844500 m 13.963200 30.244500 l 37.064000 30.244500 l 37.064000 28.844500 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(ExchangeViewer) dup sw 2 div 25.513600 ex sub 29.844500 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 13.963200 30.244500 m 13.963200 31.244500 l 37.064000 31.244500 l 37.064000 30.244500 l f
+0.000000 0.000000 0.000000 srgb
+n 13.963200 30.244500 m 13.963200 31.244500 l 37.064000 31.244500 l 37.064000 30.244500 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+Observe\(df:DBQueryFactor,DBQueryPerformer:dp\)) 14.113200 30.939190 m gs 1 -1 sc sh gr
+0.100000 slw
+[0.400000] 0 sd
+[0.400000] 0 sd
+0 slj
+0 slc
+n 25.497200 25.930900 m 25.497200 27.680900 l 25.513600 27.680900 l 25.513600 28.844500 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 25.897200 26.730900 m 25.497200 25.930900 l 25.097200 26.730900 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 25.897200 26.730900 m 25.497200 25.930900 l 25.097200 26.730900 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -14.056300 -28.114400 m -14.056300 -26.714400 l -10.014200 -26.714400 l -10.014200 -28.114400 l f
+0.000000 0.000000 0.000000 srgb
+n -14.056300 -28.114400 m -14.056300 -26.714400 l -10.014200 -26.714400 l -10.014200 -28.114400 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(Feeder) dup sw 2 div -12.035250 ex sub -27.114400 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 57.588500 -28.584400 m 57.588500 -27.184400 l 62.782000 -27.184400 l 62.782000 -28.584400 l f
+0.000000 0.000000 0.000000 srgb
+n 57.588500 -28.584400 m 57.588500 -27.184400 l 62.782000 -27.184400 l 62.782000 -28.584400 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(Observer) dup sw 2 div 60.185250 ex sub -27.584400 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 11.500000 34.338800 m 11.500000 35.738800 l 39.448800 35.738800 l 39.448800 34.338800 l f
+0.000000 0.000000 0.000000 srgb
+n 11.500000 34.338800 m 11.500000 35.738800 l 39.448800 35.738800 l 39.448800 34.338800 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(DBQueryPerformerLoader) dup sw 2 div 25.474400 ex sub 35.338800 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 11.500000 35.738800 m 11.500000 36.738800 l 39.448800 36.738800 l 39.448800 35.738800 l f
+0.000000 0.000000 0.000000 srgb
+n 11.500000 35.738800 m 11.500000 36.738800 l 39.448800 36.738800 l 39.448800 35.738800 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+getPerformer\(arg1:String,arg2:String\): DBQueryPerformer) 11.650000 36.433490 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 15.907000 39.488800 m 15.907000 40.888800 l 35.129400 40.888800 l 35.129400 39.488800 l f
+0.000000 0.000000 0.000000 srgb
+n 15.907000 39.488800 m 15.907000 40.888800 l 35.129400 40.888800 l 35.129400 39.488800 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(AnalyzerLoader) dup sw 2 div 25.518200 ex sub 40.488800 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 15.907000 40.888800 m 15.907000 41.888800 l 35.129400 41.888800 l 35.129400 40.888800 l f
+0.000000 0.000000 0.000000 srgb
+n 15.907000 40.888800 m 15.907000 41.888800 l 35.129400 41.888800 l 35.129400 40.888800 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+getContentAnalyzer\(\): ContentAnalyzer) 16.057000 41.583490 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 1.200000 -26.825100 m -10.014200 -26.714400 l s
+0 slj
+n 0.402507 -26.567215 m 1.200000 -26.825100 l 0.397571 -27.067191 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(«create») dup sw 2 div -4.407100 ex sub -26.769800 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 15.850000 -2.497020 m -10.014200 -26.714400 l s
+0 slj
+n 15.095157 -2.861318 m 15.850000 -2.497020 l 15.436900 -3.226300 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(use) dup sw 2 div 2.917900 ex sub -14.605700 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 13.800000 9.917930 m -9.898010 -26.604200 l s
+0 slj
+n 13.154825 9.382908 m 13.800000 9.917930 l 13.574263 9.110748 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(use) dup sw 2 div 1.950990 ex sub -8.343120 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 11.500000 35.038800 m -10.014200 -26.714400 l s
+0 slj
+n 11.000721 34.365584 m 11.500000 35.038800 l 11.472886 34.201086 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(«create») dup sw 2 div 0.742900 ex sub 4.162200 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 15.907000 39.488800 m -10.014200 -26.714400 l s
+0 slj
+n 15.382536 38.835013 m 15.907000 39.488800 l 15.848120 38.652718 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(«create») dup sw 2 div 2.946400 ex sub 6.387200 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 17.500000 -58.500000 m 1.201880 -31.273400 l s
+0 slj
+n 17.303610 -57.685180 m 17.500000 -58.500000 l 16.874600 -57.941990 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(«create») dup sw 2 div 9.350940 ex sub -44.886700 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 32.359200 -58.500000 m 49.510400 -31.025100 l s
+0 slj
+n 32.994904 -57.953758 m 32.359200 -58.500000 l 32.570762 -57.688987 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(«destroy») dup sw 2 div 40.934800 ex sub -44.762600 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 35.072400 0.402980 m 39.448800 34.338800 l s
+0 slj
+n 35.422668 1.164434 m 35.072400 0.402980 l 34.926775 1.228385 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(«create») dup sw 2 div 37.260600 ex sub 17.370900 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 36.900800 12.017900 m 35.129400 39.488800 l s
+0 slj
+n 37.098803 12.832329 m 36.900800 12.017900 l 36.599839 12.800155 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(«create») dup sw 2 div 36.015100 ex sub 25.753400 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 49.510400 -26.825100 m 57.588500 -27.184400 l s
+0 slj
+n 50.298501 -27.110401 m 49.510400 -26.825100 l 50.320718 -26.610894 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(«create») dup sw 2 div 53.549500 ex sub -27.004800 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 35.072400 -2.497020 m 57.588500 -27.184400 l s
+0 slj
+n 35.426782 -3.256568 m 35.072400 -2.497020 l 35.796208 -2.919634 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(use) dup sw 2 div 46.330400 ex sub -14.840700 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 38.744400 23.830900 m 57.588500 -27.184400 l s
+0 slj
+n 38.787086 22.993835 m 38.744400 23.830900 l 39.256111 23.167084 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(use) dup sw 2 div 48.166400 ex sub -1.676750 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 39.448800 34.338800 m 57.588500 -27.184400 l s
+0 slj
+n 39.435251 33.500757 m 39.448800 34.338800 l 39.914840 33.642160 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(«create») dup sw 2 div 48.518700 ex sub 3.577200 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 35.129400 39.488800 m 57.588500 -27.184400 l s
+0 slj
+n 35.147863 38.650851 m 35.129400 39.488800 l 35.621702 38.810465 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(«create») dup sw 2 div 46.359000 ex sub 6.152200 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n 45.757100 22.804600 m 45.757100 24.204600 l 56.253100 24.204600 l 56.253100 22.804600 l f
+0.000000 0.000000 0.000000 srgb
+n 45.757100 22.804600 m 45.757100 24.204600 l 56.253100 24.204600 l 56.253100 22.804600 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(ViewerLoader) dup sw 2 div 51.005100 ex sub 23.804600 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n 45.757100 24.204600 m 45.757100 24.604600 l 56.253100 24.604600 l 56.253100 24.204600 l f
+0.000000 0.000000 0.000000 srgb
+n 45.757100 24.204600 m 45.757100 24.604600 l 56.253100 24.604600 l 56.253100 24.204600 l cp s
+1.000000 1.000000 1.000000 srgb
+n 45.757100 24.604600 m 45.757100 25.604600 l 56.253100 25.604600 l 56.253100 24.604600 l f
+0.000000 0.000000 0.000000 srgb
+n 45.757100 24.604600 m 45.757100 25.604600 l 56.253100 25.604600 l 56.253100 24.604600 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+getViewer\(\): DBView) 45.907100 25.299290 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 51.005100 22.804600 m 57.588500 -27.184400 l s
+0 slj
+n 50.861696 21.978806 m 51.005100 22.804600 l 51.357415 22.044091 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(«create») dup sw 2 div 54.296800 ex sub -2.189890 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n 38.744400 22.730900 m 45.757100 22.804600 l s
+0 slj
+n 39.546983 22.489321 m 38.744400 22.730900 l 39.541729 22.989293 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(«create») dup sw 2 div 42.250800 ex sub 22.767800 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+1.000000 1.000000 1.000000 srgb
+n -25.547113 -15.401581 m -25.547113 -14.001581 l -7.779113 -14.001581 l -7.779113 -15.401581 l f
+0.000000 0.000000 0.000000 srgb
+n -25.547113 -15.401581 m -25.547113 -14.001581 l -7.779113 -14.001581 l -7.779113 -15.401581 l cp s
+/Helvetica-Bold-latin1 ff 1.000000 scf sf
+(ParseXML) dup sw 2 div -16.663113 ex sub -14.401581 m gs 1 -1 sc sh gr
+1.000000 1.000000 1.000000 srgb
+n -25.547113 -14.001581 m -25.547113 -13.001581 l -7.779113 -13.001581 l -7.779113 -14.001581 l f
+0.000000 0.000000 0.000000 srgb
+n -25.547113 -14.001581 m -25.547113 -13.001581 l -7.779113 -13.001581 l -7.779113 -14.001581 l cp s
+/Courier-latin1 ff 0.800000 scf sf
+(+getDocument\(file:String\): Document) -25.397113 -13.306891 m gs 1 -1 sc sh gr
+0.100000 slw
+0 slc
+[] 0 sd
+n -16.663113 -15.401581 m -12.035250 -26.714400 l s
+0 slj
+n -16.591601 -16.236677 m -16.663113 -15.401581 l -16.128826 -16.047365 l f
+/Helvetica-latin1 ff 0.800000 scf sf
+(«create») dup sw 2 div -14.349182 ex sub -21.057990 m gs 1 -1 sc sh gr
+showpage

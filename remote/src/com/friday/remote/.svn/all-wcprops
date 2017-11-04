@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/35/remote/src/com/friday/remote
+END
+HostsDbAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/30/remote/src/com/friday/remote/HostsDbAdapter.java
+END
+NewConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/34/remote/src/com/friday/remote/NewConnection.java
+END
+BrowseHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/35/remote/src/com/friday/remote/BrowseHome.java
+END
+Remote.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/35/remote/src/com/friday/remote/Remote.java
+END
+GetHostname.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/27/remote/src/com/friday/remote/GetHostname.java
+END
+Connection.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/35/remote/src/com/friday/remote/Connection.java
+END
+SongsDbAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/34/remote/src/com/friday/remote/SongsDbAdapter.java
+END
+Browse.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/35/remote/src/com/friday/remote/Browse.java
+END
+PlayScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/remote/src/com/friday/remote/PlayScreen.java
+END

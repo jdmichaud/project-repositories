@@ -1,0 +1,53 @@
+#! /bin/sh
+#
+#		Written by JDM
+
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+DAEMON=/media/cf/probe/probe.py
+ANGEL=/media/cf/probe/keep_probe_alive.sh
+MAILER=/media/cf/probe/mail.py
+NAME=probe
+DESC="probe is up"
+LOG="/mnt/cf/probe.log"
+
+test -x $DAEMON || exit 0
+
+set -e
+
+case "$1" in
+  start)
+	echo "Starting $NAME: $DESC"
+	if [ ! -d $LOGDIR ]; then
+		mkdir -p $LOGDIR
+	fi
+	echo "started on `date`" 2>&1 >> $LOG
+	$MAILER "jean-daniel.michaud@laposte.net" "probe is starting up" "" 2>&1 >> $LOG
+	nohup $DAEMON 2>&1 >> $LOG &
+	nohup $ANGEL 2>&1 >> $LOG &
+	;;
+  stop)
+	echo "Stopping $NAME: probe is shutting down"
+	echo "stopped on `date`" 2>&1 >> $LOG
+	kill `ps | grep probe.py | grep -v grep | awk '{print $1}'`
+        kill `ps | grep keep_alive | grep -v grep | awk '{print $1}'`                
+	$MAILER "jean-daniel.michaud@laposte.net" "probe is shutting down" "" 2>&1 >> $LOG
+	;;
+  restart)
+	echo "Restarting $DESC: $NAME"
+	kill `ps | grep probe.py | grep -v grep | awk '{print $1}'`
+        kill `ps | grep keep_alive | grep -v grep | awk '{print $1}'`           
+	$MAILER "jean-daniel.michaud@laposte.net" "probe is shutting down" "" 2>&1 >> $LOG
+	echo "restarted on `date`" >> $LOG
+	$MAILER "jean-daniel.michaud@laposte.net" "probe is starting up" "" 2>&1 >> $LOG
+	nohup $DAEMON 2>&1 >> $LOG &
+        ;;
+  *)
+	N=/etc/init.d/$NAME
+	# echo "Usage: $N {start|stop|restart}" >&2
+	echo "Usage: $N {start|stop|restart}" >&2
+	$MAILER "jean-daniel.michaud@laposte.net" "probe unknwon error" "Misuse of daemon script !" 2>&1 >> $LOG
+	exit 1
+	;;
+esac
+
+exit 0

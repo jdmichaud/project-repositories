@@ -1,0 +1,9 @@
+\relax 
+\catcode`:\active
+\catcode`;\active
+\catcode`!\active
+\catcode`?\active
+\select@language{frenchb}
+\@writefile{toc}{\select@language{frenchb}}
+\@writefile{lof}{\select@language{frenchb}}
+\@writefile{lot}{\select@language{frenchb}}

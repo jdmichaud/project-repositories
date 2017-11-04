@@ -1,0 +1,14 @@
+sigmoide n = 1
+hidden unit: 75
+mean error: 0.144187
+good: 812 total: 1000 (81.2%, best: 81.2% at 603 s, no move since: 0 s)
+
+sigmoide n = 0.5
+hidden unit: 75
+good: 812 total: 1000 (81.2%, best: 81.2% at 521 s, no move since: 0 s)
+mean error: 0.148872
+
+sigmoide n = 0.1
+hidden unit: 75
+mean error: 0.200223
+good: 724 total: 1000 (72.4%, best: 78.2% at 519 s, no move since: 83 s)

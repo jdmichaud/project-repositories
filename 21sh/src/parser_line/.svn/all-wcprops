@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/47/21sh/src/parser_line
+END
+list_cmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/47/21sh/src/parser_line/list_cmd.c
+END
+parser_line.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/47/21sh/src/parser_line/parser_line.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/47/21sh/src/parser_line/main.c
+END
+x.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/47/21sh/src/parser_line/x.c
+END
+eat.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/47/21sh/src/parser_line/eat.c
+END
+eat2.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/47/21sh/src/parser_line/eat2.c
+END
+parser.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/47/21sh/src/parser_line/parser.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/47/21sh/src/parser_line/Makefile
+END
+errors.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/47/21sh/src/parser_line/errors.c
+END

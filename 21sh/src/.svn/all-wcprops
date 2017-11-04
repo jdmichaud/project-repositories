@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/svn/!svn/ver/47/21sh/src
+END
+init.c
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/47/21sh/src/init.c
+END
+end.c
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/47/21sh/src/end.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/47/21sh/src/Makefile
+END
+21sh.c
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/47/21sh/src/21sh.c
+END

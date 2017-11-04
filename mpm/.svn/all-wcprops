@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 20
+/svn/!svn/ver/53/mpm
+END
+ExAnalyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/53/mpm/ExAnalyzer.java
+END
+JDBCPerformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/53/mpm/JDBCPerformer.java
+END
+DBQueryPerformerLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/53/mpm/DBQueryPerformerLoader.java
+END
+Observer.java
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/53/mpm/Observer.java
+END
+ExchangeAnalyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/53/mpm/ExchangeAnalyzer.java
+END
+ViewerLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/53/mpm/ViewerLoader.java
+END
+Feeder.java
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/53/mpm/Feeder.java
+END
+ParseXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/53/mpm/ParseXML.java
+END
+DBQueryPerformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/53/mpm/DBQueryPerformer.java
+END
+ExPerformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/53/mpm/ExPerformer.java
+END
+StandardDBFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/53/mpm/StandardDBFactory.java
+END
+UML.eps
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/53/mpm/UML.eps
+END
+DBQueryFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/53/mpm/DBQueryFactory.java
+END
+ExchangeViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/53/mpm/ExchangeViewer.java
+END
+ViewerAnalyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/53/mpm/ViewerAnalyzer.java
+END
+AnalyzerLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/53/mpm/AnalyzerLoader.java
+END
+ConversationAnalyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/53/mpm/ConversationAnalyzer.java
+END
+DBView.java
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/53/mpm/DBView.java
+END
+ContentAnalyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/53/mpm/ContentAnalyzer.java
+END

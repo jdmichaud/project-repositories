@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/58/mpn/piscine/j5
+END
+my_strupcase.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/58/mpn/piscine/j5/my_strupcase.c
+END
+my_showstr.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j5/my_showstr.c
+END
+my_isdigit.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j5/my_isdigit.c
+END
+my_strlcat.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j5/my_strlcat.c
+END
+my_strcapitalize.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/58/mpn/piscine/j5/my_strcapitalize.c
+END
+my_showmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j5/my_showmem.c
+END
+my_strcat.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/58/mpn/piscine/j5/my_strcat.c
+END
+my_isalpha.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j5/my_isalpha.c
+END
+my_strdup.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/58/mpn/piscine/j5/my_strdup.c
+END
+my_islower.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j5/my_islower.c
+END
+my_strlowcase.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/58/mpn/piscine/j5/my_strlowcase.c
+END
+my_isupper.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j5/my_isupper.c
+END
+my_isprint.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j5/my_isprint.c
+END

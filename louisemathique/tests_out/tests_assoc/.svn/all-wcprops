@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc
+END
+ref_sub1.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/ref_sub1.stdout.striped
+END
+student_add1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_add1.stdout
+END
+student_sub1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_sub1.stdout
+END
+ref_mul1.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/ref_mul1.stdout.striped
+END
+student_div2.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_div2.stdout.striped
+END
+student_mul1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_mul1.stdout
+END
+student_add2.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_add2.stdout.striped
+END
+student_div1.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_div1.stderr
+END
+student_sub2.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_sub2.stdout.striped
+END
+student_mul2.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_mul2.stdout.striped
+END
+student_add1.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_add1.stderr
+END
+student_sub1.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_sub1.stderr
+END
+student_mul1.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_mul1.stderr
+END
+ref_div2.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/ref_div2.stdout.striped
+END
+student_div2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_div2.stdout
+END
+ref_add2.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/ref_add2.stdout.striped
+END
+student_add2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_add2.stdout
+END
+ref_sub2.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/ref_sub2.stdout.striped
+END
+student_sub2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_sub2.stdout
+END
+student_div1.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_div1.stdout.striped
+END
+ref_mul2.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/ref_mul2.stdout.striped
+END
+student_mul2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_mul2.stdout
+END
+student_add1.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_add1.stdout.striped
+END
+student_sub1.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_sub1.stdout.striped
+END
+student_div2.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_div2.stderr
+END
+student_mul1.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_mul1.stdout.striped
+END
+student_add2.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_add2.stderr
+END
+student_sub2.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_sub2.stderr
+END
+student_mul2.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_mul2.stderr
+END
+ref_div1.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/ref_div1.stdout.striped
+END
+student_div1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/student_div1.stdout
+END
+ref_add1.stdout.striped
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/51/louisemathique/tests_out/tests_assoc/ref_add1.stdout.striped
+END

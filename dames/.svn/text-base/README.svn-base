@@ -1,0 +1,31 @@
+To lunch a server:
+------------------
+
+'java -DDB_PERFORMER=JDBCPerformer -DTDB=TDBStandard TNetServer 10.226.7.3 mimoun_j:joelle'
+
+
+To lunch a client:
+------------------
+
+'java TNetClient' IP-SERVER
+
+				************
+				     **
+				************
+
+
+--> On the server to create a new Game:
+
+  'CREATE' rules':'param1':'param2':'...
+
+   Ex: CREATE TQueensRules:8:8
+
+--> On the client to join a Game:
+
+  'PLAY' GameId
+
+   Ex: PLAY 3
+
+				************
+				     **
+				************

@@ -1,0 +1,12 @@
+--- clisp_2.45/configure	2008-05-08 04:21:36.000000000 +0200
++++ clisp_2.45/configure	2008-05-18 00:05:59.000000000 +0200
+@@ -471,6 +471,9 @@
+       --ignore-absence-of-libsigsegv)
+         ignore_absence_of_libsigsegv=yes ;;
+ 
++      --target* | --sbindir* | --libexecdir* | --sysconfdir* | --sharedstatedir* | --localstatedir* | --oldincludedir* | --infodir*)
++        echo "ignoring $arg";;
++
+       -*)
+         fail "$0: invalid argument $arg
+ $0: Try \`$0 --help'" ;;

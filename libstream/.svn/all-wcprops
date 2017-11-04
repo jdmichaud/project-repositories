@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/49/libstream
+END
+my_fread.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/49/libstream/my_fread.c
+END
+my_isalpha.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/49/libstream/my_isalpha.c
+END
+my_fputc.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/49/libstream/my_fputc.c
+END
+libstream.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/49/libstream/libstream.h
+END
+my_fsetpos.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/49/libstream/my_fsetpos.c
+END
+my_fflush.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/49/libstream/my_fflush.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/49/libstream/Makefile
+END
+my_rewind.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/49/libstream/my_rewind.c
+END
+my_fgetc.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/49/libstream/my_fgetc.c
+END
+my_fpurge.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/49/libstream/my_fpurge.c
+END
+my_fseek.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/49/libstream/my_fseek.c
+END
+my_freopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/49/libstream/my_freopen.c
+END
+my_fwrite.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/49/libstream/my_fwrite.c
+END
+my_fputs.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/49/libstream/my_fputs.c
+END
+my_ftell.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/49/libstream/my_ftell.c
+END
+my_fopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/49/libstream/my_fopen.c
+END
+my_strlen.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/49/libstream/my_strlen.c
+END
+my_fgetpos.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/49/libstream/my_fgetpos.c
+END
+my_fgets.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/49/libstream/my_fgets.c
+END
+my_fclose.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/49/libstream/my_fclose.c
+END
+my_fdopen.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/49/libstream/my_fdopen.c
+END
+defines.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/49/libstream/defines.h
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/49/libstream/main.c
+END

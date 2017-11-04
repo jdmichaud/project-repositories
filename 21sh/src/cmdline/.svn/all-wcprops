@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/47/21sh/src/cmdline
+END
+redo_line.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/47/21sh/src/cmdline/redo_line.c
+END
+do_struct_process.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/47/21sh/src/cmdline/do_struct_process.c
+END
+cmdline.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/47/21sh/src/cmdline/cmdline.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/47/21sh/src/cmdline/Makefile
+END
+cmdline2.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/47/21sh/src/cmdline/cmdline2.c
+END

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/58/mpn/piscine/j6
+END
+list_from_params.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/58/mpn/piscine/j6/list_from_params.c
+END
+list_apply_on_eq.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/58/mpn/piscine/j6/list_apply_on_eq.c
+END
+list_append.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/58/mpn/piscine/j6/list_append.c
+END
+list_put.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/58/mpn/piscine/j6/list_put.c
+END
+list_show_str.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/58/mpn/piscine/j6/list_show_str.c
+END
+list_size.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/58/mpn/piscine/j6/list_size.c
+END
+list_free.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/58/mpn/piscine/j6/list_free.c
+END
+list_add_to_list.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/58/mpn/piscine/j6/list_add_to_list.c
+END
+list_apply.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/58/mpn/piscine/j6/list_apply.c
+END
+list_find_node.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/58/mpn/piscine/j6/list_find_node.c
+END
+list.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/58/mpn/piscine/j6/list.h
+END
+list_apply_on_node.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/58/mpn/piscine/j6/list_apply_on_node.c
+END
+list_sort.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/58/mpn/piscine/j6/list_sort.c
+END
+list_rev.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/58/mpn/piscine/j6/list_rev.c
+END
+list_add_to_sortlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/58/mpn/piscine/j6/list_add_to_sortlist.c
+END
+list_put_in_sortlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/58/mpn/piscine/j6/list_put_in_sortlist.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/58/mpn/piscine/j6/Makefile
+END
+list_find_elm_eq.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/58/mpn/piscine/j6/list_find_elm_eq.c
+END

@@ -1,0 +1,51 @@
+   0  $accept : %entry% $end
+
+   1  line : EXP EOL
+
+   2  %entry% : '\001' line
+
+state 0
+	$accept : . %entry% $end  (0)
+
+	'\001'  shift 1
+	.  error
+
+	%entry%  goto 2
+
+
+state 1
+	%entry% : '\001' . line  (2)
+
+	EXP  shift 3
+	.  error
+
+	line  goto 4
+
+
+state 2
+	$accept : %entry% . $end  (0)
+
+	$end  accept
+
+
+state 3
+	line : EXP . EOL  (1)
+
+	EOL  shift 5
+	.  error
+
+
+state 4
+	%entry% : '\001' line .  (2)
+
+	.  reduce 2
+
+
+state 5
+	line : EXP EOL .  (1)
+
+	.  reduce 1
+
+
+5 terminals, 3 nonterminals
+3 grammar rules, 6 states

@@ -1,0 +1,2088 @@
+   0  $accept : %entry% $end
+
+   1  main : line SEMICOLON EOL
+   2       | line SEMICOLON SEMICOLON EOL
+
+   3  line : exp
+   4       | assign
+
+   5  exp : elt
+   6      | ID LPAREN RPAREN
+   7      | ID LPAREN args RPAREN
+   8      | exp PLUS exp
+   9      | exp MINUS exp
+  10      | exp TIMES exp
+  11      | exp DIVIDE exp
+  12      | exp POWER exp
+  13      | MINUS exp
+  14      | LPAREN exp RPAREN
+  15      | funcdec
+
+  16  assign : assignens
+  17         | assignexp
+
+  18  elt : INTEGER
+  19      | FLOAT
+  20      | ID
+  21      | INF
+
+  22  ens : ID
+  23      | LPAREN ens RPAREN
+  24      | ens TIMECARTH ens
+  25      | ens INTER ens
+  26      | ens UNION ens
+  27      | ens WITHOUT ens
+  28      | LBRACE RBRACE
+  29      | LBRACE ens_enum RBRACE
+  30      | LBRACKET exp COMMA exp LBRACKET
+  31      | LBRACKET exp COMMA exp RBRACKET
+  32      | RBRACKET exp COMMA exp RBRACKET
+  33      | RBRACKET exp COMMA exp LBRACKET
+  34      | LBRACKET PIPE exp COMMA exp PIPE LBRACKET
+  35      | LBRACKET PIPE exp COMMA exp PIPE RBRACKET
+  36      | RBRACKET PIPE exp COMMA exp PIPE RBRACKET
+  37      | RBRACKET PIPE exp COMMA exp PIPE LBRACKET
+
+  38  assens : ens TIMECARTH ens
+  39         | ens INTER ens
+  40         | ens UNION ens
+  41         | ens WITHOUT ens
+  42         | LBRACE RBRACE
+  43         | LBRACE ens_enum RBRACE
+  44         | LBRACKET exp COMMA exp LBRACKET
+  45         | LBRACKET exp COMMA exp RBRACKET
+  46         | RBRACKET exp COMMA exp RBRACKET
+  47         | RBRACKET exp COMMA exp LBRACKET
+  48         | LBRACKET PIPE exp COMMA exp PIPE LBRACKET
+  49         | LBRACKET PIPE exp COMMA exp PIPE RBRACKET
+  50         | RBRACKET PIPE exp COMMA exp PIPE RBRACKET
+  51         | RBRACKET PIPE exp COMMA exp PIPE LBRACKET
+
+  52  assignexp : ID EQUAL exp
+
+  53  assignens : ID COLON EQUAL assens
+
+  54  ens_enum : elt
+  55           | elt SEMICOLON ens_enum
+
+  56  args : exp
+  57       | exp COMMA args
+
+  58  funcdec : LPAREN relation RPAREN
+  59          | LPAREN relation WITH optfun RPAREN
+
+  60  lvarid : ID
+  61         | ID COMMA lvarid
+
+  62  relation : lvarid COLON ens ARROW exp COLON ens
+  63           | lvarid ARROW exp
+
+  64  optfun : ID EQUAL relation
+  65         | ID EQUAL relation AND optfun
+
+  66  %entry% : '\001' main
+
+state 0
+	$accept : . %entry% $end  (0)
+
+	'\001'  shift 1
+	.  error
+
+	%entry%  goto 2
+
+
+state 1
+	%entry% : '\001' . main  (66)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 5
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	main  goto 9
+	line  goto 10
+	elt  goto 11
+	funcdec  goto 12
+	assign  goto 13
+	assignexp  goto 14
+	assignens  goto 15
+	exp  goto 16
+
+
+state 2
+	$accept : %entry% . $end  (0)
+
+	$end  accept
+
+
+state 3
+	elt : INTEGER .  (18)
+
+	.  reduce 18
+
+
+state 4
+	elt : FLOAT .  (19)
+
+	.  reduce 19
+
+
+state 5
+	exp : ID . LPAREN RPAREN  (6)
+	exp : ID . LPAREN args RPAREN  (7)
+	elt : ID .  (20)
+	assignexp : ID . EQUAL exp  (52)
+	assignens : ID . COLON EQUAL assens  (53)
+
+	LPAREN  shift 17
+	COLON  shift 18
+	EQUAL  shift 19
+	SEMICOLON  reduce 20
+	PLUS  reduce 20
+	MINUS  reduce 20
+	TIMES  reduce 20
+	DIVIDE  reduce 20
+	POWER  reduce 20
+
+
+state 6
+	exp : LPAREN . exp RPAREN  (14)
+	funcdec : LPAREN . relation RPAREN  (58)
+	funcdec : LPAREN . relation WITH optfun RPAREN  (59)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 20
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	relation  goto 21
+	funcdec  goto 12
+	exp  goto 22
+	lvarid  goto 23
+
+
+state 7
+	exp : MINUS . exp  (13)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 25
+
+
+state 8
+	elt : INF .  (21)
+
+	.  reduce 21
+
+
+state 9
+	%entry% : '\001' main .  (66)
+
+	.  reduce 66
+
+
+state 10
+	main : line . SEMICOLON EOL  (1)
+	main : line . SEMICOLON SEMICOLON EOL  (2)
+
+	SEMICOLON  shift 26
+	.  error
+
+
+state 11
+	exp : elt .  (5)
+
+	.  reduce 5
+
+
+state 12
+	exp : funcdec .  (15)
+
+	.  reduce 15
+
+
+state 13
+	line : assign .  (4)
+
+	.  reduce 4
+
+
+state 14
+	assign : assignexp .  (17)
+
+	.  reduce 17
+
+
+state 15
+	assign : assignens .  (16)
+
+	.  reduce 16
+
+
+state 16
+	line : exp .  (3)
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	SEMICOLON  reduce 3
+
+
+state 17
+	exp : ID LPAREN . RPAREN  (6)
+	exp : ID LPAREN . args RPAREN  (7)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	RPAREN  shift 32
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	args  goto 33
+	funcdec  goto 12
+	exp  goto 34
+
+
+state 18
+	assignens : ID COLON . EQUAL assens  (53)
+
+	EQUAL  shift 35
+	.  error
+
+
+state 19
+	assignexp : ID EQUAL . exp  (52)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 36
+
+
+state 20
+	exp : ID . LPAREN RPAREN  (6)
+	exp : ID . LPAREN args RPAREN  (7)
+	elt : ID .  (20)
+	lvarid : ID .  (60)
+	lvarid : ID . COMMA lvarid  (61)
+
+	LPAREN  shift 17
+	COMMA  shift 37
+	RPAREN  reduce 20
+	COLON  reduce 60
+	PLUS  reduce 20
+	MINUS  reduce 20
+	TIMES  reduce 20
+	DIVIDE  reduce 20
+	POWER  reduce 20
+	ARROW  reduce 60
+
+
+state 21
+	funcdec : LPAREN relation . RPAREN  (58)
+	funcdec : LPAREN relation . WITH optfun RPAREN  (59)
+
+	RPAREN  shift 38
+	WITH  shift 39
+	.  error
+
+
+state 22
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	exp : LPAREN exp . RPAREN  (14)
+
+	RPAREN  shift 40
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 23
+	relation : lvarid . COLON ens ARROW exp COLON ens  (62)
+	relation : lvarid . ARROW exp  (63)
+
+	COLON  shift 41
+	ARROW  shift 42
+	.  error
+
+
+state 24
+	exp : ID . LPAREN RPAREN  (6)
+	exp : ID . LPAREN args RPAREN  (7)
+	elt : ID .  (20)
+
+	LPAREN  shift 17
+	RPAREN  reduce 20
+	LBRACKET  reduce 20
+	RBRACKET  reduce 20
+	PIPE  reduce 20
+	COMMA  reduce 20
+	COLON  reduce 20
+	SEMICOLON  reduce 20
+	PLUS  reduce 20
+	MINUS  reduce 20
+	TIMES  reduce 20
+	DIVIDE  reduce 20
+	POWER  reduce 20
+	WITH  reduce 20
+	AND  reduce 20
+
+
+state 25
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	exp : MINUS exp .  (13)
+
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	RPAREN  reduce 13
+	LBRACKET  reduce 13
+	RBRACKET  reduce 13
+	PIPE  reduce 13
+	COMMA  reduce 13
+	COLON  reduce 13
+	SEMICOLON  reduce 13
+	PLUS  reduce 13
+	MINUS  reduce 13
+	WITH  reduce 13
+	AND  reduce 13
+
+
+state 26
+	main : line SEMICOLON . EOL  (1)
+	main : line SEMICOLON . SEMICOLON EOL  (2)
+
+	SEMICOLON  shift 43
+	EOL  shift 44
+	.  error
+
+
+state 27
+	exp : exp PLUS . exp  (8)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 45
+
+
+state 28
+	exp : exp MINUS . exp  (9)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 46
+
+
+state 29
+	exp : exp TIMES . exp  (10)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 47
+
+
+state 30
+	exp : exp DIVIDE . exp  (11)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 48
+
+
+state 31
+	exp : exp POWER . exp  (12)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 49
+
+
+state 32
+	exp : ID LPAREN RPAREN .  (6)
+
+	.  reduce 6
+
+
+state 33
+	exp : ID LPAREN args . RPAREN  (7)
+
+	RPAREN  shift 50
+	.  error
+
+
+state 34
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	args : exp .  (56)
+	args : exp . COMMA args  (57)
+
+	COMMA  shift 51
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	RPAREN  reduce 56
+
+
+state 35
+	assignens : ID COLON EQUAL . assens  (53)
+
+	ID  shift 52
+	LPAREN  shift 53
+	LBRACE  shift 54
+	LBRACKET  shift 55
+	RBRACKET  shift 56
+	.  error
+
+	ens  goto 57
+	assens  goto 58
+
+
+state 36
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	assignexp : ID EQUAL exp .  (52)
+
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	SEMICOLON  reduce 52
+
+
+state 37
+	lvarid : ID COMMA . lvarid  (61)
+
+	ID  shift 59
+	.  error
+
+	lvarid  goto 60
+
+
+state 38
+	funcdec : LPAREN relation RPAREN .  (58)
+
+	.  reduce 58
+
+
+state 39
+	funcdec : LPAREN relation WITH . optfun RPAREN  (59)
+
+	ID  shift 61
+	.  error
+
+	optfun  goto 62
+
+
+state 40
+	exp : LPAREN exp RPAREN .  (14)
+
+	.  reduce 14
+
+
+state 41
+	relation : lvarid COLON . ens ARROW exp COLON ens  (62)
+
+	ID  shift 52
+	LPAREN  shift 53
+	LBRACE  shift 63
+	LBRACKET  shift 64
+	RBRACKET  shift 65
+	.  error
+
+	ens  goto 66
+
+
+state 42
+	relation : lvarid ARROW . exp  (63)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 67
+
+
+state 43
+	main : line SEMICOLON SEMICOLON . EOL  (2)
+
+	EOL  shift 68
+	.  error
+
+
+state 44
+	main : line SEMICOLON EOL .  (1)
+
+	.  reduce 1
+
+
+state 45
+	exp : exp . PLUS exp  (8)
+	exp : exp PLUS exp .  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	RPAREN  reduce 8
+	LBRACKET  reduce 8
+	RBRACKET  reduce 8
+	PIPE  reduce 8
+	COMMA  reduce 8
+	COLON  reduce 8
+	SEMICOLON  reduce 8
+	PLUS  reduce 8
+	MINUS  reduce 8
+	WITH  reduce 8
+	AND  reduce 8
+
+
+state 46
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp MINUS exp .  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	RPAREN  reduce 9
+	LBRACKET  reduce 9
+	RBRACKET  reduce 9
+	PIPE  reduce 9
+	COMMA  reduce 9
+	COLON  reduce 9
+	SEMICOLON  reduce 9
+	PLUS  reduce 9
+	MINUS  reduce 9
+	WITH  reduce 9
+	AND  reduce 9
+
+
+state 47
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp TIMES exp .  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+
+	.  reduce 10
+
+
+state 48
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp DIVIDE exp .  (11)
+	exp : exp . POWER exp  (12)
+
+	.  reduce 11
+
+
+state 49
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	exp : exp POWER exp .  (12)
+
+	.  reduce 12
+
+
+state 50
+	exp : ID LPAREN args RPAREN .  (7)
+
+	.  reduce 7
+
+
+state 51
+	args : exp COMMA . args  (57)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	args  goto 69
+	funcdec  goto 12
+	exp  goto 34
+
+
+state 52
+	ens : ID .  (22)
+
+	.  reduce 22
+
+
+state 53
+	ens : LPAREN . ens RPAREN  (23)
+
+	ID  shift 52
+	LPAREN  shift 53
+	LBRACE  shift 63
+	LBRACKET  shift 64
+	RBRACKET  shift 65
+	.  error
+
+	ens  goto 70
+
+
+state 54
+	ens : LBRACE . RBRACE  (28)
+	ens : LBRACE . ens_enum RBRACE  (29)
+	assens : LBRACE . RBRACE  (42)
+	assens : LBRACE . ens_enum RBRACE  (43)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 71
+	RBRACE  shift 72
+	INF  shift 8
+	.  error
+
+	elt  goto 73
+	ens_enum  goto 74
+
+
+state 55
+	ens : LBRACKET . exp COMMA exp LBRACKET  (30)
+	ens : LBRACKET . exp COMMA exp RBRACKET  (31)
+	ens : LBRACKET . PIPE exp COMMA exp PIPE LBRACKET  (34)
+	ens : LBRACKET . PIPE exp COMMA exp PIPE RBRACKET  (35)
+	assens : LBRACKET . exp COMMA exp LBRACKET  (44)
+	assens : LBRACKET . exp COMMA exp RBRACKET  (45)
+	assens : LBRACKET . PIPE exp COMMA exp PIPE LBRACKET  (48)
+	assens : LBRACKET . PIPE exp COMMA exp PIPE RBRACKET  (49)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	PIPE  shift 75
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 76
+
+
+state 56
+	ens : RBRACKET . exp COMMA exp RBRACKET  (32)
+	ens : RBRACKET . exp COMMA exp LBRACKET  (33)
+	ens : RBRACKET . PIPE exp COMMA exp PIPE RBRACKET  (36)
+	ens : RBRACKET . PIPE exp COMMA exp PIPE LBRACKET  (37)
+	assens : RBRACKET . exp COMMA exp RBRACKET  (46)
+	assens : RBRACKET . exp COMMA exp LBRACKET  (47)
+	assens : RBRACKET . PIPE exp COMMA exp PIPE RBRACKET  (50)
+	assens : RBRACKET . PIPE exp COMMA exp PIPE LBRACKET  (51)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	PIPE  shift 77
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 78
+
+
+state 57
+	ens : ens . TIMECARTH ens  (24)
+	ens : ens . INTER ens  (25)
+	ens : ens . UNION ens  (26)
+	ens : ens . WITHOUT ens  (27)
+	assens : ens . TIMECARTH ens  (38)
+	assens : ens . INTER ens  (39)
+	assens : ens . UNION ens  (40)
+	assens : ens . WITHOUT ens  (41)
+
+	TIMECARTH  shift 79
+	INTER  shift 80
+	UNION  shift 81
+	WITHOUT  shift 82
+	.  error
+
+
+state 58
+	assignens : ID COLON EQUAL assens .  (53)
+
+	.  reduce 53
+
+
+state 59
+	lvarid : ID .  (60)
+	lvarid : ID . COMMA lvarid  (61)
+
+	COMMA  shift 37
+	COLON  reduce 60
+	ARROW  reduce 60
+
+
+state 60
+	lvarid : ID COMMA lvarid .  (61)
+
+	.  reduce 61
+
+
+state 61
+	optfun : ID . EQUAL relation  (64)
+	optfun : ID . EQUAL relation AND optfun  (65)
+
+	EQUAL  shift 83
+	.  error
+
+
+state 62
+	funcdec : LPAREN relation WITH optfun . RPAREN  (59)
+
+	RPAREN  shift 84
+	.  error
+
+
+state 63
+	ens : LBRACE . RBRACE  (28)
+	ens : LBRACE . ens_enum RBRACE  (29)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 71
+	RBRACE  shift 85
+	INF  shift 8
+	.  error
+
+	elt  goto 73
+	ens_enum  goto 86
+
+
+state 64
+	ens : LBRACKET . exp COMMA exp LBRACKET  (30)
+	ens : LBRACKET . exp COMMA exp RBRACKET  (31)
+	ens : LBRACKET . PIPE exp COMMA exp PIPE LBRACKET  (34)
+	ens : LBRACKET . PIPE exp COMMA exp PIPE RBRACKET  (35)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	PIPE  shift 87
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 88
+
+
+state 65
+	ens : RBRACKET . exp COMMA exp RBRACKET  (32)
+	ens : RBRACKET . exp COMMA exp LBRACKET  (33)
+	ens : RBRACKET . PIPE exp COMMA exp PIPE RBRACKET  (36)
+	ens : RBRACKET . PIPE exp COMMA exp PIPE LBRACKET  (37)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	PIPE  shift 89
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 90
+
+
+state 66
+	ens : ens . TIMECARTH ens  (24)
+	ens : ens . INTER ens  (25)
+	ens : ens . UNION ens  (26)
+	ens : ens . WITHOUT ens  (27)
+	relation : lvarid COLON ens . ARROW exp COLON ens  (62)
+
+	TIMECARTH  shift 91
+	INTER  shift 92
+	UNION  shift 93
+	WITHOUT  shift 94
+	ARROW  shift 95
+	.  error
+
+
+state 67
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	relation : lvarid ARROW exp .  (63)
+
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	RPAREN  reduce 63
+	WITH  reduce 63
+	AND  reduce 63
+
+
+state 68
+	main : line SEMICOLON SEMICOLON EOL .  (2)
+
+	.  reduce 2
+
+
+state 69
+	args : exp COMMA args .  (57)
+
+	.  reduce 57
+
+
+state 70
+	ens : LPAREN ens . RPAREN  (23)
+	ens : ens . TIMECARTH ens  (24)
+	ens : ens . INTER ens  (25)
+	ens : ens . UNION ens  (26)
+	ens : ens . WITHOUT ens  (27)
+
+	RPAREN  shift 96
+	TIMECARTH  shift 91
+	INTER  shift 92
+	UNION  shift 93
+	WITHOUT  shift 94
+	.  error
+
+
+state 71
+	elt : ID .  (20)
+
+	.  reduce 20
+
+
+state 72
+	ens : LBRACE RBRACE .  (28)
+	assens : LBRACE RBRACE .  (42)
+
+	TIMECARTH  reduce 28
+	SEMICOLON  reduce 42
+	INTER  reduce 28
+	UNION  reduce 28
+	WITHOUT  reduce 28
+
+
+state 73
+	ens_enum : elt .  (54)
+	ens_enum : elt . SEMICOLON ens_enum  (55)
+
+	SEMICOLON  shift 97
+	RBRACE  reduce 54
+
+
+state 74
+	ens : LBRACE ens_enum . RBRACE  (29)
+	assens : LBRACE ens_enum . RBRACE  (43)
+
+	RBRACE  shift 98
+	.  error
+
+
+state 75
+	ens : LBRACKET PIPE . exp COMMA exp PIPE LBRACKET  (34)
+	ens : LBRACKET PIPE . exp COMMA exp PIPE RBRACKET  (35)
+	assens : LBRACKET PIPE . exp COMMA exp PIPE LBRACKET  (48)
+	assens : LBRACKET PIPE . exp COMMA exp PIPE RBRACKET  (49)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 99
+
+
+state 76
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : LBRACKET exp . COMMA exp LBRACKET  (30)
+	ens : LBRACKET exp . COMMA exp RBRACKET  (31)
+	assens : LBRACKET exp . COMMA exp LBRACKET  (44)
+	assens : LBRACKET exp . COMMA exp RBRACKET  (45)
+
+	COMMA  shift 100
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 77
+	ens : RBRACKET PIPE . exp COMMA exp PIPE RBRACKET  (36)
+	ens : RBRACKET PIPE . exp COMMA exp PIPE LBRACKET  (37)
+	assens : RBRACKET PIPE . exp COMMA exp PIPE RBRACKET  (50)
+	assens : RBRACKET PIPE . exp COMMA exp PIPE LBRACKET  (51)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 101
+
+
+state 78
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : RBRACKET exp . COMMA exp RBRACKET  (32)
+	ens : RBRACKET exp . COMMA exp LBRACKET  (33)
+	assens : RBRACKET exp . COMMA exp RBRACKET  (46)
+	assens : RBRACKET exp . COMMA exp LBRACKET  (47)
+
+	COMMA  shift 102
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 79
+	ens : ens TIMECARTH . ens  (24)
+	assens : ens TIMECARTH . ens  (38)
+
+	ID  shift 52
+	LPAREN  shift 53
+	LBRACE  shift 63
+	LBRACKET  shift 64
+	RBRACKET  shift 65
+	.  error
+
+	ens  goto 103
+
+
+state 80
+	ens : ens INTER . ens  (25)
+	assens : ens INTER . ens  (39)
+
+	ID  shift 52
+	LPAREN  shift 53
+	LBRACE  shift 63
+	LBRACKET  shift 64
+	RBRACKET  shift 65
+	.  error
+
+	ens  goto 104
+
+
+state 81
+	ens : ens UNION . ens  (26)
+	assens : ens UNION . ens  (40)
+
+	ID  shift 52
+	LPAREN  shift 53
+	LBRACE  shift 63
+	LBRACKET  shift 64
+	RBRACKET  shift 65
+	.  error
+
+	ens  goto 105
+
+
+state 82
+	ens : ens WITHOUT . ens  (27)
+	assens : ens WITHOUT . ens  (41)
+
+	ID  shift 52
+	LPAREN  shift 53
+	LBRACE  shift 63
+	LBRACKET  shift 64
+	RBRACKET  shift 65
+	.  error
+
+	ens  goto 106
+
+
+state 83
+	optfun : ID EQUAL . relation  (64)
+	optfun : ID EQUAL . relation AND optfun  (65)
+
+	ID  shift 59
+	.  error
+
+	relation  goto 107
+	lvarid  goto 23
+
+
+state 84
+	funcdec : LPAREN relation WITH optfun RPAREN .  (59)
+
+	.  reduce 59
+
+
+state 85
+	ens : LBRACE RBRACE .  (28)
+
+	.  reduce 28
+
+
+state 86
+	ens : LBRACE ens_enum . RBRACE  (29)
+
+	RBRACE  shift 108
+	.  error
+
+
+state 87
+	ens : LBRACKET PIPE . exp COMMA exp PIPE LBRACKET  (34)
+	ens : LBRACKET PIPE . exp COMMA exp PIPE RBRACKET  (35)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 109
+
+
+state 88
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : LBRACKET exp . COMMA exp LBRACKET  (30)
+	ens : LBRACKET exp . COMMA exp RBRACKET  (31)
+
+	COMMA  shift 110
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 89
+	ens : RBRACKET PIPE . exp COMMA exp PIPE RBRACKET  (36)
+	ens : RBRACKET PIPE . exp COMMA exp PIPE LBRACKET  (37)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 111
+
+
+state 90
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : RBRACKET exp . COMMA exp RBRACKET  (32)
+	ens : RBRACKET exp . COMMA exp LBRACKET  (33)
+
+	COMMA  shift 112
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 91
+	ens : ens TIMECARTH . ens  (24)
+
+	ID  shift 52
+	LPAREN  shift 53
+	LBRACE  shift 63
+	LBRACKET  shift 64
+	RBRACKET  shift 65
+	.  error
+
+	ens  goto 113
+
+
+state 92
+	ens : ens INTER . ens  (25)
+
+	ID  shift 52
+	LPAREN  shift 53
+	LBRACE  shift 63
+	LBRACKET  shift 64
+	RBRACKET  shift 65
+	.  error
+
+	ens  goto 114
+
+
+state 93
+	ens : ens UNION . ens  (26)
+
+	ID  shift 52
+	LPAREN  shift 53
+	LBRACE  shift 63
+	LBRACKET  shift 64
+	RBRACKET  shift 65
+	.  error
+
+	ens  goto 115
+
+
+state 94
+	ens : ens WITHOUT . ens  (27)
+
+	ID  shift 52
+	LPAREN  shift 53
+	LBRACE  shift 63
+	LBRACKET  shift 64
+	RBRACKET  shift 65
+	.  error
+
+	ens  goto 116
+
+
+state 95
+	relation : lvarid COLON ens ARROW . exp COLON ens  (62)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 117
+
+
+state 96
+	ens : LPAREN ens RPAREN .  (23)
+
+	.  reduce 23
+
+
+state 97
+	ens_enum : elt SEMICOLON . ens_enum  (55)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 71
+	INF  shift 8
+	.  error
+
+	elt  goto 73
+	ens_enum  goto 118
+
+
+state 98
+	ens : LBRACE ens_enum RBRACE .  (29)
+	assens : LBRACE ens_enum RBRACE .  (43)
+
+	TIMECARTH  reduce 29
+	SEMICOLON  reduce 43
+	INTER  reduce 29
+	UNION  reduce 29
+	WITHOUT  reduce 29
+
+
+state 99
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : LBRACKET PIPE exp . COMMA exp PIPE LBRACKET  (34)
+	ens : LBRACKET PIPE exp . COMMA exp PIPE RBRACKET  (35)
+	assens : LBRACKET PIPE exp . COMMA exp PIPE LBRACKET  (48)
+	assens : LBRACKET PIPE exp . COMMA exp PIPE RBRACKET  (49)
+
+	COMMA  shift 119
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 100
+	ens : LBRACKET exp COMMA . exp LBRACKET  (30)
+	ens : LBRACKET exp COMMA . exp RBRACKET  (31)
+	assens : LBRACKET exp COMMA . exp LBRACKET  (44)
+	assens : LBRACKET exp COMMA . exp RBRACKET  (45)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 120
+
+
+state 101
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : RBRACKET PIPE exp . COMMA exp PIPE RBRACKET  (36)
+	ens : RBRACKET PIPE exp . COMMA exp PIPE LBRACKET  (37)
+	assens : RBRACKET PIPE exp . COMMA exp PIPE RBRACKET  (50)
+	assens : RBRACKET PIPE exp . COMMA exp PIPE LBRACKET  (51)
+
+	COMMA  shift 121
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 102
+	ens : RBRACKET exp COMMA . exp RBRACKET  (32)
+	ens : RBRACKET exp COMMA . exp LBRACKET  (33)
+	assens : RBRACKET exp COMMA . exp RBRACKET  (46)
+	assens : RBRACKET exp COMMA . exp LBRACKET  (47)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 122
+
+
+state 103
+	ens : ens . TIMECARTH ens  (24)
+	ens : ens TIMECARTH ens .  (24)
+	ens : ens . INTER ens  (25)
+	ens : ens . UNION ens  (26)
+	ens : ens . WITHOUT ens  (27)
+	assens : ens TIMECARTH ens .  (38)
+
+	TIMECARTH  reduce 24
+	SEMICOLON  reduce 38
+	INTER  reduce 24
+	UNION  reduce 24
+	WITHOUT  reduce 24
+
+
+state 104
+	ens : ens . TIMECARTH ens  (24)
+	ens : ens . INTER ens  (25)
+	ens : ens INTER ens .  (25)
+	ens : ens . UNION ens  (26)
+	ens : ens . WITHOUT ens  (27)
+	assens : ens INTER ens .  (39)
+
+	TIMECARTH  reduce 25
+	SEMICOLON  reduce 39
+	INTER  reduce 25
+	UNION  reduce 25
+	WITHOUT  reduce 25
+
+
+state 105
+	ens : ens . TIMECARTH ens  (24)
+	ens : ens . INTER ens  (25)
+	ens : ens . UNION ens  (26)
+	ens : ens UNION ens .  (26)
+	ens : ens . WITHOUT ens  (27)
+	assens : ens UNION ens .  (40)
+
+	TIMECARTH  shift 91
+	INTER  shift 92
+	SEMICOLON  reduce 40
+	UNION  reduce 26
+	WITHOUT  reduce 26
+
+
+state 106
+	ens : ens . TIMECARTH ens  (24)
+	ens : ens . INTER ens  (25)
+	ens : ens . UNION ens  (26)
+	ens : ens . WITHOUT ens  (27)
+	ens : ens WITHOUT ens .  (27)
+	assens : ens WITHOUT ens .  (41)
+
+	TIMECARTH  shift 91
+	INTER  shift 92
+	SEMICOLON  reduce 41
+	UNION  reduce 27
+	WITHOUT  reduce 27
+
+
+state 107
+	optfun : ID EQUAL relation .  (64)
+	optfun : ID EQUAL relation . AND optfun  (65)
+
+	AND  shift 123
+	RPAREN  reduce 64
+
+
+state 108
+	ens : LBRACE ens_enum RBRACE .  (29)
+
+	.  reduce 29
+
+
+state 109
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : LBRACKET PIPE exp . COMMA exp PIPE LBRACKET  (34)
+	ens : LBRACKET PIPE exp . COMMA exp PIPE RBRACKET  (35)
+
+	COMMA  shift 124
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 110
+	ens : LBRACKET exp COMMA . exp LBRACKET  (30)
+	ens : LBRACKET exp COMMA . exp RBRACKET  (31)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 125
+
+
+state 111
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : RBRACKET PIPE exp . COMMA exp PIPE RBRACKET  (36)
+	ens : RBRACKET PIPE exp . COMMA exp PIPE LBRACKET  (37)
+
+	COMMA  shift 126
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 112
+	ens : RBRACKET exp COMMA . exp RBRACKET  (32)
+	ens : RBRACKET exp COMMA . exp LBRACKET  (33)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 127
+
+
+state 113
+	ens : ens . TIMECARTH ens  (24)
+	ens : ens TIMECARTH ens .  (24)
+	ens : ens . INTER ens  (25)
+	ens : ens . UNION ens  (26)
+	ens : ens . WITHOUT ens  (27)
+
+	.  reduce 24
+
+
+state 114
+	ens : ens . TIMECARTH ens  (24)
+	ens : ens . INTER ens  (25)
+	ens : ens INTER ens .  (25)
+	ens : ens . UNION ens  (26)
+	ens : ens . WITHOUT ens  (27)
+
+	.  reduce 25
+
+
+state 115
+	ens : ens . TIMECARTH ens  (24)
+	ens : ens . INTER ens  (25)
+	ens : ens . UNION ens  (26)
+	ens : ens UNION ens .  (26)
+	ens : ens . WITHOUT ens  (27)
+
+	TIMECARTH  shift 91
+	INTER  shift 92
+	RPAREN  reduce 26
+	SEMICOLON  reduce 26
+	UNION  reduce 26
+	WITHOUT  reduce 26
+	WITH  reduce 26
+	AND  reduce 26
+	ARROW  reduce 26
+
+
+state 116
+	ens : ens . TIMECARTH ens  (24)
+	ens : ens . INTER ens  (25)
+	ens : ens . UNION ens  (26)
+	ens : ens . WITHOUT ens  (27)
+	ens : ens WITHOUT ens .  (27)
+
+	TIMECARTH  shift 91
+	INTER  shift 92
+	RPAREN  reduce 27
+	SEMICOLON  reduce 27
+	UNION  reduce 27
+	WITHOUT  reduce 27
+	WITH  reduce 27
+	AND  reduce 27
+	ARROW  reduce 27
+
+
+state 117
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	relation : lvarid COLON ens ARROW exp . COLON ens  (62)
+
+	COLON  shift 128
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 118
+	ens_enum : elt SEMICOLON ens_enum .  (55)
+
+	.  reduce 55
+
+
+state 119
+	ens : LBRACKET PIPE exp COMMA . exp PIPE LBRACKET  (34)
+	ens : LBRACKET PIPE exp COMMA . exp PIPE RBRACKET  (35)
+	assens : LBRACKET PIPE exp COMMA . exp PIPE LBRACKET  (48)
+	assens : LBRACKET PIPE exp COMMA . exp PIPE RBRACKET  (49)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 129
+
+
+state 120
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : LBRACKET exp COMMA exp . LBRACKET  (30)
+	ens : LBRACKET exp COMMA exp . RBRACKET  (31)
+	assens : LBRACKET exp COMMA exp . LBRACKET  (44)
+	assens : LBRACKET exp COMMA exp . RBRACKET  (45)
+
+	LBRACKET  shift 130
+	RBRACKET  shift 131
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 121
+	ens : RBRACKET PIPE exp COMMA . exp PIPE RBRACKET  (36)
+	ens : RBRACKET PIPE exp COMMA . exp PIPE LBRACKET  (37)
+	assens : RBRACKET PIPE exp COMMA . exp PIPE RBRACKET  (50)
+	assens : RBRACKET PIPE exp COMMA . exp PIPE LBRACKET  (51)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 132
+
+
+state 122
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : RBRACKET exp COMMA exp . RBRACKET  (32)
+	ens : RBRACKET exp COMMA exp . LBRACKET  (33)
+	assens : RBRACKET exp COMMA exp . RBRACKET  (46)
+	assens : RBRACKET exp COMMA exp . LBRACKET  (47)
+
+	LBRACKET  shift 133
+	RBRACKET  shift 134
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 123
+	optfun : ID EQUAL relation AND . optfun  (65)
+
+	ID  shift 61
+	.  error
+
+	optfun  goto 135
+
+
+state 124
+	ens : LBRACKET PIPE exp COMMA . exp PIPE LBRACKET  (34)
+	ens : LBRACKET PIPE exp COMMA . exp PIPE RBRACKET  (35)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 136
+
+
+state 125
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : LBRACKET exp COMMA exp . LBRACKET  (30)
+	ens : LBRACKET exp COMMA exp . RBRACKET  (31)
+
+	LBRACKET  shift 137
+	RBRACKET  shift 138
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 126
+	ens : RBRACKET PIPE exp COMMA . exp PIPE RBRACKET  (36)
+	ens : RBRACKET PIPE exp COMMA . exp PIPE LBRACKET  (37)
+
+	INTEGER  shift 3
+	FLOAT  shift 4
+	ID  shift 24
+	LPAREN  shift 6
+	MINUS  shift 7
+	INF  shift 8
+	.  error
+
+	elt  goto 11
+	funcdec  goto 12
+	exp  goto 139
+
+
+state 127
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : RBRACKET exp COMMA exp . RBRACKET  (32)
+	ens : RBRACKET exp COMMA exp . LBRACKET  (33)
+
+	LBRACKET  shift 140
+	RBRACKET  shift 141
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 128
+	relation : lvarid COLON ens ARROW exp COLON . ens  (62)
+
+	ID  shift 52
+	LPAREN  shift 53
+	LBRACE  shift 63
+	LBRACKET  shift 64
+	RBRACKET  shift 65
+	.  error
+
+	ens  goto 142
+
+
+state 129
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : LBRACKET PIPE exp COMMA exp . PIPE LBRACKET  (34)
+	ens : LBRACKET PIPE exp COMMA exp . PIPE RBRACKET  (35)
+	assens : LBRACKET PIPE exp COMMA exp . PIPE LBRACKET  (48)
+	assens : LBRACKET PIPE exp COMMA exp . PIPE RBRACKET  (49)
+
+	PIPE  shift 143
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 130
+	ens : LBRACKET exp COMMA exp LBRACKET .  (30)
+	assens : LBRACKET exp COMMA exp LBRACKET .  (44)
+
+	TIMECARTH  reduce 30
+	SEMICOLON  reduce 44
+	INTER  reduce 30
+	UNION  reduce 30
+	WITHOUT  reduce 30
+
+
+state 131
+	ens : LBRACKET exp COMMA exp RBRACKET .  (31)
+	assens : LBRACKET exp COMMA exp RBRACKET .  (45)
+
+	TIMECARTH  reduce 31
+	SEMICOLON  reduce 45
+	INTER  reduce 31
+	UNION  reduce 31
+	WITHOUT  reduce 31
+
+
+state 132
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : RBRACKET PIPE exp COMMA exp . PIPE RBRACKET  (36)
+	ens : RBRACKET PIPE exp COMMA exp . PIPE LBRACKET  (37)
+	assens : RBRACKET PIPE exp COMMA exp . PIPE RBRACKET  (50)
+	assens : RBRACKET PIPE exp COMMA exp . PIPE LBRACKET  (51)
+
+	PIPE  shift 144
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 133
+	ens : RBRACKET exp COMMA exp LBRACKET .  (33)
+	assens : RBRACKET exp COMMA exp LBRACKET .  (47)
+
+	TIMECARTH  reduce 33
+	SEMICOLON  reduce 47
+	INTER  reduce 33
+	UNION  reduce 33
+	WITHOUT  reduce 33
+
+
+state 134
+	ens : RBRACKET exp COMMA exp RBRACKET .  (32)
+	assens : RBRACKET exp COMMA exp RBRACKET .  (46)
+
+	TIMECARTH  reduce 32
+	SEMICOLON  reduce 46
+	INTER  reduce 32
+	UNION  reduce 32
+	WITHOUT  reduce 32
+
+
+state 135
+	optfun : ID EQUAL relation AND optfun .  (65)
+
+	.  reduce 65
+
+
+state 136
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : LBRACKET PIPE exp COMMA exp . PIPE LBRACKET  (34)
+	ens : LBRACKET PIPE exp COMMA exp . PIPE RBRACKET  (35)
+
+	PIPE  shift 145
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 137
+	ens : LBRACKET exp COMMA exp LBRACKET .  (30)
+
+	.  reduce 30
+
+
+state 138
+	ens : LBRACKET exp COMMA exp RBRACKET .  (31)
+
+	.  reduce 31
+
+
+state 139
+	exp : exp . PLUS exp  (8)
+	exp : exp . MINUS exp  (9)
+	exp : exp . TIMES exp  (10)
+	exp : exp . DIVIDE exp  (11)
+	exp : exp . POWER exp  (12)
+	ens : RBRACKET PIPE exp COMMA exp . PIPE RBRACKET  (36)
+	ens : RBRACKET PIPE exp COMMA exp . PIPE LBRACKET  (37)
+
+	PIPE  shift 146
+	PLUS  shift 27
+	MINUS  shift 28
+	TIMES  shift 29
+	DIVIDE  shift 30
+	POWER  shift 31
+	.  error
+
+
+state 140
+	ens : RBRACKET exp COMMA exp LBRACKET .  (33)
+
+	.  reduce 33
+
+
+state 141
+	ens : RBRACKET exp COMMA exp RBRACKET .  (32)
+
+	.  reduce 32
+
+
+state 142
+	ens : ens . TIMECARTH ens  (24)
+	ens : ens . INTER ens  (25)
+	ens : ens . UNION ens  (26)
+	ens : ens . WITHOUT ens  (27)
+	relation : lvarid COLON ens ARROW exp COLON ens .  (62)
+
+	TIMECARTH  shift 91
+	INTER  shift 92
+	UNION  shift 93
+	WITHOUT  shift 94
+	RPAREN  reduce 62
+	WITH  reduce 62
+	AND  reduce 62
+
+
+state 143
+	ens : LBRACKET PIPE exp COMMA exp PIPE . LBRACKET  (34)
+	ens : LBRACKET PIPE exp COMMA exp PIPE . RBRACKET  (35)
+	assens : LBRACKET PIPE exp COMMA exp PIPE . LBRACKET  (48)
+	assens : LBRACKET PIPE exp COMMA exp PIPE . RBRACKET  (49)
+
+	LBRACKET  shift 147
+	RBRACKET  shift 148
+	.  error
+
+
+state 144
+	ens : RBRACKET PIPE exp COMMA exp PIPE . RBRACKET  (36)
+	ens : RBRACKET PIPE exp COMMA exp PIPE . LBRACKET  (37)
+	assens : RBRACKET PIPE exp COMMA exp PIPE . RBRACKET  (50)
+	assens : RBRACKET PIPE exp COMMA exp PIPE . LBRACKET  (51)
+
+	LBRACKET  shift 149
+	RBRACKET  shift 150
+	.  error
+
+
+state 145
+	ens : LBRACKET PIPE exp COMMA exp PIPE . LBRACKET  (34)
+	ens : LBRACKET PIPE exp COMMA exp PIPE . RBRACKET  (35)
+
+	LBRACKET  shift 151
+	RBRACKET  shift 152
+	.  error
+
+
+state 146
+	ens : RBRACKET PIPE exp COMMA exp PIPE . RBRACKET  (36)
+	ens : RBRACKET PIPE exp COMMA exp PIPE . LBRACKET  (37)
+
+	LBRACKET  shift 153
+	RBRACKET  shift 154
+	.  error
+
+
+state 147
+	ens : LBRACKET PIPE exp COMMA exp PIPE LBRACKET .  (34)
+	assens : LBRACKET PIPE exp COMMA exp PIPE LBRACKET .  (48)
+
+	TIMECARTH  reduce 34
+	SEMICOLON  reduce 48
+	INTER  reduce 34
+	UNION  reduce 34
+	WITHOUT  reduce 34
+
+
+state 148
+	ens : LBRACKET PIPE exp COMMA exp PIPE RBRACKET .  (35)
+	assens : LBRACKET PIPE exp COMMA exp PIPE RBRACKET .  (49)
+
+	TIMECARTH  reduce 35
+	SEMICOLON  reduce 49
+	INTER  reduce 35
+	UNION  reduce 35
+	WITHOUT  reduce 35
+
+
+state 149
+	ens : RBRACKET PIPE exp COMMA exp PIPE LBRACKET .  (37)
+	assens : RBRACKET PIPE exp COMMA exp PIPE LBRACKET .  (51)
+
+	TIMECARTH  reduce 37
+	SEMICOLON  reduce 51
+	INTER  reduce 37
+	UNION  reduce 37
+	WITHOUT  reduce 37
+
+
+state 150
+	ens : RBRACKET PIPE exp COMMA exp PIPE RBRACKET .  (36)
+	assens : RBRACKET PIPE exp COMMA exp PIPE RBRACKET .  (50)
+
+	TIMECARTH  reduce 36
+	SEMICOLON  reduce 50
+	INTER  reduce 36
+	UNION  reduce 36
+	WITHOUT  reduce 36
+
+
+state 151
+	ens : LBRACKET PIPE exp COMMA exp PIPE LBRACKET .  (34)
+
+	.  reduce 34
+
+
+state 152
+	ens : LBRACKET PIPE exp COMMA exp PIPE RBRACKET .  (35)
+
+	.  reduce 35
+
+
+state 153
+	ens : RBRACKET PIPE exp COMMA exp PIPE LBRACKET .  (37)
+
+	.  reduce 37
+
+
+state 154
+	ens : RBRACKET PIPE exp COMMA exp PIPE RBRACKET .  (36)
+
+	.  reduce 36
+
+
+34 terminals, 17 nonterminals
+67 grammar rules, 155 states

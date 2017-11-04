@@ -1,0 +1,28 @@
+# webcam Quickcam connect modules
+package tmp/deploy/glibc/ipk/gumstix-custom-verdex/kernel-module-v4l1-compat_2.6.21-r1_gumstix-custom-verdex.ipk
+package tmp/deploy/glibc/ipk/gumstix-custom-verdex/kernel-module-v4l2-common_2.6.21-r1_gumstix-custom-verdex.ipk
+package tmp/deploy/glibc/ipk/gumstix-custom-verdex/kernel-module-videodev_2.6.21-r1_gumstix-custom-verdex.ipk
+package tmp/deploy/glibc/ipk/gumstix-custom-verdex/gspcav1_20070110-r2_gumstix-custom-verdex.ipk
+
+command depmod -a
+
+# motion and dependencies
+package tmp/deploy/glibc/ipk/armv5te/libogg0_1.1-r3_armv5te.ipk
+package tmp/deploy/glibc/ipk/armv5te/libvorbis_1.0.1-r2_armv5te.ipk
+package tmp/deploy/glibc/ipk/armv5te/libmp3lame0_3.96.1-r4_armv5te.ipk
+package tmp/deploy/glibc/ipk/armv5te/libfaac0_1.24-r0_armv5te.ipk
+package tmp/deploy/glibc/ipk/armv5te/liba52-0_0.7.4-r1_armv5te.ipk
+package tmp/deploy/glibc/ipk/armv5te/libavcodec0_0.4.9-pre1-r1_armv5te.ipk
+package tmp/deploy/glibc/ipk/armv5te/libavformat0_0.4.9-pre1-r1_armv5te.ipk
+package tmp/deploy/glibc/ipk/armv5te/libjpeg62_6b-r7_armv5te.ipk
+package tmp/deploy/glibc/ipk/armv5te/motion_3.2.6-r0_armv5te.ipk
+
+# python
+package tmp/deploy/glibc/ipk/armv5te/libpython2.5-1.0_2.5.1-ml1_armv5te.ipk
+package tmp/deploy/glibc/ipk/armv5te/python-core_2.5.1-ml3_armv5te.ipk
+
+# zabel
+file user.collection/packages/zabel/zabel /etc/init.d/
+command update-rc.d zabel defaults
+
+file user.collection/packages/zabel/motion.conf /home/root/

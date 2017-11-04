@@ -1,0 +1,2884 @@
+1
+train
+network creation ... 16 75 26 
+Correspondance: 
+ A - 0
+ B - 1
+ C - 2
+ D - 3
+ E - 4
+ F - 5
+ G - 6
+ H - 7
+ I - 8
+ J - 9
+ K - 10
+ L - 11
+ M - 12
+ N - 13
+ O - 14
+ P - 15
+ Q - 16
+ R - 17
+ S - 18
+ T - 19
+ U - 20
+ V - 21
+ W - 22
+ X - 23
+ Y - 24
+ Z - 25
+Learning algorithm: Back propagation
+Learning sequence started at 11h56m29s
+mean error: 4.45282
+good: 0 total: 1 (0%, best: 0% at -1072004189 s, no move since: 1072004189 s)
+mean error: 0.489397
+good: 95 total: 1000 (9.5%, best: 9.5% at 3 s, no move since: 0 s)
+mean error: 0.466464
+good: 142 total: 1000 (14.2%, best: 14.2% at 6 s, no move since: 0 s)
+mean error: 0.446913
+good: 209 total: 1000 (20.9%, best: 20.9% at 9 s, no move since: 0 s)
+mean error: 0.426973
+good: 274 total: 1000 (27.4%, best: 27.4% at 13 s, no move since: 0 s)
+mean error: 0.404994
+good: 323 total: 1000 (32.3%, best: 32.3% at 16 s, no move since: 0 s)
+mean error: 0.378873
+good: 386 total: 1000 (38.6%, best: 38.6% at 20 s, no move since: 0 s)
+mean error: 0.367909
+good: 419 total: 1000 (41.9%, best: 41.9% at 23 s, no move since: 0 s)
+mean error: 0.354903
+good: 476 total: 1000 (47.6%, best: 47.6% at 26 s, no move since: 0 s)
+mean error: 0.340377
+good: 503 total: 1000 (50.3%, best: 50.3% at 30 s, no move since: 0 s)
+mean error: 0.330869
+good: 512 total: 1000 (51.2%, best: 51.2% at 33 s, no move since: 0 s)
+mean error: 0.31884
+good: 566 total: 1000 (56.6%, best: 56.6% at 37 s, no move since: 0 s)
+mean error: 0.322425
+good: 547 total: 1000 (54.7%, best: 56.6% at 37 s, no move since: 4 s)
+mean error: 0.294201
+good: 618 total: 1000 (61.8%, best: 61.8% at 44 s, no move since: 0 s)
+mean error: 0.286432
+good: 613 total: 1000 (61.3%, best: 61.8% at 44 s, no move since: 4 s)
+mean error: 0.284164
+good: 615 total: 1000 (61.5%, best: 61.8% at 44 s, no move since: 7 s)
+driver rearmed
+mean error: 0.275798
+good: 625 total: 1000 (62.5%, best: 62.5% at 54 s, no move since: 0 s)
+mean error: 0.273545
+good: 629 total: 1000 (62.9%, best: 62.9% at 58 s, no move since: 0 s)
+mean error: 0.266328
+good: 657 total: 1000 (65.7%, best: 65.7% at 61 s, no move since: 0 s)
+mean error: 0.269885
+good: 632 total: 1000 (63.2%, best: 65.7% at 61 s, no move since: 3 s)
+mean error: 0.270001
+good: 625 total: 1000 (62.5%, best: 65.7% at 61 s, no move since: 6 s)
+mean error: 0.253118
+good: 659 total: 1000 (65.9%, best: 65.9% at 70 s, no move since: 0 s)
+mean error: 0.245873
+good: 670 total: 1000 (67%, best: 67% at 73 s, no move since: 0 s)
+mean error: 0.242184
+good: 673 total: 1000 (67.3%, best: 67.3% at 76 s, no move since: 0 s)
+mean error: 0.243252
+good: 678 total: 1000 (67.8%, best: 67.8% at 80 s, no move since: 0 s)
+mean error: 0.240867
+good: 693 total: 1000 (69.3%, best: 69.3% at 83 s, no move since: 0 s)
+mean error: 0.234326
+good: 696 total: 1000 (69.6%, best: 69.6% at 86 s, no move since: 0 s)
+mean error: 0.234359
+good: 700 total: 1000 (70%, best: 70% at 90 s, no move since: 0 s)
+mean error: 0.244415
+good: 670 total: 1000 (67%, best: 70% at 90 s, no move since: 3 s)
+mean error: 0.213654
+good: 734 total: 1000 (73.4%, best: 73.4% at 96 s, no move since: 0 s)
+mean error: 0.21329
+good: 720 total: 1000 (72%, best: 73.4% at 96 s, no move since: 3 s)
+mean error: 0.21639
+good: 719 total: 1000 (71.9%, best: 73.4% at 96 s, no move since: 7 s)
+driver rearmed
+mean error: 0.212945
+good: 727 total: 1000 (72.7%, best: 73.4% at 96 s, no move since: 10 s)
+mean error: 0.217051
+good: 707 total: 1000 (70.7%, best: 73.4% at 96 s, no move since: 13 s)
+mean error: 0.206604
+good: 746 total: 1000 (74.6%, best: 74.6% at 112 s, no move since: 0 s)
+mean error: 0.219542
+good: 699 total: 1000 (69.9%, best: 74.6% at 112 s, no move since: 3 s)
+mean error: 0.22191
+good: 686 total: 1000 (68.6%, best: 74.6% at 112 s, no move since: 7 s)
+mean error: 0.20792
+good: 715 total: 1000 (71.5%, best: 74.6% at 112 s, no move since: 10 s)
+mean error: 0.199402
+good: 739 total: 1000 (73.9%, best: 74.6% at 112 s, no move since: 14 s)
+mean error: 0.19958
+good: 743 total: 1000 (74.3%, best: 74.6% at 112 s, no move since: 17 s)
+mean error: 0.201306
+good: 725 total: 1000 (72.5%, best: 74.6% at 112 s, no move since: 20 s)
+mean error: 0.202339
+good: 735 total: 1000 (73.5%, best: 74.6% at 112 s, no move since: 23 s)
+mean error: 0.199195
+good: 733 total: 1000 (73.3%, best: 74.6% at 112 s, no move since: 27 s)
+mean error: 0.201103
+good: 728 total: 1000 (72.8%, best: 74.6% at 112 s, no move since: 30 s)
+mean error: 0.212621
+good: 709 total: 1000 (70.9%, best: 74.6% at 112 s, no move since: 33 s)
+mean error: 0.181611
+good: 772 total: 1000 (77.2%, best: 77.2% at 148 s, no move since: 0 s)
+mean error: 0.18279
+good: 746 total: 1000 (74.6%, best: 77.2% at 148 s, no move since: 4 s)
+mean error: 0.1856
+good: 759 total: 1000 (75.9%, best: 77.2% at 148 s, no move since: 7 s)
+driver rearmed
+mean error: 0.184815
+good: 745 total: 1000 (74.5%, best: 77.2% at 148 s, no move since: 10 s)
+mean error: 0.190501
+good: 740 total: 1000 (74%, best: 77.2% at 148 s, no move since: 13 s)
+mean error: 0.178733
+good: 777 total: 1000 (77.7%, best: 77.7% at 164 s, no move since: 0 s)
+mean error: 0.193944
+good: 746 total: 1000 (74.6%, best: 77.7% at 164 s, no move since: 3 s)
+mean error: 0.198899
+good: 720 total: 1000 (72%, best: 77.7% at 164 s, no move since: 7 s)
+mean error: 0.183494
+good: 751 total: 1000 (75.1%, best: 77.7% at 164 s, no move since: 10 s)
+mean error: 0.174832
+good: 772 total: 1000 (77.2%, best: 77.7% at 164 s, no move since: 13 s)
+mean error: 0.178961
+good: 770 total: 1000 (77%, best: 77.7% at 164 s, no move since: 17 s)
+mean error: 0.177054
+good: 773 total: 1000 (77.3%, best: 77.7% at 164 s, no move since: 20 s)
+mean error: 0.179385
+good: 765 total: 1000 (76.5%, best: 77.7% at 164 s, no move since: 24 s)
+mean error: 0.180093
+good: 762 total: 1000 (76.2%, best: 77.7% at 164 s, no move since: 28 s)
+mean error: 0.182264
+good: 761 total: 1000 (76.1%, best: 77.7% at 164 s, no move since: 31 s)
+mean error: 0.193488
+good: 735 total: 1000 (73.5%, best: 77.7% at 164 s, no move since: 34 s)
+mean error: 0.162028
+good: 783 total: 1000 (78.3%, best: 78.3% at 201 s, no move since: 0 s)
+mean error: 0.16252
+good: 788 total: 1000 (78.8%, best: 78.8% at 204 s, no move since: 0 s)
+mean error: 0.165143
+good: 795 total: 1000 (79.5%, best: 79.5% at 207 s, no move since: 0 s)
+driver rearmed
+mean error: 0.168561
+good: 770 total: 1000 (77%, best: 79.5% at 207 s, no move since: 3 s)
+mean error: 0.172635
+good: 765 total: 1000 (76.5%, best: 79.5% at 207 s, no move since: 7 s)
+mean error: 0.160142
+good: 792 total: 1000 (79.2%, best: 79.5% at 207 s, no move since: 10 s)
+mean error: 0.175356
+good: 780 total: 1000 (78%, best: 79.5% at 207 s, no move since: 13 s)
+mean error: 0.182112
+good: 744 total: 1000 (74.4%, best: 79.5% at 207 s, no move since: 16 s)
+mean error: 0.166304
+good: 767 total: 1000 (76.7%, best: 79.5% at 207 s, no move since: 20 s)
+mean error: 0.157525
+good: 792 total: 1000 (79.2%, best: 79.5% at 207 s, no move since: 23 s)
+mean error: 0.165181
+good: 784 total: 1000 (78.4%, best: 79.5% at 207 s, no move since: 27 s)
+mean error: 0.160269
+good: 794 total: 1000 (79.4%, best: 79.5% at 207 s, no move since: 30 s)
+mean error: 0.164291
+good: 788 total: 1000 (78.8%, best: 79.5% at 207 s, no move since: 33 s)
+mean error: 0.165824
+good: 772 total: 1000 (77.2%, best: 79.5% at 207 s, no move since: 37 s)
+mean error: 0.168519
+good: 772 total: 1000 (77.2%, best: 79.5% at 207 s, no move since: 40 s)
+mean error: 0.179178
+good: 755 total: 1000 (75.5%, best: 79.5% at 207 s, no move since: 44 s)
+mean error: 0.148713
+good: 803 total: 1000 (80.3%, best: 80.3% at 254 s, no move since: 0 s)
+mean error: 0.148547
+good: 803 total: 1000 (80.3%, best: 80.3% at 254 s, no move since: 3 s)
+mean error: 0.152684
+good: 802 total: 1000 (80.2%, best: 80.3% at 254 s, no move since: 7 s)
+driver rearmed
+mean error: 0.157013
+good: 784 total: 1000 (78.4%, best: 80.3% at 254 s, no move since: 10 s)
+mean error: 0.159319
+good: 789 total: 1000 (78.9%, best: 80.3% at 254 s, no move since: 13 s)
+mean error: 0.147849
+good: 806 total: 1000 (80.6%, best: 80.6% at 271 s, no move since: 0 s)
+mean error: 0.162754
+good: 797 total: 1000 (79.7%, best: 80.6% at 271 s, no move since: 3 s)
+mean error: 0.17157
+good: 754 total: 1000 (75.4%, best: 80.6% at 271 s, no move since: 7 s)
+mean error: 0.154463
+good: 780 total: 1000 (78%, best: 80.6% at 271 s, no move since: 10 s)
+mean error: 0.144745
+good: 818 total: 1000 (81.8%, best: 81.8% at 284 s, no move since: 0 s)
+mean error: 0.154916
+good: 796 total: 1000 (79.6%, best: 81.8% at 284 s, no move since: 4 s)
+mean error: 0.149654
+good: 807 total: 1000 (80.7%, best: 81.8% at 284 s, no move since: 7 s)
+mean error: 0.153808
+good: 798 total: 1000 (79.8%, best: 81.8% at 284 s, no move since: 11 s)
+mean error: 0.156017
+good: 790 total: 1000 (79%, best: 81.8% at 284 s, no move since: 14 s)
+mean error: 0.158971
+good: 786 total: 1000 (78.6%, best: 81.8% at 284 s, no move since: 18 s)
+mean error: 0.169163
+good: 769 total: 1000 (76.9%, best: 81.8% at 284 s, no move since: 21 s)
+mean error: 0.139373
+good: 816 total: 1000 (81.6%, best: 81.8% at 284 s, no move since: 25 s)
+mean error: 0.139612
+good: 817 total: 1000 (81.7%, best: 81.8% at 284 s, no move since: 28 s)
+mean error: 0.144003
+good: 813 total: 1000 (81.3%, best: 81.8% at 284 s, no move since: 32 s)
+driver rearmed
+mean error: 0.148116
+good: 798 total: 1000 (79.8%, best: 81.8% at 284 s, no move since: 35 s)
+mean error: 0.148352
+good: 804 total: 1000 (80.4%, best: 81.8% at 284 s, no move since: 38 s)
+mean error: 0.138897
+good: 816 total: 1000 (81.6%, best: 81.8% at 284 s, no move since: 42 s)
+mean error: 0.153156
+good: 801 total: 1000 (80.1%, best: 81.8% at 284 s, no move since: 45 s)
+mean error: 0.163755
+good: 771 total: 1000 (77.1%, best: 81.8% at 284 s, no move since: 48 s)
+mean error: 0.145675
+good: 788 total: 1000 (78.8%, best: 81.8% at 284 s, no move since: 52 s)
+mean error: 0.134861
+good: 824 total: 1000 (82.4%, best: 82.4% at 339 s, no move since: 0 s)
+mean error: 0.147272
+good: 801 total: 1000 (80.1%, best: 82.4% at 339 s, no move since: 3 s)
+mean error: 0.141837
+good: 810 total: 1000 (81%, best: 82.4% at 339 s, no move since: 6 s)
+mean error: 0.146
+good: 808 total: 1000 (80.8%, best: 82.4% at 339 s, no move since: 10 s)
+mean error: 0.148502
+good: 799 total: 1000 (79.9%, best: 82.4% at 339 s, no move since: 13 s)
+mean error: 0.151877
+good: 794 total: 1000 (79.4%, best: 82.4% at 339 s, no move since: 16 s)
+mean error: 0.161379
+good: 776 total: 1000 (77.6%, best: 82.4% at 339 s, no move since: 20 s)
+mean error: 0.132153
+good: 825 total: 1000 (82.5%, best: 82.5% at 362 s, no move since: 0 s)
+mean error: 0.132839
+good: 825 total: 1000 (82.5%, best: 82.5% at 362 s, no move since: 3 s)
+mean error: 0.136852
+good: 828 total: 1000 (82.8%, best: 82.8% at 368 s, no move since: 0 s)
+driver rearmed
+mean error: 0.14117
+good: 812 total: 1000 (81.2%, best: 82.8% at 368 s, no move since: 3 s)
+mean error: 0.139336
+good: 818 total: 1000 (81.8%, best: 82.8% at 368 s, no move since: 6 s)
+mean error: 0.131722
+good: 828 total: 1000 (82.8%, best: 82.8% at 368 s, no move since: 10 s)
+mean error: 0.145696
+good: 807 total: 1000 (80.7%, best: 82.8% at 368 s, no move since: 13 s)
+mean error: 0.157397
+good: 787 total: 1000 (78.7%, best: 82.8% at 368 s, no move since: 16 s)
+mean error: 0.138831
+good: 800 total: 1000 (80%, best: 82.8% at 368 s, no move since: 20 s)
+mean error: 0.126928
+good: 838 total: 1000 (83.8%, best: 83.8% at 391 s, no move since: 0 s)
+mean error: 0.141162
+good: 813 total: 1000 (81.3%, best: 83.8% at 391 s, no move since: 3 s)
+mean error: 0.135601
+good: 825 total: 1000 (82.5%, best: 83.8% at 391 s, no move since: 6 s)
+mean error: 0.139675
+good: 813 total: 1000 (81.3%, best: 83.8% at 391 s, no move since: 10 s)
+mean error: 0.14234
+good: 804 total: 1000 (80.4%, best: 83.8% at 391 s, no move since: 13 s)
+mean error: 0.146205
+good: 807 total: 1000 (80.7%, best: 83.8% at 391 s, no move since: 17 s)
+mean error: 0.155346
+good: 784 total: 1000 (78.4%, best: 83.8% at 391 s, no move since: 20 s)
+mean error: 0.126049
+good: 830 total: 1000 (83%, best: 83.8% at 391 s, no move since: 23 s)
+mean error: 0.127369
+good: 837 total: 1000 (83.7%, best: 83.8% at 391 s, no move since: 26 s)
+mean error: 0.130961
+good: 840 total: 1000 (84%, best: 84% at 421 s, no move since: 0 s)
+driver rearmed
+mean error: 0.135721
+good: 825 total: 1000 (82.5%, best: 84% at 421 s, no move since: 3 s)
+mean error: 0.132186
+good: 826 total: 1000 (82.6%, best: 84% at 421 s, no move since: 6 s)
+mean error: 0.125727
+good: 839 total: 1000 (83.9%, best: 84% at 421 s, no move since: 9 s)
+mean error: 0.13988
+good: 815 total: 1000 (81.5%, best: 84% at 421 s, no move since: 12 s)
+mean error: 0.152068
+good: 794 total: 1000 (79.4%, best: 84% at 421 s, no move since: 15 s)
+mean error: 0.133176
+good: 808 total: 1000 (80.8%, best: 84% at 421 s, no move since: 19 s)
+mean error: 0.120587
+good: 848 total: 1000 (84.8%, best: 84.8% at 443 s, no move since: 0 s)
+mean error: 0.135852
+good: 823 total: 1000 (82.3%, best: 84.8% at 443 s, no move since: 3 s)
+mean error: 0.130536
+good: 836 total: 1000 (83.6%, best: 84.8% at 443 s, no move since: 7 s)
+mean error: 0.134344
+good: 820 total: 1000 (82%, best: 84.8% at 443 s, no move since: 10 s)
+mean error: 0.13728
+good: 812 total: 1000 (81.2%, best: 84.8% at 443 s, no move since: 14 s)
+mean error: 0.14163
+good: 821 total: 1000 (82.1%, best: 84.8% at 443 s, no move since: 17 s)
+mean error: 0.150549
+good: 793 total: 1000 (79.3%, best: 84.8% at 443 s, no move since: 20 s)
+mean error: 0.120784
+good: 835 total: 1000 (83.5%, best: 84.8% at 443 s, no move since: 24 s)
+mean error: 0.122696
+good: 840 total: 1000 (84%, best: 84.8% at 443 s, no move since: 27 s)
+mean error: 0.125793
+good: 844 total: 1000 (84.4%, best: 84.8% at 443 s, no move since: 30 s)
+driver rearmed
+mean error: 0.131008
+good: 831 total: 1000 (83.1%, best: 84.8% at 443 s, no move since: 33 s)
+mean error: 0.126614
+good: 834 total: 1000 (83.4%, best: 84.8% at 443 s, no move since: 37 s)
+mean error: 0.120824
+good: 845 total: 1000 (84.5%, best: 84.8% at 443 s, no move since: 40 s)
+mean error: 0.135099
+good: 822 total: 1000 (82.2%, best: 84.8% at 443 s, no move since: 43 s)
+mean error: 0.147305
+good: 798 total: 1000 (79.8%, best: 84.8% at 443 s, no move since: 46 s)
+mean error: 0.128495
+good: 816 total: 1000 (81.6%, best: 84.8% at 443 s, no move since: 49 s)
+mean error: 0.11544
+good: 856 total: 1000 (85.6%, best: 85.6% at 495 s, no move since: 0 s)
+mean error: 0.131124
+good: 825 total: 1000 (82.5%, best: 85.6% at 495 s, no move since: 3 s)
+mean error: 0.126169
+good: 844 total: 1000 (84.4%, best: 85.6% at 495 s, no move since: 7 s)
+mean error: 0.129844
+good: 823 total: 1000 (82.3%, best: 85.6% at 495 s, no move since: 10 s)
+mean error: 0.13296
+good: 824 total: 1000 (82.4%, best: 85.6% at 495 s, no move since: 13 s)
+mean error: 0.137757
+good: 825 total: 1000 (82.5%, best: 85.6% at 495 s, no move since: 16 s)
+mean error: 0.146579
+good: 798 total: 1000 (79.8%, best: 85.6% at 495 s, no move since: 20 s)
+mean error: 0.116509
+good: 840 total: 1000 (84%, best: 85.6% at 495 s, no move since: 23 s)
+mean error: 0.11871
+good: 846 total: 1000 (84.6%, best: 85.6% at 495 s, no move since: 26 s)
+mean error: 0.121198
+good: 849 total: 1000 (84.9%, best: 85.6% at 495 s, no move since: 29 s)
+driver rearmed
+mean error: 0.126673
+good: 839 total: 1000 (83.9%, best: 85.6% at 495 s, no move since: 33 s)
+mean error: 0.122194
+good: 838 total: 1000 (83.8%, best: 85.6% at 495 s, no move since: 36 s)
+mean error: 0.116711
+good: 848 total: 1000 (84.8%, best: 85.6% at 495 s, no move since: 39 s)
+mean error: 0.131074
+good: 827 total: 1000 (82.7%, best: 85.6% at 495 s, no move since: 42 s)
+mean error: 0.143025
+good: 806 total: 1000 (80.6%, best: 85.6% at 495 s, no move since: 46 s)
+mean error: 0.124639
+good: 829 total: 1000 (82.9%, best: 85.6% at 495 s, no move since: 49 s)
+mean error: 0.111304
+good: 860 total: 1000 (86%, best: 86% at 548 s, no move since: 0 s)
+mean error: 0.126991
+good: 829 total: 1000 (82.9%, best: 86% at 548 s, no move since: 3 s)
+mean error: 0.122162
+good: 849 total: 1000 (84.9%, best: 86% at 548 s, no move since: 7 s)
+mean error: 0.126019
+good: 826 total: 1000 (82.6%, best: 86% at 548 s, no move since: 10 s)
+mean error: 0.12912
+good: 831 total: 1000 (83.1%, best: 86% at 548 s, no move since: 14 s)
+mean error: 0.134266
+good: 824 total: 1000 (82.4%, best: 86% at 548 s, no move since: 17 s)
+mean error: 0.142961
+good: 805 total: 1000 (80.5%, best: 86% at 548 s, no move since: 20 s)
+mean error: 0.112891
+good: 850 total: 1000 (85%, best: 86% at 548 s, no move since: 23 s)
+mean error: 0.115306
+good: 850 total: 1000 (85%, best: 86% at 548 s, no move since: 27 s)
+mean error: 0.117085
+good: 855 total: 1000 (85.5%, best: 86% at 548 s, no move since: 30 s)
+driver rearmed
+mean error: 0.122671
+good: 844 total: 1000 (84.4%, best: 86% at 548 s, no move since: 33 s)
+mean error: 0.118464
+good: 843 total: 1000 (84.3%, best: 86% at 548 s, no move since: 36 s)
+mean error: 0.113189
+good: 853 total: 1000 (85.3%, best: 86% at 548 s, no move since: 39 s)
+mean error: 0.127743
+good: 832 total: 1000 (83.2%, best: 86% at 548 s, no move since: 43 s)
+mean error: 0.139254
+good: 811 total: 1000 (81.1%, best: 86% at 548 s, no move since: 46 s)
+mean error: 0.121431
+good: 833 total: 1000 (83.3%, best: 86% at 548 s, no move since: 49 s)
+mean error: 0.107937
+good: 861 total: 1000 (86.1%, best: 86.1% at 600 s, no move since: 0 s)
+mean error: 0.123448
+good: 833 total: 1000 (83.3%, best: 86.1% at 600 s, no move since: 4 s)
+mean error: 0.118485
+good: 853 total: 1000 (85.3%, best: 86.1% at 600 s, no move since: 7 s)
+mean error: 0.122786
+good: 832 total: 1000 (83.2%, best: 86.1% at 600 s, no move since: 11 s)
+mean error: 0.125595
+good: 834 total: 1000 (83.4%, best: 86.1% at 600 s, no move since: 14 s)
+mean error: 0.131048
+good: 828 total: 1000 (82.8%, best: 86.1% at 600 s, no move since: 18 s)
+mean error: 0.139445
+good: 811 total: 1000 (81.1%, best: 86.1% at 600 s, no move since: 21 s)
+mean error: 0.109796
+good: 849 total: 1000 (84.9%, best: 86.1% at 600 s, no move since: 25 s)
+mean error: 0.112341
+good: 851 total: 1000 (85.1%, best: 86.1% at 600 s, no move since: 28 s)
+mean error: 0.113372
+good: 862 total: 1000 (86.2%, best: 86.2% at 631 s, no move since: 0 s)
+driver rearmed
+mean error: 0.119043
+good: 846 total: 1000 (84.6%, best: 86.2% at 631 s, no move since: 3 s)
+mean error: 0.115292
+good: 851 total: 1000 (85.1%, best: 86.2% at 631 s, no move since: 7 s)
+mean error: 0.110181
+good: 855 total: 1000 (85.5%, best: 86.2% at 631 s, no move since: 10 s)
+mean error: 0.124932
+good: 833 total: 1000 (83.3%, best: 86.2% at 631 s, no move since: 13 s)
+mean error: 0.135897
+good: 815 total: 1000 (81.5%, best: 86.2% at 631 s, no move since: 16 s)
+mean error: 0.118672
+good: 837 total: 1000 (83.7%, best: 86.2% at 631 s, no move since: 20 s)
+mean error: 0.105096
+good: 867 total: 1000 (86.7%, best: 86.7% at 654 s, no move since: 0 s)
+mean error: 0.120445
+good: 838 total: 1000 (83.8%, best: 86.7% at 654 s, no move since: 4 s)
+mean error: 0.115139
+good: 856 total: 1000 (85.6%, best: 86.7% at 654 s, no move since: 7 s)
+mean error: 0.119995
+good: 833 total: 1000 (83.3%, best: 86.7% at 654 s, no move since: 10 s)
+mean error: 0.122339
+good: 838 total: 1000 (83.8%, best: 86.7% at 654 s, no move since: 13 s)
+mean error: 0.128069
+good: 832 total: 1000 (83.2%, best: 86.7% at 654 s, no move since: 16 s)
+mean error: 0.136093
+good: 814 total: 1000 (81.4%, best: 86.7% at 654 s, no move since: 19 s)
+mean error: 0.107217
+good: 854 total: 1000 (85.4%, best: 86.7% at 654 s, no move since: 23 s)
+mean error: 0.109706
+good: 853 total: 1000 (85.3%, best: 86.7% at 654 s, no move since: 26 s)
+mean error: 0.110145
+good: 861 total: 1000 (86.1%, best: 86.7% at 654 s, no move since: 29 s)
+driver rearmed
+mean error: 0.115871
+good: 847 total: 1000 (84.7%, best: 86.7% at 654 s, no move since: 32 s)
+mean error: 0.112609
+good: 854 total: 1000 (85.4%, best: 86.7% at 654 s, no move since: 35 s)
+mean error: 0.107611
+good: 856 total: 1000 (85.6%, best: 86.7% at 654 s, no move since: 39 s)
+mean error: 0.122359
+good: 840 total: 1000 (84%, best: 86.7% at 654 s, no move since: 42 s)
+mean error: 0.132913
+good: 819 total: 1000 (81.9%, best: 86.7% at 654 s, no move since: 46 s)
+mean error: 0.116189
+good: 839 total: 1000 (83.9%, best: 86.7% at 654 s, no move since: 49 s)
+mean error: 0.102556
+good: 871 total: 1000 (87.1%, best: 87.1% at 706 s, no move since: 0 s)
+mean error: 0.117953
+good: 840 total: 1000 (84%, best: 87.1% at 706 s, no move since: 4 s)
+mean error: 0.112103
+good: 857 total: 1000 (85.7%, best: 87.1% at 706 s, no move since: 7 s)
+mean error: 0.117373
+good: 835 total: 1000 (83.5%, best: 87.1% at 706 s, no move since: 11 s)
+mean error: 0.119448
+good: 843 total: 1000 (84.3%, best: 87.1% at 706 s, no move since: 14 s)
+mean error: 0.125331
+good: 837 total: 1000 (83.7%, best: 87.1% at 706 s, no move since: 17 s)
+mean error: 0.133049
+good: 815 total: 1000 (81.5%, best: 87.1% at 706 s, no move since: 20 s)
+mean error: 0.105027
+good: 858 total: 1000 (85.8%, best: 87.1% at 706 s, no move since: 23 s)
+mean error: 0.107325
+good: 857 total: 1000 (85.7%, best: 87.1% at 706 s, no move since: 26 s)
+mean error: 0.107414
+good: 865 total: 1000 (86.5%, best: 87.1% at 706 s, no move since: 30 s)
+driver rearmed
+mean error: 0.113139
+good: 854 total: 1000 (85.4%, best: 87.1% at 706 s, no move since: 33 s)
+mean error: 0.110298
+good: 858 total: 1000 (85.8%, best: 87.1% at 706 s, no move since: 36 s)
+mean error: 0.105366
+good: 858 total: 1000 (85.8%, best: 87.1% at 706 s, no move since: 39 s)
+mean error: 0.119924
+good: 848 total: 1000 (84.8%, best: 87.1% at 706 s, no move since: 43 s)
+mean error: 0.130245
+good: 823 total: 1000 (82.3%, best: 87.1% at 706 s, no move since: 46 s)
+mean error: 0.113939
+good: 843 total: 1000 (84.3%, best: 87.1% at 706 s, no move since: 49 s)
+mean error: 0.100195
+good: 874 total: 1000 (87.4%, best: 87.4% at 759 s, no move since: 0 s)
+mean error: 0.115898
+good: 842 total: 1000 (84.2%, best: 87.4% at 759 s, no move since: 3 s)
+mean error: 0.109445
+good: 861 total: 1000 (86.1%, best: 87.4% at 759 s, no move since: 7 s)
+mean error: 0.114748
+good: 842 total: 1000 (84.2%, best: 87.4% at 759 s, no move since: 10 s)
+mean error: 0.116862
+good: 849 total: 1000 (84.9%, best: 87.4% at 759 s, no move since: 14 s)
+mean error: 0.122892
+good: 842 total: 1000 (84.2%, best: 87.4% at 759 s, no move since: 17 s)
+mean error: 0.130362
+good: 823 total: 1000 (82.3%, best: 87.4% at 759 s, no move since: 20 s)
+mean error: 0.103053
+good: 861 total: 1000 (86.1%, best: 87.4% at 759 s, no move since: 24 s)
+mean error: 0.105184
+good: 859 total: 1000 (85.9%, best: 87.4% at 759 s, no move since: 27 s)
+mean error: 0.104839
+good: 871 total: 1000 (87.1%, best: 87.4% at 759 s, no move since: 30 s)
+driver rearmed
+mean error: 0.110738
+good: 854 total: 1000 (85.4%, best: 87.4% at 759 s, no move since: 33 s)
+mean error: 0.108279
+good: 859 total: 1000 (85.9%, best: 87.4% at 759 s, no move since: 36 s)
+mean error: 0.103352
+good: 862 total: 1000 (86.2%, best: 87.4% at 759 s, no move since: 40 s)
+mean error: 0.117731
+good: 850 total: 1000 (85%, best: 87.4% at 759 s, no move since: 43 s)
+mean error: 0.127909
+good: 826 total: 1000 (82.6%, best: 87.4% at 759 s, no move since: 46 s)
+mean error: 0.111769
+good: 843 total: 1000 (84.3%, best: 87.4% at 759 s, no move since: 49 s)
+mean error: 0.0980288
+good: 877 total: 1000 (87.7%, best: 87.7% at 812 s, no move since: 0 s)
+mean error: 0.114103
+good: 843 total: 1000 (84.3%, best: 87.7% at 812 s, no move since: 3 s)
+mean error: 0.107154
+good: 860 total: 1000 (86%, best: 87.7% at 812 s, no move since: 7 s)
+mean error: 0.112209
+good: 845 total: 1000 (84.5%, best: 87.7% at 812 s, no move since: 10 s)
+mean error: 0.114513
+good: 850 total: 1000 (85%, best: 87.7% at 812 s, no move since: 14 s)
+mean error: 0.120741
+good: 844 total: 1000 (84.4%, best: 87.7% at 812 s, no move since: 17 s)
+mean error: 0.128002
+good: 825 total: 1000 (82.5%, best: 87.7% at 812 s, no move since: 20 s)
+mean error: 0.101152
+good: 866 total: 1000 (86.6%, best: 87.7% at 812 s, no move since: 23 s)
+mean error: 0.103281
+good: 863 total: 1000 (86.3%, best: 87.7% at 812 s, no move since: 27 s)
+mean error: 0.102347
+good: 872 total: 1000 (87.2%, best: 87.7% at 812 s, no move since: 30 s)
+driver rearmed
+mean error: 0.108567
+good: 857 total: 1000 (85.7%, best: 87.7% at 812 s, no move since: 33 s)
+mean error: 0.106506
+good: 859 total: 1000 (85.9%, best: 87.7% at 812 s, no move since: 36 s)
+mean error: 0.101534
+good: 864 total: 1000 (86.4%, best: 87.7% at 812 s, no move since: 39 s)
+mean error: 0.11578
+good: 852 total: 1000 (85.2%, best: 87.7% at 812 s, no move since: 42 s)
+mean error: 0.125815
+good: 825 total: 1000 (82.5%, best: 87.7% at 812 s, no move since: 46 s)
+mean error: 0.109657
+good: 845 total: 1000 (84.5%, best: 87.7% at 812 s, no move since: 49 s)
+mean error: 0.0959894
+good: 879 total: 1000 (87.9%, best: 87.9% at 864 s, no move since: 0 s)
+mean error: 0.112468
+good: 847 total: 1000 (84.7%, best: 87.9% at 864 s, no move since: 3 s)
+mean error: 0.105131
+good: 867 total: 1000 (86.7%, best: 87.9% at 864 s, no move since: 7 s)
+mean error: 0.109957
+good: 846 total: 1000 (84.6%, best: 87.9% at 864 s, no move since: 10 s)
+mean error: 0.112326
+good: 854 total: 1000 (85.4%, best: 87.9% at 864 s, no move since: 14 s)
+mean error: 0.118737
+good: 849 total: 1000 (84.9%, best: 87.9% at 864 s, no move since: 17 s)
+mean error: 0.125937
+good: 826 total: 1000 (82.6%, best: 87.9% at 864 s, no move since: 20 s)
+mean error: 0.099322
+good: 867 total: 1000 (86.7%, best: 87.9% at 864 s, no move since: 24 s)
+mean error: 0.101633
+good: 863 total: 1000 (86.3%, best: 87.9% at 864 s, no move since: 27 s)
+mean error: 0.0999873
+good: 877 total: 1000 (87.7%, best: 87.9% at 864 s, no move since: 30 s)
+driver rearmed
+mean error: 0.106598
+good: 860 total: 1000 (86%, best: 87.9% at 864 s, no move since: 33 s)
+mean error: 0.104965
+good: 859 total: 1000 (85.9%, best: 87.9% at 864 s, no move since: 36 s)
+mean error: 0.0999063
+good: 865 total: 1000 (86.5%, best: 87.9% at 864 s, no move since: 39 s)
+mean error: 0.113955
+good: 853 total: 1000 (85.3%, best: 87.9% at 864 s, no move since: 43 s)
+mean error: 0.123914
+good: 831 total: 1000 (83.1%, best: 87.9% at 864 s, no move since: 46 s)
+mean error: 0.107507
+good: 848 total: 1000 (84.8%, best: 87.9% at 864 s, no move since: 49 s)
+mean error: 0.0940037
+good: 883 total: 1000 (88.3%, best: 88.3% at 917 s, no move since: 0 s)
+mean error: 0.110976
+good: 851 total: 1000 (85.1%, best: 88.3% at 917 s, no move since: 3 s)
+mean error: 0.10328
+good: 870 total: 1000 (87%, best: 88.3% at 917 s, no move since: 7 s)
+mean error: 0.108003
+good: 847 total: 1000 (84.7%, best: 88.3% at 917 s, no move since: 10 s)
+mean error: 0.110348
+good: 855 total: 1000 (85.5%, best: 88.3% at 917 s, no move since: 14 s)
+mean error: 0.116836
+good: 853 total: 1000 (85.3%, best: 88.3% at 917 s, no move since: 17 s)
+mean error: 0.124116
+good: 832 total: 1000 (83.2%, best: 88.3% at 917 s, no move since: 20 s)
+mean error: 0.0975807
+good: 870 total: 1000 (87%, best: 88.3% at 917 s, no move since: 23 s)
+mean error: 0.100038
+good: 867 total: 1000 (86.7%, best: 88.3% at 917 s, no move since: 27 s)
+mean error: 0.0977755
+good: 879 total: 1000 (87.9%, best: 88.3% at 917 s, no move since: 30 s)
+driver rearmed
+mean error: 0.104799
+good: 863 total: 1000 (86.3%, best: 88.3% at 917 s, no move since: 33 s)
+mean error: 0.103609
+good: 864 total: 1000 (86.4%, best: 88.3% at 917 s, no move since: 36 s)
+mean error: 0.0984199
+good: 868 total: 1000 (86.8%, best: 88.3% at 917 s, no move since: 39 s)
+mean error: 0.112164
+good: 850 total: 1000 (85%, best: 88.3% at 917 s, no move since: 43 s)
+mean error: 0.122206
+good: 833 total: 1000 (83.3%, best: 88.3% at 917 s, no move since: 46 s)
+mean error: 0.105292
+good: 854 total: 1000 (85.4%, best: 88.3% at 917 s, no move since: 49 s)
+mean error: 0.092116
+good: 884 total: 1000 (88.4%, best: 88.4% at 969 s, no move since: 0 s)
+mean error: 0.109697
+good: 852 total: 1000 (85.2%, best: 88.4% at 969 s, no move since: 3 s)
+mean error: 0.10159
+good: 873 total: 1000 (87.3%, best: 88.4% at 969 s, no move since: 7 s)
+mean error: 0.106283
+good: 851 total: 1000 (85.1%, best: 88.4% at 969 s, no move since: 10 s)
+mean error: 0.108543
+good: 854 total: 1000 (85.4%, best: 88.4% at 969 s, no move since: 14 s)
+mean error: 0.115041
+good: 852 total: 1000 (85.2%, best: 88.4% at 969 s, no move since: 17 s)
+mean error: 0.122447
+good: 835 total: 1000 (83.5%, best: 88.4% at 969 s, no move since: 20 s)
+mean error: 0.0959644
+good: 872 total: 1000 (87.2%, best: 88.4% at 969 s, no move since: 23 s)
+mean error: 0.0984832
+good: 869 total: 1000 (86.9%, best: 88.4% at 969 s, no move since: 27 s)
+mean error: 0.0956602
+good: 883 total: 1000 (88.3%, best: 88.4% at 969 s, no move since: 30 s)
+driver rearmed
+mean error: 0.103114
+good: 867 total: 1000 (86.7%, best: 88.4% at 969 s, no move since: 34 s)
+mean error: 0.102311
+good: 867 total: 1000 (86.7%, best: 88.4% at 969 s, no move since: 37 s)
+mean error: 0.0970418
+good: 875 total: 1000 (87.5%, best: 88.4% at 969 s, no move since: 40 s)
+mean error: 0.110465
+good: 852 total: 1000 (85.2%, best: 88.4% at 969 s, no move since: 43 s)
+mean error: 0.120649
+good: 834 total: 1000 (83.4%, best: 88.4% at 969 s, no move since: 46 s)
+mean error: 0.103276
+good: 858 total: 1000 (85.8%, best: 88.4% at 969 s, no move since: 50 s)
+mean error: 0.090373
+good: 887 total: 1000 (88.7%, best: 88.7% at 1022 s, no move since: 0 s)
+mean error: 0.108529
+good: 855 total: 1000 (85.5%, best: 88.7% at 1022 s, no move since: 4 s)
+mean error: 0.100055
+good: 875 total: 1000 (87.5%, best: 88.7% at 1022 s, no move since: 7 s)
+mean error: 0.104788
+good: 856 total: 1000 (85.6%, best: 88.7% at 1022 s, no move since: 11 s)
+mean error: 0.106874
+good: 859 total: 1000 (85.9%, best: 88.7% at 1022 s, no move since: 14 s)
+mean error: 0.113308
+good: 851 total: 1000 (85.1%, best: 88.7% at 1022 s, no move since: 18 s)
+mean error: 0.120834
+good: 836 total: 1000 (83.6%, best: 88.7% at 1022 s, no move since: 21 s)
+mean error: 0.094553
+good: 877 total: 1000 (87.7%, best: 88.7% at 1022 s, no move since: 25 s)
+mean error: 0.0970564
+good: 872 total: 1000 (87.2%, best: 88.7% at 1022 s, no move since: 28 s)
+mean error: 0.0936653
+good: 884 total: 1000 (88.4%, best: 88.7% at 1022 s, no move since: 31 s)
+driver rearmed
+mean error: 0.101553
+good: 868 total: 1000 (86.8%, best: 88.7% at 1022 s, no move since: 34 s)
+mean error: 0.101054
+good: 870 total: 1000 (87%, best: 88.7% at 1022 s, no move since: 37 s)
+mean error: 0.0957556
+good: 877 total: 1000 (87.7%, best: 88.7% at 1022 s, no move since: 40 s)
+mean error: 0.1089
+good: 853 total: 1000 (85.3%, best: 88.7% at 1022 s, no move since: 44 s)
+mean error: 0.118998
+good: 834 total: 1000 (83.4%, best: 88.7% at 1022 s, no move since: 47 s)
+mean error: 0.101558
+good: 860 total: 1000 (86%, best: 88.7% at 1022 s, no move since: 50 s)
+mean error: 0.0887868
+good: 893 total: 1000 (89.3%, best: 89.3% at 1075 s, no move since: 0 s)
+mean error: 0.107388
+good: 858 total: 1000 (85.8%, best: 89.3% at 1075 s, no move since: 4 s)
+mean error: 0.0987115
+good: 875 total: 1000 (87.5%, best: 89.3% at 1075 s, no move since: 7 s)
+mean error: 0.103589
+good: 858 total: 1000 (85.8%, best: 89.3% at 1075 s, no move since: 11 s)
+mean error: 0.105296
+good: 860 total: 1000 (86%, best: 89.3% at 1075 s, no move since: 14 s)
+mean error: 0.111584
+good: 854 total: 1000 (85.4%, best: 89.3% at 1075 s, no move since: 17 s)
+mean error: 0.119264
+good: 839 total: 1000 (83.9%, best: 89.3% at 1075 s, no move since: 20 s)
+mean error: 0.0933035
+good: 878 total: 1000 (87.8%, best: 89.3% at 1075 s, no move since: 24 s)
+mean error: 0.0957511
+good: 873 total: 1000 (87.3%, best: 89.3% at 1075 s, no move since: 27 s)
+mean error: 0.0917153
+good: 884 total: 1000 (88.4%, best: 89.3% at 1075 s, no move since: 30 s)
+driver rearmed
+mean error: 0.0999669
+good: 872 total: 1000 (87.2%, best: 89.3% at 1075 s, no move since: 33 s)
+mean error: 0.100034
+good: 874 total: 1000 (87.4%, best: 89.3% at 1075 s, no move since: 36 s)
+mean error: 0.0945449
+good: 880 total: 1000 (88%, best: 89.3% at 1075 s, no move since: 40 s)
+mean error: 0.107355
+good: 857 total: 1000 (85.7%, best: 89.3% at 1075 s, no move since: 43 s)
+mean error: 0.116965
+good: 837 total: 1000 (83.7%, best: 89.3% at 1075 s, no move since: 46 s)
+mean error: 0.100002
+good: 864 total: 1000 (86.4%, best: 89.3% at 1075 s, no move since: 49 s)
+mean error: 0.0873792
+good: 893 total: 1000 (89.3%, best: 89.3% at 1075 s, no move since: 53 s)
+mean error: 0.106337
+good: 859 total: 1000 (85.9%, best: 89.3% at 1075 s, no move since: 56 s)
+mean error: 0.0971987
+good: 877 total: 1000 (87.7%, best: 89.3% at 1075 s, no move since: 59 s)
+mean error: 0.102609
+good: 860 total: 1000 (86%, best: 89.3% at 1075 s, no move since: 63 s)
+mean error: 0.103646
+good: 861 total: 1000 (86.1%, best: 89.3% at 1075 s, no move since: 66 s)
+mean error: 0.109881
+good: 858 total: 1000 (85.8%, best: 89.3% at 1075 s, no move since: 70 s)
+mean error: 0.11775
+good: 841 total: 1000 (84.1%, best: 89.3% at 1075 s, no move since: 73 s)
+mean error: 0.0921825
+good: 881 total: 1000 (88.1%, best: 89.3% at 1075 s, no move since: 76 s)
+mean error: 0.0944763
+good: 876 total: 1000 (87.6%, best: 89.3% at 1075 s, no move since: 80 s)
+mean error: 0.0897767
+good: 889 total: 1000 (88.9%, best: 89.3% at 1075 s, no move since: 83 s)
+driver rearmed
+mean error: 0.0978193
+good: 876 total: 1000 (87.6%, best: 89.3% at 1075 s, no move since: 86 s)
+mean error: 0.0992209
+good: 875 total: 1000 (87.5%, best: 89.3% at 1075 s, no move since: 89 s)
+mean error: 0.0930284
+good: 879 total: 1000 (87.9%, best: 89.3% at 1075 s, no move since: 93 s)
+mean error: 0.105708
+good: 864 total: 1000 (86.4%, best: 89.3% at 1075 s, no move since: 96 s)
+mean error: 0.115293
+good: 835 total: 1000 (83.5%, best: 89.3% at 1075 s, no move since: 99 s)
+mean error: 0.0986823
+good: 864 total: 1000 (86.4%, best: 89.3% at 1075 s, no move since: 102 s)
+mean error: 0.0860805
+good: 895 total: 1000 (89.5%, best: 89.5% at 1180 s, no move since: 0 s)
+mean error: 0.105247
+good: 864 total: 1000 (86.4%, best: 89.5% at 1180 s, no move since: 4 s)
+mean error: 0.0954505
+good: 880 total: 1000 (88%, best: 89.5% at 1180 s, no move since: 7 s)
+mean error: 0.10165
+good: 859 total: 1000 (85.9%, best: 89.5% at 1180 s, no move since: 10 s)
+mean error: 0.102077
+good: 863 total: 1000 (86.3%, best: 89.5% at 1180 s, no move since: 13 s)
+mean error: 0.108353
+good: 859 total: 1000 (85.9%, best: 89.5% at 1180 s, no move since: 16 s)
+mean error: 0.116297
+good: 844 total: 1000 (84.4%, best: 89.5% at 1180 s, no move since: 20 s)
+mean error: 0.091211
+good: 881 total: 1000 (88.1%, best: 89.5% at 1180 s, no move since: 23 s)
+mean error: 0.093185
+good: 878 total: 1000 (87.8%, best: 89.5% at 1180 s, no move since: 26 s)
+mean error: 0.088115
+good: 892 total: 1000 (89.2%, best: 89.5% at 1180 s, no move since: 29 s)
+driver rearmed
+mean error: 0.0960513
+good: 875 total: 1000 (87.5%, best: 89.5% at 1180 s, no move since: 32 s)
+mean error: 0.09829
+good: 881 total: 1000 (88.1%, best: 89.5% at 1180 s, no move since: 35 s)
+mean error: 0.0915085
+good: 879 total: 1000 (87.9%, best: 89.5% at 1180 s, no move since: 39 s)
+mean error: 0.104261
+good: 867 total: 1000 (86.7%, best: 89.5% at 1180 s, no move since: 42 s)
+mean error: 0.113914
+good: 837 total: 1000 (83.7%, best: 89.5% at 1180 s, no move since: 45 s)
+mean error: 0.0976654
+good: 864 total: 1000 (86.4%, best: 89.5% at 1180 s, no move since: 48 s)
+mean error: 0.0848091
+good: 892 total: 1000 (89.2%, best: 89.5% at 1180 s, no move since: 52 s)
+mean error: 0.104147
+good: 865 total: 1000 (86.5%, best: 89.5% at 1180 s, no move since: 55 s)
+mean error: 0.0940631
+good: 883 total: 1000 (88.3%, best: 89.5% at 1180 s, no move since: 59 s)
+mean error: 0.10083
+good: 861 total: 1000 (86.1%, best: 89.5% at 1180 s, no move since: 62 s)
+mean error: 0.100814
+good: 866 total: 1000 (86.6%, best: 89.5% at 1180 s, no move since: 65 s)
+mean error: 0.10689
+good: 859 total: 1000 (85.9%, best: 89.5% at 1180 s, no move since: 68 s)
+mean error: 0.114929
+good: 844 total: 1000 (84.4%, best: 89.5% at 1180 s, no move since: 71 s)
+mean error: 0.0900349
+good: 886 total: 1000 (88.6%, best: 89.5% at 1180 s, no move since: 75 s)
+mean error: 0.0918451
+good: 880 total: 1000 (88%, best: 89.5% at 1180 s, no move since: 78 s)
+mean error: 0.086619
+good: 892 total: 1000 (89.2%, best: 89.5% at 1180 s, no move since: 81 s)
+driver rearmed
+mean error: 0.0946358
+good: 876 total: 1000 (87.6%, best: 89.5% at 1180 s, no move since: 84 s)
+mean error: 0.0971549
+good: 881 total: 1000 (88.1%, best: 89.5% at 1180 s, no move since: 88 s)
+mean error: 0.0901173
+good: 878 total: 1000 (87.8%, best: 89.5% at 1180 s, no move since: 91 s)
+mean error: 0.103147
+good: 865 total: 1000 (86.5%, best: 89.5% at 1180 s, no move since: 94 s)
+mean error: 0.112108
+good: 838 total: 1000 (83.8%, best: 89.5% at 1180 s, no move since: 98 s)
+mean error: 0.0967221
+good: 867 total: 1000 (86.7%, best: 89.5% at 1180 s, no move since: 101 s)
+mean error: 0.0836644
+good: 894 total: 1000 (89.4%, best: 89.5% at 1180 s, no move since: 105 s)
+mean error: 0.103045
+good: 867 total: 1000 (86.7%, best: 89.5% at 1180 s, no move since: 108 s)
+mean error: 0.0922422
+good: 884 total: 1000 (88.4%, best: 89.5% at 1180 s, no move since: 112 s)
+mean error: 0.0998732
+good: 861 total: 1000 (86.1%, best: 89.5% at 1180 s, no move since: 115 s)
+mean error: 0.0995343
+good: 870 total: 1000 (87%, best: 89.5% at 1180 s, no move since: 118 s)
+mean error: 0.10549
+good: 861 total: 1000 (86.1%, best: 89.5% at 1180 s, no move since: 121 s)
+mean error: 0.113593
+good: 846 total: 1000 (84.6%, best: 89.5% at 1180 s, no move since: 124 s)
+mean error: 0.0883441
+good: 887 total: 1000 (88.7%, best: 89.5% at 1180 s, no move since: 127 s)
+mean error: 0.0901848
+good: 880 total: 1000 (88%, best: 89.5% at 1180 s, no move since: 131 s)
+mean error: 0.0854155
+good: 891 total: 1000 (89.1%, best: 89.5% at 1180 s, no move since: 134 s)
+driver rearmed
+mean error: 0.0934256
+good: 875 total: 1000 (87.5%, best: 89.5% at 1180 s, no move since: 137 s)
+mean error: 0.0955643
+good: 883 total: 1000 (88.3%, best: 89.5% at 1180 s, no move since: 140 s)
+mean error: 0.0884374
+good: 885 total: 1000 (88.5%, best: 89.5% at 1180 s, no move since: 143 s)
+mean error: 0.102208
+good: 863 total: 1000 (86.3%, best: 89.5% at 1180 s, no move since: 147 s)
+mean error: 0.109209
+good: 847 total: 1000 (84.7%, best: 89.5% at 1180 s, no move since: 150 s)
+mean error: 0.0956719
+good: 868 total: 1000 (86.8%, best: 89.5% at 1180 s, no move since: 153 s)
+mean error: 0.0823549
+good: 895 total: 1000 (89.5%, best: 89.5% at 1180 s, no move since: 156 s)
+mean error: 0.101712
+good: 870 total: 1000 (87%, best: 89.5% at 1180 s, no move since: 159 s)
+mean error: 0.0896753
+good: 886 total: 1000 (88.6%, best: 89.5% at 1180 s, no move since: 162 s)
+mean error: 0.0984494
+good: 862 total: 1000 (86.2%, best: 89.5% at 1180 s, no move since: 166 s)
+mean error: 0.0983061
+good: 875 total: 1000 (87.5%, best: 89.5% at 1180 s, no move since: 169 s)
+mean error: 0.104289
+good: 861 total: 1000 (86.1%, best: 89.5% at 1180 s, no move since: 172 s)
+mean error: 0.111721
+good: 846 total: 1000 (84.6%, best: 89.5% at 1180 s, no move since: 176 s)
+mean error: 0.0876462
+good: 887 total: 1000 (88.7%, best: 89.5% at 1180 s, no move since: 179 s)
+mean error: 0.0885094
+good: 886 total: 1000 (88.6%, best: 89.5% at 1180 s, no move since: 182 s)
+mean error: 0.0839671
+good: 895 total: 1000 (89.5%, best: 89.5% at 1180 s, no move since: 186 s)
+driver rearmed
+mean error: 0.0921192
+good: 877 total: 1000 (87.7%, best: 89.5% at 1180 s, no move since: 189 s)
+mean error: 0.0938743
+good: 881 total: 1000 (88.1%, best: 89.5% at 1180 s, no move since: 192 s)
+mean error: 0.0868275
+good: 886 total: 1000 (88.6%, best: 89.5% at 1180 s, no move since: 196 s)
+mean error: 0.100806
+good: 864 total: 1000 (86.4%, best: 89.5% at 1180 s, no move since: 199 s)
+mean error: 0.107407
+good: 853 total: 1000 (85.3%, best: 89.5% at 1180 s, no move since: 202 s)
+mean error: 0.0946842
+good: 871 total: 1000 (87.1%, best: 89.5% at 1180 s, no move since: 206 s)
+mean error: 0.081493
+good: 894 total: 1000 (89.4%, best: 89.5% at 1180 s, no move since: 209 s)
+mean error: 0.100569
+good: 870 total: 1000 (87%, best: 89.5% at 1180 s, no move since: 213 s)
+mean error: 0.0881718
+good: 888 total: 1000 (88.8%, best: 89.5% at 1180 s, no move since: 216 s)
+mean error: 0.0974775
+good: 864 total: 1000 (86.4%, best: 89.5% at 1180 s, no move since: 220 s)
+mean error: 0.0973977
+good: 874 total: 1000 (87.4%, best: 89.5% at 1180 s, no move since: 223 s)
+mean error: 0.103235
+good: 864 total: 1000 (86.4%, best: 89.5% at 1180 s, no move since: 226 s)
+mean error: 0.110258
+good: 845 total: 1000 (84.5%, best: 89.5% at 1180 s, no move since: 229 s)
+mean error: 0.0869847
+good: 891 total: 1000 (89.1%, best: 89.5% at 1180 s, no move since: 232 s)
+mean error: 0.0872318
+good: 887 total: 1000 (88.7%, best: 89.5% at 1180 s, no move since: 236 s)
+mean error: 0.082693
+good: 896 total: 1000 (89.6%, best: 89.6% at 1419 s, no move since: 0 s)
+driver rearmed
+mean error: 0.0909313
+good: 876 total: 1000 (87.6%, best: 89.6% at 1419 s, no move since: 3 s)
+mean error: 0.0925076
+good: 884 total: 1000 (88.4%, best: 89.6% at 1419 s, no move since: 6 s)
+mean error: 0.0854781
+good: 887 total: 1000 (88.7%, best: 89.6% at 1419 s, no move since: 9 s)
+mean error: 0.0993531
+good: 869 total: 1000 (86.9%, best: 89.6% at 1419 s, no move since: 13 s)
+mean error: 0.105591
+good: 854 total: 1000 (85.4%, best: 89.6% at 1419 s, no move since: 16 s)
+mean error: 0.0936195
+good: 871 total: 1000 (87.1%, best: 89.6% at 1419 s, no move since: 20 s)
+mean error: 0.0808336
+good: 894 total: 1000 (89.4%, best: 89.6% at 1419 s, no move since: 23 s)
+mean error: 0.0994345
+good: 871 total: 1000 (87.1%, best: 89.6% at 1419 s, no move since: 26 s)
+mean error: 0.0868906
+good: 891 total: 1000 (89.1%, best: 89.6% at 1419 s, no move since: 30 s)
+mean error: 0.09666
+good: 868 total: 1000 (86.8%, best: 89.6% at 1419 s, no move since: 33 s)
+mean error: 0.0965493
+good: 877 total: 1000 (87.7%, best: 89.6% at 1419 s, no move since: 37 s)
+mean error: 0.102484
+good: 862 total: 1000 (86.2%, best: 89.6% at 1419 s, no move since: 40 s)
+mean error: 0.109083
+good: 847 total: 1000 (84.7%, best: 89.6% at 1419 s, no move since: 44 s)
+mean error: 0.0861839
+good: 893 total: 1000 (89.3%, best: 89.6% at 1419 s, no move since: 47 s)
+mean error: 0.086214
+good: 888 total: 1000 (88.8%, best: 89.6% at 1419 s, no move since: 50 s)
+mean error: 0.08158
+good: 897 total: 1000 (89.7%, best: 89.7% at 1473 s, no move since: 0 s)
+driver rearmed
+mean error: 0.0899814
+good: 877 total: 1000 (87.7%, best: 89.7% at 1473 s, no move since: 3 s)
+mean error: 0.0913466
+good: 885 total: 1000 (88.5%, best: 89.7% at 1473 s, no move since: 7 s)
+mean error: 0.0843265
+good: 888 total: 1000 (88.8%, best: 89.7% at 1473 s, no move since: 10 s)
+mean error: 0.0981234
+good: 873 total: 1000 (87.3%, best: 89.7% at 1473 s, no move since: 13 s)
+mean error: 0.103882
+good: 856 total: 1000 (85.6%, best: 89.7% at 1473 s, no move since: 16 s)
+mean error: 0.092455
+good: 875 total: 1000 (87.5%, best: 89.7% at 1473 s, no move since: 19 s)
+mean error: 0.0802589
+good: 898 total: 1000 (89.8%, best: 89.8% at 1496 s, no move since: 0 s)
+mean error: 0.0982271
+good: 874 total: 1000 (87.4%, best: 89.8% at 1496 s, no move since: 3 s)
+mean error: 0.085689
+good: 890 total: 1000 (89%, best: 89.8% at 1496 s, no move since: 7 s)
+mean error: 0.0957555
+good: 870 total: 1000 (87%, best: 89.8% at 1496 s, no move since: 10 s)
+mean error: 0.0956945
+good: 875 total: 1000 (87.5%, best: 89.8% at 1496 s, no move since: 14 s)
+mean error: 0.101773
+good: 864 total: 1000 (86.4%, best: 89.8% at 1496 s, no move since: 17 s)
+mean error: 0.108027
+good: 852 total: 1000 (85.2%, best: 89.8% at 1496 s, no move since: 21 s)
+mean error: 0.0851545
+good: 893 total: 1000 (89.3%, best: 89.8% at 1496 s, no move since: 24 s)
+mean error: 0.0853626
+good: 892 total: 1000 (89.2%, best: 89.8% at 1496 s, no move since: 28 s)
+mean error: 0.0805873
+good: 901 total: 1000 (90.1%, best: 90.1% at 1527 s, no move since: 0 s)
+driver rearmed
+mean error: 0.0893017
+good: 880 total: 1000 (88%, best: 90.1% at 1527 s, no move since: 3 s)
+mean error: 0.090301
+good: 885 total: 1000 (88.5%, best: 90.1% at 1527 s, no move since: 6 s)
+mean error: 0.0833328
+good: 888 total: 1000 (88.8%, best: 90.1% at 1527 s, no move since: 10 s)
+mean error: 0.0969611
+good: 876 total: 1000 (87.6%, best: 90.1% at 1527 s, no move since: 13 s)
+mean error: 0.102314
+good: 858 total: 1000 (85.8%, best: 90.1% at 1527 s, no move since: 17 s)
+mean error: 0.0913518
+good: 876 total: 1000 (87.6%, best: 90.1% at 1527 s, no move since: 20 s)
+mean error: 0.0796465
+good: 901 total: 1000 (90.1%, best: 90.1% at 1527 s, no move since: 24 s)
+mean error: 0.0970696
+good: 875 total: 1000 (87.5%, best: 90.1% at 1527 s, no move since: 27 s)
+mean error: 0.0846584
+good: 890 total: 1000 (89%, best: 90.1% at 1527 s, no move since: 30 s)
+mean error: 0.0946315
+good: 873 total: 1000 (87.3%, best: 90.1% at 1527 s, no move since: 34 s)
+mean error: 0.094739
+good: 872 total: 1000 (87.2%, best: 90.1% at 1527 s, no move since: 37 s)
+mean error: 0.100897
+good: 868 total: 1000 (86.8%, best: 90.1% at 1527 s, no move since: 41 s)
+mean error: 0.107057
+good: 854 total: 1000 (85.4%, best: 90.1% at 1527 s, no move since: 44 s)
+mean error: 0.0838295
+good: 892 total: 1000 (89.2%, best: 90.1% at 1527 s, no move since: 48 s)
+mean error: 0.0845915
+good: 895 total: 1000 (89.5%, best: 90.1% at 1527 s, no move since: 51 s)
+mean error: 0.0798185
+good: 905 total: 1000 (90.5%, best: 90.5% at 1581 s, no move since: 0 s)
+driver rearmed
+mean error: 0.0888235
+good: 881 total: 1000 (88.1%, best: 90.5% at 1581 s, no move since: 4 s)
+mean error: 0.0893255
+good: 886 total: 1000 (88.6%, best: 90.5% at 1581 s, no move since: 7 s)
+mean error: 0.08244
+good: 889 total: 1000 (88.9%, best: 90.5% at 1581 s, no move since: 11 s)
+mean error: 0.0959021
+good: 877 total: 1000 (87.7%, best: 90.5% at 1581 s, no move since: 14 s)
+mean error: 0.100872
+good: 862 total: 1000 (86.2%, best: 90.5% at 1581 s, no move since: 17 s)
+mean error: 0.0904719
+good: 875 total: 1000 (87.5%, best: 90.5% at 1581 s, no move since: 20 s)
+mean error: 0.0789718
+good: 903 total: 1000 (90.3%, best: 90.5% at 1581 s, no move since: 23 s)
+mean error: 0.0959378
+good: 880 total: 1000 (88%, best: 90.5% at 1581 s, no move since: 27 s)
+mean error: 0.0837678
+good: 892 total: 1000 (89.2%, best: 90.5% at 1581 s, no move since: 30 s)
+mean error: 0.0934191
+good: 874 total: 1000 (87.4%, best: 90.5% at 1581 s, no move since: 34 s)
+mean error: 0.0937058
+good: 873 total: 1000 (87.3%, best: 90.5% at 1581 s, no move since: 37 s)
+mean error: 0.0999571
+good: 867 total: 1000 (86.7%, best: 90.5% at 1581 s, no move since: 41 s)
+mean error: 0.106088
+good: 856 total: 1000 (85.6%, best: 90.5% at 1581 s, no move since: 44 s)
+mean error: 0.0824586
+good: 895 total: 1000 (89.5%, best: 90.5% at 1581 s, no move since: 47 s)
+mean error: 0.0837519
+good: 897 total: 1000 (89.7%, best: 90.5% at 1581 s, no move since: 50 s)
+mean error: 0.0791772
+good: 904 total: 1000 (90.4%, best: 90.5% at 1581 s, no move since: 53 s)
+driver rearmed
+mean error: 0.0884664
+good: 880 total: 1000 (88%, best: 90.5% at 1581 s, no move since: 56 s)
+mean error: 0.0884377
+good: 883 total: 1000 (88.3%, best: 90.5% at 1581 s, no move since: 59 s)
+mean error: 0.0816155
+good: 891 total: 1000 (89.1%, best: 90.5% at 1581 s, no move since: 63 s)
+mean error: 0.0951199
+good: 878 total: 1000 (87.8%, best: 90.5% at 1581 s, no move since: 66 s)
+mean error: 0.0995196
+good: 863 total: 1000 (86.3%, best: 90.5% at 1581 s, no move since: 69 s)
+mean error: 0.0895601
+good: 878 total: 1000 (87.8%, best: 90.5% at 1581 s, no move since: 72 s)
+mean error: 0.0783982
+good: 909 total: 1000 (90.9%, best: 90.9% at 1657 s, no move since: 0 s)
+mean error: 0.0946566
+good: 882 total: 1000 (88.2%, best: 90.9% at 1657 s, no move since: 3 s)
+mean error: 0.0829651
+good: 892 total: 1000 (89.2%, best: 90.9% at 1657 s, no move since: 6 s)
+mean error: 0.0922813
+good: 874 total: 1000 (87.4%, best: 90.9% at 1657 s, no move since: 9 s)
+mean error: 0.0925306
+good: 874 total: 1000 (87.4%, best: 90.9% at 1657 s, no move since: 12 s)
+mean error: 0.0990733
+good: 866 total: 1000 (86.6%, best: 90.9% at 1657 s, no move since: 15 s)
+mean error: 0.105122
+good: 857 total: 1000 (85.7%, best: 90.9% at 1657 s, no move since: 19 s)
+mean error: 0.0813788
+good: 894 total: 1000 (89.4%, best: 90.9% at 1657 s, no move since: 22 s)
+mean error: 0.0828294
+good: 897 total: 1000 (89.7%, best: 90.9% at 1657 s, no move since: 25 s)
+mean error: 0.078559
+good: 907 total: 1000 (90.7%, best: 90.9% at 1657 s, no move since: 28 s)
+driver rearmed
+mean error: 0.0881208
+good: 880 total: 1000 (88%, best: 90.9% at 1657 s, no move since: 32 s)
+mean error: 0.0875468
+good: 881 total: 1000 (88.1%, best: 90.9% at 1657 s, no move since: 35 s)
+mean error: 0.0808143
+good: 891 total: 1000 (89.1%, best: 90.9% at 1657 s, no move since: 38 s)
+mean error: 0.0946198
+good: 876 total: 1000 (87.6%, best: 90.9% at 1657 s, no move since: 41 s)
+mean error: 0.0982965
+good: 863 total: 1000 (86.3%, best: 90.9% at 1657 s, no move since: 44 s)
+mean error: 0.0885751
+good: 878 total: 1000 (87.8%, best: 90.9% at 1657 s, no move since: 47 s)
+mean error: 0.0780301
+good: 904 total: 1000 (90.4%, best: 90.9% at 1657 s, no move since: 50 s)
+mean error: 0.0934675
+good: 882 total: 1000 (88.2%, best: 90.9% at 1657 s, no move since: 54 s)
+mean error: 0.0820772
+good: 896 total: 1000 (89.6%, best: 90.9% at 1657 s, no move since: 57 s)
+mean error: 0.0912769
+good: 874 total: 1000 (87.4%, best: 90.9% at 1657 s, no move since: 60 s)
+mean error: 0.0912991
+good: 878 total: 1000 (87.8%, best: 90.9% at 1657 s, no move since: 63 s)
+mean error: 0.0982762
+good: 867 total: 1000 (86.7%, best: 90.9% at 1657 s, no move since: 67 s)
+mean error: 0.104213
+good: 861 total: 1000 (86.1%, best: 90.9% at 1657 s, no move since: 70 s)
+mean error: 0.0804294
+good: 895 total: 1000 (89.5%, best: 90.9% at 1657 s, no move since: 73 s)
+mean error: 0.0817789
+good: 898 total: 1000 (89.8%, best: 90.9% at 1657 s, no move since: 76 s)
+mean error: 0.0779383
+good: 908 total: 1000 (90.8%, best: 90.9% at 1657 s, no move since: 79 s)
+driver rearmed
+mean error: 0.0877662
+good: 880 total: 1000 (88%, best: 90.9% at 1657 s, no move since: 82 s)
+mean error: 0.0867568
+good: 882 total: 1000 (88.2%, best: 90.9% at 1657 s, no move since: 86 s)
+mean error: 0.0799327
+good: 891 total: 1000 (89.1%, best: 90.9% at 1657 s, no move since: 89 s)
+mean error: 0.0942133
+good: 875 total: 1000 (87.5%, best: 90.9% at 1657 s, no move since: 92 s)
+mean error: 0.0971551
+good: 867 total: 1000 (86.7%, best: 90.9% at 1657 s, no move since: 95 s)
+mean error: 0.0876502
+good: 880 total: 1000 (88%, best: 90.9% at 1657 s, no move since: 98 s)
+mean error: 0.0776478
+good: 904 total: 1000 (90.4%, best: 90.9% at 1657 s, no move since: 101 s)
+mean error: 0.0924398
+good: 882 total: 1000 (88.2%, best: 90.9% at 1657 s, no move since: 104 s)
+mean error: 0.0810496
+good: 898 total: 1000 (89.8%, best: 90.9% at 1657 s, no move since: 108 s)
+mean error: 0.090258
+good: 874 total: 1000 (87.4%, best: 90.9% at 1657 s, no move since: 111 s)
+mean error: 0.0901065
+good: 879 total: 1000 (87.9%, best: 90.9% at 1657 s, no move since: 115 s)
+mean error: 0.0975327
+good: 867 total: 1000 (86.7%, best: 90.9% at 1657 s, no move since: 118 s)
+mean error: 0.103361
+good: 861 total: 1000 (86.1%, best: 90.9% at 1657 s, no move since: 121 s)
+mean error: 0.0796018
+good: 895 total: 1000 (89.5%, best: 90.9% at 1657 s, no move since: 124 s)
+mean error: 0.0809094
+good: 899 total: 1000 (89.9%, best: 90.9% at 1657 s, no move since: 127 s)
+mean error: 0.0773745
+good: 905 total: 1000 (90.5%, best: 90.9% at 1657 s, no move since: 130 s)
+driver rearmed
+mean error: 0.0873016
+good: 881 total: 1000 (88.1%, best: 90.9% at 1657 s, no move since: 133 s)
+mean error: 0.0858963
+good: 885 total: 1000 (88.5%, best: 90.9% at 1657 s, no move since: 137 s)
+mean error: 0.0790787
+good: 892 total: 1000 (89.2%, best: 90.9% at 1657 s, no move since: 140 s)
+mean error: 0.0937053
+good: 876 total: 1000 (87.6%, best: 90.9% at 1657 s, no move since: 143 s)
+mean error: 0.0959719
+good: 867 total: 1000 (86.7%, best: 90.9% at 1657 s, no move since: 147 s)
+mean error: 0.0868191
+good: 881 total: 1000 (88.1%, best: 90.9% at 1657 s, no move since: 150 s)
+mean error: 0.07718
+good: 903 total: 1000 (90.3%, best: 90.9% at 1657 s, no move since: 154 s)
+mean error: 0.0915901
+good: 884 total: 1000 (88.4%, best: 90.9% at 1657 s, no move since: 157 s)
+mean error: 0.0799365
+good: 900 total: 1000 (90%, best: 90.9% at 1657 s, no move since: 161 s)
+mean error: 0.0892434
+good: 877 total: 1000 (87.7%, best: 90.9% at 1657 s, no move since: 164 s)
+mean error: 0.088963
+good: 883 total: 1000 (88.3%, best: 90.9% at 1657 s, no move since: 167 s)
+mean error: 0.0967984
+good: 867 total: 1000 (86.7%, best: 90.9% at 1657 s, no move since: 171 s)
+mean error: 0.102546
+good: 862 total: 1000 (86.2%, best: 90.9% at 1657 s, no move since: 174 s)
+mean error: 0.078916
+good: 897 total: 1000 (89.7%, best: 90.9% at 1657 s, no move since: 177 s)
+mean error: 0.0799698
+good: 900 total: 1000 (90%, best: 90.9% at 1657 s, no move since: 180 s)
+mean error: 0.0768678
+good: 902 total: 1000 (90.2%, best: 90.9% at 1657 s, no move since: 183 s)
+driver rearmed
+mean error: 0.0867268
+good: 881 total: 1000 (88.1%, best: 90.9% at 1657 s, no move since: 187 s)
+mean error: 0.0850223
+good: 887 total: 1000 (88.7%, best: 90.9% at 1657 s, no move since: 190 s)
+mean error: 0.0782902
+good: 892 total: 1000 (89.2%, best: 90.9% at 1657 s, no move since: 193 s)
+mean error: 0.0930171
+good: 880 total: 1000 (88%, best: 90.9% at 1657 s, no move since: 196 s)
+mean error: 0.0947546
+good: 870 total: 1000 (87%, best: 90.9% at 1657 s, no move since: 199 s)
+mean error: 0.0860615
+good: 880 total: 1000 (88%, best: 90.9% at 1657 s, no move since: 202 s)
+mean error: 0.0765948
+good: 903 total: 1000 (90.3%, best: 90.9% at 1657 s, no move since: 206 s)
+mean error: 0.0908569
+good: 885 total: 1000 (88.5%, best: 90.9% at 1657 s, no move since: 209 s)
+mean error: 0.0788216
+good: 903 total: 1000 (90.3%, best: 90.9% at 1657 s, no move since: 212 s)
+mean error: 0.0883194
+good: 880 total: 1000 (88%, best: 90.9% at 1657 s, no move since: 216 s)
+mean error: 0.0878862
+good: 884 total: 1000 (88.4%, best: 90.9% at 1657 s, no move since: 219 s)
+mean error: 0.0960352
+good: 868 total: 1000 (86.8%, best: 90.9% at 1657 s, no move since: 223 s)
+mean error: 0.10171
+good: 866 total: 1000 (86.6%, best: 90.9% at 1657 s, no move since: 226 s)
+mean error: 0.0782889
+good: 898 total: 1000 (89.8%, best: 90.9% at 1657 s, no move since: 230 s)
+mean error: 0.0790369
+good: 901 total: 1000 (90.1%, best: 90.9% at 1657 s, no move since: 233 s)
+mean error: 0.0764171
+good: 903 total: 1000 (90.3%, best: 90.9% at 1657 s, no move since: 236 s)
+driver rearmed
+mean error: 0.0860391
+good: 885 total: 1000 (88.5%, best: 90.9% at 1657 s, no move since: 239 s)
+mean error: 0.0844102
+good: 887 total: 1000 (88.7%, best: 90.9% at 1657 s, no move since: 243 s)
+mean error: 0.0775782
+good: 893 total: 1000 (89.3%, best: 90.9% at 1657 s, no move since: 246 s)
+mean error: 0.0922197
+good: 883 total: 1000 (88.3%, best: 90.9% at 1657 s, no move since: 249 s)
+mean error: 0.0935933
+good: 876 total: 1000 (87.6%, best: 90.9% at 1657 s, no move since: 252 s)
+mean error: 0.0852937
+good: 881 total: 1000 (88.1%, best: 90.9% at 1657 s, no move since: 255 s)
+mean error: 0.0759846
+good: 904 total: 1000 (90.4%, best: 90.9% at 1657 s, no move since: 258 s)
+mean error: 0.0901582
+good: 884 total: 1000 (88.4%, best: 90.9% at 1657 s, no move since: 262 s)
+mean error: 0.0777629
+good: 903 total: 1000 (90.3%, best: 90.9% at 1657 s, no move since: 265 s)
+mean error: 0.0874793
+good: 880 total: 1000 (88%, best: 90.9% at 1657 s, no move since: 268 s)
+mean error: 0.0869168
+good: 882 total: 1000 (88.2%, best: 90.9% at 1657 s, no move since: 271 s)
+mean error: 0.0952746
+good: 870 total: 1000 (87%, best: 90.9% at 1657 s, no move since: 274 s)
+mean error: 0.100855
+good: 867 total: 1000 (86.7%, best: 90.9% at 1657 s, no move since: 277 s)
+mean error: 0.077687
+good: 902 total: 1000 (90.2%, best: 90.9% at 1657 s, no move since: 281 s)
+mean error: 0.0779673
+good: 900 total: 1000 (90%, best: 90.9% at 1657 s, no move since: 284 s)
+mean error: 0.0760531
+good: 902 total: 1000 (90.2%, best: 90.9% at 1657 s, no move since: 287 s)
+driver rearmed
+mean error: 0.0852876
+good: 886 total: 1000 (88.6%, best: 90.9% at 1657 s, no move since: 290 s)
+mean error: 0.0841272
+good: 887 total: 1000 (88.7%, best: 90.9% at 1657 s, no move since: 293 s)
+mean error: 0.0769685
+good: 893 total: 1000 (89.3%, best: 90.9% at 1657 s, no move since: 297 s)
+mean error: 0.0915667
+good: 884 total: 1000 (88.4%, best: 90.9% at 1657 s, no move since: 300 s)
+mean error: 0.0925709
+good: 879 total: 1000 (87.9%, best: 90.9% at 1657 s, no move since: 304 s)
+mean error: 0.0844734
+good: 882 total: 1000 (88.2%, best: 90.9% at 1657 s, no move since: 307 s)
+mean error: 0.0753859
+good: 905 total: 1000 (90.5%, best: 90.9% at 1657 s, no move since: 311 s)
+mean error: 0.0894433
+good: 885 total: 1000 (88.5%, best: 90.9% at 1657 s, no move since: 314 s)
+mean error: 0.0768195
+good: 905 total: 1000 (90.5%, best: 90.9% at 1657 s, no move since: 318 s)
+mean error: 0.0867345
+good: 886 total: 1000 (88.6%, best: 90.9% at 1657 s, no move since: 321 s)
+mean error: 0.0860502
+good: 884 total: 1000 (88.4%, best: 90.9% at 1657 s, no move since: 325 s)
+mean error: 0.0945326
+good: 871 total: 1000 (87.1%, best: 90.9% at 1657 s, no move since: 328 s)
+mean error: 0.10004
+good: 868 total: 1000 (86.8%, best: 90.9% at 1657 s, no move since: 331 s)
+mean error: 0.0770995
+good: 902 total: 1000 (90.2%, best: 90.9% at 1657 s, no move since: 335 s)
+mean error: 0.0770969
+good: 900 total: 1000 (90%, best: 90.9% at 1657 s, no move since: 338 s)
+mean error: 0.0756476
+good: 903 total: 1000 (90.3%, best: 90.9% at 1657 s, no move since: 341 s)
+driver rearmed
+mean error: 0.0845569
+good: 886 total: 1000 (88.6%, best: 90.9% at 1657 s, no move since: 344 s)
+mean error: 0.0838416
+good: 889 total: 1000 (88.9%, best: 90.9% at 1657 s, no move since: 347 s)
+mean error: 0.0762602
+good: 894 total: 1000 (89.4%, best: 90.9% at 1657 s, no move since: 350 s)
+mean error: 0.0910578
+good: 884 total: 1000 (88.4%, best: 90.9% at 1657 s, no move since: 354 s)
+mean error: 0.0917121
+good: 878 total: 1000 (87.8%, best: 90.9% at 1657 s, no move since: 357 s)
+mean error: 0.0837589
+good: 884 total: 1000 (88.4%, best: 90.9% at 1657 s, no move since: 360 s)
+mean error: 0.0748022
+good: 906 total: 1000 (90.6%, best: 90.9% at 1657 s, no move since: 364 s)
+mean error: 0.0887555
+good: 885 total: 1000 (88.5%, best: 90.9% at 1657 s, no move since: 367 s)
+mean error: 0.0759673
+good: 905 total: 1000 (90.5%, best: 90.9% at 1657 s, no move since: 370 s)
+mean error: 0.0860344
+good: 885 total: 1000 (88.5%, best: 90.9% at 1657 s, no move since: 374 s)
+mean error: 0.0852947
+good: 888 total: 1000 (88.8%, best: 90.9% at 1657 s, no move since: 377 s)
+mean error: 0.0938875
+good: 871 total: 1000 (87.1%, best: 90.9% at 1657 s, no move since: 381 s)
+mean error: 0.0992668
+good: 871 total: 1000 (87.1%, best: 90.9% at 1657 s, no move since: 384 s)
+mean error: 0.076432
+good: 899 total: 1000 (89.9%, best: 90.9% at 1657 s, no move since: 387 s)
+mean error: 0.0763955
+good: 902 total: 1000 (90.2%, best: 90.9% at 1657 s, no move since: 391 s)
+mean error: 0.0752718
+good: 904 total: 1000 (90.4%, best: 90.9% at 1657 s, no move since: 394 s)
+driver rearmed
+mean error: 0.0838573
+good: 885 total: 1000 (88.5%, best: 90.9% at 1657 s, no move since: 397 s)
+mean error: 0.0835324
+good: 893 total: 1000 (89.3%, best: 90.9% at 1657 s, no move since: 400 s)
+mean error: 0.0755859
+good: 895 total: 1000 (89.5%, best: 90.9% at 1657 s, no move since: 403 s)
+mean error: 0.0906675
+good: 884 total: 1000 (88.4%, best: 90.9% at 1657 s, no move since: 407 s)
+mean error: 0.0909594
+good: 876 total: 1000 (87.6%, best: 90.9% at 1657 s, no move since: 410 s)
+mean error: 0.0831152
+good: 889 total: 1000 (88.9%, best: 90.9% at 1657 s, no move since: 413 s)
+mean error: 0.0742795
+good: 906 total: 1000 (90.6%, best: 90.9% at 1657 s, no move since: 417 s)
+mean error: 0.0881387
+good: 886 total: 1000 (88.6%, best: 90.9% at 1657 s, no move since: 420 s)
+mean error: 0.075196
+good: 906 total: 1000 (90.6%, best: 90.9% at 1657 s, no move since: 424 s)
+mean error: 0.085362
+good: 885 total: 1000 (88.5%, best: 90.9% at 1657 s, no move since: 427 s)
+mean error: 0.0846725
+good: 888 total: 1000 (88.8%, best: 90.9% at 1657 s, no move since: 430 s)
+mean error: 0.0933493
+good: 873 total: 1000 (87.3%, best: 90.9% at 1657 s, no move since: 434 s)
+mean error: 0.0985881
+good: 870 total: 1000 (87%, best: 90.9% at 1657 s, no move since: 437 s)
+mean error: 0.0756026
+good: 900 total: 1000 (90%, best: 90.9% at 1657 s, no move since: 441 s)
+mean error: 0.0756598
+good: 901 total: 1000 (90.1%, best: 90.9% at 1657 s, no move since: 444 s)
+mean error: 0.0749698
+good: 904 total: 1000 (90.4%, best: 90.9% at 1657 s, no move since: 447 s)
+driver rearmed
+mean error: 0.0831477
+good: 887 total: 1000 (88.7%, best: 90.9% at 1657 s, no move since: 450 s)
+mean error: 0.0829187
+good: 891 total: 1000 (89.1%, best: 90.9% at 1657 s, no move since: 453 s)
+mean error: 0.0749338
+good: 896 total: 1000 (89.6%, best: 90.9% at 1657 s, no move since: 457 s)
+mean error: 0.0901464
+good: 884 total: 1000 (88.4%, best: 90.9% at 1657 s, no move since: 460 s)
+mean error: 0.0902526
+good: 878 total: 1000 (87.8%, best: 90.9% at 1657 s, no move since: 463 s)
+mean error: 0.082445
+good: 888 total: 1000 (88.8%, best: 90.9% at 1657 s, no move since: 466 s)
+mean error: 0.0737641
+good: 907 total: 1000 (90.7%, best: 90.9% at 1657 s, no move since: 469 s)
+mean error: 0.0875547
+good: 885 total: 1000 (88.5%, best: 90.9% at 1657 s, no move since: 473 s)
+mean error: 0.0744851
+good: 906 total: 1000 (90.6%, best: 90.9% at 1657 s, no move since: 476 s)
+mean error: 0.0846949
+good: 886 total: 1000 (88.6%, best: 90.9% at 1657 s, no move since: 479 s)
+mean error: 0.0841609
+good: 887 total: 1000 (88.7%, best: 90.9% at 1657 s, no move since: 482 s)
+mean error: 0.0928999
+good: 872 total: 1000 (87.2%, best: 90.9% at 1657 s, no move since: 486 s)
+mean error: 0.0980359
+good: 870 total: 1000 (87%, best: 90.9% at 1657 s, no move since: 489 s)
+mean error: 0.0748017
+good: 900 total: 1000 (90%, best: 90.9% at 1657 s, no move since: 492 s)
+mean error: 0.0749487
+good: 904 total: 1000 (90.4%, best: 90.9% at 1657 s, no move since: 496 s)
+mean error: 0.0747254
+good: 903 total: 1000 (90.3%, best: 90.9% at 1657 s, no move since: 500 s)
+driver rearmed
+mean error: 0.0824602
+good: 889 total: 1000 (88.9%, best: 90.9% at 1657 s, no move since: 503 s)
+mean error: 0.0820858
+good: 892 total: 1000 (89.2%, best: 90.9% at 1657 s, no move since: 506 s)
+mean error: 0.0743354
+good: 898 total: 1000 (89.8%, best: 90.9% at 1657 s, no move since: 509 s)
+mean error: 0.0895155
+good: 885 total: 1000 (88.5%, best: 90.9% at 1657 s, no move since: 512 s)
+mean error: 0.0896387
+good: 880 total: 1000 (88%, best: 90.9% at 1657 s, no move since: 515 s)
+mean error: 0.0817718
+good: 890 total: 1000 (89%, best: 90.9% at 1657 s, no move since: 519 s)
+mean error: 0.0733066
+good: 907 total: 1000 (90.7%, best: 90.9% at 1657 s, no move since: 522 s)
+mean error: 0.0869927
+good: 886 total: 1000 (88.6%, best: 90.9% at 1657 s, no move since: 525 s)
+mean error: 0.0737921
+good: 906 total: 1000 (90.6%, best: 90.9% at 1657 s, no move since: 528 s)
+mean error: 0.08407
+good: 886 total: 1000 (88.6%, best: 90.9% at 1657 s, no move since: 531 s)
+mean error: 0.0837246
+good: 888 total: 1000 (88.8%, best: 90.9% at 1657 s, no move since: 535 s)
+mean error: 0.0924188
+good: 871 total: 1000 (87.1%, best: 90.9% at 1657 s, no move since: 538 s)
+mean error: 0.0975934
+good: 872 total: 1000 (87.2%, best: 90.9% at 1657 s, no move since: 541 s)
+mean error: 0.0741113
+good: 899 total: 1000 (89.9%, best: 90.9% at 1657 s, no move since: 544 s)
+mean error: 0.0743084
+good: 905 total: 1000 (90.5%, best: 90.9% at 1657 s, no move since: 548 s)
+mean error: 0.0745173
+good: 902 total: 1000 (90.2%, best: 90.9% at 1657 s, no move since: 551 s)
+driver rearmed
+mean error: 0.081825
+good: 886 total: 1000 (88.6%, best: 90.9% at 1657 s, no move since: 554 s)
+mean error: 0.0813031
+good: 892 total: 1000 (89.2%, best: 90.9% at 1657 s, no move since: 557 s)
+mean error: 0.0736447
+good: 901 total: 1000 (90.1%, best: 90.9% at 1657 s, no move since: 560 s)
+mean error: 0.0887971
+good: 885 total: 1000 (88.5%, best: 90.9% at 1657 s, no move since: 564 s)
+mean error: 0.0889059
+good: 879 total: 1000 (87.9%, best: 90.9% at 1657 s, no move since: 567 s)
+mean error: 0.0812571
+good: 890 total: 1000 (89%, best: 90.9% at 1657 s, no move since: 570 s)
+mean error: 0.0729692
+good: 906 total: 1000 (90.6%, best: 90.9% at 1657 s, no move since: 574 s)
+mean error: 0.0867551
+good: 888 total: 1000 (88.8%, best: 90.9% at 1657 s, no move since: 577 s)
+mean error: 0.0731246
+good: 907 total: 1000 (90.7%, best: 90.9% at 1657 s, no move since: 580 s)
+mean error: 0.0834851
+good: 888 total: 1000 (88.8%, best: 90.9% at 1657 s, no move since: 584 s)
+mean error: 0.0833057
+good: 890 total: 1000 (89%, best: 90.9% at 1657 s, no move since: 587 s)
+mean error: 0.0917792
+good: 874 total: 1000 (87.4%, best: 90.9% at 1657 s, no move since: 591 s)
+mean error: 0.0971687
+good: 873 total: 1000 (87.3%, best: 90.9% at 1657 s, no move since: 594 s)
+mean error: 0.0735685
+good: 901 total: 1000 (90.1%, best: 90.9% at 1657 s, no move since: 597 s)
+mean error: 0.0737496
+good: 906 total: 1000 (90.6%, best: 90.9% at 1657 s, no move since: 600 s)
+mean error: 0.0743347
+good: 903 total: 1000 (90.3%, best: 90.9% at 1657 s, no move since: 603 s)
+driver rearmed
+mean error: 0.0812638
+good: 885 total: 1000 (88.5%, best: 90.9% at 1657 s, no move since: 607 s)
+mean error: 0.0808899
+good: 892 total: 1000 (89.2%, best: 90.9% at 1657 s, no move since: 610 s)
+mean error: 0.0729134
+good: 903 total: 1000 (90.3%, best: 90.9% at 1657 s, no move since: 613 s)
+mean error: 0.0881197
+good: 888 total: 1000 (88.8%, best: 90.9% at 1657 s, no move since: 616 s)
+mean error: 0.0880692
+good: 886 total: 1000 (88.6%, best: 90.9% at 1657 s, no move since: 620 s)
+mean error: 0.0808188
+good: 891 total: 1000 (89.1%, best: 90.9% at 1657 s, no move since: 623 s)
+mean error: 0.0725917
+good: 906 total: 1000 (90.6%, best: 90.9% at 1657 s, no move since: 626 s)
+mean error: 0.0869461
+good: 888 total: 1000 (88.8%, best: 90.9% at 1657 s, no move since: 630 s)
+mean error: 0.0724603
+good: 909 total: 1000 (90.9%, best: 90.9% at 1657 s, no move since: 633 s)
+mean error: 0.0828799
+good: 890 total: 1000 (89%, best: 90.9% at 1657 s, no move since: 637 s)
+mean error: 0.082824
+good: 893 total: 1000 (89.3%, best: 90.9% at 1657 s, no move since: 640 s)
+mean error: 0.0911548
+good: 874 total: 1000 (87.4%, best: 90.9% at 1657 s, no move since: 643 s)
+mean error: 0.0967903
+good: 873 total: 1000 (87.3%, best: 90.9% at 1657 s, no move since: 647 s)
+mean error: 0.0731269
+good: 904 total: 1000 (90.4%, best: 90.9% at 1657 s, no move since: 650 s)
+mean error: 0.0732352
+good: 908 total: 1000 (90.8%, best: 90.9% at 1657 s, no move since: 653 s)
+mean error: 0.0741728
+good: 904 total: 1000 (90.4%, best: 90.9% at 1657 s, no move since: 656 s)
+driver rearmed
+mean error: 0.0807934
+good: 890 total: 1000 (89%, best: 90.9% at 1657 s, no move since: 659 s)
+mean error: 0.0805766
+good: 896 total: 1000 (89.6%, best: 90.9% at 1657 s, no move since: 663 s)
+mean error: 0.0723365
+good: 904 total: 1000 (90.4%, best: 90.9% at 1657 s, no move since: 666 s)
+mean error: 0.0876322
+good: 887 total: 1000 (88.7%, best: 90.9% at 1657 s, no move since: 669 s)
+mean error: 0.0871679
+good: 887 total: 1000 (88.7%, best: 90.9% at 1657 s, no move since: 672 s)
+mean error: 0.0804167
+good: 891 total: 1000 (89.1%, best: 90.9% at 1657 s, no move since: 675 s)
+mean error: 0.0721227
+good: 907 total: 1000 (90.7%, best: 90.9% at 1657 s, no move since: 679 s)
+mean error: 0.08694
+good: 889 total: 1000 (88.9%, best: 90.9% at 1657 s, no move since: 682 s)
+mean error: 0.0717941
+good: 911 total: 1000 (91.1%, best: 91.1% at 2342 s, no move since: 0 s)
+mean error: 0.0823778
+good: 892 total: 1000 (89.2%, best: 91.1% at 2342 s, no move since: 4 s)
+mean error: 0.0824249
+good: 896 total: 1000 (89.6%, best: 91.1% at 2342 s, no move since: 7 s)
+mean error: 0.0904336
+good: 875 total: 1000 (87.5%, best: 91.1% at 2342 s, no move since: 10 s)
+mean error: 0.0965687
+good: 874 total: 1000 (87.4%, best: 91.1% at 2342 s, no move since: 14 s)
+mean error: 0.072783
+good: 906 total: 1000 (90.6%, best: 91.1% at 2342 s, no move since: 17 s)
+mean error: 0.0726919
+good: 909 total: 1000 (90.9%, best: 91.1% at 2342 s, no move since: 21 s)
+mean error: 0.0740277
+good: 905 total: 1000 (90.5%, best: 91.1% at 2342 s, no move since: 24 s)
+driver rearmed
+mean error: 0.0804061
+good: 890 total: 1000 (89%, best: 91.1% at 2342 s, no move since: 27 s)
+mean error: 0.0801755
+good: 897 total: 1000 (89.7%, best: 91.1% at 2342 s, no move since: 30 s)
+mean error: 0.0718692
+good: 906 total: 1000 (90.6%, best: 91.1% at 2342 s, no move since: 34 s)
+mean error: 0.0872061
+good: 887 total: 1000 (88.7%, best: 91.1% at 2342 s, no move since: 37 s)
+mean error: 0.0861402
+good: 887 total: 1000 (88.7%, best: 91.1% at 2342 s, no move since: 40 s)
+mean error: 0.0800304
+good: 895 total: 1000 (89.5%, best: 91.1% at 2342 s, no move since: 43 s)
+mean error: 0.071601
+good: 907 total: 1000 (90.7%, best: 91.1% at 2342 s, no move since: 46 s)
+mean error: 0.0865936
+good: 891 total: 1000 (89.1%, best: 91.1% at 2342 s, no move since: 49 s)
+mean error: 0.0711321
+good: 913 total: 1000 (91.3%, best: 91.3% at 2394 s, no move since: 0 s)
+mean error: 0.0819389
+good: 895 total: 1000 (89.5%, best: 91.3% at 2394 s, no move since: 4 s)
+mean error: 0.0821444
+good: 897 total: 1000 (89.7%, best: 91.3% at 2394 s, no move since: 7 s)
+mean error: 0.0896928
+good: 877 total: 1000 (87.7%, best: 91.3% at 2394 s, no move since: 11 s)
+mean error: 0.0963671
+good: 875 total: 1000 (87.5%, best: 91.3% at 2394 s, no move since: 14 s)
+mean error: 0.0724223
+good: 907 total: 1000 (90.7%, best: 91.3% at 2394 s, no move since: 17 s)
+mean error: 0.0721546
+good: 911 total: 1000 (91.1%, best: 91.3% at 2394 s, no move since: 21 s)
+mean error: 0.0738431
+good: 906 total: 1000 (90.6%, best: 91.3% at 2394 s, no move since: 24 s)
+driver rearmed
+mean error: 0.0800572
+good: 890 total: 1000 (89%, best: 91.3% at 2394 s, no move since: 27 s)
+mean error: 0.0795061
+good: 897 total: 1000 (89.7%, best: 91.3% at 2394 s, no move since: 30 s)
+mean error: 0.0713509
+good: 907 total: 1000 (90.7%, best: 91.3% at 2394 s, no move since: 33 s)
+mean error: 0.0868639
+good: 885 total: 1000 (88.5%, best: 91.3% at 2394 s, no move since: 36 s)
+mean error: 0.0851894
+good: 890 total: 1000 (89%, best: 91.3% at 2394 s, no move since: 40 s)
+mean error: 0.0795713
+good: 897 total: 1000 (89.7%, best: 91.3% at 2394 s, no move since: 43 s)
+mean error: 0.071148
+good: 907 total: 1000 (90.7%, best: 91.3% at 2394 s, no move since: 46 s)
+mean error: 0.0860075
+good: 891 total: 1000 (89.1%, best: 91.3% at 2394 s, no move since: 49 s)
+mean error: 0.0705427
+good: 913 total: 1000 (91.3%, best: 91.3% at 2394 s, no move since: 52 s)
+mean error: 0.0815223
+good: 895 total: 1000 (89.5%, best: 91.3% at 2394 s, no move since: 55 s)
+mean error: 0.081841
+good: 899 total: 1000 (89.9%, best: 91.3% at 2394 s, no move since: 58 s)
+mean error: 0.0889221
+good: 877 total: 1000 (87.7%, best: 91.3% at 2394 s, no move since: 61 s)
+mean error: 0.0961294
+good: 875 total: 1000 (87.5%, best: 91.3% at 2394 s, no move since: 64 s)
+mean error: 0.0717839
+good: 907 total: 1000 (90.7%, best: 91.3% at 2394 s, no move since: 68 s)
+mean error: 0.0716816
+good: 910 total: 1000 (91%, best: 91.3% at 2394 s, no move since: 71 s)
+mean error: 0.0735799
+good: 905 total: 1000 (90.5%, best: 91.3% at 2394 s, no move since: 75 s)
+driver rearmed
+mean error: 0.079725
+good: 891 total: 1000 (89.1%, best: 91.3% at 2394 s, no move since: 78 s)
+mean error: 0.0787305
+good: 898 total: 1000 (89.8%, best: 91.3% at 2394 s, no move since: 81 s)
+mean error: 0.0707429
+good: 910 total: 1000 (91%, best: 91.3% at 2394 s, no move since: 84 s)
+mean error: 0.0865587
+good: 885 total: 1000 (88.5%, best: 91.3% at 2394 s, no move since: 87 s)
+mean error: 0.0844022
+good: 890 total: 1000 (89%, best: 91.3% at 2394 s, no move since: 90 s)
+mean error: 0.0790744
+good: 898 total: 1000 (89.8%, best: 91.3% at 2394 s, no move since: 94 s)
+mean error: 0.0707207
+good: 906 total: 1000 (90.6%, best: 91.3% at 2394 s, no move since: 97 s)
+mean error: 0.0853256
+good: 891 total: 1000 (89.1%, best: 91.3% at 2394 s, no move since: 100 s)
+mean error: 0.0700084
+good: 914 total: 1000 (91.4%, best: 91.4% at 2497 s, no move since: 0 s)
+mean error: 0.0811598
+good: 896 total: 1000 (89.6%, best: 91.4% at 2497 s, no move since: 3 s)
+mean error: 0.0814769
+good: 899 total: 1000 (89.9%, best: 91.4% at 2497 s, no move since: 7 s)
+mean error: 0.0881329
+good: 878 total: 1000 (87.8%, best: 91.4% at 2497 s, no move since: 10 s)
+mean error: 0.095842
+good: 873 total: 1000 (87.3%, best: 91.4% at 2497 s, no move since: 14 s)
+mean error: 0.0709793
+good: 907 total: 1000 (90.7%, best: 91.4% at 2497 s, no move since: 17 s)
+mean error: 0.0712363
+good: 909 total: 1000 (90.9%, best: 91.4% at 2497 s, no move since: 20 s)
+mean error: 0.0732351
+good: 902 total: 1000 (90.2%, best: 91.4% at 2497 s, no move since: 24 s)
+driver rearmed
+mean error: 0.0793982
+good: 891 total: 1000 (89.1%, best: 91.4% at 2497 s, no move since: 27 s)
+mean error: 0.0780063
+good: 899 total: 1000 (89.9%, best: 91.4% at 2497 s, no move since: 30 s)
+mean error: 0.0699773
+good: 911 total: 1000 (91.1%, best: 91.4% at 2497 s, no move since: 33 s)
+mean error: 0.0862701
+good: 887 total: 1000 (88.7%, best: 91.4% at 2497 s, no move since: 36 s)
+mean error: 0.0836865
+good: 891 total: 1000 (89.1%, best: 91.4% at 2497 s, no move since: 40 s)
+mean error: 0.0786388
+good: 898 total: 1000 (89.8%, best: 91.4% at 2497 s, no move since: 43 s)
+mean error: 0.0703029
+good: 905 total: 1000 (90.5%, best: 91.4% at 2497 s, no move since: 47 s)
+mean error: 0.0845417
+good: 892 total: 1000 (89.2%, best: 91.4% at 2497 s, no move since: 50 s)
+mean error: 0.0695154
+good: 916 total: 1000 (91.6%, best: 91.6% at 2550 s, no move since: 0 s)
+mean error: 0.0809217
+good: 896 total: 1000 (89.6%, best: 91.6% at 2550 s, no move since: 3 s)
+mean error: 0.0811312
+good: 898 total: 1000 (89.8%, best: 91.6% at 2550 s, no move since: 7 s)
+mean error: 0.087376
+good: 879 total: 1000 (87.9%, best: 91.6% at 2550 s, no move since: 10 s)
+mean error: 0.0954568
+good: 874 total: 1000 (87.4%, best: 91.6% at 2550 s, no move since: 13 s)
+mean error: 0.0703754
+good: 906 total: 1000 (90.6%, best: 91.6% at 2550 s, no move since: 16 s)
+mean error: 0.0708362
+good: 909 total: 1000 (90.9%, best: 91.6% at 2550 s, no move since: 19 s)
+mean error: 0.0728488
+good: 902 total: 1000 (90.2%, best: 91.6% at 2550 s, no move since: 22 s)
+driver rearmed
+mean error: 0.0791312
+good: 891 total: 1000 (89.1%, best: 91.6% at 2550 s, no move since: 26 s)
+mean error: 0.0772245
+good: 898 total: 1000 (89.8%, best: 91.6% at 2550 s, no move since: 29 s)
+mean error: 0.0693496
+good: 910 total: 1000 (91%, best: 91.6% at 2550 s, no move since: 32 s)
+mean error: 0.0860024
+good: 888 total: 1000 (88.8%, best: 91.6% at 2550 s, no move since: 35 s)
+mean error: 0.0829752
+good: 894 total: 1000 (89.4%, best: 91.6% at 2550 s, no move since: 38 s)
+mean error: 0.0782726
+good: 899 total: 1000 (89.9%, best: 91.6% at 2550 s, no move since: 42 s)
+mean error: 0.0698808
+good: 908 total: 1000 (90.8%, best: 91.6% at 2550 s, no move since: 45 s)
+mean error: 0.0836767
+good: 893 total: 1000 (89.3%, best: 91.6% at 2550 s, no move since: 49 s)
+mean error: 0.0690992
+good: 916 total: 1000 (91.6%, best: 91.6% at 2550 s, no move since: 52 s)
+mean error: 0.0808286
+good: 896 total: 1000 (89.6%, best: 91.6% at 2550 s, no move since: 55 s)
+mean error: 0.0808494
+good: 898 total: 1000 (89.8%, best: 91.6% at 2550 s, no move since: 58 s)
+mean error: 0.0866377
+good: 878 total: 1000 (87.8%, best: 91.6% at 2550 s, no move since: 62 s)
+mean error: 0.0949893
+good: 874 total: 1000 (87.4%, best: 91.6% at 2550 s, no move since: 65 s)
+mean error: 0.069921
+good: 907 total: 1000 (90.7%, best: 91.6% at 2550 s, no move since: 68 s)
+mean error: 0.070466
+good: 909 total: 1000 (90.9%, best: 91.6% at 2550 s, no move since: 71 s)
+mean error: 0.0724104
+good: 902 total: 1000 (90.2%, best: 91.6% at 2550 s, no move since: 74 s)
+driver rearmed
+mean error: 0.0788437
+good: 893 total: 1000 (89.3%, best: 91.6% at 2550 s, no move since: 77 s)
+mean error: 0.0765529
+good: 899 total: 1000 (89.9%, best: 91.6% at 2550 s, no move since: 81 s)
+mean error: 0.06878
+good: 910 total: 1000 (91%, best: 91.6% at 2550 s, no move since: 84 s)
+mean error: 0.0856813
+good: 887 total: 1000 (88.7%, best: 91.6% at 2550 s, no move since: 87 s)
+mean error: 0.0822001
+good: 895 total: 1000 (89.5%, best: 91.6% at 2550 s, no move since: 90 s)
+mean error: 0.0779364
+good: 901 total: 1000 (90.1%, best: 91.6% at 2550 s, no move since: 94 s)
+mean error: 0.0693586
+good: 910 total: 1000 (91%, best: 91.6% at 2550 s, no move since: 97 s)
+mean error: 0.0828903
+good: 894 total: 1000 (89.4%, best: 91.6% at 2550 s, no move since: 101 s)
+mean error: 0.068711
+good: 916 total: 1000 (91.6%, best: 91.6% at 2550 s, no move since: 104 s)
+mean error: 0.0807684
+good: 896 total: 1000 (89.6%, best: 91.6% at 2550 s, no move since: 107 s)
+mean error: 0.0805665
+good: 896 total: 1000 (89.6%, best: 91.6% at 2550 s, no move since: 110 s)
+mean error: 0.0858507
+good: 881 total: 1000 (88.1%, best: 91.6% at 2550 s, no move since: 113 s)
+mean error: 0.0944432
+good: 876 total: 1000 (87.6%, best: 91.6% at 2550 s, no move since: 116 s)
+mean error: 0.069532
+good: 907 total: 1000 (90.7%, best: 91.6% at 2550 s, no move since: 120 s)
+mean error: 0.0701409
+good: 910 total: 1000 (91%, best: 91.6% at 2550 s, no move since: 123 s)
+mean error: 0.0718447
+good: 906 total: 1000 (90.6%, best: 91.6% at 2550 s, no move since: 126 s)
+driver rearmed
+mean error: 0.0784142
+good: 891 total: 1000 (89.1%, best: 91.6% at 2550 s, no move since: 129 s)
+mean error: 0.0760846
+good: 900 total: 1000 (90%, best: 91.6% at 2550 s, no move since: 133 s)
+mean error: 0.0682088
+good: 913 total: 1000 (91.3%, best: 91.6% at 2550 s, no move since: 136 s)
+mean error: 0.0853035
+good: 888 total: 1000 (88.8%, best: 91.6% at 2550 s, no move since: 139 s)
+mean error: 0.0811484
+good: 895 total: 1000 (89.5%, best: 91.6% at 2550 s, no move since: 142 s)
+mean error: 0.0775856
+good: 900 total: 1000 (90%, best: 91.6% at 2550 s, no move since: 145 s)
+mean error: 0.0688445
+good: 913 total: 1000 (91.3%, best: 91.6% at 2550 s, no move since: 148 s)
+mean error: 0.0822099
+good: 897 total: 1000 (89.7%, best: 91.6% at 2550 s, no move since: 152 s)
+mean error: 0.0682733
+good: 916 total: 1000 (91.6%, best: 91.6% at 2550 s, no move since: 155 s)
+mean error: 0.0805636
+good: 897 total: 1000 (89.7%, best: 91.6% at 2550 s, no move since: 159 s)
+mean error: 0.0802461
+good: 898 total: 1000 (89.8%, best: 91.6% at 2550 s, no move since: 162 s)
+mean error: 0.0851507
+good: 881 total: 1000 (88.1%, best: 91.6% at 2550 s, no move since: 165 s)
+mean error: 0.0938284
+good: 876 total: 1000 (87.6%, best: 91.6% at 2550 s, no move since: 168 s)
+mean error: 0.0693179
+good: 906 total: 1000 (90.6%, best: 91.6% at 2550 s, no move since: 171 s)
+mean error: 0.0697944
+good: 911 total: 1000 (91.1%, best: 91.6% at 2550 s, no move since: 175 s)
+mean error: 0.0712286
+good: 905 total: 1000 (90.5%, best: 91.6% at 2550 s, no move since: 178 s)
+driver rearmed
+mean error: 0.077925
+good: 891 total: 1000 (89.1%, best: 91.6% at 2550 s, no move since: 181 s)
+mean error: 0.0756144
+good: 898 total: 1000 (89.8%, best: 91.6% at 2550 s, no move since: 184 s)
+mean error: 0.0677775
+good: 915 total: 1000 (91.5%, best: 91.6% at 2550 s, no move since: 187 s)
+mean error: 0.084807
+good: 891 total: 1000 (89.1%, best: 91.6% at 2550 s, no move since: 190 s)
+mean error: 0.080154
+good: 897 total: 1000 (89.7%, best: 91.6% at 2550 s, no move since: 194 s)
+mean error: 0.0772544
+good: 901 total: 1000 (90.1%, best: 91.6% at 2550 s, no move since: 197 s)
+mean error: 0.0682033
+good: 915 total: 1000 (91.5%, best: 91.6% at 2550 s, no move since: 201 s)
+mean error: 0.0815198
+good: 897 total: 1000 (89.7%, best: 91.6% at 2550 s, no move since: 204 s)
+mean error: 0.0678446
+good: 918 total: 1000 (91.8%, best: 91.8% at 2758 s, no move since: 0 s)
+mean error: 0.0802386
+good: 899 total: 1000 (89.9%, best: 91.8% at 2758 s, no move since: 3 s)
+mean error: 0.0800094
+good: 900 total: 1000 (90%, best: 91.8% at 2758 s, no move since: 7 s)
+mean error: 0.0846942
+good: 880 total: 1000 (88%, best: 91.8% at 2758 s, no move since: 10 s)
+mean error: 0.0931926
+good: 877 total: 1000 (87.7%, best: 91.8% at 2758 s, no move since: 13 s)
+mean error: 0.068789
+good: 907 total: 1000 (90.7%, best: 91.8% at 2758 s, no move since: 16 s)
+mean error: 0.0693872
+good: 910 total: 1000 (91%, best: 91.8% at 2758 s, no move since: 20 s)
+mean error: 0.0707557
+good: 907 total: 1000 (90.7%, best: 91.8% at 2758 s, no move since: 23 s)
+driver rearmed
+mean error: 0.0774549
+good: 892 total: 1000 (89.2%, best: 91.8% at 2758 s, no move since: 27 s)
+mean error: 0.0752584
+good: 898 total: 1000 (89.8%, best: 91.8% at 2758 s, no move since: 30 s)
+mean error: 0.0674572
+good: 917 total: 1000 (91.7%, best: 91.8% at 2758 s, no move since: 33 s)
+mean error: 0.0842997
+good: 893 total: 1000 (89.3%, best: 91.8% at 2758 s, no move since: 36 s)
+mean error: 0.0795076
+good: 899 total: 1000 (89.9%, best: 91.8% at 2758 s, no move since: 40 s)
+mean error: 0.076825
+good: 900 total: 1000 (90%, best: 91.8% at 2758 s, no move since: 43 s)
+mean error: 0.0674462
+good: 916 total: 1000 (91.6%, best: 91.8% at 2758 s, no move since: 46 s)
+mean error: 0.0808256
+good: 897 total: 1000 (89.7%, best: 91.8% at 2758 s, no move since: 50 s)
+mean error: 0.0674765
+good: 918 total: 1000 (91.8%, best: 91.8% at 2758 s, no move since: 53 s)
+mean error: 0.0797516
+good: 899 total: 1000 (89.9%, best: 91.8% at 2758 s, no move since: 57 s)
+mean error: 0.0797895
+good: 896 total: 1000 (89.6%, best: 91.8% at 2758 s, no move since: 60 s)
+mean error: 0.0843406
+good: 880 total: 1000 (88%, best: 91.8% at 2758 s, no move since: 63 s)
+mean error: 0.0926228
+good: 875 total: 1000 (87.5%, best: 91.8% at 2758 s, no move since: 67 s)
+mean error: 0.0682976
+good: 908 total: 1000 (90.8%, best: 91.8% at 2758 s, no move since: 70 s)
+mean error: 0.0689872
+good: 912 total: 1000 (91.2%, best: 91.8% at 2758 s, no move since: 73 s)
+mean error: 0.0704607
+good: 909 total: 1000 (90.9%, best: 91.8% at 2758 s, no move since: 76 s)
+driver rearmed
+mean error: 0.0770057
+good: 894 total: 1000 (89.4%, best: 91.8% at 2758 s, no move since: 80 s)
+mean error: 0.0749316
+good: 900 total: 1000 (90%, best: 91.8% at 2758 s, no move since: 83 s)
+mean error: 0.0672467
+good: 914 total: 1000 (91.4%, best: 91.8% at 2758 s, no move since: 86 s)
+mean error: 0.0837735
+good: 895 total: 1000 (89.5%, best: 91.8% at 2758 s, no move since: 89 s)
+mean error: 0.0789141
+good: 900 total: 1000 (90%, best: 91.8% at 2758 s, no move since: 92 s)
+mean error: 0.076346
+good: 902 total: 1000 (90.2%, best: 91.8% at 2758 s, no move since: 96 s)
+mean error: 0.0667606
+good: 919 total: 1000 (91.9%, best: 91.9% at 2857 s, no move since: 0 s)
+mean error: 0.0801138
+good: 898 total: 1000 (89.8%, best: 91.9% at 2857 s, no move since: 4 s)
+mean error: 0.0671698
+good: 917 total: 1000 (91.7%, best: 91.9% at 2857 s, no move since: 7 s)
+mean error: 0.0793076
+good: 899 total: 1000 (89.9%, best: 91.9% at 2857 s, no move since: 10 s)
+mean error: 0.079431
+good: 897 total: 1000 (89.7%, best: 91.9% at 2857 s, no move since: 13 s)
+mean error: 0.0840288
+good: 882 total: 1000 (88.2%, best: 91.9% at 2857 s, no move since: 16 s)
+mean error: 0.0921039
+good: 875 total: 1000 (87.5%, best: 91.9% at 2857 s, no move since: 19 s)
+mean error: 0.067901
+good: 908 total: 1000 (90.8%, best: 91.9% at 2857 s, no move since: 23 s)
+mean error: 0.0686552
+good: 912 total: 1000 (91.2%, best: 91.9% at 2857 s, no move since: 26 s)
+mean error: 0.0702831
+good: 910 total: 1000 (91%, best: 91.9% at 2857 s, no move since: 29 s)
+driver rearmed
+mean error: 0.0765797
+good: 894 total: 1000 (89.4%, best: 91.9% at 2857 s, no move since: 32 s)
+mean error: 0.0744105
+good: 902 total: 1000 (90.2%, best: 91.9% at 2857 s, no move since: 35 s)
+mean error: 0.0669941
+good: 915 total: 1000 (91.5%, best: 91.9% at 2857 s, no move since: 38 s)
+mean error: 0.0832778
+good: 897 total: 1000 (89.7%, best: 91.9% at 2857 s, no move since: 42 s)
+mean error: 0.0783624
+good: 902 total: 1000 (90.2%, best: 91.9% at 2857 s, no move since: 45 s)
+mean error: 0.0758796
+good: 902 total: 1000 (90.2%, best: 91.9% at 2857 s, no move since: 48 s)
+mean error: 0.0663347
+good: 921 total: 1000 (92.1%, best: 92.1% at 2909 s, no move since: 0 s)
+mean error: 0.0794449
+good: 898 total: 1000 (89.8%, best: 92.1% at 2909 s, no move since: 3 s)
+mean error: 0.0668787
+good: 916 total: 1000 (91.6%, best: 92.1% at 2909 s, no move since: 6 s)
+mean error: 0.0789308
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 9 s)
+mean error: 0.0789631
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 13 s)
+mean error: 0.0837877
+good: 882 total: 1000 (88.2%, best: 92.1% at 2909 s, no move since: 16 s)
+mean error: 0.0915977
+good: 876 total: 1000 (87.6%, best: 92.1% at 2909 s, no move since: 19 s)
+mean error: 0.067439
+good: 909 total: 1000 (90.9%, best: 92.1% at 2909 s, no move since: 22 s)
+mean error: 0.0684002
+good: 912 total: 1000 (91.2%, best: 92.1% at 2909 s, no move since: 25 s)
+mean error: 0.0700889
+good: 909 total: 1000 (90.9%, best: 92.1% at 2909 s, no move since: 28 s)
+driver rearmed
+mean error: 0.0761594
+good: 895 total: 1000 (89.5%, best: 92.1% at 2909 s, no move since: 32 s)
+mean error: 0.0740721
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 35 s)
+mean error: 0.0668679
+good: 915 total: 1000 (91.5%, best: 92.1% at 2909 s, no move since: 39 s)
+mean error: 0.0829919
+good: 896 total: 1000 (89.6%, best: 92.1% at 2909 s, no move since: 42 s)
+mean error: 0.0778974
+good: 903 total: 1000 (90.3%, best: 92.1% at 2909 s, no move since: 45 s)
+mean error: 0.0754626
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 49 s)
+mean error: 0.0661474
+good: 921 total: 1000 (92.1%, best: 92.1% at 2909 s, no move since: 52 s)
+mean error: 0.0788368
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 56 s)
+mean error: 0.0665667
+good: 917 total: 1000 (91.7%, best: 92.1% at 2909 s, no move since: 59 s)
+mean error: 0.0785828
+good: 900 total: 1000 (90%, best: 92.1% at 2909 s, no move since: 63 s)
+mean error: 0.0784986
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 66 s)
+mean error: 0.0834899
+good: 884 total: 1000 (88.4%, best: 92.1% at 2909 s, no move since: 69 s)
+mean error: 0.0911539
+good: 875 total: 1000 (87.5%, best: 92.1% at 2909 s, no move since: 72 s)
+mean error: 0.066717
+good: 909 total: 1000 (90.9%, best: 92.1% at 2909 s, no move since: 76 s)
+mean error: 0.0683063
+good: 912 total: 1000 (91.2%, best: 92.1% at 2909 s, no move since: 79 s)
+mean error: 0.06984
+good: 910 total: 1000 (91%, best: 92.1% at 2909 s, no move since: 82 s)
+driver rearmed
+mean error: 0.0757427
+good: 896 total: 1000 (89.6%, best: 92.1% at 2909 s, no move since: 86 s)
+mean error: 0.0735481
+good: 903 total: 1000 (90.3%, best: 92.1% at 2909 s, no move since: 89 s)
+mean error: 0.0665511
+good: 914 total: 1000 (91.4%, best: 92.1% at 2909 s, no move since: 92 s)
+mean error: 0.0829094
+good: 895 total: 1000 (89.5%, best: 92.1% at 2909 s, no move since: 95 s)
+mean error: 0.0774271
+good: 902 total: 1000 (90.2%, best: 92.1% at 2909 s, no move since: 99 s)
+mean error: 0.0752933
+good: 900 total: 1000 (90%, best: 92.1% at 2909 s, no move since: 102 s)
+mean error: 0.066194
+good: 919 total: 1000 (91.9%, best: 92.1% at 2909 s, no move since: 105 s)
+mean error: 0.0784551
+good: 898 total: 1000 (89.8%, best: 92.1% at 2909 s, no move since: 108 s)
+mean error: 0.0662056
+good: 917 total: 1000 (91.7%, best: 92.1% at 2909 s, no move since: 111 s)
+mean error: 0.0782502
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 115 s)
+mean error: 0.0781093
+good: 900 total: 1000 (90%, best: 92.1% at 2909 s, no move since: 118 s)
+mean error: 0.0832223
+good: 885 total: 1000 (88.5%, best: 92.1% at 2909 s, no move since: 121 s)
+mean error: 0.0907232
+good: 877 total: 1000 (87.7%, best: 92.1% at 2909 s, no move since: 124 s)
+mean error: 0.0659884
+good: 908 total: 1000 (90.8%, best: 92.1% at 2909 s, no move since: 127 s)
+mean error: 0.0680648
+good: 912 total: 1000 (91.2%, best: 92.1% at 2909 s, no move since: 130 s)
+mean error: 0.0694758
+good: 910 total: 1000 (91%, best: 92.1% at 2909 s, no move since: 133 s)
+driver rearmed
+mean error: 0.0754952
+good: 896 total: 1000 (89.6%, best: 92.1% at 2909 s, no move since: 137 s)
+mean error: 0.073266
+good: 903 total: 1000 (90.3%, best: 92.1% at 2909 s, no move since: 140 s)
+mean error: 0.0660214
+good: 913 total: 1000 (91.3%, best: 92.1% at 2909 s, no move since: 143 s)
+mean error: 0.0827389
+good: 895 total: 1000 (89.5%, best: 92.1% at 2909 s, no move since: 146 s)
+mean error: 0.076951
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 149 s)
+mean error: 0.0753278
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 153 s)
+mean error: 0.0661942
+good: 918 total: 1000 (91.8%, best: 92.1% at 2909 s, no move since: 156 s)
+mean error: 0.0781447
+good: 898 total: 1000 (89.8%, best: 92.1% at 2909 s, no move since: 160 s)
+mean error: 0.0656753
+good: 917 total: 1000 (91.7%, best: 92.1% at 2909 s, no move since: 163 s)
+mean error: 0.0777091
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 166 s)
+mean error: 0.0777491
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 170 s)
+mean error: 0.0831849
+good: 885 total: 1000 (88.5%, best: 92.1% at 2909 s, no move since: 173 s)
+mean error: 0.0903388
+good: 877 total: 1000 (87.7%, best: 92.1% at 2909 s, no move since: 176 s)
+mean error: 0.0652893
+good: 907 total: 1000 (90.7%, best: 92.1% at 2909 s, no move since: 179 s)
+mean error: 0.0677343
+good: 913 total: 1000 (91.3%, best: 92.1% at 2909 s, no move since: 183 s)
+mean error: 0.069154
+good: 911 total: 1000 (91.1%, best: 92.1% at 2909 s, no move since: 186 s)
+driver rearmed
+mean error: 0.0752851
+good: 895 total: 1000 (89.5%, best: 92.1% at 2909 s, no move since: 189 s)
+mean error: 0.072936
+good: 903 total: 1000 (90.3%, best: 92.1% at 2909 s, no move since: 192 s)
+mean error: 0.0657195
+good: 915 total: 1000 (91.5%, best: 92.1% at 2909 s, no move since: 195 s)
+mean error: 0.0822819
+good: 894 total: 1000 (89.4%, best: 92.1% at 2909 s, no move since: 198 s)
+mean error: 0.0765677
+good: 902 total: 1000 (90.2%, best: 92.1% at 2909 s, no move since: 202 s)
+mean error: 0.0753533
+good: 897 total: 1000 (89.7%, best: 92.1% at 2909 s, no move since: 205 s)
+mean error: 0.0659612
+good: 920 total: 1000 (92%, best: 92.1% at 2909 s, no move since: 209 s)
+mean error: 0.0776343
+good: 898 total: 1000 (89.8%, best: 92.1% at 2909 s, no move since: 212 s)
+mean error: 0.0651421
+good: 918 total: 1000 (91.8%, best: 92.1% at 2909 s, no move since: 215 s)
+mean error: 0.0771279
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 218 s)
+mean error: 0.0774118
+good: 897 total: 1000 (89.7%, best: 92.1% at 2909 s, no move since: 221 s)
+mean error: 0.0832635
+good: 885 total: 1000 (88.5%, best: 92.1% at 2909 s, no move since: 225 s)
+mean error: 0.0901274
+good: 877 total: 1000 (87.7%, best: 92.1% at 2909 s, no move since: 228 s)
+mean error: 0.0647901
+good: 908 total: 1000 (90.8%, best: 92.1% at 2909 s, no move since: 231 s)
+mean error: 0.0674706
+good: 912 total: 1000 (91.2%, best: 92.1% at 2909 s, no move since: 234 s)
+mean error: 0.0688274
+good: 911 total: 1000 (91.1%, best: 92.1% at 2909 s, no move since: 237 s)
+driver rearmed
+mean error: 0.0749528
+good: 896 total: 1000 (89.6%, best: 92.1% at 2909 s, no move since: 241 s)
+mean error: 0.0724906
+good: 903 total: 1000 (90.3%, best: 92.1% at 2909 s, no move since: 244 s)
+mean error: 0.0653379
+good: 916 total: 1000 (91.6%, best: 92.1% at 2909 s, no move since: 247 s)
+mean error: 0.0817727
+good: 893 total: 1000 (89.3%, best: 92.1% at 2909 s, no move since: 250 s)
+mean error: 0.0763362
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 254 s)
+mean error: 0.0751716
+good: 897 total: 1000 (89.7%, best: 92.1% at 2909 s, no move since: 257 s)
+mean error: 0.0657222
+good: 920 total: 1000 (92%, best: 92.1% at 2909 s, no move since: 261 s)
+mean error: 0.0770959
+good: 897 total: 1000 (89.7%, best: 92.1% at 2909 s, no move since: 264 s)
+mean error: 0.0647507
+good: 918 total: 1000 (91.8%, best: 92.1% at 2909 s, no move since: 267 s)
+mean error: 0.0766317
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 271 s)
+mean error: 0.0770563
+good: 897 total: 1000 (89.7%, best: 92.1% at 2909 s, no move since: 274 s)
+mean error: 0.0833367
+good: 886 total: 1000 (88.6%, best: 92.1% at 2909 s, no move since: 277 s)
+mean error: 0.0900103
+good: 876 total: 1000 (87.6%, best: 92.1% at 2909 s, no move since: 280 s)
+mean error: 0.0644667
+good: 910 total: 1000 (91%, best: 92.1% at 2909 s, no move since: 283 s)
+mean error: 0.0672851
+good: 913 total: 1000 (91.3%, best: 92.1% at 2909 s, no move since: 287 s)
+mean error: 0.0685882
+good: 911 total: 1000 (91.1%, best: 92.1% at 2909 s, no move since: 290 s)
+driver rearmed
+mean error: 0.074552
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 293 s)
+mean error: 0.0721535
+good: 904 total: 1000 (90.4%, best: 92.1% at 2909 s, no move since: 296 s)
+mean error: 0.0650207
+good: 915 total: 1000 (91.5%, best: 92.1% at 2909 s, no move since: 299 s)
+mean error: 0.0813276
+good: 893 total: 1000 (89.3%, best: 92.1% at 2909 s, no move since: 302 s)
+mean error: 0.0760812
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 306 s)
+mean error: 0.0748629
+good: 902 total: 1000 (90.2%, best: 92.1% at 2909 s, no move since: 309 s)
+mean error: 0.065691
+good: 919 total: 1000 (91.9%, best: 92.1% at 2909 s, no move since: 313 s)
+mean error: 0.0766587
+good: 896 total: 1000 (89.6%, best: 92.1% at 2909 s, no move since: 316 s)
+mean error: 0.0645324
+good: 917 total: 1000 (91.7%, best: 92.1% at 2909 s, no move since: 320 s)
+mean error: 0.0761096
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 323 s)
+mean error: 0.0767992
+good: 896 total: 1000 (89.6%, best: 92.1% at 2909 s, no move since: 326 s)
+mean error: 0.0832628
+good: 886 total: 1000 (88.6%, best: 92.1% at 2909 s, no move since: 330 s)
+mean error: 0.0898425
+good: 878 total: 1000 (87.8%, best: 92.1% at 2909 s, no move since: 333 s)
+mean error: 0.0641576
+good: 910 total: 1000 (91%, best: 92.1% at 2909 s, no move since: 336 s)
+mean error: 0.0671821
+good: 914 total: 1000 (91.4%, best: 92.1% at 2909 s, no move since: 339 s)
+mean error: 0.0683836
+good: 910 total: 1000 (91%, best: 92.1% at 2909 s, no move since: 343 s)
+driver rearmed
+mean error: 0.0740478
+good: 898 total: 1000 (89.8%, best: 92.1% at 2909 s, no move since: 346 s)
+mean error: 0.0719359
+good: 904 total: 1000 (90.4%, best: 92.1% at 2909 s, no move since: 349 s)
+mean error: 0.0646002
+good: 916 total: 1000 (91.6%, best: 92.1% at 2909 s, no move since: 352 s)
+mean error: 0.0808727
+good: 893 total: 1000 (89.3%, best: 92.1% at 2909 s, no move since: 355 s)
+mean error: 0.0757009
+good: 902 total: 1000 (90.2%, best: 92.1% at 2909 s, no move since: 358 s)
+mean error: 0.0746098
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 362 s)
+mean error: 0.0657055
+good: 918 total: 1000 (91.8%, best: 92.1% at 2909 s, no move since: 365 s)
+mean error: 0.0763625
+good: 898 total: 1000 (89.8%, best: 92.1% at 2909 s, no move since: 368 s)
+mean error: 0.0644427
+good: 918 total: 1000 (91.8%, best: 92.1% at 2909 s, no move since: 371 s)
+mean error: 0.0755383
+good: 903 total: 1000 (90.3%, best: 92.1% at 2909 s, no move since: 375 s)
+mean error: 0.076562
+good: 897 total: 1000 (89.7%, best: 92.1% at 2909 s, no move since: 378 s)
+mean error: 0.0830261
+good: 886 total: 1000 (88.6%, best: 92.1% at 2909 s, no move since: 381 s)
+mean error: 0.0895789
+good: 876 total: 1000 (87.6%, best: 92.1% at 2909 s, no move since: 385 s)
+mean error: 0.0638499
+good: 910 total: 1000 (91%, best: 92.1% at 2909 s, no move since: 388 s)
+mean error: 0.0671296
+good: 915 total: 1000 (91.5%, best: 92.1% at 2909 s, no move since: 392 s)
+mean error: 0.0682101
+good: 913 total: 1000 (91.3%, best: 92.1% at 2909 s, no move since: 395 s)
+driver rearmed
+mean error: 0.0735616
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 398 s)
+mean error: 0.0717567
+good: 906 total: 1000 (90.6%, best: 92.1% at 2909 s, no move since: 401 s)
+mean error: 0.0640758
+good: 919 total: 1000 (91.9%, best: 92.1% at 2909 s, no move since: 404 s)
+mean error: 0.0803735
+good: 894 total: 1000 (89.4%, best: 92.1% at 2909 s, no move since: 407 s)
+mean error: 0.075287
+good: 903 total: 1000 (90.3%, best: 92.1% at 2909 s, no move since: 410 s)
+mean error: 0.0744153
+good: 902 total: 1000 (90.2%, best: 92.1% at 2909 s, no move since: 414 s)
+mean error: 0.0655654
+good: 918 total: 1000 (91.8%, best: 92.1% at 2909 s, no move since: 417 s)
+mean error: 0.0761984
+good: 898 total: 1000 (89.8%, best: 92.1% at 2909 s, no move since: 420 s)
+mean error: 0.0643718
+good: 917 total: 1000 (91.7%, best: 92.1% at 2909 s, no move since: 424 s)
+mean error: 0.0751423
+good: 905 total: 1000 (90.5%, best: 92.1% at 2909 s, no move since: 427 s)
+mean error: 0.0763263
+good: 898 total: 1000 (89.8%, best: 92.1% at 2909 s, no move since: 430 s)
+mean error: 0.0829069
+good: 889 total: 1000 (88.9%, best: 92.1% at 2909 s, no move since: 433 s)
+mean error: 0.0892812
+good: 876 total: 1000 (87.6%, best: 92.1% at 2909 s, no move since: 436 s)
+mean error: 0.0634576
+good: 912 total: 1000 (91.2%, best: 92.1% at 2909 s, no move since: 440 s)
+mean error: 0.0670416
+good: 918 total: 1000 (91.8%, best: 92.1% at 2909 s, no move since: 443 s)
+mean error: 0.0681265
+good: 911 total: 1000 (91.1%, best: 92.1% at 2909 s, no move since: 446 s)
+driver rearmed
+mean error: 0.0732083
+good: 902 total: 1000 (90.2%, best: 92.1% at 2909 s, no move since: 450 s)
+mean error: 0.0713577
+good: 905 total: 1000 (90.5%, best: 92.1% at 2909 s, no move since: 453 s)
+mean error: 0.0635513
+good: 919 total: 1000 (91.9%, best: 92.1% at 2909 s, no move since: 456 s)
+mean error: 0.0798937
+good: 895 total: 1000 (89.5%, best: 92.1% at 2909 s, no move since: 459 s)
+mean error: 0.0749125
+good: 905 total: 1000 (90.5%, best: 92.1% at 2909 s, no move since: 462 s)
+mean error: 0.0743853
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 465 s)
+mean error: 0.065167
+good: 919 total: 1000 (91.9%, best: 92.1% at 2909 s, no move since: 469 s)
+mean error: 0.0759772
+good: 896 total: 1000 (89.6%, best: 92.1% at 2909 s, no move since: 472 s)
+mean error: 0.0642554
+good: 916 total: 1000 (91.6%, best: 92.1% at 2909 s, no move since: 475 s)
+mean error: 0.0748428
+good: 906 total: 1000 (90.6%, best: 92.1% at 2909 s, no move since: 479 s)
+mean error: 0.076133
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 482 s)
+mean error: 0.0829392
+good: 890 total: 1000 (89%, best: 92.1% at 2909 s, no move since: 485 s)
+mean error: 0.0889832
+good: 877 total: 1000 (87.7%, best: 92.1% at 2909 s, no move since: 489 s)
+mean error: 0.0631076
+good: 912 total: 1000 (91.2%, best: 92.1% at 2909 s, no move since: 492 s)
+mean error: 0.0668709
+good: 916 total: 1000 (91.6%, best: 92.1% at 2909 s, no move since: 495 s)
+mean error: 0.0682268
+good: 909 total: 1000 (90.9%, best: 92.1% at 2909 s, no move since: 498 s)
+driver rearmed
+mean error: 0.0726778
+good: 902 total: 1000 (90.2%, best: 92.1% at 2909 s, no move since: 501 s)
+mean error: 0.0709592
+good: 905 total: 1000 (90.5%, best: 92.1% at 2909 s, no move since: 505 s)
+mean error: 0.0631361
+good: 921 total: 1000 (92.1%, best: 92.1% at 2909 s, no move since: 508 s)
+mean error: 0.0794323
+good: 897 total: 1000 (89.7%, best: 92.1% at 2909 s, no move since: 511 s)
+mean error: 0.0744656
+good: 905 total: 1000 (90.5%, best: 92.1% at 2909 s, no move since: 515 s)
+mean error: 0.07428
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 518 s)
+mean error: 0.0647806
+good: 917 total: 1000 (91.7%, best: 92.1% at 2909 s, no move since: 522 s)
+mean error: 0.0758598
+good: 894 total: 1000 (89.4%, best: 92.1% at 2909 s, no move since: 525 s)
+mean error: 0.0640974
+good: 915 total: 1000 (91.5%, best: 92.1% at 2909 s, no move since: 529 s)
+mean error: 0.0745384
+good: 910 total: 1000 (91%, best: 92.1% at 2909 s, no move since: 532 s)
+mean error: 0.0758801
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 535 s)
+mean error: 0.0829415
+good: 889 total: 1000 (88.9%, best: 92.1% at 2909 s, no move since: 538 s)
+mean error: 0.088626
+good: 879 total: 1000 (87.9%, best: 92.1% at 2909 s, no move since: 542 s)
+mean error: 0.0629543
+good: 913 total: 1000 (91.3%, best: 92.1% at 2909 s, no move since: 545 s)
+mean error: 0.0665162
+good: 918 total: 1000 (91.8%, best: 92.1% at 2909 s, no move since: 549 s)
+mean error: 0.0682508
+good: 910 total: 1000 (91%, best: 92.1% at 2909 s, no move since: 552 s)
+driver rearmed
+mean error: 0.0723437
+good: 898 total: 1000 (89.8%, best: 92.1% at 2909 s, no move since: 555 s)
+mean error: 0.0706038
+good: 909 total: 1000 (90.9%, best: 92.1% at 2909 s, no move since: 559 s)
+mean error: 0.0626611
+good: 920 total: 1000 (92%, best: 92.1% at 2909 s, no move since: 562 s)
+mean error: 0.0790218
+good: 900 total: 1000 (90%, best: 92.1% at 2909 s, no move since: 566 s)
+mean error: 0.0741218
+good: 906 total: 1000 (90.6%, best: 92.1% at 2909 s, no move since: 569 s)
+mean error: 0.074186
+good: 900 total: 1000 (90%, best: 92.1% at 2909 s, no move since: 572 s)
+mean error: 0.0642985
+good: 921 total: 1000 (92.1%, best: 92.1% at 2909 s, no move since: 576 s)
+mean error: 0.0756623
+good: 895 total: 1000 (89.5%, best: 92.1% at 2909 s, no move since: 579 s)
+mean error: 0.0639012
+good: 915 total: 1000 (91.5%, best: 92.1% at 2909 s, no move since: 583 s)
+mean error: 0.0742147
+good: 910 total: 1000 (91%, best: 92.1% at 2909 s, no move since: 586 s)
+mean error: 0.0754431
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 589 s)
+mean error: 0.0826562
+good: 889 total: 1000 (88.9%, best: 92.1% at 2909 s, no move since: 593 s)
+mean error: 0.0883323
+good: 876 total: 1000 (87.6%, best: 92.1% at 2909 s, no move since: 596 s)
+mean error: 0.0630093
+good: 912 total: 1000 (91.2%, best: 92.1% at 2909 s, no move since: 600 s)
+mean error: 0.0660682
+good: 918 total: 1000 (91.8%, best: 92.1% at 2909 s, no move since: 603 s)
+mean error: 0.0676575
+good: 910 total: 1000 (91%, best: 92.1% at 2909 s, no move since: 606 s)
+driver rearmed
+mean error: 0.0724407
+good: 898 total: 1000 (89.8%, best: 92.1% at 2909 s, no move since: 609 s)
+mean error: 0.070253
+good: 909 total: 1000 (90.9%, best: 92.1% at 2909 s, no move since: 612 s)
+mean error: 0.0621541
+good: 921 total: 1000 (92.1%, best: 92.1% at 2909 s, no move since: 616 s)
+mean error: 0.0787875
+good: 900 total: 1000 (90%, best: 92.1% at 2909 s, no move since: 619 s)
+mean error: 0.0737866
+good: 906 total: 1000 (90.6%, best: 92.1% at 2909 s, no move since: 622 s)
+mean error: 0.0741053
+good: 903 total: 1000 (90.3%, best: 92.1% at 2909 s, no move since: 625 s)
+mean error: 0.0639793
+good: 920 total: 1000 (92%, best: 92.1% at 2909 s, no move since: 628 s)
+mean error: 0.0753929
+good: 897 total: 1000 (89.7%, best: 92.1% at 2909 s, no move since: 631 s)
+mean error: 0.0637037
+good: 916 total: 1000 (91.6%, best: 92.1% at 2909 s, no move since: 635 s)
+mean error: 0.0739137
+good: 911 total: 1000 (91.1%, best: 92.1% at 2909 s, no move since: 638 s)
+mean error: 0.0749759
+good: 903 total: 1000 (90.3%, best: 92.1% at 2909 s, no move since: 641 s)
+mean error: 0.082407
+good: 889 total: 1000 (88.9%, best: 92.1% at 2909 s, no move since: 644 s)
+mean error: 0.0882008
+good: 875 total: 1000 (87.5%, best: 92.1% at 2909 s, no move since: 647 s)
+mean error: 0.0631717
+good: 913 total: 1000 (91.3%, best: 92.1% at 2909 s, no move since: 650 s)
+mean error: 0.0654673
+good: 917 total: 1000 (91.7%, best: 92.1% at 2909 s, no move since: 653 s)
+mean error: 0.0669854
+good: 913 total: 1000 (91.3%, best: 92.1% at 2909 s, no move since: 657 s)
+driver rearmed
+mean error: 0.0721105
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 660 s)
+mean error: 0.0699812
+good: 911 total: 1000 (91.1%, best: 92.1% at 2909 s, no move since: 663 s)
+mean error: 0.0616303
+good: 921 total: 1000 (92.1%, best: 92.1% at 2909 s, no move since: 667 s)
+mean error: 0.0784752
+good: 898 total: 1000 (89.8%, best: 92.1% at 2909 s, no move since: 670 s)
+mean error: 0.0735434
+good: 906 total: 1000 (90.6%, best: 92.1% at 2909 s, no move since: 673 s)
+mean error: 0.0739673
+good: 903 total: 1000 (90.3%, best: 92.1% at 2909 s, no move since: 676 s)
+mean error: 0.0637905
+good: 919 total: 1000 (91.9%, best: 92.1% at 2909 s, no move since: 680 s)
+mean error: 0.0752396
+good: 897 total: 1000 (89.7%, best: 92.1% at 2909 s, no move since: 683 s)
+mean error: 0.0634759
+good: 914 total: 1000 (91.4%, best: 92.1% at 2909 s, no move since: 687 s)
+mean error: 0.0734968
+good: 909 total: 1000 (90.9%, best: 92.1% at 2909 s, no move since: 690 s)
+mean error: 0.0746818
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 693 s)
+mean error: 0.0821895
+good: 890 total: 1000 (89%, best: 92.1% at 2909 s, no move since: 697 s)
+mean error: 0.0881251
+good: 876 total: 1000 (87.6%, best: 92.1% at 2909 s, no move since: 700 s)
+mean error: 0.0631011
+good: 915 total: 1000 (91.5%, best: 92.1% at 2909 s, no move since: 703 s)
+mean error: 0.064936
+good: 916 total: 1000 (91.6%, best: 92.1% at 2909 s, no move since: 706 s)
+mean error: 0.066779
+good: 913 total: 1000 (91.3%, best: 92.1% at 2909 s, no move since: 709 s)
+driver rearmed
+mean error: 0.0720678
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 712 s)
+mean error: 0.0697172
+good: 911 total: 1000 (91.1%, best: 92.1% at 2909 s, no move since: 715 s)
+mean error: 0.0611496
+good: 921 total: 1000 (92.1%, best: 92.1% at 2909 s, no move since: 719 s)
+mean error: 0.0780967
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 722 s)
+mean error: 0.0734664
+good: 908 total: 1000 (90.8%, best: 92.1% at 2909 s, no move since: 726 s)
+mean error: 0.0738575
+good: 903 total: 1000 (90.3%, best: 92.1% at 2909 s, no move since: 729 s)
+mean error: 0.0636177
+good: 918 total: 1000 (91.8%, best: 92.1% at 2909 s, no move since: 732 s)
+mean error: 0.0749837
+good: 896 total: 1000 (89.6%, best: 92.1% at 2909 s, no move since: 736 s)
+mean error: 0.0631784
+good: 914 total: 1000 (91.4%, best: 92.1% at 2909 s, no move since: 739 s)
+mean error: 0.0730847
+good: 910 total: 1000 (91%, best: 92.1% at 2909 s, no move since: 743 s)
+mean error: 0.0743405
+good: 901 total: 1000 (90.1%, best: 92.1% at 2909 s, no move since: 746 s)
+mean error: 0.0818548
+good: 888 total: 1000 (88.8%, best: 92.1% at 2909 s, no move since: 750 s)
+mean error: 0.0880725
+good: 875 total: 1000 (87.5%, best: 92.1% at 2909 s, no move since: 753 s)
+mean error: 0.0627724
+good: 916 total: 1000 (91.6%, best: 92.1% at 2909 s, no move since: 757 s)
+mean error: 0.0646328
+good: 918 total: 1000 (91.8%, best: 92.1% at 2909 s, no move since: 760 s)
+mean error: 0.0665053
+good: 913 total: 1000 (91.3%, best: 92.1% at 2909 s, no move since: 763 s)
+driver rearmed
+mean error: 0.0721604
+good: 899 total: 1000 (89.9%, best: 92.1% at 2909 s, no move since: 766 s)
+mean error: 0.069689
+good: 914 total: 1000 (91.4%, best: 92.1% at 2909 s, no move since: 769 s)
+mean error: 0.0606022
+good: 922 total: 1000 (92.2%, best: 92.2% at 3681 s, no move since: 0 s)
+mean error: 0.0778301
+good: 899 total: 1000 (89.9%, best: 92.2% at 3681 s, no move since: 3 s)
+mean error: 0.0732746
+good: 907 total: 1000 (90.7%, best: 92.2% at 3681 s, no move since: 7 s)
+mean error: 0.0736959
+good: 904 total: 1000 (90.4%, best: 92.2% at 3681 s, no move since: 10 s)
+mean error: 0.0634268
+good: 917 total: 1000 (91.7%, best: 92.2% at 3681 s, no move since: 14 s)
+mean error: 0.0746044
+good: 896 total: 1000 (89.6%, best: 92.2% at 3681 s, no move since: 17 s)
+mean error: 0.0627882
+good: 914 total: 1000 (91.4%, best: 92.2% at 3681 s, no move since: 20 s)
+mean error: 0.0727348
+good: 908 total: 1000 (90.8%, best: 92.2% at 3681 s, no move since: 24 s)
+mean error: 0.0740038
+good: 901 total: 1000 (90.1%, best: 92.2% at 3681 s, no move since: 27 s)
+mean error: 0.081475
+good: 888 total: 1000 (88.8%, best: 92.2% at 3681 s, no move since: 31 s)
+mean error: 0.0879992
+good: 874 total: 1000 (87.4%, best: 92.2% at 3681 s, no move since: 34 s)
+mean error: 0.0624562
+good: 914 total: 1000 (91.4%, best: 92.2% at 3681 s, no move since: 38 s)
+mean error: 0.0644874
+good: 917 total: 1000 (91.7%, best: 92.2% at 3681 s, no move since: 41 s)
+mean error: 0.0661485
+good: 913 total: 1000 (91.3%, best: 92.2% at 3681 s, no move since: 44 s)
+driver rearmed
+mean error: 0.0723545
+good: 899 total: 1000 (89.9%, best: 92.2% at 3681 s, no move since: 47 s)
+mean error: 0.0696526
+good: 910 total: 1000 (91%, best: 92.2% at 3681 s, no move since: 51 s)
+mean error: 0.06023
+good: 921 total: 1000 (92.1%, best: 92.2% at 3681 s, no move since: 54 s)
+mean error: 0.0773626
+good: 899 total: 1000 (89.9%, best: 92.2% at 3681 s, no move since: 57 s)
+mean error: 0.0729498
+good: 908 total: 1000 (90.8%, best: 92.2% at 3681 s, no move since: 60 s)
+mean error: 0.0733774
+good: 903 total: 1000 (90.3%, best: 92.2% at 3681 s, no move since: 63 s)
+mean error: 0.0632014
+good: 917 total: 1000 (91.7%, best: 92.2% at 3681 s, no move since: 66 s)
+mean error: 0.07425
+good: 897 total: 1000 (89.7%, best: 92.2% at 3681 s, no move since: 70 s)
+mean error: 0.0623657
+good: 914 total: 1000 (91.4%, best: 92.2% at 3681 s, no move since: 73 s)
+mean error: 0.0723514
+good: 907 total: 1000 (90.7%, best: 92.2% at 3681 s, no move since: 76 s)
+mean error: 0.0737431
+good: 903 total: 1000 (90.3%, best: 92.2% at 3681 s, no move since: 80 s)
+mean error: 0.0810964
+good: 887 total: 1000 (88.7%, best: 92.2% at 3681 s, no move since: 83 s)
+mean error: 0.0879378
+good: 877 total: 1000 (87.7%, best: 92.2% at 3681 s, no move since: 86 s)
+mean error: 0.0621483
+good: 913 total: 1000 (91.3%, best: 92.2% at 3681 s, no move since: 89 s)
+mean error: 0.0644188
+good: 916 total: 1000 (91.6%, best: 92.2% at 3681 s, no move since: 92 s)
+mean error: 0.0658786
+good: 913 total: 1000 (91.3%, best: 92.2% at 3681 s, no move since: 95 s)
+driver rearmed
+mean error: 0.0724414
+good: 897 total: 1000 (89.7%, best: 92.2% at 3681 s, no move since: 98 s)
+mean error: 0.0697643
+good: 910 total: 1000 (91%, best: 92.2% at 3681 s, no move since: 102 s)
+mean error: 0.0599848
+good: 923 total: 1000 (92.3%, best: 92.3% at 3786 s, no move since: 0 s)
+mean error: 0.0767743
+good: 901 total: 1000 (90.1%, best: 92.3% at 3786 s, no move since: 3 s)
+mean error: 0.0726697
+good: 910 total: 1000 (91%, best: 92.3% at 3786 s, no move since: 7 s)
+mean error: 0.0730811
+good: 904 total: 1000 (90.4%, best: 92.3% at 3786 s, no move since: 10 s)
+mean error: 0.0631991
+good: 918 total: 1000 (91.8%, best: 92.3% at 3786 s, no move since: 14 s)
+mean error: 0.0739653
+good: 898 total: 1000 (89.8%, best: 92.3% at 3786 s, no move since: 17 s)
+mean error: 0.0619471
+good: 914 total: 1000 (91.4%, best: 92.3% at 3786 s, no move since: 20 s)
+mean error: 0.0720065
+good: 906 total: 1000 (90.6%, best: 92.3% at 3786 s, no move since: 24 s)
+mean error: 0.0734908
+good: 902 total: 1000 (90.2%, best: 92.3% at 3786 s, no move since: 27 s)
+mean error: 0.0807929
+good: 887 total: 1000 (88.7%, best: 92.3% at 3786 s, no move since: 30 s)
+mean error: 0.0878089
+good: 878 total: 1000 (87.8%, best: 92.3% at 3786 s, no move since: 34 s)
+mean error: 0.0618633
+good: 915 total: 1000 (91.5%, best: 92.3% at 3786 s, no move since: 37 s)
+mean error: 0.0643843
+good: 915 total: 1000 (91.5%, best: 92.3% at 3786 s, no move since: 41 s)
+mean error: 0.0657424
+good: 914 total: 1000 (91.4%, best: 92.3% at 3786 s, no move since: 44 s)
+driver rearmed
+mean error: 0.072271
+good: 899 total: 1000 (89.9%, best: 92.3% at 3786 s, no move since: 48 s)
+mean error: 0.0696883
+good: 907 total: 1000 (90.7%, best: 92.3% at 3786 s, no move since: 51 s)
+mean error: 0.0598407
+good: 925 total: 1000 (92.5%, best: 92.5% at 3840 s, no move since: 0 s)
+mean error: 0.0762288
+good: 900 total: 1000 (90%, best: 92.5% at 3840 s, no move since: 3 s)
+mean error: 0.0724011
+good: 909 total: 1000 (90.9%, best: 92.5% at 3840 s, no move since: 6 s)
+mean error: 0.0728692
+good: 904 total: 1000 (90.4%, best: 92.5% at 3840 s, no move since: 9 s)
+mean error: 0.0628142
+good: 917 total: 1000 (91.7%, best: 92.5% at 3840 s, no move since: 13 s)
+mean error: 0.0737398
+good: 897 total: 1000 (89.7%, best: 92.5% at 3840 s, no move since: 16 s)
+mean error: 0.0615879
+good: 916 total: 1000 (91.6%, best: 92.5% at 3840 s, no move since: 20 s)
+mean error: 0.0716707
+good: 907 total: 1000 (90.7%, best: 92.5% at 3840 s, no move since: 23 s)
+mean error: 0.0731872
+good: 904 total: 1000 (90.4%, best: 92.5% at 3840 s, no move since: 27 s)
+mean error: 0.0804337
+good: 890 total: 1000 (89%, best: 92.5% at 3840 s, no move since: 30 s)
+mean error: 0.0875622
+good: 878 total: 1000 (87.8%, best: 92.5% at 3840 s, no move since: 33 s)
+mean error: 0.0615314
+good: 916 total: 1000 (91.6%, best: 92.5% at 3840 s, no move since: 37 s)
+mean error: 0.0644141
+good: 918 total: 1000 (91.8%, best: 92.5% at 3840 s, no move since: 40 s)
+mean error: 0.0656274
+good: 914 total: 1000 (91.4%, best: 92.5% at 3840 s, no move since: 43 s)
+driver rearmed
+mean error: 0.0720138
+good: 898 total: 1000 (89.8%, best: 92.5% at 3840 s, no move since: 46 s)
+mean error: 0.0694056
+good: 908 total: 1000 (90.8%, best: 92.5% at 3840 s, no move since: 49 s)
+mean error: 0.059622
+good: 925 total: 1000 (92.5%, best: 92.5% at 3840 s, no move since: 53 s)
+mean error: 0.0757587
+good: 903 total: 1000 (90.3%, best: 92.5% at 3840 s, no move since: 56 s)
+mean error: 0.0721733
+good: 908 total: 1000 (90.8%, best: 92.5% at 3840 s, no move since: 60 s)
+mean error: 0.0726138
+good: 903 total: 1000 (90.3%, best: 92.5% at 3840 s, no move since: 63 s)
+mean error: 0.0621122
+good: 917 total: 1000 (91.7%, best: 92.5% at 3840 s, no move since: 67 s)
+mean error: 0.0739625
+good: 897 total: 1000 (89.7%, best: 92.5% at 3840 s, no move since: 70 s)
+mean error: 0.0616875
+good: 917 total: 1000 (91.7%, best: 92.5% at 3840 s, no move since: 73 s)
+mean error: 0.0713456
+good: 908 total: 1000 (90.8%, best: 92.5% at 3840 s, no move since: 77 s)
+mean error: 0.0729273
+good: 904 total: 1000 (90.4%, best: 92.5% at 3840 s, no move since: 80 s)
+mean error: 0.0802033
+good: 888 total: 1000 (88.8%, best: 92.5% at 3840 s, no move since: 84 s)
+mean error: 0.0874277
+good: 878 total: 1000 (87.8%, best: 92.5% at 3840 s, no move since: 87 s)
+mean error: 0.0611691
+good: 916 total: 1000 (91.6%, best: 92.5% at 3840 s, no move since: 91 s)
+mean error: 0.064402
+good: 918 total: 1000 (91.8%, best: 92.5% at 3840 s, no move since: 94 s)
+mean error: 0.065513
+good: 915 total: 1000 (91.5%, best: 92.5% at 3840 s, no move since: 97 s)
+driver rearmed
+mean error: 0.0717857
+good: 897 total: 1000 (89.7%, best: 92.5% at 3840 s, no move since: 100 s)
+mean error: 0.0691219
+good: 910 total: 1000 (91%, best: 92.5% at 3840 s, no move since: 103 s)
+mean error: 0.0593226
+good: 926 total: 1000 (92.6%, best: 92.6% at 3947 s, no move since: 0 s)
+mean error: 0.0752304
+good: 903 total: 1000 (90.3%, best: 92.6% at 3947 s, no move since: 3 s)
+mean error: 0.0719672
+good: 908 total: 1000 (90.8%, best: 92.6% at 3947 s, no move since: 6 s)
+mean error: 0.0724858
+good: 903 total: 1000 (90.3%, best: 92.6% at 3947 s, no move since: 9 s)
+mean error: 0.0615508
+good: 919 total: 1000 (91.9%, best: 92.6% at 3947 s, no move since: 12 s)
+mean error: 0.0738037
+good: 895 total: 1000 (89.5%, best: 92.6% at 3947 s, no move since: 16 s)
+mean error: 0.0621274
+good: 917 total: 1000 (91.7%, best: 92.6% at 3947 s, no move since: 19 s)
+mean error: 0.0712138
+good: 910 total: 1000 (91%, best: 92.6% at 3947 s, no move since: 22 s)
+mean error: 0.0729415
+good: 904 total: 1000 (90.4%, best: 92.6% at 3947 s, no move since: 25 s)
+mean error: 0.079921
+good: 889 total: 1000 (88.9%, best: 92.6% at 3947 s, no move since: 28 s)
+mean error: 0.0874493
+good: 879 total: 1000 (87.9%, best: 92.6% at 3947 s, no move since: 31 s)
+mean error: 0.0608256
+good: 917 total: 1000 (91.7%, best: 92.6% at 3947 s, no move since: 34 s)
+mean error: 0.0643479
+good: 919 total: 1000 (91.9%, best: 92.6% at 3947 s, no move since: 38 s)
+mean error: 0.0656215
+good: 914 total: 1000 (91.4%, best: 92.6% at 3947 s, no move since: 41 s)
+driver rearmed
+mean error: 0.0715248
+good: 900 total: 1000 (90%, best: 92.6% at 3947 s, no move since: 44 s)
+mean error: 0.068952
+good: 914 total: 1000 (91.4%, best: 92.6% at 3947 s, no move since: 47 s)
+mean error: 0.0588884
+good: 928 total: 1000 (92.8%, best: 92.8% at 3997 s, no move since: 0 s)
+mean error: 0.0749956
+good: 902 total: 1000 (90.2%, best: 92.8% at 3997 s, no move since: 3 s)
+mean error: 0.0718417
+good: 909 total: 1000 (90.9%, best: 92.8% at 3997 s, no move since: 7 s)
+mean error: 0.0724426
+good: 904 total: 1000 (90.4%, best: 92.8% at 3997 s, no move since: 10 s)
+mean error: 0.061217
+good: 921 total: 1000 (92.1%, best: 92.8% at 3997 s, no move since: 14 s)
+mean error: 0.0733835
+good: 893 total: 1000 (89.3%, best: 92.8% at 3997 s, no move since: 17 s)
+mean error: 0.0619829
+good: 918 total: 1000 (91.8%, best: 92.8% at 3997 s, no move since: 21 s)
+mean error: 0.071009
+good: 910 total: 1000 (91%, best: 92.8% at 3997 s, no move since: 24 s)
+mean error: 0.072504
+good: 901 total: 1000 (90.1%, best: 92.8% at 3997 s, no move since: 27 s)
+mean error: 0.0794775
+good: 891 total: 1000 (89.1%, best: 92.8% at 3997 s, no move since: 30 s)
+mean error: 0.0872755
+good: 880 total: 1000 (88%, best: 92.8% at 3997 s, no move since: 34 s)
+mean error: 0.0605597
+good: 918 total: 1000 (91.8%, best: 92.8% at 3997 s, no move since: 37 s)
+mean error: 0.0642783
+good: 919 total: 1000 (91.9%, best: 92.8% at 3997 s, no move since: 40 s)
+mean error: 0.0657462
+good: 912 total: 1000 (91.2%, best: 92.8% at 3997 s, no move since: 43 s)
+driver rearmed
+mean error: 0.0707262
+good: 900 total: 1000 (90%, best: 92.8% at 3997 s, no move since: 46 s)
+mean error: 0.0691944
+good: 915 total: 1000 (91.5%, best: 92.8% at 3997 s, no move since: 49 s)
+mean error: 0.0584836
+good: 927 total: 1000 (92.7%, best: 92.8% at 3997 s, no move since: 52 s)
+mean error: 0.0748765
+good: 902 total: 1000 (90.2%, best: 92.8% at 3997 s, no move since: 56 s)
+mean error: 0.0717829
+good: 907 total: 1000 (90.7%, best: 92.8% at 3997 s, no move since: 59 s)
+mean error: 0.0722094
+good: 904 total: 1000 (90.4%, best: 92.8% at 3997 s, no move since: 63 s)
+mean error: 0.0607692
+good: 923 total: 1000 (92.3%, best: 92.8% at 3997 s, no move since: 66 s)
+mean error: 0.0728702
+good: 895 total: 1000 (89.5%, best: 92.8% at 3997 s, no move since: 69 s)
+mean error: 0.0615997
+good: 918 total: 1000 (91.8%, best: 92.8% at 3997 s, no move since: 72 s)
+mean error: 0.0708422
+good: 910 total: 1000 (91%, best: 92.8% at 3997 s, no move since: 76 s)
+mean error: 0.0722065
+good: 901 total: 1000 (90.1%, best: 92.8% at 3997 s, no move since: 79 s)
+mean error: 0.079087
+good: 891 total: 1000 (89.1%, best: 92.8% at 3997 s, no move since: 82 s)
+mean error: 0.0870863
+good: 881 total: 1000 (88.1%, best: 92.8% at 3997 s, no move since: 85 s)
+mean error: 0.0602399
+good: 918 total: 1000 (91.8%, best: 92.8% at 3997 s, no move since: 89 s)
+mean error: 0.064394
+good: 919 total: 1000 (91.9%, best: 92.8% at 3997 s, no move since: 92 s)
+mean error: 0.0658046
+good: 911 total: 1000 (91.1%, best: 92.8% at 3997 s, no move since: 96 s)
+driver rearmed
+mean error: 0.0702135
+good: 900 total: 1000 (90%, best: 92.8% at 3997 s, no move since: 99 s)
+mean error: 0.0696484
+good: 914 total: 1000 (91.4%, best: 92.8% at 3997 s, no move since: 102 s)
+mean error: 0.0580686
+good: 926 total: 1000 (92.6%, best: 92.8% at 3997 s, no move since: 105 s)
+mean error: 0.0746349
+good: 902 total: 1000 (90.2%, best: 92.8% at 3997 s, no move since: 109 s)
+mean error: 0.0713911
+good: 912 total: 1000 (91.2%, best: 92.8% at 3997 s, no move since: 112 s)
+mean error: 0.0720777
+good: 903 total: 1000 (90.3%, best: 92.8% at 3997 s, no move since: 115 s)
+mean error: 0.0604023
+good: 923 total: 1000 (92.3%, best: 92.8% at 3997 s, no move since: 118 s)
+mean error: 0.0723561
+good: 895 total: 1000 (89.5%, best: 92.8% at 3997 s, no move since: 122 s)
+mean error: 0.0610662
+good: 918 total: 1000 (91.8%, best: 92.8% at 3997 s, no move since: 125 s)
+mean error: 0.0706082
+good: 911 total: 1000 (91.1%, best: 92.8% at 3997 s, no move since: 129 s)
+mean error: 0.0718595
+good: 900 total: 1000 (90%, best: 92.8% at 3997 s, no move since: 132 s)
+mean error: 0.0788229
+good: 892 total: 1000 (89.2%, best: 92.8% at 3997 s, no move since: 135 s)
+mean error: 0.0866971
+good: 881 total: 1000 (88.1%, best: 92.8% at 3997 s, no move since: 138 s)
+mean error: 0.0598011
+good: 919 total: 1000 (91.9%, best: 92.8% at 3997 s, no move since: 141 s)
+mean error: 0.0642787
+good: 918 total: 1000 (91.8%, best: 92.8% at 3997 s, no move since: 145 s)
+mean error: 0.0659385
+good: 912 total: 1000 (91.2%, best: 92.8% at 3997 s, no move since: 148 s)
+driver rearmed
+mean error: 0.0698364
+good: 903 total: 1000 (90.3%, best: 92.8% at 3997 s, no move since: 151 s)
+mean error: 0.0693577
+good: 915 total: 1000 (91.5%, best: 92.8% at 3997 s, no move since: 154 s)
+mean error: 0.0579746
+good: 925 total: 1000 (92.5%, best: 92.8% at 3997 s, no move since: 158 s)
+mean error: 0.0742085
+good: 901 total: 1000 (90.1%, best: 92.8% at 3997 s, no move since: 161 s)
+mean error: 0.071152
+good: 909 total: 1000 (90.9%, best: 92.8% at 3997 s, no move since: 165 s)
+mean error: 0.0719961
+good: 902 total: 1000 (90.2%, best: 92.8% at 3997 s, no move since: 168 s)
+mean error: 0.0601025
+good: 922 total: 1000 (92.2%, best: 92.8% at 3997 s, no move since: 172 s)
+mean error: 0.072146
+good: 896 total: 1000 (89.6%, best: 92.8% at 3997 s, no move since: 175 s)
+mean error: 0.0607218
+good: 918 total: 1000 (91.8%, best: 92.8% at 3997 s, no move since: 178 s)
+mean error: 0.0703556
+good: 911 total: 1000 (91.1%, best: 92.8% at 3997 s, no move since: 182 s)
+mean error: 0.071747
+good: 904 total: 1000 (90.4%, best: 92.8% at 3997 s, no move since: 185 s)
+mean error: 0.0786337
+good: 895 total: 1000 (89.5%, best: 92.8% at 3997 s, no move since: 188 s)
+mean error: 0.0864844
+good: 881 total: 1000 (88.1%, best: 92.8% at 3997 s, no move since: 191 s)
+mean error: 0.0595034
+good: 919 total: 1000 (91.9%, best: 92.8% at 3997 s, no move since: 195 s)
+mean error: 0.0640749
+good: 917 total: 1000 (91.7%, best: 92.8% at 3997 s, no move since: 198 s)
+mean error: 0.0659927
+good: 913 total: 1000 (91.3%, best: 92.8% at 3997 s, no move since: 201 s)
+driver rearmed
+mean error: 0.069535
+good: 903 total: 1000 (90.3%, best: 92.8% at 3997 s, no move since: 204 s)
+mean error: 0.0688148
+good: 915 total: 1000 (91.5%, best: 92.8% at 3997 s, no move since: 207 s)
+mean error: 0.0580183
+good: 923 total: 1000 (92.3%, best: 92.8% at 3997 s, no move since: 210 s)
+mean error: 0.0738567
+good: 902 total: 1000 (90.2%, best: 92.8% at 3997 s, no move since: 214 s)
+mean error: 0.0711217
+good: 910 total: 1000 (91%, best: 92.8% at 3997 s, no move since: 217 s)
+mean error: 0.0718853
+good: 901 total: 1000 (90.1%, best: 92.8% at 3997 s, no move since: 220 s)
+mean error: 0.0597642
+good: 924 total: 1000 (92.4%, best: 92.8% at 3997 s, no move since: 223 s)
+mean error: 0.0721253
+good: 894 total: 1000 (89.4%, best: 92.8% at 3997 s, no move since: 226 s)
+mean error: 0.0604329
+good: 919 total: 1000 (91.9%, best: 92.8% at 3997 s, no move since: 229 s)
+mean error: 0.0698911
+good: 914 total: 1000 (91.4%, best: 92.8% at 3997 s, no move since: 233 s)
+mean error: 0.0714149
+good: 905 total: 1000 (90.5%, best: 92.8% at 3997 s, no move since: 236 s)
+mean error: 0.078438
+good: 895 total: 1000 (89.5%, best: 92.8% at 3997 s, no move since: 239 s)
+mean error: 0.0863357
+good: 882 total: 1000 (88.2%, best: 92.8% at 3997 s, no move since: 242 s)
+mean error: 0.0591497
+good: 919 total: 1000 (91.9%, best: 92.8% at 3997 s, no move since: 245 s)
+mean error: 0.0639114
+good: 916 total: 1000 (91.6%, best: 92.8% at 3997 s, no move since: 248 s)
+mean error: 0.0660339
+good: 911 total: 1000 (91.1%, best: 92.8% at 3997 s, no move since: 251 s)
+driver rearmed
+mean error: 0.0692313
+good: 905 total: 1000 (90.5%, best: 92.8% at 3997 s, no move since: 255 s)
+mean error: 0.0686641
+good: 915 total: 1000 (91.5%, best: 92.8% at 3997 s, no move since: 258 s)
+mean error: 0.0577598
+good: 925 total: 1000 (92.5%, best: 92.8% at 3997 s, no move since: 261 s)
+mean error: 0.073553
+good: 903 total: 1000 (90.3%, best: 92.8% at 3997 s, no move since: 264 s)
+mean error: 0.0711973
+good: 906 total: 1000 (90.6%, best: 92.8% at 3997 s, no move since: 268 s)
+mean error: 0.0716876
+good: 901 total: 1000 (90.1%, best: 92.8% at 3997 s, no move since: 271 s)
+mean error: 0.0594433
+good: 925 total: 1000 (92.5%, best: 92.8% at 3997 s, no move since: 275 s)
+mean error: 0.0719171
+good: 894 total: 1000 (89.4%, best: 92.8% at 3997 s, no move since: 278 s)
+mean error: 0.0599306
+good: 919 total: 1000 (91.9%, best: 92.8% at 3997 s, no move since: 281 s)
+mean error: 0.0696162
+good: 915 total: 1000 (91.5%, best: 92.8% at 3997 s, no move since: 285 s)
+mean error: 0.0709094
+good: 904 total: 1000 (90.4%, best: 92.8% at 3997 s, no move since: 288 s)
+mean error: 0.0782175
+good: 897 total: 1000 (89.7%, best: 92.8% at 3997 s, no move since: 291 s)
+mean error: 0.0862043
+good: 882 total: 1000 (88.2%, best: 92.8% at 3997 s, no move since: 295 s)
+mean error: 0.0587983
+good: 919 total: 1000 (91.9%, best: 92.8% at 3997 s, no move since: 298 s)
+mean error: 0.0637942
+good: 918 total: 1000 (91.8%, best: 92.8% at 3997 s, no move since: 301 s)
+mean error: 0.0657729
+good: 913 total: 1000 (91.3%, best: 92.8% at 3997 s, no move since: 304 s)
+driver rearmed
+mean error: 0.068885
+good: 906 total: 1000 (90.6%, best: 92.8% at 3997 s, no move since: 308 s)
+mean error: 0.0684259
+good: 915 total: 1000 (91.5%, best: 92.8% at 3997 s, no move since: 311 s)
+mean error: 0.0574504
+good: 925 total: 1000 (92.5%, best: 92.8% at 3997 s, no move since: 314 s)
+mean error: 0.0732305
+good: 906 total: 1000 (90.6%, best: 92.8% at 3997 s, no move since: 317 s)
+mean error: 0.0712313
+good: 904 total: 1000 (90.4%, best: 92.8% at 3997 s, no move since: 320 s)
+mean error: 0.071368
+good: 901 total: 1000 (90.1%, best: 92.8% at 3997 s, no move since: 324 s)
+mean error: 0.0590342
+good: 927 total: 1000 (92.7%, best: 92.8% at 3997 s, no move since: 327 s)
+mean error: 0.0716764
+good: 894 total: 1000 (89.4%, best: 92.8% at 3997 s, no move since: 331 s)
+mean error: 0.0596044
+good: 919 total: 1000 (91.9%, best: 92.8% at 3997 s, no move since: 334 s)
+mean error: 0.0695224
+good: 915 total: 1000 (91.5%, best: 92.8% at 3997 s, no move since: 338 s)
+mean error: 0.0706074
+good: 907 total: 1000 (90.7%, best: 92.8% at 3997 s, no move since: 341 s)
+mean error: 0.0778737
+good: 899 total: 1000 (89.9%, best: 92.8% at 3997 s, no move since: 345 s)
+mean error: 0.0861369
+good: 880 total: 1000 (88%, best: 92.8% at 3997 s, no move since: 348 s)
+mean error: 0.0585146
+good: 918 total: 1000 (91.8%, best: 92.8% at 3997 s, no move since: 351 s)
+mean error: 0.0637687
+good: 918 total: 1000 (91.8%, best: 92.8% at 3997 s, no move since: 354 s)
+mean error: 0.065472
+good: 916 total: 1000 (91.6%, best: 92.8% at 3997 s, no move since: 358 s)
+driver rearmed
+mean error: 0.0685696
+good: 906 total: 1000 (90.6%, best: 92.8% at 3997 s, no move since: 361 s)
+mean error: 0.0682096
+good: 914 total: 1000 (91.4%, best: 92.8% at 3997 s, no move since: 364 s)
+mean error: 0.0572337
+good: 927 total: 1000 (92.7%, best: 92.8% at 3997 s, no move since: 367 s)
+mean error: 0.0729586
+good: 906 total: 1000 (90.6%, best: 92.8% at 3997 s, no move since: 370 s)
+mean error: 0.0710783
+good: 907 total: 1000 (90.7%, best: 92.8% at 3997 s, no move since: 374 s)
+mean error: 0.0709995
+good: 903 total: 1000 (90.3%, best: 92.8% at 3997 s, no move since: 377 s)
+mean error: 0.0584975
+good: 929 total: 1000 (92.9%, best: 92.9% at 4378 s, no move since: 0 s)
+mean error: 0.0715293
+good: 895 total: 1000 (89.5%, best: 92.9% at 4378 s, no move since: 3 s)
+mean error: 0.0593349
+good: 918 total: 1000 (91.8%, best: 92.9% at 4378 s, no move since: 7 s)
+mean error: 0.0694766
+good: 915 total: 1000 (91.5%, best: 92.9% at 4378 s, no move since: 10 s)
+mean error: 0.0704462
+good: 908 total: 1000 (90.8%, best: 92.9% at 4378 s, no move since: 14 s)
+mean error: 0.0775377
+good: 899 total: 1000 (89.9%, best: 92.9% at 4378 s, no move since: 17 s)
+mean error: 0.0861258
+good: 879 total: 1000 (87.9%, best: 92.9% at 4378 s, no move since: 21 s)
+mean error: 0.0582715
+good: 919 total: 1000 (91.9%, best: 92.9% at 4378 s, no move since: 24 s)
+mean error: 0.0637471
+good: 918 total: 1000 (91.8%, best: 92.9% at 4378 s, no move since: 27 s)
+mean error: 0.0653936
+good: 915 total: 1000 (91.5%, best: 92.9% at 4378 s, no move since: 31 s)
+driver rearmed
+mean error: 0.0683234
+good: 906 total: 1000 (90.6%, best: 92.9% at 4378 s, no move since: 34 s)
+mean error: 0.0680559
+good: 913 total: 1000 (91.3%, best: 92.9% at 4378 s, no move since: 37 s)
+mean error: 0.0572913
+good: 928 total: 1000 (92.8%, best: 92.9% at 4378 s, no move since: 41 s)
+mean error: 0.0728663
+good: 907 total: 1000 (90.7%, best: 92.9% at 4378 s, no move since: 44 s)
+mean error: 0.070721
+good: 905 total: 1000 (90.5%, best: 92.9% at 4378 s, no move since: 47 s)
+mean error: 0.0705834
+good: 903 total: 1000 (90.3%, best: 92.9% at 4378 s, no move since: 51 s)
+mean error: 0.0579528
+good: 930 total: 1000 (93%, best: 93% at 4432 s, no move since: 0 s)
+mean error: 0.0714624
+good: 895 total: 1000 (89.5%, best: 93% at 4432 s, no move since: 4 s)
+mean error: 0.059039
+good: 918 total: 1000 (91.8%, best: 93% at 4432 s, no move since: 7 s)
+mean error: 0.0694524
+good: 914 total: 1000 (91.4%, best: 93% at 4432 s, no move since: 11 s)
+mean error: 0.0703625
+good: 908 total: 1000 (90.8%, best: 93% at 4432 s, no move since: 14 s)
+mean error: 0.0772301
+good: 898 total: 1000 (89.8%, best: 93% at 4432 s, no move since: 18 s)
+mean error: 0.0860696
+good: 881 total: 1000 (88.1%, best: 93% at 4432 s, no move since: 21 s)
+mean error: 0.0580929
+good: 919 total: 1000 (91.9%, best: 93% at 4432 s, no move since: 25 s)
+mean error: 0.0637828
+good: 918 total: 1000 (91.8%, best: 93% at 4432 s, no move since: 28 s)
+mean error: 0.0654444
+good: 914 total: 1000 (91.4%, best: 93% at 4432 s, no move since: 31 s)
+driver rearmed
+mean error: 0.0681128
+good: 906 total: 1000 (90.6%, best: 93% at 4432 s, no move since: 34 s)
+mean error: 0.0678975
+good: 914 total: 1000 (91.4%, best: 93% at 4432 s, no move since: 37 s)
+mean error: 0.0571428
+good: 928 total: 1000 (92.8%, best: 93% at 4432 s, no move since: 41 s)
+mean error: 0.0728436
+good: 908 total: 1000 (90.8%, best: 93% at 4432 s, no move since: 44 s)
+mean error: 0.0704422
+good: 905 total: 1000 (90.5%, best: 93% at 4432 s, no move since: 47 s)
+mean error: 0.0702649
+good: 902 total: 1000 (90.2%, best: 93% at 4432 s, no move since: 50 s)
+mean error: 0.0575093
+good: 930 total: 1000 (93%, best: 93% at 4432 s, no move since: 54 s)
+mean error: 0.0714156
+good: 897 total: 1000 (89.7%, best: 93% at 4432 s, no move since: 57 s)
+mean error: 0.0587801
+good: 919 total: 1000 (91.9%, best: 93% at 4432 s, no move since: 60 s)
+mean error: 0.0694042
+good: 912 total: 1000 (91.2%, best: 93% at 4432 s, no move since: 63 s)
+mean error: 0.0703322
+good: 905 total: 1000 (90.5%, best: 93% at 4432 s, no move since: 67 s)
+mean error: 0.0769382
+good: 898 total: 1000 (89.8%, best: 93% at 4432 s, no move since: 70 s)
+mean error: 0.0859759
+good: 880 total: 1000 (88%, best: 93% at 4432 s, no move since: 73 s)
+mean error: 0.0580698
+good: 920 total: 1000 (92%, best: 93% at 4432 s, no move since: 76 s)
+mean error: 0.0637873
+good: 919 total: 1000 (91.9%, best: 93% at 4432 s, no move since: 79 s)
+mean error: 0.0655325
+good: 914 total: 1000 (91.4%, best: 93% at 4432 s, no move since: 82 s)
+driver rearmed
+mean error: 0.0679008
+good: 907 total: 1000 (90.7%, best: 93% at 4432 s, no move since: 86 s)
+mean error: 0.0676666
+good: 913 total: 1000 (91.3%, best: 93% at 4432 s, no move since: 89 s)
+mean error: 0.0566884
+good: 929 total: 1000 (92.9%, best: 93% at 4432 s, no move since: 92 s)
+mean error: 0.072471
+good: 908 total: 1000 (90.8%, best: 93% at 4432 s, no move since: 95 s)
+mean error: 0.070148
+good: 906 total: 1000 (90.6%, best: 93% at 4432 s, no move since: 98 s)
+mean error: 0.069983
+good: 906 total: 1000 (90.6%, best: 93% at 4432 s, no move since: 102 s)
+mean error: 0.057143
+1382000 iterations in 4537

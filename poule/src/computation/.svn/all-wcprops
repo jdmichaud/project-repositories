@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/64/poule/src/computation
+END
+simplification.ml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/64/poule/src/computation/simplification.ml
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/64/poule/src/computation/Makefile.in
+END
+algorithme.ml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/64/poule/src/computation/algorithme.ml
+END
+substitution.ml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/64/poule/src/computation/substitution.ml
+END
+check.ml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/64/poule/src/computation/check.ml
+END
+derivate.ml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/64/poule/src/computation/derivate.ml
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/64/poule/src/computation/Makefile
+END
+eval.ml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/64/poule/src/computation/eval.ml
+END
